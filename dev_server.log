@@ -1,5 +1,5 @@
 
-> app@0.1.0 dev
+> let-me-help-you@0.1.0 dev
 > next dev
 
 ▲ Next.js 16.1.6 (Turbopack)
@@ -7,18 +7,7 @@
 - Network:       http://192.168.0.2:3000
 
 ✓ Starting...
-✓ Ready in 1033ms
-○ Compiling / ...
- GET / 200 in 5.4s (compile: 4.6s, render: 764ms)
- GET /qr-code 200 in 1301ms (compile: 962ms, render: 338ms)
- GET /random-slot 200 in 720ms (compile: 598ms, render: 122ms)
-Error: Turbopack build failed with 1 errors:
-./src/app
-Error: Next.js inferred your workspace root, but it may not be correct.
-    We couldn't find the Next.js package (next/package.json) from the project directory: /app/src/app
-     To fix this, set turbopack.root in your Next.js config, or ensure the Next.js package is resolvable from this directory.
-    Note: For security and performance reasons, files outside of the project directory will not be compiled.
-    See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
-
-    at ignore-listed frames
-[?25h
+✓ Ready in 3.5s
+ GET / 200 in 3.4s (compile: 3.1s, render: 327ms)
+ GET /qr-code 200 in 375ms (compile: 138ms, render: 238ms)
+ GET /random-slot 200 in 172ms (compile: 91ms, render: 82ms)
