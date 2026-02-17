@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
 
 const Wheel = dynamic(() => import('react-custom-roulette').then((mod) => mod.Wheel), { ssr: false });
 
@@ -49,6 +50,12 @@ export default function RandomSlotPage() {
 
   return (
     <div className="flex flex-col items-center gap-8 w-full max-w-6xl mx-auto px-4">
+      <div className="w-full text-left">
+          <Link href="/" className="nes-btn">
+              &lt; Back to Home
+          </Link>
+      </div>
+
       <div className="nes-container with-title is-centered w-full">
         <h2 className="title">Random Slot Machine</h2>
 

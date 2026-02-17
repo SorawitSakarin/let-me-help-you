@@ -4,7 +4,7 @@ import { SITE_DESCRIPTION, SITE_NAME } from '@/utils/seo';
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: SITE_NAME,
-    short_name: "8-bit Tools",
+    short_name: "Task Tool",
     description: SITE_DESCRIPTION,
     start_url: '/',
     display: 'standalone',

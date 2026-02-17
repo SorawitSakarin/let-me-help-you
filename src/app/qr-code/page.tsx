@@ -2,6 +2,7 @@
 
 import { useState, useRef } from 'react';
 import { QRCodeCanvas } from 'qrcode.react';
+import Link from 'next/link';
 
 export default function QRCodePage() {
   const [text, setText] = useState('');
@@ -35,6 +36,12 @@ export default function QRCodePage() {
 
   return (
     <div className="flex flex-col items-center gap-8 w-full max-w-4xl mx-auto">
+        <div className="w-full text-left">
+            <Link href="/" className="nes-btn">
+                &lt; Back to Home
+            </Link>
+        </div>
+
         <div className="nes-container with-title is-centered w-full">
             <h2 className="title">Generate QR Code</h2>
 

@@ -1,6 +1,6 @@
-# Daily 8-bit Tools
+# Daily Task Tool
 
-A retro-styled utility collection built with Next.js 16, TypeScript, and Nes.css. This project provides fun, 8-bit themed tools for your daily tasks.
+A utility collection built with Next.js 16, TypeScript, and Nes.css. This project provides simple and useful tools for your daily tasks.
 
 ## Features
 
@@ -15,14 +15,13 @@ Create custom QR codes instantly.
 Make decisions or pick winners with a spinning wheel.
 - **Input**: Enter a list of options (one per line).
 - **Visuals**: Watch the wheel spin and land on a random winner.
-- **Theme**: Monochrome 8-bit style.
+- **Theme**: Monochrome style.
 
 ### 3. Text to Speech
 Convert text to spoken audio.
 - **Input**: Enter English text.
 - **Controls**: Adjust Speed, Pitch, and Volume.
-- **Download**: Save as MP3 (limited to short texts).
-- **Theme**: Retro interface with range sliders.
+- **Theme**: Simple interface with range sliders.
 
 ## Tech Stack
 
@@ -33,7 +32,6 @@ Convert text to spoken audio.
 - **Libraries**:
     - `qrcode.react` (QR Generation)
     - `react-custom-roulette` (Spinning Wheel)
-    - `google-tts-api` (Speech Download)
 
 ## Getting Started
 

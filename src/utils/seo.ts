@@ -1,27 +1,27 @@
-const SITE_NAME = "Daily 8-bit Tools";
+const SITE_NAME = "Daily Task Tool";
 
 const DEFAULT_TITLE =
-  "Daily 8-bit Tools | Retro Utilities for Everyday Tasks";
+  "Daily Task Tool | Utilities for Everyday Tasks";
 
 const SITE_DESCRIPTION =
-  "A collection of fun, 8-bit styled utility tools including a QR Code Generator, Random Slot Machine, and Text-to-Speech converter.";
+  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, and Text-to-Speech converter.";
 
 const SEO_KEYWORDS = [
-  "Daily 8-bit Tools",
+  "Daily Task Tool",
   "QR Code Generator",
   "Slot Machine",
   "Text to Speech",
-  "Retro UI",
-  "Nes.css",
+  "Utilities",
+  "Productivity",
   "Next.js Tools",
-  "8-bit utilities",
+  "Daily tasks",
 ];
 
 const OG_IMAGE = {
   url: "/opengraph-image.png",
   width: 1200,
   height: 630,
-  alt: "Daily 8-bit Tools Landing Page",
+  alt: "Daily Task Tool Landing Page",
 };
 
 const ensureLeadingSlash = (path = "/") =>

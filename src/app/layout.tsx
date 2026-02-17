@@ -8,7 +8,8 @@ import {
   SITE_DESCRIPTION,
   SEO_KEYWORDS,
   getMetadataBase,
-  OG_IMAGE
+  OG_IMAGE,
+  SITE_NAME
 } from "@/utils/seo";
 
 const pressStart2P = Press_Start_2P({
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: DEFAULT_TITLE,
     description: SITE_DESCRIPTION,
-    siteName: "Daily 8-bit Tools",
+    siteName: SITE_NAME,
     locale: "en_US",
     type: "website",
     images: [OG_IMAGE],
@@ -56,7 +57,7 @@ export default function RootLayout({
           <header className="mb-8 text-center">
             <h1>
               <Link href="/" className="nes-text is-primary no-underline hover:underline">
-                Daily 8-bit Tools
+                Daily Task Tool
               </Link>
             </h1>
           </header>

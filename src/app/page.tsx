@@ -33,10 +33,10 @@ export default function Home() {
         <h2 className="title">Welcome</h2>
         <div className="flex flex-col items-center gap-4">
           <p className="text-lg">
-            This website helps you make your daily tasks easier with a retro touch.
+            This website helps you make your daily tasks easier.
           </p>
           <p className="max-w-2xl">
-            Inspired by classic 8-bit games, "Daily 8-bit Tools" brings a nostalgic feel to modern utilities.
+            "Daily Task Tool" brings a classic feel to modern utilities.
             Whether you need to share a link via QR code or make a quick decision, we've got you covered.
           </p>
           <div className="mt-4">
@@ -96,7 +96,7 @@ export default function Home() {
                 <ul className="nes-list is-disc ml-4">
                     <li>Type English text in the box.</li>
                     <li>Adjust speed, pitch, and volume.</li>
-                    <li>Listen instantly or download MP3.</li>
+                    <li>Listen instantly.</li>
                 </ul>
             </div>
         </div>
