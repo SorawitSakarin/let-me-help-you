@@ -17,6 +17,13 @@ Make decisions or pick winners with a spinning wheel.
 - **Visuals**: Watch the wheel spin and land on a random winner.
 - **Theme**: Monochrome 8-bit style.
 
+### 3. Text to Speech
+Convert text to spoken audio.
+- **Input**: Enter English text.
+- **Controls**: Adjust Speed, Pitch, and Volume.
+- **Download**: Save as MP3 (limited to short texts).
+- **Theme**: Retro interface with range sliders.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -26,6 +33,7 @@ Make decisions or pick winners with a spinning wheel.
 - **Libraries**:
     - `qrcode.react` (QR Generation)
     - `react-custom-roulette` (Spinning Wheel)
+    - `google-tts-api` (Speech Download)
 
 ## Getting Started
 
@@ -62,6 +70,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/page.tsx`: Landing page with tool navigation.
 - `src/app/qr-code/page.tsx`: QR Code Generator tool.
 - `src/app/random-slot/page.tsx`: Random Slot Machine tool.
+- `src/app/text-to-speech/page.tsx`: Text to Speech tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 

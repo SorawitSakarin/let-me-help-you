@@ -16,6 +16,13 @@ export default function Home() {
       icon: 'nes-icon trophy',
       type: 'is-warning'
     },
+    {
+      href: '/text-to-speech',
+      title: 'Text to Speech',
+      description: 'Convert text to spoken audio with custom speed and pitch.',
+      icon: 'nes-icon twitch', // Best approximation for a "speech/media" icon in nes.css
+      type: 'is-success'
+    },
     // Future tools can be added here
   ];
 
@@ -67,7 +74,7 @@ export default function Home() {
       {/* How to Use / About Section */}
       <section className="nes-container with-title">
         <h3 className="title">About & Usage</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
                 <h4 className="mb-2 underline">QR Generator</h4>
                 <ul className="nes-list is-disc ml-4">
@@ -82,6 +89,14 @@ export default function Home() {
                     <li>Enter a list of options (one per line).</li>
                     <li>Spin the wheel to pick a random winner.</li>
                     <li>Perfect for decisions, raffles, or games!</li>
+                </ul>
+            </div>
+            <div>
+                <h4 className="mb-2 underline">Text to Speech</h4>
+                <ul className="nes-list is-disc ml-4">
+                    <li>Type English text in the box.</li>
+                    <li>Adjust speed, pitch, and volume.</li>
+                    <li>Listen instantly or download MP3.</li>
                 </ul>
             </div>
         </div>
