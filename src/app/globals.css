@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-press-start-2p), "Press Start 2P", cursive;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #212529;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-press-start-2p), "Press Start 2P", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: Improve nes.css compatibility */
+.nes-btn {
+  font-family: inherit;
+}
+.nes-input {
+  font-family: inherit;
+}

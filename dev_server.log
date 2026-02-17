@@ -1,0 +1,14 @@
+
+> app@0.1.0 dev
+> next dev
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+
+✓ Starting...
+✓ Ready in 1033ms
+○ Compiling / ...
+ GET / 200 in 5.4s (compile: 4.6s, render: 764ms)
+ GET /qr-code 200 in 1301ms (compile: 962ms, render: 338ms)
+ GET /random-slot 200 in 720ms (compile: 598ms, render: 122ms)
