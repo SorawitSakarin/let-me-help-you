@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { getAudioUrl } from 'google-tts-api';
 
 export default function TextToSpeechPage() {
   const [text, setText] = useState('');
@@ -11,7 +10,6 @@ export default function TextToSpeechPage() {
   const [pitch, setPitch] = useState(1);
   const [volume, setVolume] = useState(1);
   const [isSpeaking, setIsSpeaking] = useState(false);
-  const [isDownloading, setIsDownloading] = useState(false);
 
   useEffect(() => {
     // Load available voices
@@ -58,53 +56,6 @@ export default function TextToSpeechPage() {
     setIsSpeaking(false);
   };
 
-  const handleDownload = async () => {
-    if (!text) return;
-
-    setIsDownloading(true);
-    try {
-        const url = getAudioUrl(text, {
-            lang: 'en',
-            slow: rate < 0.8,
-            host: 'https://translate.google.com',
-        });
-
-        // Attempt to fetch the audio as a blob to force download
-        const response = await fetch(url);
-        if (!response.ok) throw new Error('Network response was not ok');
-
-        const blob = await response.blob();
-        const objectUrl = URL.createObjectURL(blob);
-
-        const link = document.createElement('a');
-        link.href = objectUrl;
-        link.download = 'speech.mp3';
-        document.body.appendChild(link);
-        link.click();
-
-        // Cleanup
-        document.body.removeChild(link);
-        URL.revokeObjectURL(objectUrl);
-
-    } catch (e) {
-        console.error("Download failed:", e);
-        // Fallback: Just open the URL in a new tab if fetch fails (e.g. strict CORS)
-        try {
-             const url = getAudioUrl(text, {
-                lang: 'en',
-                slow: rate < 0.8,
-                host: 'https://translate.google.com',
-            });
-            window.open(url, '_blank');
-            alert("Direct download failed due to browser restrictions. Opening audio in new tab. You can save it from there (Ctrl+S).");
-        } catch (err) {
-             alert('Error generating audio URL.');
-        }
-    } finally {
-        setIsDownloading(false);
-    }
-  };
-
   return (
     <div className="flex flex-col items-center gap-8 w-full max-w-4xl mx-auto px-4">
       <div className="nes-container with-title is-centered w-full">
@@ -125,7 +76,7 @@ export default function TextToSpeechPage() {
             {/* Controls */}
             <div className="flex flex-col gap-4">
                 <div className="nes-field">
-                    <label htmlFor="voice_select">Voice (Speak Only)</label>
+                    <label htmlFor="voice_select">Voice</label>
                     <div className="nes-select">
                         <select id="voice_select" value={selectedVoice} onChange={(e) => setSelectedVoice(e.target.value)}>
                             {voices.map((voice) => (
@@ -201,22 +152,7 @@ export default function TextToSpeechPage() {
             >
                 Stop
             </button>
-
-             <button
-                type="button"
-                className={`nes-btn is-primary ${!text || isDownloading ? 'is-disabled' : ''}`}
-                onClick={handleDownload}
-                disabled={!text || isDownloading}
-            >
-                {isDownloading ? 'Loading...' : 'Download MP3'}
-            </button>
         </div>
-
-        <div className="mt-4 text-xs text-gray-500">
-            <p>* Download functionality is limited to short texts (~200 chars).</p>
-            <p>* Note: Voice selection only affects "Speak" button, not Download.</p>
-        </div>
-
       </div>
     </div>
   );

@@ -3,6 +3,13 @@ import Link from "next/link";
 import { Press_Start_2P } from "next/font/google";
 import "nes.css/css/nes.min.css";
 import "./globals.css";
+import {
+  DEFAULT_TITLE,
+  SITE_DESCRIPTION,
+  SEO_KEYWORDS,
+  getMetadataBase,
+  OG_IMAGE
+} from "@/utils/seo";
 
 const pressStart2P = Press_Start_2P({
   weight: "400",
@@ -11,8 +18,30 @@ const pressStart2P = Press_Start_2P({
 });
 
 export const metadata: Metadata = {
-  title: "Daily 8-bit Tools",
-  description: "Make your daily tasks easier with fun 8-bit tools",
+  metadataBase: getMetadataBase(),
+  title: {
+    default: DEFAULT_TITLE,
+    template: `%s | ${DEFAULT_TITLE}`,
+  },
+  description: SITE_DESCRIPTION,
+  keywords: SEO_KEYWORDS,
+  openGraph: {
+    title: DEFAULT_TITLE,
+    description: SITE_DESCRIPTION,
+    siteName: "Daily 8-bit Tools",
+    locale: "en_US",
+    type: "website",
+    images: [OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: DEFAULT_TITLE,
+    description: SITE_DESCRIPTION,
+    images: [OG_IMAGE],
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
