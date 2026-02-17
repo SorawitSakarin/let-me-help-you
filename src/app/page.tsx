@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   const tools = [
@@ -32,6 +33,17 @@ export default function Home() {
       <section className="nes-container is-dark with-title text-center">
         <h2 className="title">Welcome</h2>
         <div className="flex flex-col items-center gap-4">
+           {/* Larger Logo */}
+           <div className="mb-4">
+               <Image
+                  src="/let-me-help-you-logo.png"
+                  alt="Daily Task Tool Logo"
+                  width={128}
+                  height={128}
+                  className="mx-auto"
+                  style={{ imageRendering: 'pixelated' }}
+                />
+           </div>
           <p className="text-lg">
             This website helps you make your daily tasks easier.
           </p>
