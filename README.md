@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Daily 8-bit Tools
+
+A retro-styled utility collection built with Next.js 16, TypeScript, and Nes.css. This project provides fun, 8-bit themed tools for your daily tasks.
+
+## Features
+
+### 1. QR Code Generator
+Create custom QR codes instantly.
+- **Input**: Any text or URL.
+- **Customization**: Upload a custom icon or logo to embed in the center of the QR code.
+- **Download**: Save your QR code as a PNG file.
+- **Theme**: Clean black-on-white design for maximum compatibility.
+
+### 2. Random Slot Machine
+Make decisions or pick winners with a spinning wheel.
+- **Input**: Enter a list of options (one per line).
+- **Visuals**: Watch the wheel spin and land on a random winner.
+- **Theme**: Monochrome 8-bit style.
+
+## Tech Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) & [Nes.css](https://nostalgic-css.github.io/NES.css/)
+- **Font**: "Press Start 2P" (Google Fonts)
+- **Libraries**:
+    - `qrcode.react` (QR Generation)
+    - `react-custom-roulette` (Spinning Wheel)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+ installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd let-me-help-you
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+   > **Note**: This project uses an `.npmrc` file with `legacy-peer-deps=true` to resolve peer dependency conflicts between Next.js 16 (React 19) and some React 18 libraries.
+
+### Running the Development Server
+
+Start the local development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/app/page.tsx`: Landing page with tool navigation.
+- `src/app/qr-code/page.tsx`: QR Code Generator tool.
+- `src/app/random-slot/page.tsx`: Random Slot Machine tool.
+- `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
+- `src/app/layout.tsx`: Root layout including the font and header/footer.
 
-## Learn More
+## Theme
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The application features a "Classic Monochrome" 8-bit theme:
+- **Background**: White / Off-white
+- **Foreground**: Black / Gray
+- **Font**: Pixelated "Press Start 2P"
