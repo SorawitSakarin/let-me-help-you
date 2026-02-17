@@ -16,11 +16,6 @@ export default function manifest(): MetadataRoute.Manifest {
         sizes: 'any',
         type: 'image/x-icon',
       },
-      {
-        src: '/let-me-help-you-logo.png',
-        sizes: 'any',
-        type: 'image/png',
-      },
     ],
   };
 }
