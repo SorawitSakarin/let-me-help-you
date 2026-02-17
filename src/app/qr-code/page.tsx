@@ -58,13 +58,13 @@ export default function QRCodePage() {
                 </div>
             </div>
 
-            {/* Spy Theme QR: Green on Black */}
-            <div className="flex flex-col items-center bg-black p-4 border-4 border-green-500 inline-block" ref={qrRef}>
+            {/* Standard Black on White QR */}
+            <div className="flex flex-col items-center bg-white p-4 border-4 border-black inline-block" ref={qrRef}>
                  <QRCodeCanvas
                     value={text || "https://example.com"}
                     size={256}
-                    bgColor={"#000000"}
-                    fgColor={"#00ff00"}
+                    bgColor={"#ffffff"}
+                    fgColor={"#000000"}
                     level={"H"}
                     includeMargin={true}
                     imageSettings={icon ? {

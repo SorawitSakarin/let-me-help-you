@@ -5,11 +5,10 @@
 }
 
 :root {
-  --background: #0d0d0d; /* Dark background */
-  --foreground: #00ff00; /* Bright spy green */
-  --border-color: #00ff00;
-  --text-muted: #00cc00;
-  --surface: #1a1a1a;
+  --background: #fdfdfd; /* Off-white */
+  --foreground: #212529; /* Dark Gray / Black */
+  --border-color: #212529;
+  --surface: #ffffff;
 }
 
 body {
@@ -20,83 +19,82 @@ body {
   padding: 0;
 }
 
-/* Override nes.css for Spy Theme */
+/* NES.css Overrides for Monochrome Theme */
 
-/* Buttons */
-.nes-btn {
-  font-family: inherit;
-  background-color: var(--surface) !important;
-  color: var(--foreground) !important;
-  border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="%2300ff00" /></svg>') !important;
-}
-.nes-btn:hover {
-  background-color: var(--foreground) !important;
-  color: var(--background) !important;
-}
-
-.nes-btn.is-primary {
-  background-color: var(--foreground) !important;
-  color: var(--background) !important;
-}
-.nes-btn.is-primary:hover {
-    background-color: #00cc00 !important;
-}
-
-/* Inputs & Textareas */
-.nes-input, .nes-textarea {
-  font-family: inherit;
-  background-color: var(--surface) !important;
-  color: var(--foreground) !important;
-  border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="%2300ff00" /></svg>') !important;
-}
-.nes-input:focus, .nes-textarea:focus {
-  outline: none;
-  box-shadow: 0 0 5px var(--foreground);
-}
-
-/* Containers */
-.nes-container.with-title > .title {
-  background-color: var(--background) !important;
-  color: var(--foreground) !important;
-  border-bottom: 4px solid var(--background) !important; /* Hide potential bottom line */
-}
-
+/* General Container Styling */
 .nes-container {
-  border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="%2300ff00" /></svg>') !important;
-  color: var(--foreground) !important;
-  background-color: var(--background) !important;
-}
-
-.nes-container.is-dark {
     background-color: var(--surface) !important;
     border-color: var(--foreground) !important;
     color: var(--foreground) !important;
 }
 
-/* Text Utilities */
-.nes-text.is-primary { color: var(--foreground) !important; }
-.nes-text.is-success { color: #00cc00 !important; }
-.nes-text.is-warning { color: #ccff00 !important; }
-.nes-text.is-error { color: #ff0000 !important; } /* Maybe red is fine for errors even in spy theme */
-.nes-text.is-disabled { color: #444 !important; }
-
-/* Icons - Force color via filter if possible, or just adjust context */
-.nes-icon.coin { filter: hue-rotate(90deg) sepia(100%) saturate(1000%) hue-rotate(50deg); } /* Try to shift to green */
-.nes-icon.trophy { filter: hue-rotate(90deg) sepia(100%) saturate(1000%) hue-rotate(50deg); }
-
-/* Dialog/Modal */
-.nes-dialog {
-    background-color: var(--background) !important;
-    color: var(--foreground) !important;
-    border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="%2300ff00" /></svg>') !important;
+.nes-container.is-dark {
+    background-color: var(--foreground) !important;
+    color: var(--background) !important;
+    border-color: var(--foreground) !important;
 }
 
+.nes-container.with-title > .title {
+    background-color: var(--surface) !important;
+    color: var(--foreground) !important;
+}
+
+/* Inputs & Textareas */
+.nes-input, .nes-textarea {
+    border-color: var(--foreground) !important;
+    color: var(--foreground) !important;
+}
+
+.nes-input:focus, .nes-textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #808080;
+}
+
+/* Buttons */
+.nes-btn.is-primary {
+    background-color: #209cee; /* Keep NES Primary Blue or change to Gray? Keeping standard NES colors is safer for "gray/white/black theme" implies mainly layout/text, but let's stick to monochrome per request */
+    background-color: var(--foreground) !important;
+    color: var(--background) !important;
+    box-shadow: 0 4px 0 #000 !important;
+}
+.nes-btn.is-primary:hover {
+    background-color: #404040 !important;
+}
+
+.nes-btn.is-success {
+    background-color: #92cc41; /* Keep semantic colors or override? Let's override for strict monochrome */
+    background-color: #808080 !important;
+    color: #fff !important;
+}
+.nes-btn.is-success:hover {
+    background-color: #606060 !important;
+}
+
+.nes-btn.is-error {
+    background-color: #000 !important; /* Make "Spin" button stark black */
+    color: #fff !important;
+}
+
+/* Text Utilities */
+.nes-text.is-primary { color: var(--foreground) !important; }
+.nes-text.is-success { color: #555 !important; }
+.nes-text.is-warning { color: #333 !important; }
+.nes-text.is-error { color: #000 !important; }
+.nes-text.is-disabled { color: #aaa !important; }
+
+/* Links */
 a {
     color: var(--foreground);
     text-decoration: underline;
 }
 a:hover {
-    color: #fff;
+    background-color: #eee;
     text-decoration: none;
-    background-color: var(--foreground);
+}
+
+/* Dialogs */
+.nes-dialog {
+    background-color: var(--surface) !important;
+    color: var(--foreground) !important;
+    border: 4px solid var(--foreground) !important;
 }

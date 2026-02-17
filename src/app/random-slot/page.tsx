@@ -5,9 +5,8 @@ import dynamic from 'next/dynamic';
 
 const Wheel = dynamic(() => import('react-custom-roulette').then((mod) => mod.Wheel), { ssr: false });
 
-// Shades of green for the spy theme
-const SPY_COLORS = ['#003300', '#004400', '#005500', '#006600', '#007700', '#008800'];
-const SPY_TEXT_COLOR = '#00ff00';
+// Monochrome / Gray Theme for the wheel
+const MONO_COLORS = ['#333333', '#888888', '#bbbbbb', '#555555', '#999999', '#dddddd'];
 
 export default function RandomSlotPage() {
   const [text, setText] = useState('Yes\nNo\nMaybe');
@@ -21,10 +20,15 @@ export default function RandomSlotPage() {
     .split('\n')
     .map(t => t.trim())
     .filter(t => t.length > 0)
-    .map((option, index) => ({
-      option,
-      style: { backgroundColor: SPY_COLORS[index % SPY_COLORS.length], textColor: SPY_TEXT_COLOR }
-    }));
+    .map((option, index) => {
+        const bgColor = MONO_COLORS[index % MONO_COLORS.length];
+        // Calculate contrast text color roughly
+        const textColor = (parseInt(bgColor.replace('#', ''), 16) > 0xaaaaaa) ? '#000000' : '#ffffff';
+        return {
+          option,
+          style: { backgroundColor: bgColor, textColor: textColor }
+        };
+    });
 
   const handleSpinClick = () => {
     if (data.length < 2) {
@@ -71,17 +75,15 @@ export default function RandomSlotPage() {
                   prizeNumber={prizeNumber}
                   data={data}
                   onStopSpinning={handleStopSpinning}
-                  outerBorderColor={'#00ff00'}
+                  outerBorderColor={'#000000'}
                   outerBorderWidth={10}
                   innerRadius={10}
-                  innerBorderColor={'#00ff00'}
+                  innerBorderColor={'#000000'}
                   innerBorderWidth={0}
-                  radiusLineColor={'#00ff00'}
+                  radiusLineColor={'#000000'}
                   radiusLineWidth={1}
                   fontSize={16}
                   perpendicularText={true}
-                  textColors={[SPY_TEXT_COLOR]}
-                  backgroundColors={SPY_COLORS}
                 />
               </div>
             ) : (
@@ -102,17 +104,17 @@ export default function RandomSlotPage() {
         </div>
       </div>
 
-      {/* Winner Modal */}
+      {/* Winner Modal - Classic White/Black */}
       {showWinner && (
-        <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 p-4">
-          <div className="nes-dialog is-rounded relative animate-bounce-in max-w-md w-full border-4 border-green-500 bg-black text-green-500">
+        <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 p-4">
+          <div className="nes-dialog is-rounded relative animate-bounce-in max-w-md w-full bg-white text-black border-4 border-black">
             <form method="dialog" onSubmit={(e) => { e.preventDefault(); setShowWinner(false); }}>
-              <h3 className="title border-b-4 border-green-500 pb-2 mb-4">Winner!</h3>
+              <h3 className="title border-b-4 border-black pb-2 mb-4">Winner!</h3>
               <div className="text-center my-8">
-                <i className="nes-icon trophy is-large mb-4 filter hue-rotate-90"></i>
+                <i className="nes-icon trophy is-large mb-4"></i>
                 <p className="text-2xl font-bold break-words">{winner}</p>
               </div>
-              <menu className="dialog-menu flex justify-end border-t-4 border-green-500 pt-4">
+              <menu className="dialog-menu flex justify-end border-t-4 border-black pt-4">
                 <button className="nes-btn is-primary">OK</button>
               </menu>
             </form>
