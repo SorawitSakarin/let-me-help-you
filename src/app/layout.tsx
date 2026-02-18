@@ -76,7 +76,7 @@ export default function RootLayout({
           </main>
 
           <footer className="mt-12 text-center text-sm nes-text is-disabled">
-            <p>Made with Next.js & Nes.css</p>
+            <p><i className="nes-icon star is-small"></i> Powered by Stooop. Made with Next.js</p>
           </footer>
         </div>
       </body>
