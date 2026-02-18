@@ -57,7 +57,15 @@ export default function RootLayout({
         <div className="container mx-auto p-4 min-h-screen flex flex-col">
           <header className="mb-8 text-center flex flex-col items-center">
             <h1>
-              <Link href="/" className="nes-text is-primary no-underline hover:underline">
+              <Link href="/" className="nes-text is-primary no-underline hover:underline flex items-center justify-center gap-4">
+                <Image
+                  src="/logo.png"
+                  alt="Daily Task Tool Logo"
+                  width={48}
+                  height={48}
+                  className="pixelated"
+                  style={{ imageRendering: 'pixelated' }}
+                />
                 Daily Task Tool
               </Link>
             </h1>
