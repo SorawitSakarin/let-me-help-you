@@ -24,6 +24,13 @@ export default function Home() {
       icon: 'nes-icon twitch', // Best approximation for a "speech/media" icon in nes.css
       type: 'is-success'
     },
+    {
+      href: '/password-generator',
+      title: 'Password Gen',
+      description: 'Generate strong, random passwords instantly.',
+      icon: 'nes-icon star',
+      type: 'is-error'
+    },
     // Future tools can be added here
   ];
 
@@ -86,7 +93,7 @@ export default function Home() {
       {/* How to Use / About Section */}
       <section className="nes-container with-title">
         <h3 className="title">About & Usage</h3>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
                 <h4 className="mb-2 underline">QR Generator</h4>
                 <ul className="nes-list is-disc ml-4">
@@ -109,6 +116,14 @@ export default function Home() {
                     <li>Type English text in the box.</li>
                     <li>Adjust speed, pitch, and volume.</li>
                     <li>Listen instantly.</li>
+                </ul>
+            </div>
+            <div>
+                <h4 className="mb-2 underline">Password Gen</h4>
+                <ul className="nes-list is-disc ml-4">
+                    <li>Set password length (8-32).</li>
+                    <li>Toggle Uppercase, Numbers, Symbols.</li>
+                    <li>One-click generate & copy.</li>
                 </ul>
             </div>
         </div>
