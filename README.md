@@ -23,6 +23,12 @@ Convert text to spoken audio.
 - **Controls**: Adjust Speed, Pitch, and Volume.
 - **Theme**: Simple interface with range sliders.
 
+### 4. Password Generator
+Generate strong, random passwords.
+- **Input**: Select length (8-32) and character types (Uppercase, Lowercase, Numbers, Symbols).
+- **Controls**: Checkboxes and length slider.
+- **Theme**: Secure and simple.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -69,6 +75,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/qr-code/page.tsx`: QR Code Generator tool.
 - `src/app/random-slot/page.tsx`: Random Slot Machine tool.
 - `src/app/text-to-speech/page.tsx`: Text to Speech tool.
+- `src/app/password-generator/page.tsx`: Password Generator tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 
