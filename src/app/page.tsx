@@ -116,6 +116,15 @@ export default function Home() {
             <p>Built with Next.js 16, Tailwind CSS, and Nes.css.</p>
         </div>
       </section>
+
+      {/* Donation Section */}
+      <section className="nes-container with-title is-centered">
+        <h3 className="title">Support</h3>
+        <p className="mb-6">If you find these tools useful, consider buying me a coffee.</p>
+        <a href="https://buymeacoffee.com/stooop" target="_blank" rel="noopener noreferrer" className="nes-btn is-warning">
+          <i className="nes-icon coin is-small"></i> Buy me a coffee
+        </a>
+      </section>
     </div>
   );
 }
