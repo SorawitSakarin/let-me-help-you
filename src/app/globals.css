@@ -98,3 +98,67 @@ a:hover {
     color: var(--foreground) !important;
     border: 4px solid var(--foreground) !important;
 }
+
+/* Custom Animations */
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+@keyframes fade-in-up {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes slide-across {
+  0% { left: -150px; }
+  100% { left: 100%; }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-wiggle:hover {
+  animation: wiggle 0.5s ease-in-out infinite;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out forwards;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 3s linear infinite;
+}
+
+.animate-slide-across {
+  position: absolute;
+  animation: slide-across 20s linear infinite;
+}
+
+/* Pixel Art Cloud */
+.pixel-cloud {
+  width: 64px;
+  height: 24px;
+  background: #e0e0e0;
+  box-shadow:
+    20px -20px 0 0 #e0e0e0,
+    40px -20px 0 0 #e0e0e0,
+    60px 0 0 0 #e0e0e0,
+    20px 20px 0 0 #e0e0e0,
+    40px 20px 0 0 #e0e0e0;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.6;
+}
