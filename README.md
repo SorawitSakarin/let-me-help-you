@@ -29,6 +29,18 @@ Generate strong, random passwords.
 - **Controls**: Checkboxes and length slider.
 - **Theme**: Secure and simple.
 
+### 5. Unit Converter
+Convert weight, length, and temperature instantly.
+- **Input**: Enter value and select units.
+- **Controls**: Dropdowns and swap button.
+- **Theme**: Bi-directional conversion.
+
+### 6. Currency Converter
+Convert currencies with real-time exchange rates.
+- **Input**: Enter amount and select currencies.
+- **Controls**: Dropdowns and swap button.
+- **Theme**: Real-time data.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -76,6 +88,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/random-slot/page.tsx`: Random Slot Machine tool.
 - `src/app/text-to-speech/page.tsx`: Text to Speech tool.
 - `src/app/password-generator/page.tsx`: Password Generator tool.
+- `src/app/unit-converter/page.tsx`: Unit Converter tool.
+- `src/app/currency-converter/page.tsx`: Currency Converter tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 

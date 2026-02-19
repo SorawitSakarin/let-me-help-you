@@ -38,6 +38,13 @@ export default function Home() {
       icon: 'nes-icon coin',
       type: 'is-warning'
     },
+    {
+      href: '/currency-converter',
+      title: 'Currency Converter',
+      description: 'Convert currencies with real-time exchange rates.',
+      icon: 'nes-icon coin',
+      type: 'is-warning'
+    },
     // Future tools can be added here
   ];
 
@@ -139,6 +146,14 @@ export default function Home() {
                     <li>Convert Weight, Length, Temperature.</li>
                     <li>Real-time bi-directional updates.</li>
                     <li>Swap units with one click.</li>
+                </ul>
+            </div>
+            <div>
+                <h4 className="mb-2 underline">Currency Converter</h4>
+                <ul className="nes-list is-disc ml-4">
+                    <li>Real-time exchange rates.</li>
+                    <li>Convert between 160+ currencies.</li>
+                    <li>Instant updates.</li>
                 </ul>
             </div>
         </div>
