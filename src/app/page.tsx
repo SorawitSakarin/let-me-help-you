@@ -28,13 +28,20 @@ export default function Home() {
       href: '/password-generator',
       title: 'Password Gen',
       description: 'Generate strong, random passwords instantly.',
-      icon: 'nes-icon star',
+      icon: 'nes-icon like',
       type: 'is-error'
     },
     {
       href: '/unit-converter',
       title: 'Unit Converter',
       description: 'Convert weight, length, and temperature instantly.',
+      icon: 'nes-icon star',
+      type: 'is-warning'
+    },
+    {
+      href: '/currency-converter',
+      title: 'Currency Exchange',
+      description: 'Convert 150+ currencies with real-time rates.',
       icon: 'nes-icon coin',
       type: 'is-warning'
     },
@@ -139,6 +146,14 @@ export default function Home() {
                     <li>Convert Weight, Length, Temperature.</li>
                     <li>Real-time bi-directional updates.</li>
                     <li>Swap units with one click.</li>
+                </ul>
+            </div>
+            <div>
+                <h4 className="mb-2 underline">Currency Exchange</h4>
+                <ul className="nes-list is-disc ml-4">
+                    <li>Convert 150+ global currencies.</li>
+                    <li>Real-time exchange rates.</li>
+                    <li>Searchable list with flags.</li>
                 </ul>
             </div>
         </div>
