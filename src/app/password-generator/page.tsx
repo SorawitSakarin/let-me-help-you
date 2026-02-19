@@ -60,11 +60,10 @@ export default function PasswordGenerator() {
               <input
                 type="text"
                 id="password_field"
-                className="nes-input"
+                className="nes-input is-dark"
                 value={password}
                 readOnly
                 placeholder="Click Generate!"
-                style={{ backgroundColor: '#fff', color: '#000' }}
               />
               <button
                 type="button"
@@ -97,7 +96,7 @@ export default function PasswordGenerator() {
             </div>
 
             {/* Checkboxes */}
-            <div className="flex flex-col gap-4 text-left">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
               <label>
                 <input
                   type="checkbox"
