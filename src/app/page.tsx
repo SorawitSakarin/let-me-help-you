@@ -35,6 +35,13 @@ export default function Home() {
       icon: 'nes-icon star',
       type: 'is-error'
     },
+    {
+      href: '/unit-converter',
+      title: 'Unit Converter',
+      description: 'Convert weight, length, and temperature instantly.',
+      icon: 'nes-icon coin',
+      type: 'is-warning'
+    },
     // Future tools can be added here
   ];
 
@@ -65,8 +72,8 @@ export default function Home() {
             <Typewriter text="This website helps you make your daily tasks easier." delay={500} speed={40} />
           </div>
           <p className="max-w-2xl">
-            "Daily Task Tool" brings a classic feel to modern utilities.
-            Whether you need to share a link via QR code or make a quick decision, we've got you covered.
+            &quot;Daily Task Tool&quot; brings a classic feel to modern utilities.
+            Whether you need to share a link via QR code or make a quick decision, we&apos;ve got you covered.
           </p>
           <div className="mt-4">
              <i className="nes-icon heart is-large animate-bounce"></i>
@@ -138,6 +145,14 @@ export default function Home() {
                     <li>Set password length (8-32).</li>
                     <li>Toggle Uppercase, Numbers, Symbols.</li>
                     <li>One-click generate & copy.</li>
+                </ul>
+            </div>
+            <div>
+                <h4 className="mb-2 underline">Unit Converter</h4>
+                <ul className="nes-list is-disc ml-4">
+                    <li>Convert Weight, Length, Temperature.</li>
+                    <li>Real-time bi-directional updates.</li>
+                    <li>Swap units with one click.</li>
                 </ul>
             </div>
         </div>
