@@ -49,6 +49,13 @@ export default function Home() {
       icon: 'nes-icon coin',
       type: 'is-warning'
     },
+    {
+      href: '/pomodoro-timer',
+      title: 'Focus Timer',
+      description: 'Boost productivity with the Pomodoro technique.',
+      icon: 'nes-icon star',
+      type: 'is-primary'
+    },
     // Future tools can be added here
   ];
 
@@ -168,6 +175,14 @@ export default function Home() {
                     <li>Convert 150+ global currencies.</li>
                     <li>Real-time exchange rates.</li>
                     <li>Searchable list with flags.</li>
+                </ul>
+            </div>
+            <div>
+                <h4 className="mb-2 underline">Focus Timer</h4>
+                <ul className="nes-list is-disc ml-4">
+                    <li>25m Work / 5m Break intervals.</li>
+                    <li>Customizable timer settings.</li>
+                    <li>Track your focus sessions.</li>
                 </ul>
             </div>
         </div>
