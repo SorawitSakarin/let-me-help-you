@@ -29,6 +29,12 @@ Generate strong, random passwords.
 - **Controls**: Checkboxes and length slider.
 - **Theme**: Secure and simple.
 
+### 5. Focus Timer
+Boost productivity with the Pomodoro technique.
+- **Controls**: Start, Pause, Reset.
+- **Settings**: Customizable Work and Break durations.
+- **Theme**: Classic 8-bit timer with progress bar.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -76,6 +82,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/random-slot/page.tsx`: Random Slot Machine tool.
 - `src/app/text-to-speech/page.tsx`: Text to Speech tool.
 - `src/app/password-generator/page.tsx`: Password Generator tool.
+- `src/app/pomodoro-timer/page.tsx`: Focus Timer tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 
