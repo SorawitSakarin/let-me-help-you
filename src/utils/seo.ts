@@ -31,7 +31,7 @@ const OG_IMAGE = {
 const ensureLeadingSlash = (path = "/") =>
   path.startsWith("/") ? path : `/${path}`;
 
-const normalizeHost = (host?: string) => {
+export const normalizeHost = (host?: string) => {
   if (!host) return undefined;
   if (host.startsWith("http://") || host.startsWith("https://")) return host;
   return `https://${host}`;
