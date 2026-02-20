@@ -4,7 +4,7 @@ const DEFAULT_TITLE =
   "Daily Task Tool | Utilities for Everyday Tasks";
 
 const SITE_DESCRIPTION =
-  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, Text-to-Speech converter, Password Generator, and Unit Converter.";
+  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, Text-to-Speech converter, Password Generator, Unit Converter, and Focus Timer.";
 
 const SEO_KEYWORDS = [
   "Daily Task Tool",
@@ -13,6 +13,8 @@ const SEO_KEYWORDS = [
   "Text to Speech",
   "Password Generator",
   "Unit Converter",
+  "Focus Timer",
+  "Pomodoro Timer",
   "Utilities",
   "Productivity",
   "Next.js Tools",
