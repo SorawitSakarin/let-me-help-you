@@ -35,6 +35,12 @@ Boost productivity with the Pomodoro technique.
 - **Settings**: Customizable Work and Break durations.
 - **Theme**: Classic 8-bit timer with progress bar.
 
+### 6. Word Counter
+Analyze text instantly.
+- **Stats**: Word count, Character count, Sentence count, Paragraph count, Reading time.
+- **Controls**: Copy, Clear.
+- **Theme**: Simple text area with statistics grid.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -83,6 +89,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/text-to-speech/page.tsx`: Text to Speech tool.
 - `src/app/password-generator/page.tsx`: Password Generator tool.
 - `src/app/pomodoro-timer/page.tsx`: Focus Timer tool.
+- `src/app/word-counter/page.tsx`: Word Counter tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 
