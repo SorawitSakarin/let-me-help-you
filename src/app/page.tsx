@@ -1,9 +1,8 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import FloatingElement from '@/components/FloatingElement';
 import Typewriter from '@/components/Typewriter';
-import AnimatedCard from '@/components/AnimatedCard';
 import Decorations from '@/components/Decorations';
+import ToolsGrid from '@/components/ToolsGrid';
 
 export default function Home() {
   const tools = [
@@ -98,31 +97,7 @@ export default function Home() {
       {/* Tools Grid */}
       <section>
         <h3 className="mb-6 text-xl border-b-4 border-black inline-block pr-4">Available Tools</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {tools.map((tool, index) => (
-            <AnimatedCard key={tool.href} delay={index * 0.2} className="h-full">
-                <Link href={tool.href} className="no-underline block h-full group">
-                  <div className={`nes-container with-title is-rounded transition-all cursor-pointer h-full flex flex-col group-hover:bg-gray-100 transform group-hover:-translate-y-1 transition-transform duration-200`}>
-                    <h3 className="title">{tool.title}</h3>
-                    <div className="flex flex-col items-center text-center flex-grow">
-                      <i className={`${tool.icon} is-large mb-6 mt-2 transition-transform group-hover:scale-110`}></i>
-                      <p className="mb-6 flex-grow">{tool.description}</p>
-                      <button type="button" className={`nes-btn ${tool.type} w-full`}>
-                        Open Tool
-                      </button>
-                    </div>
-                  </div>
-                </Link>
-            </AnimatedCard>
-          ))}
-
-          {/* Placeholder for future tools to show scalability */}
-          <AnimatedCard delay={tools.length * 0.2}>
-              <div className="nes-container is-rounded is-dotted flex items-center justify-center opacity-50 min-h-[250px] hover:opacity-100 transition-opacity">
-                <p className="text-center">More tools<br/>coming soon...</p>
-              </div>
-          </AnimatedCard>
-        </div>
+        <ToolsGrid initialTools={tools} />
       </section>
 
       {/* How to Use / About Section */}
