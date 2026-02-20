@@ -44,24 +44,30 @@ export default function ToolsGrid({ initialTools }: ToolsGridProps) {
 
   return (
     <>
-      {/* Search and Sort Controls */}
-      <div className="flex flex-col md:flex-row gap-4 mb-8">
-        <div className="flex-grow">
-          <input
-            type="text"
-            className="nes-input"
-            placeholder="Search tools..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
+      {/* Header with Search and Sort */}
+      <div className="flex flex-col gap-6 mb-8">
+        <div className="flex justify-between items-center">
+            <h3 className="text-xl border-b-4 border-black inline-block pr-4">Available Tools ({filteredTools.length})</h3>
         </div>
-        <button
-          type="button"
-          className="nes-btn is-primary whitespace-nowrap"
-          onClick={toggleSort}
-        >
-          Sort: {sortOrder === 'asc' ? 'A -> Z' : 'Z -> A'}
-        </button>
+
+        <div className="flex flex-col md:flex-row gap-4">
+            <div className="flex-grow">
+              <input
+                type="text"
+                className="nes-input"
+                placeholder="Search tools..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+            </div>
+            <button
+              type="button"
+              className="nes-btn is-primary whitespace-nowrap"
+              onClick={toggleSort}
+            >
+              Sort: {sortOrder === 'asc' ? 'A -> Z' : 'Z -> A'}
+            </button>
+        </div>
       </div>
 
       {/* Tools Grid */}

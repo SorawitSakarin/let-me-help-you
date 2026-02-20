@@ -96,7 +96,6 @@ export default function Home() {
 
       {/* Tools Grid */}
       <section>
-        <h3 className="mb-6 text-xl border-b-4 border-black inline-block pr-4">Available Tools</h3>
         <ToolsGrid initialTools={tools} />
       </section>
 
