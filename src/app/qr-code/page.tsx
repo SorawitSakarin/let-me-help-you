@@ -54,6 +54,7 @@ export default function QRCodePage() {
                     placeholder="Enter URL or text here..."
                     value={text}
                     onChange={(e) => setText(e.target.value)}
+                    maxLength={1000}
                 />
             </div>
 
