@@ -35,7 +35,6 @@ export async function fetchRates(): Promise<ExchangeRates | null> {
         const parsed: CachedRates = JSON.parse(cached);
         const now = Date.now();
         if (now - parsed.timestamp < CACHE_DURATION) {
-          console.log('Using cached exchange rates');
           return parsed.data;
         }
       } catch (e) {
