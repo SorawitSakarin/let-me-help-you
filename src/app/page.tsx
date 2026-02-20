@@ -55,6 +55,13 @@ export default function Home() {
       icon: 'nes-icon star',
       type: 'is-primary'
     },
+    {
+      href: '/word-counter',
+      title: 'Word Counter',
+      description: 'Count words, characters, and reading time instantly.',
+      icon: 'nes-icon star',
+      type: 'is-success'
+    },
     // Future tools can be added here
   ];
 
@@ -157,6 +164,14 @@ export default function Home() {
                     <li>25m Work / 5m Break intervals.</li>
                     <li>Customizable timer settings.</li>
                     <li>Track your focus sessions.</li>
+                </ul>
+            </div>
+            <div>
+                <h4 className="mb-2 underline">Word Counter</h4>
+                <ul className="nes-list is-disc ml-4">
+                    <li>Count Words, Characters, Sentences.</li>
+                    <li>Estimate reading time.</li>
+                    <li>Simple text analysis.</li>
                 </ul>
             </div>
         </div>
