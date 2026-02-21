@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 
@@ -17,19 +17,21 @@ export default function RandomSlotPage() {
   const [winner, setWinner] = useState<string | null>(null);
 
   // Convert text to data array
-  const data = text
-    .split('\n')
-    .map(t => t.trim())
-    .filter(t => t.length > 0)
-    .map((option, index) => {
-        const bgColor = MONO_COLORS[index % MONO_COLORS.length];
-        // Calculate contrast text color roughly
-        const textColor = (parseInt(bgColor.replace('#', ''), 16) > 0xaaaaaa) ? '#000000' : '#ffffff';
-        return {
-          option,
-          style: { backgroundColor: bgColor, textColor: textColor }
-        };
-    });
+  const data = useMemo(() => {
+    return text
+      .split('\n')
+      .map(t => t.trim())
+      .filter(t => t.length > 0)
+      .map((option, index) => {
+          const bgColor = MONO_COLORS[index % MONO_COLORS.length];
+          // Calculate contrast text color roughly
+          const textColor = (parseInt(bgColor.replace('#', ''), 16) > 0xaaaaaa) ? '#000000' : '#ffffff';
+          return {
+            option,
+            style: { backgroundColor: bgColor, textColor: textColor }
+          };
+      });
+  }, [text]);
 
   const handleSpinClick = () => {
     if (data.length < 2) {
