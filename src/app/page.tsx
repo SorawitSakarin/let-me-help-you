@@ -63,6 +63,13 @@ export default function Home() {
       icon: 'nes-icon star',
       type: 'is-success'
     },
+    {
+      href: '/binary-translator',
+      title: 'Binary Translator',
+      description: 'Translate text to binary and back instantly.',
+      icon: 'nes-icon coin',
+      type: 'is-primary'
+    },
     // Future tools can be added here
   ];
 
@@ -198,6 +205,14 @@ export default function Home() {
                     <li>Count Words, Characters, Sentences.</li>
                     <li>Estimate reading time.</li>
                     <li>Simple text analysis.</li>
+                </ul>
+            </div>
+            <div>
+                <h4 className="mb-2 underline">Binary Translator</h4>
+                <ul className="nes-list is-disc ml-4">
+                    <li>Text to Binary & Binary to Text.</li>
+                    <li>Real-time bi-directional translation.</li>
+                    <li>Copy results with one click.</li>
                 </ul>
             </div>
         </div>
