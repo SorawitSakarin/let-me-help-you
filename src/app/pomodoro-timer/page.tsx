@@ -5,6 +5,13 @@ import Link from "next/link";
 
 type TimerMode = "work" | "shortBreak" | "longBreak";
 
+// Constants for Audio Alarm
+export const ALARM_FREQUENCY_A4 = 440;
+export const ALARM_FREQUENCY_A5 = 880;
+export const ALARM_NOTE_DURATION = 0.1;
+export const ALARM_SEQUENCE_DURATION = 0.5;
+export const ALARM_GAIN_VALUE = 0.1;
+
 export default function PomodoroTimer() {
   const [mode, setMode] = useState<TimerMode>("work");
   const [timeLeft, setTimeLeft] = useState(25 * 60);
@@ -44,19 +51,19 @@ export default function PomodoroTimer() {
       const gainNode = audioContextRef.current.createGain();
 
       osc.type = 'square';
-      osc.frequency.setValueAtTime(440, audioContextRef.current.currentTime); // A4
-      osc.frequency.setValueAtTime(880, audioContextRef.current.currentTime + 0.1); // A5
-      osc.frequency.setValueAtTime(440, audioContextRef.current.currentTime + 0.2); // A4
-      osc.frequency.setValueAtTime(880, audioContextRef.current.currentTime + 0.3); // A5
+      osc.frequency.setValueAtTime(ALARM_FREQUENCY_A4, audioContextRef.current.currentTime); // A4
+      osc.frequency.setValueAtTime(ALARM_FREQUENCY_A5, audioContextRef.current.currentTime + ALARM_NOTE_DURATION); // A5
+      osc.frequency.setValueAtTime(ALARM_FREQUENCY_A4, audioContextRef.current.currentTime + (ALARM_NOTE_DURATION * 2)); // A4
+      osc.frequency.setValueAtTime(ALARM_FREQUENCY_A5, audioContextRef.current.currentTime + (ALARM_NOTE_DURATION * 3)); // A5
 
-      gainNode.gain.setValueAtTime(0.1, audioContextRef.current.currentTime);
-      gainNode.gain.linearRampToValueAtTime(0, audioContextRef.current.currentTime + 0.5);
+      gainNode.gain.setValueAtTime(ALARM_GAIN_VALUE, audioContextRef.current.currentTime);
+      gainNode.gain.linearRampToValueAtTime(0, audioContextRef.current.currentTime + ALARM_SEQUENCE_DURATION);
 
       osc.connect(gainNode);
       gainNode.connect(audioContextRef.current.destination);
 
       osc.start();
-      osc.stop(audioContextRef.current.currentTime + 0.5);
+      osc.stop(audioContextRef.current.currentTime + ALARM_SEQUENCE_DURATION);
 
       // Loop alarm
       oscillatorRef.current = osc;
