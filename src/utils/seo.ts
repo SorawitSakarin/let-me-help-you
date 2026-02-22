@@ -4,13 +4,23 @@ const DEFAULT_TITLE =
   "Daily Task Tool | Utilities for Everyday Tasks";
 
 const SITE_DESCRIPTION =
-  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, and Text-to-Speech converter.";
+  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, Text-to-Speech converter, Password Generator, Unit Converter, Focus Timer, Word Counter, and Binary Translator.";
 
 const SEO_KEYWORDS = [
   "Daily Task Tool",
   "QR Code Generator",
   "Slot Machine",
   "Text to Speech",
+  "Password Generator",
+  "Unit Converter",
+  "Focus Timer",
+  "Pomodoro Timer",
+  "Word Counter",
+  "Character Counter",
+  "Text Statistics",
+  "Binary Translator",
+  "Binary Converter",
+  "Text to Binary",
   "Utilities",
   "Productivity",
   "Next.js Tools",
@@ -27,7 +37,7 @@ const OG_IMAGE = {
 const ensureLeadingSlash = (path = "/") =>
   path.startsWith("/") ? path : `/${path}`;
 
-const normalizeHost = (host?: string) => {
+export const normalizeHost = (host?: string) => {
   if (!host) return undefined;
   if (host.startsWith("http://") || host.startsWith("https://")) return host;
   return `https://${host}`;

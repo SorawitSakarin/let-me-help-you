@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { QrCode, Dices, Volume2, ArrowRight, CheckCircle, Coffee, Sparkles } from 'lucide-react';
+import { QrCode, Dices, Volume2, ArrowRight, CheckCircle, Coffee, Sparkles, Key, Scale, Coins, Timer, Type, Binary } from 'lucide-react';
 import FloatingElement from '@/components/FloatingElement';
 import Typewriter from '@/components/Typewriter';
 import AnimatedCard from '@/components/AnimatedCard';
@@ -27,6 +27,48 @@ export default function Home() {
       description: 'Convert text to natural-sounding speech with adjustable controls.',
       icon: <Volume2 className="w-8 h-8 text-emerald-500" />,
       tag: 'Utility'
+    },
+    {
+      href: '/password-generator',
+      title: 'Password Generator',
+      description: 'Generate strong, secure passwords with custom settings.',
+      icon: <Key className="w-8 h-8 text-amber-500" />,
+      tag: 'Security'
+    },
+    {
+      href: '/unit-converter',
+      title: 'Unit Converter',
+      description: 'Convert between different units of measurement easily.',
+      icon: <Scale className="w-8 h-8 text-blue-500" />,
+      tag: 'Utility'
+    },
+    {
+      href: '/currency-converter',
+      title: 'Currency Exchange',
+      description: 'Real-time currency conversion for over 150 currencies.',
+      icon: <Coins className="w-8 h-8 text-yellow-600" />,
+      tag: 'Finance'
+    },
+    {
+      href: '/pomodoro-timer',
+      title: 'Focus Timer',
+      description: 'Boost productivity with a customizable Pomodoro timer.',
+      icon: <Timer className="w-8 h-8 text-red-500" />,
+      tag: 'Productivity'
+    },
+    {
+      href: '/word-counter',
+      title: 'Word Counter',
+      description: 'Count words, characters, and sentences in real-time.',
+      icon: <Type className="w-8 h-8 text-purple-500" />,
+      tag: 'Writing'
+    },
+    {
+      href: '/binary-translator',
+      title: 'Binary Translator',
+      description: 'Translate text to binary and vice versa instantly.',
+      icon: <Binary className="w-8 h-8 text-cyan-500" />,
+      tag: 'Dev'
     },
   ];
 

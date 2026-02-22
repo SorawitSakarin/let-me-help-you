@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { ArrowLeft, Dices, Trophy, X } from 'lucide-react';
@@ -18,17 +18,19 @@ export default function RandomSlotPage() {
   const [winner, setWinner] = useState<string | null>(null);
 
   // Convert text to data array
-  const data = text
-    .split('\n')
-    .map(t => t.trim())
-    .filter(t => t.length > 0)
-    .map((option, index) => {
-        const bgColor = WHEEL_COLORS[index % WHEEL_COLORS.length];
-        return {
-          option,
-          style: { backgroundColor: bgColor, textColor: '#ffffff' }
-        };
-    });
+  const data = useMemo(() => {
+    return text
+      .split('\n')
+      .map(t => t.trim())
+      .filter(t => t.length > 0)
+      .map((option, index) => {
+          const bgColor = WHEEL_COLORS[index % WHEEL_COLORS.length];
+          return {
+            option,
+            style: { backgroundColor: bgColor, textColor: '#ffffff' }
+          };
+      });
+  }, [text]);
 
   const handleSpinClick = () => {
     if (data.length < 2) {
