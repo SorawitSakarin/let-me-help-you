@@ -1,0 +1,15 @@
+
+> let-me-help-you@0.1.0 dev
+> next dev
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+
+✓ Starting...
+✓ Ready in 1061ms
+○ Compiling / ...
+ GET / 200 in 5.3s (compile: 4.3s, render: 995ms)
+ GET /qr-code 200 in 1114ms (compile: 963ms, render: 151ms)
+ GET /random-slot 200 in 852ms (compile: 685ms, render: 167ms)
+ GET /text-to-speech 200 in 605ms (compile: 498ms, render: 107ms)

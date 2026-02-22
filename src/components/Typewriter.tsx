@@ -46,10 +46,10 @@ export default function Typewriter({ text, speed = 40, delay = 500 }: Typewriter
   }, []);
 
   return (
-    <span>
+    <span className="font-mono text-gray-800">
       {displayedText}
       <span
-        className={`inline-block w-3 h-5 bg-black align-middle ml-1 transition-opacity duration-100 ${showCursor ? 'opacity-100' : 'opacity-0'}`}
+        className={`inline-block w-[2px] h-5 bg-indigo-600 align-middle ml-[1px] transition-opacity duration-100 ${showCursor ? 'opacity-100' : 'opacity-0'}`}
         aria-hidden="true"
       ></span>
     </span>

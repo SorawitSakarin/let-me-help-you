@@ -1,164 +1,43 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-press-start-2p), "Press Start 2P", cursive;
+  --font-sans: var(--font-inter), "Inter", sans-serif;
 }
 
-:root {
-  --background: #fdfdfd; /* Off-white */
-  --foreground: #212529; /* Dark Gray / Black */
-  --border-color: #212529;
-  --surface: #ffffff;
-}
-
+/* Custom Base Styles */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-press-start-2p), "Press Start 2P", cursive;
-  margin: 0;
-  padding: 0;
-}
-
-/* NES.css Overrides for Monochrome Theme */
-
-/* General Container Styling */
-.nes-container {
-    background-color: var(--surface) !important;
-    border-color: var(--foreground) !important;
-    color: var(--foreground) !important;
-}
-
-.nes-container.is-dark {
-    background-color: var(--foreground) !important;
-    color: var(--background) !important;
-    border-color: var(--foreground) !important;
-}
-
-.nes-container.with-title > .title {
-    background-color: var(--surface) !important;
-    color: var(--foreground) !important;
-}
-
-/* Inputs & Textareas */
-.nes-input, .nes-textarea {
-    border-color: var(--foreground) !important;
-    color: var(--foreground) !important;
-}
-
-.nes-input:focus, .nes-textarea:focus {
-    outline: none;
-    box-shadow: 0 0 5px #808080;
-}
-
-/* Buttons */
-.nes-btn.is-primary {
-    background-color: #209cee; /* Keep NES Primary Blue or change to Gray? Keeping standard NES colors is safer for "gray/white/black theme" implies mainly layout/text, but let's stick to monochrome per request */
-    background-color: var(--foreground) !important;
-    color: var(--background) !important;
-    box-shadow: 0 4px 0 #000 !important;
-}
-.nes-btn.is-primary:hover {
-    background-color: #404040 !important;
-}
-
-.nes-btn.is-success {
-    background-color: #92cc41; /* Keep semantic colors or override? Let's override for strict monochrome */
-    background-color: #808080 !important;
-    color: #fff !important;
-}
-.nes-btn.is-success:hover {
-    background-color: #606060 !important;
-}
-
-.nes-btn.is-error {
-    background-color: #000 !important; /* Make "Spin" button stark black */
-    color: #fff !important;
-}
-
-/* Text Utilities */
-.nes-text.is-primary { color: var(--foreground) !important; }
-.nes-text.is-success { color: #555 !important; }
-.nes-text.is-warning { color: #333 !important; }
-.nes-text.is-error { color: #000 !important; }
-.nes-text.is-disabled { color: #aaa !important; }
-
-/* Links */
-a {
-    color: var(--foreground);
-    text-decoration: underline;
-}
-a:hover {
-    background-color: #eee;
-    text-decoration: none;
-}
-
-/* Dialogs */
-.nes-dialog {
-    background-color: var(--surface) !important;
-    color: var(--foreground) !important;
-    border: 4px solid var(--foreground) !important;
+  @apply bg-gray-50 text-gray-900 font-sans antialiased;
 }
 
 /* Custom Animations */
-
 @keyframes float {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-}
-
-@keyframes wiggle {
-  0%, 100% { transform: rotate(-3deg); }
-  50% { transform: rotate(3deg); }
+  50% { transform: translateY(-6px); }
 }
 
 @keyframes fade-in-up {
-  0% { opacity: 0; transform: translateY(20px); }
+  0% { opacity: 0; transform: translateY(10px); }
   100% { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes spin-slow {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-@keyframes slide-across {
-  0% { left: -150px; }
-  100% { left: 100%; }
 }
 
 .animate-float {
   animation: float 3s ease-in-out infinite;
 }
 
-.animate-wiggle:hover {
-  animation: wiggle 0.5s ease-in-out infinite;
-}
-
 .animate-fade-in-up {
-  animation: fade-in-up 0.8s ease-out forwards;
+  animation: fade-in-up 0.6s ease-out forwards;
 }
 
-.animate-spin-slow {
-  animation: spin-slow 3s linear infinite;
+/* Scrollbar styling for a cleaner look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 }
 
-.animate-slide-across {
-  position: absolute;
-  animation: slide-across 20s linear infinite;
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
 }
 
-/* Pixel Art Cloud */
-.pixel-cloud {
-  width: 64px;
-  height: 24px;
-  background: #e0e0e0;
-  box-shadow:
-    20px -20px 0 0 #e0e0e0,
-    40px -20px 0 0 #e0e0e0,
-    60px 0 0 0 #e0e0e0,
-    20px 20px 0 0 #e0e0e0,
-    40px 20px 0 0 #e0e0e0;
-  position: absolute;
-  z-index: 0;
-  opacity: 0.6;
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full hover:bg-gray-400 transition-colors;
 }

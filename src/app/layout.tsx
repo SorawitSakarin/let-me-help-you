@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { Press_Start_2P } from "next/font/google";
-import "nes.css/css/nes.min.css";
+import { Inter } from "next/font/google";
+import { Sparkles } from "lucide-react";
 import "./globals.css";
 import {
   DEFAULT_TITLE,
@@ -13,10 +13,10 @@ import {
   SITE_NAME
 } from "@/utils/seo";
 
-const pressStart2P = Press_Start_2P({
-  weight: "400",
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-press-start-2p",
+  variable: "--font-inter",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -53,32 +53,42 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${pressStart2P.variable} font-sans antialiased`}>
-        <div className="container mx-auto p-4 min-h-screen flex flex-col">
-          <header className="mb-8 text-center flex flex-col items-center">
-            <h1>
-              <Link href="/" className="nes-text is-primary no-underline hover:underline flex items-center justify-center gap-4">
-                <Image
+      <body className={`${inter.variable} font-sans antialiased bg-gray-50 text-gray-900 flex flex-col min-h-screen`}>
+        <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
+          <div className="container mx-auto px-4 h-16 flex items-center justify-between">
+            <Link href="/" className="flex items-center gap-3 group">
+              <div className="relative w-8 h-8 overflow-hidden rounded-lg shadow-sm group-hover:shadow-md transition-shadow duration-200">
+                 <Image
                   src="/logo.png"
                   alt="Daily Task Tool Logo"
-                  width={48}
-                  height={48}
-                  className="pixelated"
-                  style={{ imageRendering: 'pixelated' }}
+                  width={32}
+                  height={32}
+                  className="object-cover"
                 />
+              </div>
+              <span className="font-bold text-lg tracking-tight text-gray-900 group-hover:text-indigo-600 transition-colors">
                 Daily Task Tool
-              </Link>
-            </h1>
-          </header>
+              </span>
+            </Link>
+            {/* Optional: Add navigation links here if needed later */}
+          </div>
+        </header>
 
-          <main className="flex-grow">
-            {children}
-          </main>
+        <main className="flex-grow container mx-auto px-4 py-8">
+          {children}
+        </main>
 
-          <footer className="mt-12 text-center text-sm nes-text is-disabled">
-            <p><i className="nes-icon star is-small"></i> Powered by Stooop. Made with Next.js</p>
-          </footer>
-        </div>
+        <footer className="border-t border-gray-200 bg-white py-8 mt-auto">
+          <div className="container mx-auto px-4 text-center text-sm text-gray-500">
+            <p className="flex items-center justify-center gap-2 mb-2">
+              <Sparkles className="w-4 h-4 text-amber-400" />
+              <span>Powered by Stooop. Made with Next.js</span>
+            </p>
+            <p className="text-gray-400 text-xs">
+              © {new Date().getFullYear()} Daily Task Tool. All rights reserved.
+            </p>
+          </div>
+        </footer>
       </body>
     </html>
   );
