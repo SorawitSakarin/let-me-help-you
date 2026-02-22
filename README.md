@@ -41,6 +41,12 @@ Analyze text instantly.
 - **Controls**: Copy, Clear.
 - **Theme**: Simple text area with statistics grid.
 
+### 7. Binary Translator
+Convert text to binary and binary to text.
+- **Input**: Bi-directional text and binary fields.
+- **Controls**: Copy Text, Copy Binary, Clear.
+- **Theme**: Split view with 8-bit aesthetic.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -90,6 +96,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/password-generator/page.tsx`: Password Generator tool.
 - `src/app/pomodoro-timer/page.tsx`: Focus Timer tool.
 - `src/app/word-counter/page.tsx`: Word Counter tool.
+- `src/app/binary-translator/page.tsx`: Binary Translator tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 
