@@ -69,6 +69,13 @@ export default function Home() {
       icon: 'nes-icon coin',
       type: 'is-primary'
     },
+    {
+      href: '/lorem-ipsum',
+      title: 'Lorem Ipsum',
+      description: 'Generate custom placeholder text.',
+      icon: 'nes-icon like',
+      type: 'is-primary'
+    },
     // Future tools can be added here
   ];
 
@@ -187,6 +194,14 @@ export default function Home() {
                     <li>Text to Binary & Binary to Text.</li>
                     <li>Real-time bi-directional translation.</li>
                     <li>Copy results with one click.</li>
+                </ul>
+            </div>
+            <div>
+                <h4 className="mb-2 underline">Lorem Ipsum</h4>
+                <ul className="nes-list is-disc ml-4">
+                    <li>Generate Words, Sentences, Paragraphs.</li>
+                    <li>Customizable count.</li>
+                    <li>Instant copy to clipboard.</li>
                 </ul>
             </div>
         </div>
