@@ -4,7 +4,7 @@ const DEFAULT_TITLE =
   "Daily Task Tool | Utilities for Everyday Tasks";
 
 const SITE_DESCRIPTION =
-  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, Text-to-Speech converter, Password Generator, Unit Converter, Focus Timer, Word Counter, and Binary Translator.";
+  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, Text-to-Speech converter, Password Generator, Unit Converter, Focus Timer, Word Counter, Binary Translator, and Base64 Encoder.";
 
 const SEO_KEYWORDS = [
   "Daily Task Tool",
@@ -21,6 +21,9 @@ const SEO_KEYWORDS = [
   "Binary Translator",
   "Binary Converter",
   "Text to Binary",
+  "Base64 Encoder",
+  "Base64 Decoder",
+  "Base64 Converter",
   "Utilities",
   "Productivity",
   "Next.js Tools",
