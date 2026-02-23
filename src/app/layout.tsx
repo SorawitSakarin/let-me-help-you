@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Press_Start_2P } from "next/font/google";
 import "nes.css/css/nes.min.css";
 import "./globals.css";
+import FloatingSupportWidget from "@/components/FloatingSupportWidget";
 import {
   DEFAULT_TITLE,
   SITE_DESCRIPTION,
@@ -54,6 +55,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${pressStart2P.variable} font-sans antialiased`}>
+        {/* Floating Support Widget - Conditionally rendered internally */}
+        <FloatingSupportWidget />
+
         <div className="container mx-auto p-4 min-h-screen flex flex-col max-w-5xl">
           <header className="mb-6 text-center flex flex-col items-center">
             <h1>
@@ -80,15 +84,6 @@ export default function RootLayout({
                 <i className="nes-icon star is-small scale-75"></i>
                 <span>Powered by Stooop. Made with Next.js</span>
             </p>
-            <a
-                href="https://buymeacoffee.com/stooop"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nes-badge is-icon no-underline transform hover:scale-105 transition-transform"
-            >
-                <span className="is-warning"><i className="nes-icon coin is-small scale-75"></i></span>
-                <span className="is-dark text-[10px] px-2">Support / Coffee</span>
-            </a>
           </footer>
         </div>
       </body>
