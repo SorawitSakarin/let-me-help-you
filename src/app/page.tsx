@@ -69,6 +69,13 @@ export default function Home() {
       icon: 'nes-icon coin',
       type: 'is-primary'
     },
+    {
+      href: '/base64-encoder',
+      title: 'Base64 Encoder',
+      description: 'Encode text to Base64 and decode Base64 back to text.',
+      icon: 'nes-icon coin',
+      type: 'is-warning'
+    },
     // Future tools can be added here
   ];
 
@@ -187,6 +194,14 @@ export default function Home() {
                     <li>Text to Binary & Binary to Text.</li>
                     <li>Real-time bi-directional translation.</li>
                     <li>Copy results with one click.</li>
+                </ul>
+            </div>
+            <div>
+                <h4 className="mb-2 underline">Base64 Encoder</h4>
+                <ul className="nes-list is-disc ml-4">
+                    <li>Text to Base64 & Base64 to Text.</li>
+                    <li>Robust UTF-8 character support.</li>
+                    <li>Simple one-click copy.</li>
                 </ul>
             </div>
         </div>

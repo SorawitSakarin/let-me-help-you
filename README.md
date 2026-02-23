@@ -47,6 +47,13 @@ Convert text to binary and binary to text.
 - **Controls**: Copy Text, Copy Binary, Clear.
 - **Theme**: Split view with 8-bit aesthetic.
 
+### 8. Base64 Encoder
+Convert text to Base64 format and vice versa.
+- **Input**: Bi-directional text conversion.
+- **Features**: Robust UTF-8 support (emojis, special characters).
+- **Controls**: Encode, Decode, Copy, Clear.
+- **Theme**: Simple and clean 8-bit interface.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -97,6 +104,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/pomodoro-timer/page.tsx`: Focus Timer tool.
 - `src/app/word-counter/page.tsx`: Word Counter tool.
 - `src/app/binary-translator/page.tsx`: Binary Translator tool.
+- `src/app/base64-encoder/page.tsx`: Base64 Encoder tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 
