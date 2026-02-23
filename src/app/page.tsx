@@ -209,10 +209,10 @@ export default function Home() {
                     <li>Generate Words, Sentences, Paragraphs.</li>
                     <li>Customizable count.</li>
                     <li>Instant copy to clipboard.</li>
-                <h4 className="mb-2 underline">Base64 Encoder</h4>
+                </ul>
             </div>
             <div>
-                <h4 className="mb-2 underline">Base64 Handler</h4>
+                <h4 className="mb-2 underline">Base64 Encoder</h4>
                 <ul className="nes-list is-disc ml-4">
                     <li>Text to Base64 & Base64 to Text.</li>
                     <li>Robust UTF-8 character support.</li>
