@@ -91,6 +91,13 @@ export default function Home() {
       icon: 'nes-icon github',
       type: 'is-error'
     },
+    {
+      href: '/unix-timestamp',
+      title: 'Unix Timestamp',
+      description: 'Convert timestamps to dates and vice versa.',
+      icon: 'nes-icon coin',
+      type: 'is-primary'
+    },
   ];
 
   return (
