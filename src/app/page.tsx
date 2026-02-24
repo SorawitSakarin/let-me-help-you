@@ -11,77 +11,77 @@ export default function Home() {
       href: '/qr-code',
       title: 'QR Generator',
       description: 'Create custom QR codes with icons inside.',
-      icon: 'nes-icon coin',
+      icon: '/icons/qr-code.svg',
       type: 'is-primary'
     },
     {
       href: '/random-slot',
       title: 'Slot Machine',
       description: 'Spin the wheel to pick a random winner.',
-      icon: 'nes-icon trophy',
+      icon: '/icons/slot-machine.svg',
       type: 'is-warning'
     },
     {
       href: '/text-to-speech',
       title: 'Text to Speech',
       description: 'Convert text to audio with custom settings.',
-      icon: 'nes-icon twitch',
+      icon: '/icons/text-to-speech.svg',
       type: 'is-success'
     },
     {
       href: '/password-generator',
       title: 'Password Gen',
       description: 'Generate strong, secure passwords instantly.',
-      icon: 'nes-icon like',
+      icon: '/icons/password-generator.svg',
       type: 'is-error'
     },
     {
       href: '/unit-converter',
       title: 'Unit Converter',
       description: 'Convert Weight, Length, and Temperature.',
-      icon: 'nes-icon star',
+      icon: '/icons/unit-converter.svg',
       type: 'is-warning'
     },
     {
       href: '/currency-converter',
       title: 'Currency Exchange',
       description: 'Real-time rates for 150+ global currencies.',
-      icon: 'nes-icon coin',
+      icon: '/icons/currency-converter.svg',
       type: 'is-warning'
     },
     {
       href: '/pomodoro-timer',
       title: 'Focus Timer',
       description: 'Productivity timer with custom intervals.',
-      icon: 'nes-icon star',
+      icon: '/icons/focus-timer.svg',
       type: 'is-primary'
     },
     {
       href: '/word-counter',
       title: 'Word Counter',
       description: 'Count words, chars, and reading time.',
-      icon: 'nes-icon star',
+      icon: '/icons/word-counter.svg',
       type: 'is-success'
     },
     {
       href: '/binary-translator',
       title: 'Binary Translator',
       description: 'Bi-directional text to binary translation.',
-      icon: 'nes-icon coin',
+      icon: '/icons/binary-translator.svg',
       type: 'is-primary'
     },
     {
       href: '/lorem-ipsum',
       title: 'Lorem Ipsum',
       description: 'Generate placeholder text.',
-      icon: 'nes-icon like',
+      icon: '/icons/lorem-ipsum.svg',
       type: 'is-primary'
     },
     {
       href: '/base64-encoder',
       title: 'Base64 Encoder',
       description: 'Encode and decode Base64 text.',
-      icon: 'nes-icon coin',
+      icon: '/icons/base64-encoder.svg',
       type: 'is-warning'
     },
     {
@@ -95,8 +95,15 @@ export default function Home() {
       href: '/unix-timestamp',
       title: 'Unix Timestamp',
       description: 'Convert timestamps to dates and vice versa.',
-      icon: 'nes-icon coin',
+      icon: '/icons/unix-timestamp.svg',
       type: 'is-primary'
+    },
+    {
+      href: '/hacking-screen',
+      title: 'Hacking Screen',
+      description: 'Simulate a Linux terminal hacking session.',
+      icon: '/icons/hacking-screen.svg',
+      type: 'is-dark'
     },
   ];
 
