@@ -3,6 +3,7 @@ import FloatingElement from '@/components/FloatingElement';
 import Typewriter from '@/components/Typewriter';
 import Decorations from '@/components/Decorations';
 import ToolsGrid from '@/components/ToolsGrid';
+import AboutSection from '@/components/AboutSection';
 
 export default function Home() {
   const tools = [
@@ -16,108 +17,120 @@ export default function Home() {
     {
       href: '/random-slot',
       title: 'Slot Machine',
-      description: 'Spin the wheel to pick a random winner from your list.',
+      description: 'Spin the wheel to pick a random winner.',
       icon: 'nes-icon trophy',
       type: 'is-warning'
     },
     {
       href: '/text-to-speech',
       title: 'Text to Speech',
-      description: 'Convert text to spoken audio with custom speed and pitch.',
-      icon: 'nes-icon twitch', // Best approximation for a "speech/media" icon in nes.css
+      description: 'Convert text to audio with custom settings.',
+      icon: 'nes-icon twitch',
       type: 'is-success'
     },
     {
       href: '/password-generator',
       title: 'Password Gen',
-      description: 'Generate strong, random passwords instantly.',
+      description: 'Generate strong, secure passwords instantly.',
       icon: 'nes-icon like',
       type: 'is-error'
     },
     {
       href: '/unit-converter',
       title: 'Unit Converter',
-      description: 'Convert weight, length, and temperature instantly.',
+      description: 'Convert Weight, Length, and Temperature.',
       icon: 'nes-icon star',
       type: 'is-warning'
     },
     {
       href: '/currency-converter',
       title: 'Currency Exchange',
-      description: 'Convert 150+ currencies with real-time rates.',
+      description: 'Real-time rates for 150+ global currencies.',
       icon: 'nes-icon coin',
       type: 'is-warning'
     },
     {
       href: '/pomodoro-timer',
       title: 'Focus Timer',
-      description: 'Boost productivity with the Pomodoro technique.',
+      description: 'Productivity timer with custom intervals.',
       icon: 'nes-icon star',
       type: 'is-primary'
     },
     {
       href: '/word-counter',
       title: 'Word Counter',
-      description: 'Count words, characters, and reading time instantly.',
+      description: 'Count words, chars, and reading time.',
       icon: 'nes-icon star',
       type: 'is-success'
     },
     {
       href: '/binary-translator',
       title: 'Binary Translator',
-      description: 'Translate text to binary and back instantly.',
+      description: 'Bi-directional text to binary translation.',
       icon: 'nes-icon coin',
       type: 'is-primary'
     },
     {
       href: '/lorem-ipsum',
       title: 'Lorem Ipsum',
-      description: 'Generate custom placeholder text.',
+      description: 'Generate placeholder text.',
       icon: 'nes-icon like',
       type: 'is-primary'
     },
     {
       href: '/base64-encoder',
       title: 'Base64 Encoder',
-      description: 'Encode text to Base64 and decode Base64 back to text.',
+      description: 'Encode and decode Base64 text.',
       icon: 'nes-icon coin',
       type: 'is-warning'
     },
-    // Future tools can be added here
+    {
+      href: '/unix-timestamp',
+      title: 'Unix Timestamp',
+      description: 'Convert timestamps to dates and vice versa.',
+      icon: 'nes-icon coin',
+      type: 'is-primary'
+    },
   ];
 
   return (
-    <div className="flex flex-col gap-12">
+    <div className="flex flex-col gap-6 md:gap-8">
       {/* Hero / Welcome Section */}
-      <section className="nes-container is-dark with-title text-center relative overflow-hidden">
-        <h2 className="title relative z-10">Welcome</h2>
+      <section className="relative overflow-hidden text-center py-6 md:py-8">
 
-        {/* Animated Background Decorations */}
-        <Decorations />
+        {/* Animated Background Decorations - constrained */}
+        <div className="opacity-50 pointer-events-none">
+           <Decorations />
+        </div>
 
-        <div className="flex flex-col items-center gap-4 relative z-10">
-          {/* Larger Logo */}
-          <div className="mb-4">
+        <div className="flex flex-col items-center gap-3 relative z-10">
+          {/* Logo */}
+          <div className="mb-2">
                <FloatingElement>
                    <Image
                       src="/logo.png"
                       alt="Daily Task Tool Logo"
-                      width={128}
-                      height={128}
+                      width={80}
+                      height={80}
                       className="mx-auto"
                       style={{ imageRendering: 'pixelated' }}
                     />
                </FloatingElement>
            </div>
-          <div className="text-lg min-h-[3rem]">
-            <Typewriter text="This website helps you make your daily tasks easier." delay={500} speed={40} />
+
+           {/* Headings */}
+          <div className="min-h-[2.5rem] flex items-center justify-center">
+             <div className="text-sm md:text-base">
+                <Typewriter text="Your pixel-perfect daily companion." delay={500} speed={40} />
+             </div>
           </div>
-          <p className="max-w-2xl">
-            &quot;Daily Task Tool&quot; brings a classic feel to modern utilities.
-            Whether you need to share a link via QR code or make a quick decision, we&apos;ve got you covered.
+
+          <p className="max-w-xl text-xs md:text-sm text-gray-600">
+            Modern utilities with a retro soul. Fast, free, and fun.
           </p>
-          <div className="mt-4">
-             <i className="nes-icon heart is-large animate-bounce"></i>
+
+          <div className="mt-2">
+             <i className="nes-icon heart is-medium animate-bounce"></i>
           </div>
         </div>
       </section>
@@ -127,111 +140,18 @@ export default function Home() {
         <ToolsGrid initialTools={tools} />
       </section>
 
-      {/* How to Use / About Section */}
-      <section className="nes-container with-title">
-        <h3 className="title">About & Usage</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div>
-                <h4 className="mb-2 underline">QR Generator</h4>
-                <ul className="nes-list is-disc ml-4">
-                    <li>Enter any text or URL.</li>
-                    <li>Upload a custom icon (optional).</li>
-                    <li>Download your unique QR code instantly.</li>
-                </ul>
-            </div>
-            <div>
-                <h4 className="mb-2 underline">Slot Machine</h4>
-                <ul className="nes-list is-disc ml-4">
-                    <li>Enter a list of options (one per line).</li>
-                    <li>Spin the wheel to pick a random winner.</li>
-                    <li>Perfect for decisions, raffles, or games!</li>
-                </ul>
-            </div>
-            <div>
-                <h4 className="mb-2 underline">Text to Speech</h4>
-                <ul className="nes-list is-disc ml-4">
-                    <li>Type English text in the box.</li>
-                    <li>Adjust speed, pitch, and volume.</li>
-                    <li>Listen instantly.</li>
-                </ul>
-            </div>
-            <div>
-                <h4 className="mb-2 underline">Password Gen</h4>
-                <ul className="nes-list is-disc ml-4">
-                    <li>Set password length (8-32).</li>
-                    <li>Toggle Uppercase, Numbers, Symbols.</li>
-                    <li>One-click generate & copy.</li>
-                </ul>
-            </div>
-            <div>
-                <h4 className="mb-2 underline">Unit Converter</h4>
-                <ul className="nes-list is-disc ml-4">
-                    <li>Convert Weight, Length, Temperature.</li>
-                    <li>Real-time bi-directional updates.</li>
-                    <li>Swap units with one click.</li>
-                </ul>
-            </div>
-            <div>
-                <h4 className="mb-2 underline">Currency Exchange</h4>
-                <ul className="nes-list is-disc ml-4">
-                    <li>Convert 150+ global currencies.</li>
-                    <li>Real-time exchange rates.</li>
-                    <li>Searchable list with flags.</li>
-                </ul>
-            </div>
-            <div>
-                <h4 className="mb-2 underline">Focus Timer</h4>
-                <ul className="nes-list is-disc ml-4">
-                    <li>25m Work / 5m Break intervals.</li>
-                    <li>Customizable timer settings.</li>
-                    <li>Track your focus sessions.</li>
-                </ul>
-            </div>
-            <div>
-                <h4 className="mb-2 underline">Word Counter</h4>
-                <ul className="nes-list is-disc ml-4">
-                    <li>Count Words, Characters, Sentences.</li>
-                    <li>Estimate reading time.</li>
-                    <li>Simple text analysis.</li>
-                </ul>
-            </div>
-            <div>
-                <h4 className="mb-2 underline">Binary Translator</h4>
-                <ul className="nes-list is-disc ml-4">
-                    <li>Text to Binary & Binary to Text.</li>
-                    <li>Real-time bi-directional translation.</li>
-                    <li>Copy results with one click.</li>
-                </ul>
-            </div>
-            <div>
-                <h4 className="mb-2 underline">Lorem Ipsum</h4>
-                <ul className="nes-list is-disc ml-4">
-                    <li>Generate Words, Sentences, Paragraphs.</li>
-                    <li>Customizable count.</li>
-                    <li>Instant copy to clipboard.</li>
-                </ul>
-            </div>
-            <div>
-                <h4 className="mb-2 underline">Base64 Encoder</h4>
-                <ul className="nes-list is-disc ml-4">
-                    <li>Text to Base64 & Base64 to Text.</li>
-                    <li>Robust UTF-8 character support.</li>
-                    <li>Simple one-click copy.</li>
-                </ul>
-            </div>
-        </div>
-        <div className="mt-8 text-center text-sm border-t-4 border-dashed border-gray-400 pt-4">
-            <p>Built with Next.js 16, Tailwind CSS, and Nes.css.</p>
-        </div>
-      </section>
+      {/* About Section - Collapsible */}
+      <AboutSection />
 
       {/* Donation Section */}
-      <section className="nes-container with-title is-centered">
-        <h3 className="title">Support</h3>
-        <p className="mb-6">If you find these tools useful, consider buying me a coffee.</p>
-        <a href="https://buymeacoffee.com/stooop" target="_blank" rel="noopener noreferrer" className="nes-btn is-warning animate-wiggle">
-          <i className="nes-icon coin is-small animate-spin-slow"></i> Buy me a coffee
-        </a>
+      <section className="nes-container with-title is-centered is-rounded" style={{ padding: '1.5rem' }}>
+        <h3 className="title text-base" style={{ background: 'var(--surface)', marginBottom: '0' }}>Support</h3>
+        <div className="flex flex-col items-center gap-4 mt-2">
+            <p className="text-xs md:text-sm">Enjoying the tools? Consider buying me a coffee!</p>
+            <a href="https://buymeacoffee.com/stooop" target="_blank" rel="noopener noreferrer" className="nes-btn is-warning text-sm px-4 py-2 animate-wiggle flex items-center gap-2">
+            <i className="nes-icon coin is-small animate-spin-slow"></i> Buy me a coffee
+            </a>
+        </div>
       </section>
     </div>
   );
