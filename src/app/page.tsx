@@ -84,6 +84,13 @@ export default function Home() {
       icon: 'nes-icon coin',
       type: 'is-warning'
     },
+    {
+      href: '/hacking-screen',
+      title: 'Hacker Screen',
+      description: 'Simulate a Hollywood-style hacking terminal.',
+      icon: 'nes-icon github',
+      type: 'is-error'
+    },
   ];
 
   return (
