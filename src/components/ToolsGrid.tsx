@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import AnimatedCard from '@/components/AnimatedCard';
 
 interface Tool {
@@ -82,7 +83,15 @@ export default function ToolsGrid({ initialTools }: ToolsGridProps) {
                 <div className={`nes-container with-title is-rounded transition-all cursor-pointer h-full flex flex-col group-hover:bg-gray-100 transform group-hover:-translate-y-1 transition-transform duration-200`} style={{ padding: '1rem' }}>
                   <h3 className="title text-sm" style={{ background: 'var(--surface)', marginBottom: '0' }}>{tool.title}</h3>
                   <div className="flex flex-col items-center text-center flex-grow mt-2">
-                    <i className={`${tool.icon} is-medium mb-4 mt-2 transition-transform group-hover:scale-110`}></i>
+                    <div className="mb-4 mt-2 transition-transform group-hover:scale-110">
+                      <Image
+                        src={tool.icon}
+                        alt={`${tool.title} icon`}
+                        width={64}
+                        height={64}
+                        style={{ imageRendering: 'pixelated' }}
+                      />
+                    </div>
                     <p className="mb-4 flex-grow text-xs leading-relaxed">{tool.description}</p>
                     <button type="button" className={`nes-btn ${tool.type} w-full`} style={{ fontSize: '0.75rem', padding: '0.25rem' }}>
                       Open
