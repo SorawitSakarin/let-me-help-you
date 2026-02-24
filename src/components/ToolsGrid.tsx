@@ -54,7 +54,7 @@ export default function ToolsGrid({ initialTools }: ToolsGridProps) {
             <div className="flex-grow">
               <input
                 type="text"
-                className="nes-input is-dark"
+                className="nes-input"
                 style={{ height: '2.5rem', minHeight: '2.5rem', padding: '0.25rem 0.5rem', fontSize: '0.875rem' }}
                 placeholder="Search tools..."
                 value={searchQuery}
