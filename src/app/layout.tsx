@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Press_Start_2P } from "next/font/google";
 import "nes.css/css/nes.min.css";
 import "./globals.css";
+import FloatingSupportWidget from "@/components/FloatingSupportWidget";
 import {
   DEFAULT_TITLE,
   SITE_DESCRIPTION,
@@ -54,15 +55,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${pressStart2P.variable} font-sans antialiased`}>
-        <div className="container mx-auto p-4 min-h-screen flex flex-col">
-          <header className="mb-8 text-center flex flex-col items-center">
+        {/* Floating Support Widget - Conditionally rendered internally */}
+        <FloatingSupportWidget />
+
+        <div className="container mx-auto p-4 min-h-screen flex flex-col max-w-5xl">
+          <header className="mb-6 text-center flex flex-col items-center">
             <h1>
-              <Link href="/" className="nes-text is-primary no-underline hover:underline flex items-center justify-center gap-4">
+              <Link href="/" className="nes-text is-primary no-underline hover:underline flex items-center justify-center gap-3 text-lg md:text-2xl">
                 <Image
                   src="/logo.png"
                   alt="Daily Task Tool Logo"
-                  width={48}
-                  height={48}
+                  width={32}
+                  height={32}
                   className="pixelated"
                   style={{ imageRendering: 'pixelated' }}
                 />
@@ -75,8 +79,11 @@ export default function RootLayout({
             {children}
           </main>
 
-          <footer className="mt-12 text-center text-sm nes-text is-disabled">
-            <p><i className="nes-icon star is-small"></i> Powered by Stooop. Made with Next.js</p>
+          <footer className="mt-8 py-6 text-center text-xs text-gray-500 border-t border-gray-200 flex flex-col items-center gap-3">
+            <p className="flex items-center gap-2 justify-center">
+                <i className="nes-icon star is-small scale-75"></i>
+                <span>Powered by Stooop. Made with Next.js</span>
+            </p>
           </footer>
         </div>
       </body>
