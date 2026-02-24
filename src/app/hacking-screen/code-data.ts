@@ -1,4 +1,23 @@
 export const KERNEL_CODE = `
+  #################################
+  ##   YOUR COMPUTER IS MINE!    ##
+  #################################
+         _._     _,-'""\`-.
+        (,-.\`._,'(       |\\\`-/|
+            \`-.-' \\ )-'( , o o)
+                  \`-    \\\`_ \`"'-
+
+  [SYSTEM] INITIALIZING ROOT ACCESS...
+  [SYSTEM] BYPASSING FIREWALL (PORT 8080)... [SUCCESS]
+  [SYSTEM] INJECTING PAYLOAD...
+  [SYSTEM] CRACKING ENCRYPTION KEYS...
+  [SYSTEM] DOWNLOADING PRIVATE DATA...
+  [SYSTEM] ACCESS GRANTED. WELCOME, ADMIN.
+
+  --------------------------------------------------
+  STARTING KERNEL DUMP...
+  --------------------------------------------------
+
 /*
  *  linux/kernel/fork.c
  *

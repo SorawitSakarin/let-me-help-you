@@ -5,9 +5,20 @@ import Link from 'next/link';
 import { KERNEL_CODE } from './code-data';
 
 export default function HackingScreen() {
+  // Find a good stopping point after the header (approx 500 chars for safety, or search for the separator line)
+  // We'll hardcode a safe guess or dynamically find the end of the ASCII art if needed.
+  // The header is roughly 600 chars. Let's start at 0 but immediately set it on mount to avoid hydration mismatch if we used logic here.
   const [displayedIndex, setDisplayedIndex] = useState(0);
   const [isAutoHacking, setIsAutoHacking] = useState(false);
   const [showFooter, setShowFooter] = useState(false);
+
+  // Initialize with header visible
+  useEffect(() => {
+    // Find index of the first real code block after the header (after the separator line)
+    // The separator is "--------------------------------------------------"
+    const headerEndIndex = KERNEL_CODE.indexOf("STARTING KERNEL DUMP...") + "STARTING KERNEL DUMP...".length + 60; // Approximate buffer
+    setDisplayedIndex(headerEndIndex > 0 ? headerEndIndex : 600);
+  }, []);
   const bottomRef = useRef<HTMLDivElement>(null);
   const footerTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
