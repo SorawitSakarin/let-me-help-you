@@ -85,6 +85,13 @@ export default function Home() {
       type: 'is-warning'
     },
     {
+      href: '/hacking-screen',
+      title: 'Hacker Screen',
+      description: 'Simulate a Hollywood-style hacking terminal.',
+      icon: 'nes-icon github',
+      type: 'is-error'
+    },
+    {
       href: '/unix-timestamp',
       title: 'Unix Timestamp',
       description: 'Convert timestamps to dates and vice versa.',
