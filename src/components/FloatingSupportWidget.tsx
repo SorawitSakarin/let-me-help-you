@@ -16,12 +16,40 @@ export default function FloatingSupportWidget() {
       href="https://buymeacoffee.com/stooop"
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50 flex flex-col items-center bg-yellow-400 border-l-4 border-t-4 border-b-4 border-black p-2 shadow-lg hover:bg-yellow-300 transition-colors group"
-      style={{ borderTopLeftRadius: '8px', borderBottomLeftRadius: '8px' }}
+      className="
+        fixed z-50
+        flex items-center
+        bg-yellow-400 border-black shadow-lg
+        hover:bg-yellow-300 transition-colors group
+
+        /* Mobile: Bottom Right, Button Style */
+        bottom-6 right-6
+        flex-row gap-2
+        border-4 rounded-lg
+        p-3
+
+        /* Desktop: Middle Right, Tab Style */
+        md:bottom-auto md:top-1/2 md:right-0
+        md:-translate-y-1/2
+        md:flex-col md:gap-1
+        md:rounded-none md:rounded-l-lg
+        md:border-r-0 md:border-l-4 md:border-t-4 md:border-b-4
+        md:p-2
+      "
       aria-label="Support me by buying a coffee"
     >
-      <i className="nes-icon coin is-small mb-1 group-hover:animate-spin"></i>
-      <span className="text-[10px] font-bold text-black writing-vertical-rl transform rotate-180 uppercase tracking-widest" style={{ writingMode: 'vertical-rl' }}>
+      <i className="nes-icon coin is-small group-hover:animate-spin"></i>
+
+      {/* Mobile Text: Horizontal */}
+      <span className="text-xs font-bold text-black uppercase tracking-widest md:hidden">
+        Support
+      </span>
+
+      {/* Desktop Text: Vertical */}
+      <span
+        className="hidden md:block text-[10px] font-bold text-black uppercase tracking-widest writing-vertical-rl transform rotate-180"
+        style={{ writingMode: 'vertical-rl' }}
+      >
         Support
       </span>
     </a>
