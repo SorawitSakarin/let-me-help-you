@@ -67,6 +67,12 @@ Convert Unix timestamps to dates and vice versa.
 - **Controls**: Convert, Copy, Clear.
 - **Theme**: 8-bit layout with clear inputs.
 
+### 11. Keycode Info
+Visualize keyboard events and codes.
+- **Input**: Press any key.
+- **Output**: Key, Code, KeyCode, Which, Modifiers.
+- **Theme**: Large visual display with detail grid.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -120,6 +126,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/lorem-ipsum/page.tsx`: Lorem Ipsum Generator tool.
 - `src/app/base64-encoder/page.tsx`: Base64 Encoder tool.
 - `src/app/unix-timestamp/page.tsx`: Unix Timestamp Converter tool.
+- `src/app/keycode-info/page.tsx`: Keycode Info tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 

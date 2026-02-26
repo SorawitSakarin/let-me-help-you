@@ -98,6 +98,13 @@ export default function Home() {
       icon: 'nes-icon coin',
       type: 'is-primary'
     },
+    {
+      href: '/keycode-info',
+      title: 'Keycode Info',
+      description: 'Visualize keyboard events and codes.',
+      icon: 'nes-icon twitch',
+      type: 'is-primary'
+    },
   ];
 
   return (
