@@ -8,105 +8,105 @@ import AboutSection from '@/components/AboutSection';
 export default function Home() {
   const tools = [
     {
-      href: '/qr-code',
+      href: '/create-qr-code',
       title: 'QR Generator',
       description: 'Create custom QR codes with icons inside.',
       icon: 'nes-icon coin',
       type: 'is-primary'
     },
     {
-      href: '/random-slot',
+      href: '/pick-a-random-option',
       title: 'Slot Machine',
       description: 'Spin the wheel to pick a random winner.',
       icon: 'nes-icon trophy',
       type: 'is-warning'
     },
     {
-      href: '/text-to-speech',
+      href: '/convert-text-to-speech',
       title: 'Text to Speech',
       description: 'Convert text to audio with custom settings.',
       icon: 'nes-icon twitch',
       type: 'is-success'
     },
     {
-      href: '/password-generator',
+      href: '/generate-password',
       title: 'Password Gen',
       description: 'Generate strong, secure passwords instantly.',
       icon: 'nes-icon like',
       type: 'is-error'
     },
     {
-      href: '/unit-converter',
+      href: '/convert-units',
       title: 'Unit Converter',
       description: 'Convert Weight, Length, and Temperature.',
       icon: 'nes-icon star',
       type: 'is-warning'
     },
     {
-      href: '/currency-converter',
+      href: '/convert-currency',
       title: 'Currency Exchange',
       description: 'Real-time rates for 150+ global currencies.',
       icon: 'nes-icon coin',
       type: 'is-warning'
     },
     {
-      href: '/pomodoro-timer',
+      href: '/start-pomodoro-timer',
       title: 'Focus Timer',
       description: 'Productivity timer with custom intervals.',
       icon: 'nes-icon star',
       type: 'is-primary'
     },
     {
-      href: '/word-counter',
+      href: '/count-words',
       title: 'Word Counter',
       description: 'Count words, chars, and reading time.',
       icon: 'nes-icon star',
       type: 'is-success'
     },
     {
-      href: '/binary-translator',
+      href: '/translate-binary',
       title: 'Binary Translator',
       description: 'Bi-directional text to binary translation.',
       icon: 'nes-icon coin',
       type: 'is-primary'
     },
     {
-      href: '/lorem-ipsum',
+      href: '/generate-lorem-ipsum',
       title: 'Lorem Ipsum',
       description: 'Generate placeholder text.',
       icon: 'nes-icon like',
       type: 'is-primary'
     },
     {
-      href: '/base64-encoder',
+      href: '/encode-base64',
       title: 'Base64 Encoder',
       description: 'Encode and decode Base64 text.',
       icon: 'nes-icon coin',
       type: 'is-warning'
     },
     {
-      href: '/hacking-screen',
+      href: '/simulate-hacking',
       title: 'Hacker Screen',
       description: 'Simulate a Hollywood-style hacking terminal.',
       icon: 'nes-icon github',
       type: 'is-error'
     },
     {
-      href: '/unix-timestamp',
+      href: '/convert-unix-timestamp',
       title: 'Unix Timestamp',
       description: 'Convert timestamps to dates and vice versa.',
       icon: 'nes-icon coin',
       type: 'is-primary'
     },
     {
-      href: '/keycode-info',
+      href: '/check-keycodes',
       title: 'Keycode Info',
       description: 'Visualize keyboard events and codes.',
       icon: 'nes-icon twitch',
       type: 'is-primary'
     },
     {
-      href: '/json-formatter',
+      href: '/format-json',
       title: 'JSON Formatter',
       description: 'Validate, format, and minify JSON data.',
       icon: 'nes-icon coin',

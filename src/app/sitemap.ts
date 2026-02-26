@@ -12,19 +12,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/qr-code`,
+      url: `${baseUrl}/create-qr-code`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/random-slot`,
+      url: `${baseUrl}/pick-a-random-option`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/text-to-speech`,
+      url: `${baseUrl}/convert-text-to-speech`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
