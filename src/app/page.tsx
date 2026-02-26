@@ -99,6 +99,13 @@ export default function Home() {
       type: 'is-primary'
     },
     {
+      href: '/keycode-info',
+      title: 'Keycode Info',
+      description: 'Visualize keyboard events and codes.',
+      icon: 'nes-icon twitch',
+      type: 'is-primary'
+    },
+    {
       href: '/json-formatter',
       title: 'JSON Formatter',
       description: 'Validate, format, and minify JSON data.',
