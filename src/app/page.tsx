@@ -85,11 +85,32 @@ export default function Home() {
       type: 'is-warning'
     },
     {
+      href: '/hacking-screen',
+      title: 'Hacker Screen',
+      description: 'Simulate a Hollywood-style hacking terminal.',
+      icon: 'nes-icon github',
+      type: 'is-error'
+    },
+    {
       href: '/unix-timestamp',
       title: 'Unix Timestamp',
       description: 'Convert timestamps to dates and vice versa.',
       icon: 'nes-icon coin',
       type: 'is-primary'
+    },
+    {
+      href: '/keycode-info',
+      title: 'Keycode Info',
+      description: 'Visualize keyboard events and codes.',
+      icon: 'nes-icon twitch',
+      type: 'is-primary'
+    },
+    {
+      href: '/json-formatter',
+      title: 'JSON Formatter',
+      description: 'Validate, format, and minify JSON data.',
+      icon: 'nes-icon coin',
+      type: 'is-success'
     },
   ];
 
