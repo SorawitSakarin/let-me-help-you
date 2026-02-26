@@ -105,6 +105,13 @@ export default function Home() {
       icon: 'nes-icon twitch',
       type: 'is-primary'
     },
+    {
+      href: '/json-formatter',
+      title: 'JSON Formatter',
+      description: 'Validate, format, and minify JSON data.',
+      icon: 'nes-icon coin',
+      type: 'is-success'
+    },
   ];
 
   return (

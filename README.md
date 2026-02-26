@@ -73,6 +73,13 @@ Visualize keyboard events and codes.
 - **Output**: Key, Code, KeyCode, Which, Modifiers.
 - **Theme**: Large visual display with detail grid.
 
+### 12. JSON Formatter
+Validate, format, and minify JSON data.
+- **Input**: JSON text.
+- **Features**: Format (Pretty Print), Minify, Validation.
+- **Controls**: Format, Minify, Clear, Copy.
+- **Theme**: Dual-pane editor.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -127,6 +134,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/base64-encoder/page.tsx`: Base64 Encoder tool.
 - `src/app/unix-timestamp/page.tsx`: Unix Timestamp Converter tool.
 - `src/app/keycode-info/page.tsx`: Keycode Info tool.
+- `src/app/json-formatter/page.tsx`: JSON Formatter tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 
