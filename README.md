@@ -80,6 +80,12 @@ Validate, format, and minify JSON data.
 - **Controls**: Format, Minify, Clear, Copy.
 - **Theme**: Dual-pane editor.
 
+### 13. UUID Generator
+Generate random version 4 UUIDs.
+- **Input**: Quantity selection (1-50).
+- **Controls**: Generate, Copy All, Clear.
+- **Theme**: Simple list with individual copy buttons.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -135,6 +141,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/unix-timestamp/page.tsx`: Unix Timestamp Converter tool.
 - `src/app/keycode-info/page.tsx`: Keycode Info tool.
 - `src/app/json-formatter/page.tsx`: JSON Formatter tool.
+- `src/app/generate-uuid/page.tsx`: UUID Generator tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 
