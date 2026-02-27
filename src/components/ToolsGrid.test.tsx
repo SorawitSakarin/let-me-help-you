@@ -5,21 +5,21 @@ import ToolsGrid from './ToolsGrid';
 // Mock Tools Data
 const mockTools = [
   {
-    href: '/qr-code',
+    href: '/create-qr-code',
     title: 'QR Generator',
     description: 'Create custom QR codes.',
     icon: 'nes-icon coin',
     type: 'is-primary',
   },
   {
-    href: '/word-counter',
+    href: '/count-words',
     title: 'Word Counter',
     description: 'Count words and chars.',
     icon: 'nes-icon star',
     type: 'is-success',
   },
   {
-    href: '/random-slot',
+    href: '/pick-a-random-option',
     title: 'Slot Machine',
     description: 'Spin the wheel.',
     icon: 'nes-icon trophy',
