@@ -32,47 +32,54 @@ export default async function KnowledgeTopicPage({ params }: Props) {
   }
 
   return (
-    <div className="max-w-4xl mx-auto flex flex-col gap-6 md:gap-8">
-      {/* Header */}
-      <section className="text-center py-4">
-        <h1 className="text-xl md:text-2xl mb-4 text-black">
-          {topic.title}
-        </h1>
-        <div className="flex flex-wrap items-center justify-center gap-4 text-xs">
-          <span className="nes-badge">
-            <span className="is-primary" style={{ fontSize: '0.65rem', padding: '0.25rem 0.5rem' }}>{topic.category}</span>
-          </span>
-          <span className="text-gray-500"><i className="nes-icon is-small clock mr-2"></i>{topic.date}</span>
-        </div>
-      </section>
+    <div className="max-w-3xl mx-auto py-10 px-4 sm:px-6 lg:px-8 font-sans" style={{ fontFamily: 'ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"' }}>
+      <article className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+        {/* Header */}
+        <header className="bg-gray-50 border-b border-gray-100 px-6 py-8 sm:px-10 sm:py-10 text-center">
+          <div className="flex justify-center items-center gap-2 mb-4">
+             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase bg-blue-100 text-blue-800">
+               {topic.category}
+             </span>
+             <span className="text-sm text-gray-500 flex items-center gap-1">
+               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+               {topic.date}
+             </span>
+          </div>
+          <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight leading-tight">
+            {topic.title}
+          </h1>
+        </header>
 
-      {/* Content */}
-      <section className="nes-container is-rounded flex flex-col gap-6" style={{ padding: '2rem 1.5rem', background: '#fff' }}>
-        {topic.content.map((paragraph, index) => (
-          <p key={index} className="text-sm md:text-base leading-relaxed text-gray-800">
-            {paragraph}
-          </p>
-        ))}
+        {/* Content */}
+        <div className="px-6 py-8 sm:px-10 sm:py-10 flex flex-col gap-6 text-gray-800">
+          {topic.content.map((paragraph, index) => (
+            <p key={index} className="text-lg leading-relaxed">
+              {paragraph}
+            </p>
+          ))}
 
-        <div className="mt-8 pt-6 border-t border-dashed border-gray-300">
-          <h3 className="text-xs md:text-sm mb-2 text-gray-500 uppercase tracking-widest">Reference</h3>
-          <a
-            href={topic.reference}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs md:text-sm text-blue-600 hover:text-blue-800 break-all inline-flex items-center gap-2 transition-colors"
-          >
-            {topic.reference}
-          </a>
+          <div className="mt-8 pt-8 border-t border-gray-200">
+            <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-3">Reference & Further Reading</h3>
+            <a
+              href={topic.reference}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors break-all"
+            >
+              <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+              <span className="underline decoration-blue-200 underline-offset-2">{topic.reference}</span>
+            </a>
+          </div>
         </div>
-      </section>
+      </article>
 
       {/* Navigation */}
-      <section className="mt-8 text-center flex justify-center gap-4">
-        <Link href="/share-daily-knowledge" className="nes-btn">
+      <div className="mt-10 text-center">
+        <Link href="/share-daily-knowledge" className="inline-flex items-center gap-2 px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium rounded-lg transition-colors">
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
           Back to Knowledge Base
         </Link>
-      </section>
+      </div>
     </div>
   );
 }
