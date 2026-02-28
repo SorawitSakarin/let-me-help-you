@@ -112,6 +112,13 @@ export default function Home() {
       icon: 'nes-icon coin',
       type: 'is-success'
     },
+    {
+      href: '/generate-uuid',
+      title: 'UUID Generator',
+      description: 'Generate random UUIDs (v4).',
+      icon: 'nes-icon star',
+      type: 'is-primary'
+    },
   ];
 
   return (
