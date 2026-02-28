@@ -119,6 +119,13 @@ export default function Home() {
       icon: 'nes-icon star',
       type: 'is-primary'
     },
+    {
+      href: '/encode-url',
+      title: 'URL Encoder',
+      description: 'Safely encode and decode URLs.',
+      icon: 'nes-icon coin',
+      type: 'is-success'
+    },
   ];
 
   return (
