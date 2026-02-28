@@ -7,6 +7,14 @@ import AboutSection from '@/components/AboutSection';
 
 export default function Home() {
   const tools = [
+
+    {
+      href: '/share-daily-knowledge',
+      title: 'Knowledge Sharing',
+      description: 'Learn something new and interesting every day.',
+      icon: 'nes-icon star',
+      type: 'is-warning'
+    },
     {
       href: '/create-qr-code',
       title: 'QR Generator',
