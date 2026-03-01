@@ -98,7 +98,7 @@ export default function ToolsGrid({ initialTools }: ToolsGridProps) {
               <div className="flex flex-col gap-2">
                 {searchResults.map((tool, index) => (
                   <AnimatedCard key={tool.href} delay={index * 0.05}>
-                    <Link href={tool.href} className="no-underline block">
+                    <Link href={tool.href} target="_blank" rel="noopener noreferrer" className="no-underline block">
                       <div className="nes-container is-rounded py-2 px-4 hover:bg-gray-100 transition-colors cursor-pointer flex items-center">
                         <span className="text-sm font-bold">{tool.title}</span>
                       </div>
@@ -125,7 +125,7 @@ export default function ToolsGrid({ initialTools }: ToolsGridProps) {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {tools.map((tool, index) => (
                 <AnimatedCard key={tool.href} delay={index * 0.1} className="h-full">
-                  <Link href={tool.href} className="no-underline block h-full group">
+                  <Link href={tool.href} target="_blank" rel="noopener noreferrer" className="no-underline block h-full group">
                     <div className="nes-container with-title is-rounded transition-all cursor-pointer h-full flex flex-col group-hover:bg-gray-100 transform group-hover:-translate-y-1 duration-200" style={{ padding: '1rem' }}>
                       <h3 className="title text-sm" style={{ background: 'var(--surface)', marginBottom: '0' }}>{tool.title}</h3>
                       <div className="flex flex-col items-center text-center flex-grow mt-2">
