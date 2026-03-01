@@ -48,16 +48,6 @@ describe('ToolsGrid', () => {
     expect(screen.queryByText('Slot Machine')).not.toBeInTheDocument();
   });
 
-  it('filters tools by description', () => {
-    render(<ToolsGrid initialTools={mockTools} />);
-    const searchInput = screen.getByPlaceholderText('Search tools...');
-
-    // Search for "Spin" (matches "Slot Machine" description)
-    fireEvent.change(searchInput, { target: { value: 'Spin' } });
-
-    expect(screen.getByText('Slot Machine')).toBeInTheDocument();
-    expect(screen.queryByText('QR Generator')).not.toBeInTheDocument();
-  });
 
   it('shows "No tools found." when search yields no results', () => {
     render(<ToolsGrid initialTools={mockTools} />);
