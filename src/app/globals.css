@@ -162,3 +162,16 @@ a:hover {
   z-index: 0;
   opacity: 0.6;
 }
+
+/* Override NES.css Custom Cursors */
+html, body, .nes-container, .nes-input, .nes-textarea {
+  cursor: auto !important;
+}
+
+a, button, .nes-btn, label, input[type="radio"], input[type="checkbox"], select, .cursor-pointer {
+  cursor: pointer !important;
+}
+
+.nes-btn.is-disabled, button:disabled {
+  cursor: not-allowed !important;
+}
