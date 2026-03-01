@@ -128,6 +128,13 @@ export default function Home() {
       icon: 'nes-icon coin',
       type: 'is-success'
     },
+    {
+      href: '/convert-text-case',
+      title: 'Text Case Converter',
+      description: 'Convert text to UPPERCASE, lowercase, camelCase, and more.',
+      icon: 'nes-icon star',
+      type: 'is-primary'
+    },
   ];
 
   return (
