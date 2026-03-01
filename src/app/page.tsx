@@ -5,8 +5,13 @@ import Typewriter from '@/components/Typewriter';
 import Decorations from '@/components/Decorations';
 import ToolsGrid from '@/components/ToolsGrid';
 import AboutSection from '@/components/AboutSection';
+import { knowledgeData } from '@/data/knowledge';
 
 export default function Home() {
+  // Sort knowledge data by date descending and get the latest one
+  const sortedKnowledge = [...knowledgeData].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  const latestKnowledge = sortedKnowledge[0];
+
   const tools = [
 
     {
@@ -177,12 +182,24 @@ export default function Home() {
       <section className="nes-container with-title is-rounded" style={{ padding: '1.5rem', marginBottom: '1rem' }}>
          <h3 className="title text-base" style={{ background: 'var(--surface)', marginBottom: '0' }}>Daily Knowledge</h3>
          <div className="flex flex-col md:flex-row items-center justify-between gap-4 mt-2">
-            <div>
+            <div className="flex-1">
                <p className="text-sm mb-2">Learn something new and interesting every day.</p>
+               {latestKnowledge && (
+                 <p className="text-xs text-gray-500 truncate" style={{ maxWidth: '100%' }}>
+                    <span className="text-blue-500 font-bold">Today:</span> {latestKnowledge.title}
+                 </p>
+               )}
             </div>
-            <Link href="/share-daily-knowledge" className="nes-btn is-primary shrink-0 text-sm">
-               Explore Topics
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-2 shrink-0">
+                {latestKnowledge && (
+                   <Link href={`/share-daily-knowledge/${latestKnowledge.id}`} className="nes-btn is-success text-sm text-center">
+                     Read Today&apos;s
+                   </Link>
+                )}
+                <Link href="/share-daily-knowledge" className="nes-btn is-primary text-sm text-center">
+                   Explore Topics
+                </Link>
+            </div>
          </div>
       </section>
 

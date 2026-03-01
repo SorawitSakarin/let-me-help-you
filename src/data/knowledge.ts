@@ -43,5 +43,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Because scholars could still read Ancient Greek, they were able to use it as a key to figure out what the hieroglyphs meant. This breakthrough finally allowed historians to understand the language and history of ancient Egypt!"
     ],
     reference: "https://www.britishmuseum.org/about-us/british-museum-story/objects-unlock-history/rosetta-stone"
+  },
+  {
+    id: "the-mantis-shrimp",
+    date: "2026-03-01",
+    title: "The Mantis Shrimp: A Tiny Underwater Boxer",
+    category: "Biology",
+    content: [
+      "The mantis shrimp is a small, incredibly colorful crustacean found in shallow tropical waters. But don't let its size fool you—it is one of the ocean's most formidable predators.",
+      "What makes the mantis shrimp so special is its 'punch'. Its specialized front claws are spring-loaded and can strike with the speed of a .22 caliber bullet! This punch is so fast that it creates cavitation bubbles in the water, which collapse with a flash of light and intense heat, stunning or even killing its prey instantly.",
+      "Besides their incredible strength, mantis shrimps also have some of the most complex eyes in the animal kingdom. While humans have three types of color-receptive cones, mantis shrimps have up to 16, allowing them to see a spectrum of light, including ultraviolet and polarized light, that we can't even imagine."
+    ],
+    reference: "https://oceanconservancy.org/blog/2020/01/29/mantis-shrimp/"
   }
 ];
