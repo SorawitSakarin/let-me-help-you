@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -79,6 +80,7 @@ export default function RootLayout({
           <main className="flex-grow">
             {children}
             <Analytics />
+            <SpeedInsights />
           </main>
 
           <footer className="mt-8 py-6 text-center text-xs text-gray-500 border-t border-gray-200 flex flex-col items-center gap-3">
