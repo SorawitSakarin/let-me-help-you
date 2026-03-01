@@ -86,6 +86,12 @@ Generate random version 4 UUIDs.
 - **Controls**: Generate, Copy All, Clear.
 - **Theme**: Simple list with individual copy buttons.
 
+### 14. URL Encoder
+Safely encode and decode URLs and query parameters.
+- **Input**: URL or text string.
+- **Controls**: Encode, Decode, Copy Result, Clear.
+- **Theme**: Simple bi-directional text interface.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -142,6 +148,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/keycode-info/page.tsx`: Keycode Info tool.
 - `src/app/json-formatter/page.tsx`: JSON Formatter tool.
 - `src/app/generate-uuid/page.tsx`: UUID Generator tool.
+- `src/app/encode-url/page.tsx`: URL Encoder tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 

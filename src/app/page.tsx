@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 import FloatingElement from '@/components/FloatingElement';
 import Typewriter from '@/components/Typewriter';
@@ -7,6 +8,7 @@ import AboutSection from '@/components/AboutSection';
 
 export default function Home() {
   const tools = [
+
     {
       href: '/create-qr-code',
       title: 'QR Generator',
@@ -119,6 +121,13 @@ export default function Home() {
       icon: 'nes-icon star',
       type: 'is-primary'
     },
+    {
+      href: '/encode-url',
+      title: 'URL Encoder',
+      description: 'Safely encode and decode URLs.',
+      icon: 'nes-icon coin',
+      type: 'is-success'
+    },
   ];
 
   return (
@@ -161,6 +170,20 @@ export default function Home() {
              <i className="nes-icon heart is-medium animate-bounce"></i>
           </div>
         </div>
+      </section>
+
+
+      {/* Daily Knowledge Section */}
+      <section className="nes-container with-title is-rounded" style={{ padding: '1.5rem', marginBottom: '1rem' }}>
+         <h3 className="title text-base" style={{ background: 'var(--surface)', marginBottom: '0' }}>Daily Knowledge</h3>
+         <div className="flex flex-col md:flex-row items-center justify-between gap-4 mt-2">
+            <div>
+               <p className="text-sm mb-2">Learn something new and interesting every day.</p>
+            </div>
+            <Link href="/share-daily-knowledge" className="nes-btn is-primary shrink-0 text-sm">
+               Explore Topics
+            </Link>
+         </div>
       </section>
 
       {/* Tools Grid */}
