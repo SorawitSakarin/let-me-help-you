@@ -92,6 +92,12 @@ Safely encode and decode URLs and query parameters.
 - **Controls**: Encode, Decode, Copy Result, Clear.
 - **Theme**: Simple bi-directional text interface.
 
+### 15. Text Case Converter
+Convert text to UPPERCASE, lowercase, Title Case, camelCase, snake_case, and more.
+- **Input**: Text string.
+- **Controls**: UPPERCASE, lowercase, Title Case, camelCase, snake_case, kebab-case, PascalCase, Copy, Clear.
+- **Theme**: Simple interface with multi-line text area and action buttons.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
