@@ -43,5 +43,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Because scholars could still read Ancient Greek, they were able to use it as a key to figure out what the hieroglyphs meant. This breakthrough finally allowed historians to understand the language and history of ancient Egypt!"
     ],
     reference: "https://www.britishmuseum.org/about-us/british-museum-story/objects-unlock-history/rosetta-stone"
+  },
+  {
+    id: "how-do-chameleons-change-color",
+    date: "2024-05-23",
+    title: "How Do Chameleons Change Color?",
+    category: "Biology",
+    content: [
+      "Many people think chameleons change color to match their surroundings, but that's actually a myth! They primarily change color to regulate their body temperature or communicate their mood to other chameleons.",
+      "Chameleons have special cells in their skin called chromatophores. These cells contain different pigments. For example, xanthophores have yellow and red pigments, and melanophores contain black melanin pigment.",
+      "Underneath these are iridophores, which contain transparent crystals that reflect and scatter light to create blue and white colors. By stretching or shrinking their skin, chameleons change how these crystals are spaced. This alters how light reflects off them, mixing with the other pigments to produce the vibrant colors we see in the blink of an eye!"
+    ],
+    reference: "https://findanexpert.unimelb.edu.au/news/2868-how-do-chameleons-and-other-creatures-change-colour%3F"
   }
 ];
