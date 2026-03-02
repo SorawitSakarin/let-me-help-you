@@ -144,6 +144,13 @@ export default function Home() {
       type: 'is-success',
       category: 'Developer Tools',
     },
+    {
+      href: '/convert-text-case',
+      title: 'Text Case Converter',
+      description: 'Convert text to UPPERCASE, lowercase, camelCase, and more.',
+      icon: 'nes-icon star',
+      type: 'is-primary'
+    },
   ];
 
   return (
