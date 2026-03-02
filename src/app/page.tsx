@@ -5,153 +5,10 @@ import Typewriter from '@/components/Typewriter';
 import Decorations from '@/components/Decorations';
 import ToolsGrid from '@/components/ToolsGrid';
 import AboutSection from '@/components/AboutSection';
+import { TOOLS } from '@/data/feature';
 
 export default function Home() {
-  const tools = [
-    {
-      href: '/create-qr-code',
-      title: 'QR Generator',
-      description: 'Create custom QR codes with icons inside.',
-      icon: 'nes-icon coin',
-      type: 'is-primary',
-      category: 'Utilities',
-    },
-    {
-      href: '/pick-a-random-option',
-      title: 'Slot Machine',
-      description: 'Spin the wheel to pick a random winner.',
-      icon: 'nes-icon trophy',
-      type: 'is-warning',
-      category: 'Fun',
-    },
-    {
-      href: '/convert-text-to-speech',
-      title: 'Text to Speech',
-      description: 'Convert text to audio with custom settings.',
-      icon: 'nes-icon twitch',
-      type: 'is-success',
-      category: 'Utilities',
-    },
-    {
-      href: '/generate-password',
-      title: 'Password Gen',
-      description: 'Generate strong, secure passwords instantly.',
-      icon: 'nes-icon like',
-      type: 'is-error',
-      category: 'Utilities',
-    },
-    {
-      href: '/convert-units',
-      title: 'Unit Converter',
-      description: 'Convert Weight, Length, and Temperature.',
-      icon: 'nes-icon star',
-      type: 'is-warning',
-      category: 'Utilities',
-    },
-    {
-      href: '/convert-currency',
-      title: 'Currency Exchange',
-      description: 'Real-time rates for 150+ global currencies.',
-      icon: 'nes-icon coin',
-      type: 'is-warning',
-      category: 'Utilities',
-    },
-    {
-      href: '/start-pomodoro-timer',
-      title: 'Focus Timer',
-      description: 'Productivity timer with custom intervals.',
-      icon: 'nes-icon star',
-      type: 'is-primary',
-      category: 'Productivity',
-    },
-    {
-      href: '/count-words',
-      title: 'Word Counter',
-      description: 'Count words, chars, and reading time.',
-      icon: 'nes-icon star',
-      type: 'is-success',
-      category: 'Utilities',
-    },
-    {
-      href: '/translate-binary',
-      title: 'Binary Translator',
-      description: 'Bi-directional text to binary translation.',
-      icon: 'nes-icon coin',
-      type: 'is-primary',
-      category: 'Developer Tools',
-    },
-    {
-      href: '/generate-lorem-ipsum',
-      title: 'Lorem Ipsum',
-      description: 'Generate placeholder text.',
-      icon: 'nes-icon like',
-      type: 'is-primary',
-      category: 'Developer Tools',
-    },
-    {
-      href: '/encode-base64',
-      title: 'Base64 Encoder',
-      description: 'Encode and decode Base64 text.',
-      icon: 'nes-icon coin',
-      type: 'is-warning',
-      category: 'Developer Tools',
-    },
-    {
-      href: '/simulate-hacking',
-      title: 'Hacker Screen',
-      description: 'Simulate a Hollywood-style hacking terminal.',
-      icon: 'nes-icon github',
-      type: 'is-error',
-      category: 'Fun',
-    },
-    {
-      href: '/convert-unix-timestamp',
-      title: 'Unix Timestamp',
-      description: 'Convert timestamps to dates and vice versa.',
-      icon: 'nes-icon coin',
-      type: 'is-primary',
-      category: 'Developer Tools',
-    },
-    {
-      href: '/check-keycodes',
-      title: 'Keycode Info',
-      description: 'Visualize keyboard events and codes.',
-      icon: 'nes-icon twitch',
-      type: 'is-primary',
-      category: 'Developer Tools',
-    },
-    {
-      href: '/format-json',
-      title: 'JSON Formatter',
-      description: 'Validate, format, and minify JSON data.',
-      icon: 'nes-icon coin',
-      type: 'is-success',
-      category: 'Developer Tools',
-    },
-    {
-      href: '/generate-uuid',
-      title: 'UUID Generator',
-      description: 'Generate random UUIDs (v4).',
-      icon: 'nes-icon star',
-      type: 'is-primary',
-      category: 'Developer Tools',
-    },
-    {
-      href: '/encode-url',
-      title: 'URL Encoder',
-      description: 'Safely encode and decode URLs.',
-      icon: 'nes-icon coin',
-      type: 'is-success',
-      category: 'Developer Tools',
-    },
-    {
-      href: '/convert-text-case',
-      title: 'Text Case Converter',
-      description: 'Convert text to UPPERCASE, lowercase, camelCase, and more.',
-      icon: 'nes-icon star',
-      type: 'is-primary'
-    },
-  ];
+
 
   return (
     <div className="flex flex-col gap-6 md:gap-8">
@@ -211,7 +68,7 @@ export default function Home() {
 
       {/* Tools Grid */}
       <section>
-        <ToolsGrid initialTools={tools} />
+        <ToolsGrid initialTools={TOOLS} />
       </section>
 
       {/* About Section - Collapsible */}
