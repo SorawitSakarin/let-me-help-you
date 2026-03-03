@@ -43,5 +43,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Because scholars could still read Ancient Greek, they were able to use it as a key to figure out what the hieroglyphs meant. This breakthrough finally allowed historians to understand the language and history of ancient Egypt!"
     ],
     reference: "https://www.britishmuseum.org/about-us/british-museum-story/objects-unlock-history/rosetta-stone"
+  },
+  {
+    id: "ai-nobel-prize-chemistry-2024",
+    date: "2024-10-09",
+    title: "How AI Cracked the Code of Life's Building Blocks",
+    category: "Technology",
+    content: [
+      "For over 50 years, scientists have been trying to solve a huge puzzle: how do proteins, the tiny machines that make our bodies work, fold into their complex 3D shapes? A protein's shape determines what it does, from building muscles to fighting diseases.",
+      "In 2024, the Nobel Prize in Chemistry was awarded partly to scientists who used Artificial Intelligence (AI) to solve this puzzle. Demis Hassabis and John Jumper created an AI program called AlphaFold2.",
+      "AlphaFold2 learned from known protein structures and became so smart it can now predict the 3D shape of almost all the 200 million proteins known to science! This amazing breakthrough is helping researchers design new medicines and understand diseases much faster than ever before."
+    ],
+    reference: "https://www.nobelprize.org/prizes/chemistry/2024/popular-information/"
   }
 ];
