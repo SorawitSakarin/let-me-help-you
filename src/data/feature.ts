@@ -143,4 +143,12 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Developer Tools',
     },
+    {
+      href: '/play-tic-tac-toe',
+      title: 'Tic Tac Toe',
+      description: 'Play a classic game of Tic Tac Toe against a friend.',
+      icon: 'nes-icon trophy',
+      type: 'is-success',
+      category: 'Fun',
+    },
   ];

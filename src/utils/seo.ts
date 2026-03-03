@@ -4,7 +4,7 @@ const DEFAULT_TITLE =
   "Daily Task Tool | Utilities for Everyday Tasks";
 
 const SITE_DESCRIPTION =
-  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, Text-to-Speech converter, Password Generator, Unit Converter, Focus Timer, Word Counter, Binary Translator, Base64 Encoder, UUID Generator, URL Encoder, and Text Case Converter.";
+  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, Text-to-Speech converter, Password Generator, Unit Converter, Focus Timer, Word Counter, Binary Translator, Base64 Encoder, UUID Generator, URL Encoder, Text Case Converter, and Tic Tac Toe.";
 
 const SEO_KEYWORDS = [
   "Daily Task Tool",
@@ -33,6 +33,8 @@ const SEO_KEYWORDS = [
   "Text Case Converter",
   "Uppercase Converter",
   "Lowercase Converter",
+  "Tic Tac Toe",
+  "Play Tic Tac Toe",
   "Utilities",
   "Productivity",
   "Next.js Tools",
