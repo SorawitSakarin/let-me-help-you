@@ -103,6 +103,12 @@ Play a classic game of Tic Tac Toe.
 - **Features**: 3x3 grid, turn-based play, win detection, reset button.
 - **Theme**: Simple, fun, and fast retro 8-bit style.
 
+### 17. Magic 8-Ball
+Ask a question and reveal your fortune.
+- **Input**: Enter a yes/no question.
+- **Output**: Get a classic random 8-ball response.
+- **Theme**: 8-bit aesthetic with shaking animation.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
