@@ -54,6 +54,18 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Chameleons have special cells in their skin called chromatophores. These cells contain different pigments. For example, xanthophores have yellow and red pigments, and melanophores contain black melanin pigment.",
       "Underneath these are iridophores, which contain transparent crystals that reflect and scatter light to create blue and white colors. By stretching or shrinking their skin, chameleons change how these crystals are spaced. This alters how light reflects off them, mixing with the other pigments to produce the vibrant colors we see in the blink of an eye!"
     ],
-    reference: "https://findanexpert.unimelb.edu.au/news/2868-how-do-chameleons-and-other-creatures-change-colour%3F"
+    reference: "https://findanexpert.unimelb.edu.au/news/2868-how-do-chameleons-and-other-creatures-change-colour%3F" 
+  },
+  {
+    id: "ai-nobel-prize-chemistry-2024",
+    date: "2024-10-09",
+    title: "How AI Cracked the Code of Life's Building Blocks",
+    category: "Technology",
+    content: [
+      "For over 50 years, scientists have been trying to solve a huge puzzle: how do proteins, the tiny machines that make our bodies work, fold into their complex 3D shapes? A protein's shape determines what it does, from building muscles to fighting diseases.",
+      "In 2024, the Nobel Prize in Chemistry was awarded partly to scientists who used Artificial Intelligence (AI) to solve this puzzle. Demis Hassabis and John Jumper created an AI program called AlphaFold2.",
+      "AlphaFold2 learned from known protein structures and became so smart it can now predict the 3D shape of almost all the 200 million proteins known to science! This amazing breakthrough is helping researchers design new medicines and understand diseases much faster than ever before."
+    ],
+    reference: "https://www.nobelprize.org/prizes/chemistry/2024/popular-information/"
   }
 ];
