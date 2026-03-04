@@ -98,6 +98,11 @@ Convert text to UPPERCASE, lowercase, Title Case, camelCase, snake_case, and mor
 - **Controls**: UPPERCASE, lowercase, Title Case, camelCase, snake_case, kebab-case, PascalCase, Copy, Clear.
 - **Theme**: Simple interface with multi-line text area and action buttons.
 
+### 16. Tic Tac Toe
+Play a classic game of Tic Tac Toe.
+- **Features**: 3x3 grid, turn-based play, win detection, reset button.
+- **Theme**: Simple, fun, and fast retro 8-bit style.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
