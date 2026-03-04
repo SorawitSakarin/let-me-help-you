@@ -151,4 +151,12 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
     },
+    {
+      href: '/ask-magic-8-ball',
+      title: 'Magic 8-Ball',
+      description: 'Ask a question and reveal your fortune.',
+      icon: 'nes-icon coin',
+      type: 'is-primary',
+      category: 'Fun',
+    },
   ];
