@@ -151,4 +151,12 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
     },
+    {
+      href: '/ask-magic-8-ball',
+      title: 'Magic 8-Ball',
+      description: 'Ask a yes/no question to reveal your fate.',
+      icon: 'nes-icon star',
+      type: 'is-error',
+      category: 'Fun',
+    },
   ];
