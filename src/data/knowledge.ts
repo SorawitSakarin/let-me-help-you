@@ -77,5 +77,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Ocean plants make about half of Earth's oxygen."
     ],
     reference: "https://www.dreambox.com/math/guides/fun-facts-for-kids"
+  },
+  {
+    id: "what-does-space-smell-like",
+    date: "2026-03-05",
+    title: "What Does Outer Space Smell Like?",
+    category: "Space",
+    content: [
+      "You might think space has no smell at all because it's a vacuum. But astronauts who have gone on spacewalks report a very distinct odor when they return to the space station.",
+      "They describe the smell as being similar to hot metal, burnt steak, and welding fumes. This is because particles from space, including highly reactive atomic oxygen, cling to their spacesuits.",
+      "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
+    ],
+    reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
   }
 ];
