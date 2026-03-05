@@ -67,5 +67,15 @@ export const knowledgeData: KnowledgeTopic[] = [
       "AlphaFold2 learned from known protein structures and became so smart it can now predict the 3D shape of almost all the 200 million proteins known to science! This amazing breakthrough is helping researchers design new medicines and understand diseases much faster than ever before."
     ],
     reference: "https://www.nobelprize.org/prizes/chemistry/2024/popular-information/"
+  },
+  {
+    id: "ocean-plants-oxygen",
+    date: "2026-03-04",
+    title: "Where Does Earth's Oxygen Come From?",
+    category: "Earth & Science",
+    content: [
+      "Ocean plants make about half of Earth's oxygen."
+    ],
+    reference: "https://www.dreambox.com/math/guides/fun-facts-for-kids"
   }
 ];
