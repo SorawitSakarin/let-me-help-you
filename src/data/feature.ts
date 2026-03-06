@@ -159,4 +159,12 @@ export const TOOLS = [
       type: 'is-error',
       category: 'Fun',
     },
+    {
+      href: '/roll-a-dice',
+      title: 'Roll a Dice',
+      description: 'Roll virtual dice for games and decisions.',
+      icon: 'nes-icon coin',
+      type: 'is-primary',
+      category: 'Fun',
+    },
   ];
