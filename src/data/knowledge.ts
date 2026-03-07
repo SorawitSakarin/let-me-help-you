@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "tardigrades-water-bears",
+    date: "2026-03-06",
+    title: "Tardigrades: The Indestructible Water Bears",
+    category: "Biology",
+    content: [
+      "Tardigrades, often called water bears or moss piglets, are microscopic animals that look like tiny, eight-legged bears. You can find them almost everywhere on Earth, from the deep ocean to the highest mountains, and even in your own backyard!",
+      "What makes tardigrades so amazing is their ability to survive extreme conditions that would kill almost any other living thing. They can survive boiling heat, freezing cold, intense radiation, and even the vacuum of outer space!",
+      "When things get too tough, tardigrades curl up into a tiny, dried-out ball called a 'tun'. In this state, they pause all their body functions and can survive for decades without food or water. Once conditions are safe again, they just add water and come back to life!"
+    ],
+    reference: "https://www.nationalgeographic.com/animals/invertebrates/facts/tardigrades-water-bears"
   }
 ];
