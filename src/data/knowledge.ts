@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "how-do-airplanes-fly",
+    date: "2026-03-08",
+    title: "How Do Airplanes Fly?",
+    category: "Engineering",
+    content: [
+      "It might seem like magic that a huge, heavy metal airplane can stay up in the sky. But it's actually all about science and a special shape! The secret lies mostly in the wings.",
+      "Airplane wings are curved on the top and flatter on the bottom. When the plane moves forward very fast, the air splits to go over and under the wings. Because of the curved top, the air has to travel faster to get across it. This fast-moving air creates lower pressure above the wing, while the slower-moving air underneath creates higher pressure.",
+      "The higher pressure from underneath pushes up against the lower pressure on top. This upward pushing force is called 'lift'. As long as the airplane's engines keep pushing it forward fast enough (which is called 'thrust'), the lift stays strong enough to beat gravity and keep the plane flying high!"
+    ],
+    reference: "https://simpleflying.com/how-do-planes-fly/"
   }
 ];
