@@ -109,6 +109,11 @@ Ask the Magic 8-Ball a question and receive a mystical, randomized answer.
 - **Features**: Animated shaking ball, randomized classic responses.
 - **Theme**: Retro 8-bit style with interactive visual ball.
 
+### 18. Coin Flipper
+Flip a virtual coin to make decisions or settle bets.
+- **Features**: Visual coin flipping animation, heads vs tails tracking, reset button.
+- **Theme**: Simple 8-bit aesthetic coin toggle.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -166,6 +171,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/json-formatter/page.tsx`: JSON Formatter tool.
 - `src/app/generate-uuid/page.tsx`: UUID Generator tool.
 - `src/app/encode-url/page.tsx`: URL Encoder tool.
+- `src/app/flip-a-coin/page.tsx`: Coin Flipper tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 
