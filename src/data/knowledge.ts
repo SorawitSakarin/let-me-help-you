@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "how-do-cats-purr",
+    date: "2026-03-09",
+    title: "How Do Cats Purr?",
+    category: "Biology",
+    content: [
+      "Have you ever wondered how cats make that lovely rumbling sound? It all starts in their brain! The cat's brain sends a message to the laryngeal (voice box) muscles, telling them to twitch super fast—around 20 to 30 times every second.",
+      "As the cat breathes in and out, air hits these twitching muscles, creating the purring sound and vibration we love to feel. What's even cooler is that cats don't just purr when they're happy; they also purr when they're scared, hurt, or giving birth.",
+      "Scientists believe purring isn't just a way to communicate—it's also a built-in healing mechanism! The low-frequency vibrations of a purr (between 25 and 150 Hertz) have been shown in human medicine to help heal bones, repair tissues, and reduce pain and swelling."
+    ],
+    reference: "https://www.scientificamerican.com/article/why-do-cats-purr/"
   }
 ];
