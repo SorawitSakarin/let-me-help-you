@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "why-do-cats-purr",
+    date: "2026-03-11",
+    title: "Why Do Cats Purr?",
+    category: "Biology",
+    content: [
+      "Many people think cats only purr when they are happy and comfortable. While this is often true, cats also purr for other important reasons!",
+      "Cats actually purr when they are stressed, scared, or even when they are hurt. It's like a natural way for them to calm themselves down, similar to how a person might take deep breaths when they feel nervous.",
+      "Even more amazing, the low-frequency vibrations of a cat's purr can actually act as a natural healing mechanism! These special vibrations can help repair bones, heal wounds, and reduce pain."
+    ],
+    reference: "https://www.loc.gov/everyday-mysteries/item/why-and-how-do-cats-purr/"
   }
 ];
