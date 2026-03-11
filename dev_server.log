@@ -1,0 +1,18 @@
+
+> let-me-help-you@0.1.0 dev
+> next dev
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+
+✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+✓ Ready in 1114ms
+○ Compiling /share-daily-knowledge ...
+ GET /share-daily-knowledge 200 in 6.3s (compile: 5.4s, render: 871ms)
+ GET /share-daily-knowledge/why-do-cats-purr 200 in 299ms (compile: 32ms, generate-params: 25ms, render: 266ms)
