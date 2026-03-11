@@ -159,4 +159,12 @@ export const TOOLS = [
       type: 'is-error',
       category: 'Fun',
     },
+    {
+      href: '/flip-a-coin',
+      title: 'Coin Flipper',
+      description: 'Flip a virtual coin to make decisions.',
+      icon: 'nes-icon coin',
+      type: 'is-primary',
+      category: 'Fun',
+    },
   ];
