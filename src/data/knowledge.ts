@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "how-do-geckos-stick-to-walls",
+    date: "2026-03-06",
+    title: "How Do Geckos Stick to Walls?",
+    category: "Biology",
+    content: [
+      "Geckos are amazing climbers that can easily run up smooth walls and even walk upside down on ceilings. You might think their feet are sticky like glue or have suction cups, but the secret is entirely different!",
+      "A gecko's toes are covered in millions of tiny, hair-like structures called setae. Each of these setae further splits into hundreds of even tinier bristles at the ends, called spatulae. Because there are so many of these spatulae, they create a massive amount of surface area.",
+      "When a gecko walks, the spatulae interact with the surface using 'Van der Waals forces'. These are weak electromagnetic attractions between molecules. While an individual force is tiny, the combined force of billions of spatulae creates an incredibly strong grip, allowing the gecko to easily support its weight and un-stick its feet just by changing the angle of its toes!"
+    ],
+    reference: "https://www.acs.org/content/dam/acsorg/education/students/highschool/chemistryclubs/infographics/geckos-infographic.pdf"
   }
 ];
