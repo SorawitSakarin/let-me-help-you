@@ -109,6 +109,11 @@ Ask the Magic 8-Ball a question and receive a mystical, randomized answer.
 - **Features**: Animated shaking ball, randomized classic responses.
 - **Theme**: Retro 8-bit style with interactive visual ball.
 
+### 18. Coin Flipper
+Flip a virtual coin instantly.
+- **Features**: Heads and tails simulation, statistics tracking (Heads/Tails counts).
+- **Theme**: Animated 8-bit coin toss.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
