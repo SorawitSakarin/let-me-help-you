@@ -4,7 +4,7 @@ const DEFAULT_TITLE =
   "Daily Task Tool | Utilities for Everyday Tasks";
 
 const SITE_DESCRIPTION =
-  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, Text-to-Speech converter, Password Generator, Unit Converter, Focus Timer, Word Counter, Binary Translator, Base64 Encoder, UUID Generator, URL Encoder, Text Case Converter, Tic Tac Toe, and Magic 8-Ball.";
+  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, Text-to-Speech converter, Password Generator, Unit Converter, Focus Timer, Word Counter, Binary Translator, Base64 Encoder, UUID Generator, URL Encoder, Text Case Converter, Tic Tac Toe, Magic 8-Ball, and Coin Flipper.";
 
 const SEO_KEYWORDS = [
   "Daily Task Tool",
@@ -37,6 +37,9 @@ const SEO_KEYWORDS = [
   "Play Tic Tac Toe",
   "Magic 8-Ball",
   "Fortune Teller",
+  "Coin Flipper",
+  "Coin Toss",
+  "Flip a Coin",
   "Utilities",
   "Productivity",
   "Next.js Tools",

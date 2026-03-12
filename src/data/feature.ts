@@ -152,6 +152,14 @@ export const TOOLS = [
       category: 'Fun',
     },
     {
+      href: '/flip-a-coin',
+      title: 'Coin Flipper',
+      description: 'Flip a virtual coin instantly and track heads and tails statistics.',
+      icon: 'nes-icon coin',
+      type: 'is-primary',
+      category: 'Fun',
+    },
+    {
       href: '/ask-magic-8-ball',
       title: 'Magic 8-Ball',
       description: 'Ask a yes/no question to reveal your fate.',
