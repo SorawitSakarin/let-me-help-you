@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "immortal-jellyfish",
+    date: "2026-03-13",
+    title: "The Immortal Jellyfish: Living Forever?",
+    category: "Biology",
+    content: [
+      "Is it possible to live forever? For most living things, the answer is no, but there is one amazing exception: the immortal jellyfish, scientifically known as Turritopsis dohrnii.",
+      "Whenever this tiny jellyfish gets injured, sick, or is starving, it does something incredible. Instead of dying, it shrinks and attaches itself to a surface in the water, turning into a blob.",
+      "From this blob, its adult cells change back into baby cells. The jellyfish essentially transforms from an adult back into a newborn! This amazing ability to reverse its life cycle means it could potentially live forever."
+    ],
+    reference: "https://kinooze.com/the-immortal-jellyfish/"
   }
 ];
