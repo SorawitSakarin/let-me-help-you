@@ -109,6 +109,12 @@ Ask the Magic 8-Ball a question and receive a mystical, randomized answer.
 - **Features**: Animated shaking ball, randomized classic responses.
 - **Theme**: Retro 8-bit style with interactive visual ball.
 
+### 18. Roll a Dice
+Roll a virtual 6-sided dice.
+- **Input**: Click the 'Roll Dice' button.
+- **Features**: Animated CSS-based 8-bit dice rendering, randomized 1-6 outcomes.
+- **Theme**: Classic monochrome 8-bit retro style.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
