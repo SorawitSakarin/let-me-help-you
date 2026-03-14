@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "how-do-noise-canceling-headphones-work",
+    date: "2026-03-14",
+    title: "How Do Noise-Canceling Headphones Work?",
+    category: "Technology",
+    content: [
+      "Noise-canceling headphones use a fascinating piece of technology called Active Noise Cancellation (ANC) to block out the world around you.",
+      "They have tiny microphones built into them that constantly listen to the background noise in your environment, like the low hum of an airplane engine, the chatter in a cafe, or busy city traffic.",
+      "Once these microphones pick up the external sounds, the headphones instantly create an exact opposite sound wave, known as \"anti-noise.\" When the incoming noise wave and the anti-noise wave collide, they perfectly cancel each other out in a process called destructive interference, leaving you with peace and quiet!"
+    ],
+    reference: "https://www.nytimes.com/wirecutter/blog/what-is-active-noise-cancellation/"
   }
 ];
