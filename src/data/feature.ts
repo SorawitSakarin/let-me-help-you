@@ -151,6 +151,15 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
     },
+
+    {
+      href: '/roll-a-dice',
+      title: 'Roll a Dice',
+      description: 'Roll an 8-bit style virtual 6-sided dice.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Fun',
+    },
     {
       href: '/ask-magic-8-ball',
       title: 'Magic 8-Ball',
