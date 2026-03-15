@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "why-is-the-ocean-salty",
+    date: "2026-03-15",
+    title: "Why is the Ocean Salty?",
+    category: "Earth & Science",
+    content: [
+      "Have you ever accidentally tasted ocean water at the beach and noticed how salty it is? The salt in the ocean actually comes from the land! When it rains, the rainwater is slightly acidic and breaks down rocks on the land, releasing minerals, including salt.",
+      "These minerals are then carried by rivers and streams all the way into the ocean. While rivers also have a little bit of salt, they constantly flow into the ocean which has been collecting it for billions of years.",
+      "Another source of salt comes from deep underwater. Hot fluids from vents on the ocean floor also release minerals into the sea. So the next time you visit the beach, remember you are swimming in a giant, ancient bowl of mineral soup!"
+    ],
+    reference: "https://oceanservice.noaa.gov/facts/whysalty.html"
   }
 ];
