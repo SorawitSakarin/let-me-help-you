@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "how-do-fireflies-glow",
+    date: "2026-03-06",
+    title: "How Do Fireflies Glow?",
+    category: "Biology",
+    content: [
+      "Have you ever seen fireflies glowing on a warm summer night? It looks like magic, but it's actually science! The light of a firefly comes from a chemical reaction in its belly.",
+      "Inside a firefly, a chemical called luciferin mixes with oxygen from the air. This combination creates light. It is a very special kind of light called 'cold light' because it produces almost no heat, unlike a normal light bulb.",
+      "Fireflies flash their lights for a few reasons. Mainly, they use it to talk to each other and find a mate. Each type of firefly has its own special flashing pattern. Some even use their glow to warn predators that they taste bad!"
+    ],
+    reference: "https://earthsky.org/earth/fireflies-light-up-why-how/"
   }
 ];
