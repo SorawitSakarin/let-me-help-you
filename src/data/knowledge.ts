@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "what-is-a-black-hole",
+    date: "2026-03-19",
+    title: "What is a Black Hole?",
+    category: "Space",
+    content: [
+      "A black hole is a place in space where gravity pulls so much that even light cannot get out. The gravity is incredibly strong because a massive amount of matter has been squeezed into a tiny space. This often happens when a large star is dying.",
+      "Because no light can escape them, black holes are completely invisible to us. However, scientists can find them using special space telescopes. These telescopes observe how stars and gas act differently when they are very close to a black hole.",
+      "Black holes can be big or small. The smallest ones might be as tiny as a single atom, but they weigh as much as a large mountain! The biggest ones are called 'supermassive' black holes, and they are found at the center of almost every large galaxy, including our own Milky Way."
+    ],
+    reference: "https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html"
   }
 ];
