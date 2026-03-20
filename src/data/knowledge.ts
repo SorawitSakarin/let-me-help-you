@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "the-mariana-trench",
+    date: "2026-03-20",
+    title: "How Deep is the Mariana Trench?",
+    category: "Earth & Science",
+    content: [
+      "The Mariana Trench is the deepest known oceanic trench on Earth, located in the western Pacific Ocean. Its deepest point, called Challenger Deep, reaches a staggering depth of about 36,000 feet (11,000 meters). To put that into perspective, if you placed Mount Everest at the bottom, its peak would still be over a mile underwater!",
+      "At the bottom of the trench, the conditions are extreme. The temperature is just above freezing, and the water pressure is over 1,000 times greater than the standard atmospheric pressure at sea level. That's equivalent to having the weight of about 50 jumbo jets pressing down on a person.",
+      "Despite the freezing temperatures, complete darkness, and crushing pressure, life still finds a way to survive. Scientists have discovered unique creatures, including single-celled organisms, specialized fish, and even microbes that thrive near hydrothermal vents that release hot, mineral-rich water. Because of its unique environment, it was established as a US National Monument in 2009."
+    ],
+    reference: "https://www.fisheries.noaa.gov/pacific-islands/habitat-conservation/mariana-trench-marine-national-monument"
   }
 ];
