@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "tardigrades-toughest-animals",
+    date: "2026-03-21",
+    title: "Tardigrades: The Toughest Animals on Earth",
+    category: "Biology",
+    content: [
+      "Tardigrades, also known as water bears, are microscopic eight-legged animals that look like tiny, pudgy bears. Even though they are usually less than a millimeter long, they are famous for being nearly indestructible.",
+      "These amazing creatures can survive in the most extreme conditions where almost nothing else can live. They can handle freezing temperatures near absolute zero, boiling heat, the crushing pressure of the deep ocean, and even the dangerous radiation of outer space!",
+      "Their secret weapon is a state called 'cryptobiosis'. When their environment gets too tough, they curl up into a dry ball called a 'tun' and their metabolism slows down to almost nothing. They can stay in this suspended state for decades until conditions improve and they rehydrate and wake up."
+    ],
+    reference: "https://www.nationalgeographic.com/animals/invertebrates/facts/tardigrades-water-bears"
   }
 ];
