@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "bioluminescence",
+    date: "2026-03-22",
+    title: "Why Do Some Animals Glow in the Dark?",
+    category: "Biology",
+    content: [
+      "Bioluminescence is the ability of some living things to produce and emit light. This is common in the ocean, where creatures like certain jellyfish and deep-sea fish glow, but also happens on land with insects like fireflies.",
+      "This glow is the result of a chemical reaction inside the animal. A special chemical called luciferin reacts with oxygen, and an enzyme called luciferase helps speed up the reaction, releasing energy in the form of light.",
+      "Animals use this glowing trick for many different reasons. Some use it to camouflage themselves from predators below, some to attract a mate, and others, like the anglerfish, use a glowing lure to attract prey in the dark depths of the ocean!"
+    ],
+    reference: "https://en.wikipedia.org/wiki/Bioluminescence"
   }
 ];
