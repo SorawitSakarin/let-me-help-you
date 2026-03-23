@@ -89,5 +89,15 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "why-is-the-sky-blue",
+    date: "2026-03-23",
+    title: "Why Is the Sky Blue?",
+    category: "Earth & Science",
+    content: [
+      "Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time."
+    ],
+    reference: "https://spaceplace.nasa.gov/blue-sky/"
   }
 ];
