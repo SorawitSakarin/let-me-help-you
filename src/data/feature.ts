@@ -159,4 +159,12 @@ export const TOOLS = [
       type: 'is-error',
       category: 'Fun',
     },
+    {
+      href: '/roll-a-dice',
+      title: 'Roll a Dice',
+      description: 'Simulate rolling a standard 6-sided die.',
+      icon: 'nes-icon is-half star',
+      type: 'is-warning',
+      category: 'Fun',
+    },
   ];
