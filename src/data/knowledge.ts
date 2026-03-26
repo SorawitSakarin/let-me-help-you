@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "how-submarines-dive-and-surface",
+    date: "2026-03-26",
+    title: "How Do Submarines Dive and Surface?",
+    category: "Technology",
+    content: [
+      "Have you ever wondered how a huge, heavy metal submarine can float on the water and also dive deep under the ocean? It all comes down to a clever scientific concept called buoyancy and special tanks built into the submarine.",
+      "Inside the submarine, there are large empty spaces called ballast tanks. When a submarine wants to float on the surface, these tanks are filled with air. The air makes the submarine lighter than the water around it, so it naturally floats up to the top, just like a balloon filled with air in a swimming pool.",
+      "To dive under the water, the submarine opens valves on the ballast tanks to let out the air and let ocean water rush in. Because water is much heavier than air, the submarine becomes heavier than the surrounding water and begins to sink! When it's time to come back up, they use high-pressure air to push the water back out of the tanks, making the submarine light again."
+    ],
+    reference: "https://www.submarinesafaris.com/about-us/kids/learn/"
   }
 ];
