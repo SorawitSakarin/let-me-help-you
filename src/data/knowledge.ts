@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "how-do-penguins-stay-warm",
+    date: "2026-03-27",
+    title: "How Do Penguins Stay Warm in Antarctica?",
+    category: "Biology",
+    content: [
+      "Penguins survive in some of the coldest places on Earth thanks to some amazing physical adaptations. Their secret lies in their unique feathers and thick layer of fat.",
+      "They have completely waterproof outer feathers that overlap like shingles on a roof, keeping the freezing water out. Underneath these outer feathers is a dense layer of fluffy down feathers that traps warm air next to their skin.",
+      "In addition to their specialized feathers, penguins have a thick layer of blubber (fat) under their skin. When it gets extremely cold, like during the harsh Antarctic winter, Emperor penguins huddle together in large groups, constantly rotating from the cold outside edge to the warm center to share body heat!"
+    ],
+    reference: "https://www.coolantarctica.com/Antarctica%20fact%20file/science/cold_penguins.php"
   }
 ];
