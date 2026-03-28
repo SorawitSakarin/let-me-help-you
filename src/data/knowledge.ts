@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "how-gps-works",
+    date: "2026-03-06",
+    title: "How Does GPS Work?",
+    category: "Technology",
+    content: [
+      "The Global Positioning System (GPS) is a network of satellites orbiting the Earth. These satellites constantly broadcast their location and the exact time they sent the message.",
+      "Your phone or GPS device receives these signals. By comparing the time the signal was sent to the time it was received, your device can figure out exactly how far away each satellite is. This is like knowing you are exactly 50 miles from three different cities.",
+      "To pinpoint your exact location, your device needs to receive signals from at least four satellites. This process, called trilateration, allows it to calculate your exact latitude, longitude, altitude, and the time, guiding you safely to your destination!"
+    ],
+    reference: "https://www.nasa.gov/directorates/heo/scan/communications/policy/GPS_History"
   }
 ];
