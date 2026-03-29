@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "why-do-cats-purr",
+    date: "2026-03-29",
+    title: "Why Do Cats Purr?",
+    category: "Biology",
+    content: [
+      "Cats purr for many reasons, not just when they are happy! While a purring cat on your lap is usually a sign of contentment and relaxation, cats also purr to communicate other emotions.",
+      "Mother cats purr to guide their newborn, blind kittens to them for nursing. It's a way of saying, 'I am here, and you are safe.' Cats might also purr when they are nervous, in pain, or even when they are close to passing away, using the sound to comfort and soothe themselves.",
+      "Interestingly, a cat's purr vibrates at a frequency between 25 and 150 Hertz. Scientists have found that sound frequencies in this range can actually help improve bone density, repair tendons, and ease breathing. So, a purring cat might be using built-in physical therapy to heal itself!"
+    ],
+    reference: "https://www.petmd.com/cat/behavior/why-do-cats-purr"
   }
 ];
