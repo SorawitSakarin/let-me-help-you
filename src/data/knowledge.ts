@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "how-gps-works",
+    date: "2026-03-30",
+    title: "How Does GPS Work?",
+    category: "Technology",
+    content: [
+      "Have you ever wondered how your phone always knows exactly where you are? It uses the Global Positioning System, or GPS! GPS is actually a network of over 30 satellites orbiting the Earth right now.",
+      "When you use a map app, your phone acts as a GPS receiver. It constantly listens for signals sent down from these satellites. To figure out your exact location, your phone needs to connect with at least four of them at the same time.",
+      "By calculating exactly how long it takes for the signals to reach your phone from each satellite, the receiver can determine your exact location on Earth. It is basically a giant game of space math happening right in your pocket!"
+    ],
+    reference: "https://spaceplace.nasa.gov/gps/en/"
   }
 ];
