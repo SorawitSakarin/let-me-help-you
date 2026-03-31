@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "why-is-the-sky-blue",
+    date: "2026-03-31",
+    title: "Why is the Sky Blue?",
+    category: "Earth & Science",
+    content: [
+      "Have you ever looked up and wondered why the sky is blue instead of green or purple? The answer comes down to how sunlight interacts with our atmosphere.",
+      "Sunlight looks white, but it's actually made up of all the colors of the rainbow. When this light reaches Earth, it bumps into the gases and particles in the air.",
+      "Blue light travels as shorter, smaller waves, so it gets scattered in all directions by the tiny molecules of air in Earth's atmosphere. This scattering is why we see a blue sky most of the time!"
+    ],
+    reference: "https://spaceplace.nasa.gov/blue-sky/en/"
   }
 ];
