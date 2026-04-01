@@ -89,5 +89,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "how-do-octopuses-change-color",
+    date: "2026-04-01",
+    title: "How Do Octopuses Change Color?",
+    category: "Biology",
+    content: [
+      "Octopuses, squids, and cuttlefish can change their skin color incredibly fast. They do this to camouflage themselves from predators, or to communicate.",
+      "They have special cells in their skin called chromatophores. These are tiny sacs of pigment surrounded by muscles. When the muscles contract, the pigment sac is pulled wide, making the skin appear that color. When the muscles relax, the color shrinks back to a tiny dot.",
+      "Each chromatophore is connected directly to the octopus's nervous system, allowing them to control their color changes with incredible speed and precision. Underneath the chromatophores, they also have other cells called iridophores and leucophores that reflect light to add shimmer and a white background, completing their amazing camouflage abilities!"
+    ],
+    reference: "https://www.scubadiving.com/why-octopuses-change-color"
   }
 ];
