@@ -101,5 +101,29 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Despite the freezing temperatures, complete darkness, and crushing pressure, life still finds a way to survive. Scientists have discovered unique creatures, including single-celled organisms, specialized fish, and even microbes that thrive near hydrothermal vents that release hot, mineral-rich water. Because of its unique environment, it was established as a US National Monument in 2009."
     ],
     reference: "https://www.fisheries.noaa.gov/pacific-islands/habitat-conservation/mariana-trench-marine-national-monument"
+    },
+  {
+    id: "tardigrades-toughest-animals",
+    date: "2026-03-21",
+    title: "Tardigrades: The Toughest Animals on Earth",
+    category: "Biology",
+    content: [
+      "Tardigrades, also known as water bears, are microscopic eight-legged animals that look like tiny, pudgy bears. Even though they are usually less than a millimeter long, they are famous for being nearly indestructible.",
+      "These amazing creatures can survive in the most extreme conditions where almost nothing else can live. They can handle freezing temperatures near absolute zero, boiling heat, the crushing pressure of the deep ocean, and even the dangerous radiation of outer space!",
+      "Their secret weapon is a state called 'cryptobiosis'. When their environment gets too tough, they curl up into a dry ball called a 'tun' and their metabolism slows down to almost nothing. They can stay in this suspended state for decades until conditions improve and they rehydrate and wake up."
+    ],
+    reference: "https://www.nationalgeographic.com/animals/invertebrates/facts/tardigrades-water-bears"
+    },
+  {
+    id: "the-mariana-trench",
+    date: "2026-03-25",
+    title: "The Deepest Place on Earth: The Mariana Trench",
+    category: "Earth & Science",
+    content: [
+      "The Mariana Trench is the deepest place in the world's oceans, located in the western Pacific Ocean. Its deepest point, called Challenger Deep, reaches down over 35,000 feet (10,500 meters) into the dark waters.",
+      "To put that into perspective, if you took Mount Everest, the tallest mountain on land, and dropped it right into the Mariana Trench, the peak would still be completely covered by more than a mile of water!",
+      "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
+    ],
+    reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
   }
 ];
