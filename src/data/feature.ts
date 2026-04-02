@@ -160,6 +160,14 @@ export const TOOLS = [
       category: 'Fun',
     },
     {
+      href: '/flip-a-coin',
+      title: 'Coin Flipper',
+      description: 'Flip a virtual coin for heads or tails.',
+      icon: 'nes-icon coin',
+      type: 'is-warning',
+      category: 'Fun',
+      },
+    {
       href: '/roll-a-dice',
       title: 'Roll a Dice',
       description: 'Roll a standard 6-sided die.',
