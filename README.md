@@ -114,6 +114,11 @@ Roll a standard 6-sided die to make quick decisions.
 - **Features**: Visual die faces with rolling animation.
 - **Theme**: Clean 8-bit dice with retro button.
 
+### 19. Rock Paper Scissors
+Play a classic game of Rock Paper Scissors against the computer.
+- **Features**: Interactive choices, score tracking, randomized computer choices.
+- **Theme**: Simple and fun retro 8-bit style interface.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)

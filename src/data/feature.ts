@@ -166,5 +166,13 @@ export const TOOLS = [
       icon: 'nes-icon trophy',
       type: 'is-warning',
       category: 'Fun',
+      },
+    {
+      href: '/play-rock-paper-scissors',
+      title: 'Rock Paper Scissors',
+      description: 'Play a classic game of Rock Paper Scissors against the computer.',
+      icon: 'nes-icon trophy',
+      type: 'is-success',
+      category: 'Fun',
     },
   ];
