@@ -101,5 +101,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Their secret weapon is a state called 'cryptobiosis'. When their environment gets too tough, they curl up into a dry ball called a 'tun' and their metabolism slows down to almost nothing. They can stay in this suspended state for decades until conditions improve and they rehydrate and wake up."
     ],
     reference: "https://www.nationalgeographic.com/animals/invertebrates/facts/tardigrades-water-bears"
+    },
+  {
+    id: "the-mariana-trench",
+    date: "2026-03-25",
+    title: "The Deepest Place on Earth: The Mariana Trench",
+    category: "Earth & Science",
+    content: [
+      "The Mariana Trench is the deepest place in the world's oceans, located in the western Pacific Ocean. Its deepest point, called Challenger Deep, reaches down over 35,000 feet (10,500 meters) into the dark waters.",
+      "To put that into perspective, if you took Mount Everest, the tallest mountain on land, and dropped it right into the Mariana Trench, the peak would still be completely covered by more than a mile of water!",
+      "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
+    ],
+    reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
   }
 ];
