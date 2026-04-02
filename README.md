@@ -114,6 +114,11 @@ Play a classic game of Rock Paper Scissors against the computer.
 - **Features**: Interactive choices, score tracking, randomized computer choices.
 - **Theme**: Simple and fun retro 8-bit style interface.
 
+### 19. Coin Flipper
+Flip a coin instantly to make a quick decision.
+- **Features**: Animated coin flip, heads vs tails statistics tracking, reset functionality.
+- **Theme**: Classic 8-bit coin visual with pseudo-random results.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
