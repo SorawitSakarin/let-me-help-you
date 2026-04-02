@@ -4,11 +4,14 @@ const DEFAULT_TITLE =
   "Daily Task Tool | Utilities for Everyday Tasks";
 
 const SITE_DESCRIPTION =
-  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, Text-to-Speech converter, Password Generator, Unit Converter, Focus Timer, Word Counter, Binary Translator, Base64 Encoder, UUID Generator, URL Encoder, Text Case Converter, Tic Tac Toe, Magic 8-Ball, and Coin Flipper.";
+  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, Text-to-Speech converter, Password Generator, Unit Converter, Focus Timer, Word Counter, Binary Translator, Base64 Encoder, UUID Generator, URL Encoder, Text Case Converter, Tic Tac Toe, Magic 8-Ball, Coin Flipper, and Rock Paper Scissors.";
 
 const SEO_KEYWORDS = [
   "Daily Task Tool",
   "QR Code Generator",
+  "Roll a Dice",
+  "Dice Roller",
+  "Random Number Generator",
   "Slot Machine",
   "Text to Speech",
   "Password Generator",
@@ -42,6 +45,8 @@ const SEO_KEYWORDS = [
   "Coin Toss",
   "Heads or Tails",
   "Virtual Coin",
+  "Rock Paper Scissors",
+  "Play Rock Paper Scissors",
   "Utilities",
   "Productivity",
   "Next.js Tools",

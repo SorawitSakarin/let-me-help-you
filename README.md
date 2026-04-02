@@ -109,7 +109,17 @@ Ask the Magic 8-Ball a question and receive a mystical, randomized answer.
 - **Features**: Animated shaking ball, randomized classic responses.
 - **Theme**: Retro 8-bit style with interactive visual ball.
 
-### 18. Coin Flipper
+### 18. Roll a Dice
+Roll a standard 6-sided die to make quick decisions.
+- **Features**: Visual die faces with rolling animation.
+- **Theme**: Clean 8-bit dice with retro button.
+
+### 19. Rock Paper Scissors
+Play a classic game of Rock Paper Scissors against the computer.
+- **Features**: Interactive choices, score tracking, randomized computer choices.
+- **Theme**: Simple and fun retro 8-bit style interface.
+
+### 20. Coin Flipper
 Flip a virtual coin for heads or tails.
 - **Features**: 8-bit coin toss animation, heads/tails statistical tracking, resetting capabilities.
 - **Theme**: Retro 8-bit style with visual coin animation.
