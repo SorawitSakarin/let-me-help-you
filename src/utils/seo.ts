@@ -9,6 +9,9 @@ const SITE_DESCRIPTION =
 const SEO_KEYWORDS = [
   "Daily Task Tool",
   "QR Code Generator",
+  "Roll a Dice",
+  "Dice Roller",
+  "Random Number Generator",
   "Slot Machine",
   "Text to Speech",
   "Password Generator",
