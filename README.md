@@ -124,6 +124,11 @@ Flip a virtual coin for heads or tails.
 - **Features**: 8-bit coin toss animation, heads/tails statistical tracking, resetting capabilities.
 - **Theme**: Retro 8-bit style with visual coin animation.
 
+### 21. Guess the Number
+Guess a hidden number between 1 and 100.
+- **Features**: Random number generation, attempt counter, interactive feedback (higher/lower).
+- **Theme**: Retro 8-bit style with fun feedback.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
