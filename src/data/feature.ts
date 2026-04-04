@@ -183,4 +183,12 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
     },
+    {
+      href: '/play-guess-the-number',
+      title: 'Guess the Number',
+      description: 'Play a classic game of Guess the Number against the computer.',
+      icon: 'nes-icon trophy',
+      type: 'is-success',
+      category: 'Fun',
+    },
   ];
