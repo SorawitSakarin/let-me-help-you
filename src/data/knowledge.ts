@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "how-do-birds-fly",
+    date: "2026-04-05",
+    title: "How Do Birds Fly?",
+    category: "Biology",
+    content: [
+      "Birds have several special adaptations that help them fly. First, they have very light, hollow bones which make their bodies much lighter than they appear.",
+      "Their wings are shaped like an airplane's wings - curved on top and flat on the bottom. As a bird flies, air moves faster over the top of the wing, which creates an upward push called 'lift'.",
+      "They also have incredibly strong chest muscles to flap their wings, and an extra-large breathing system to give them the energy they need to stay in the air!"
+    ],
+    reference: "https://www.sciencelearn.org.nz/resources/303-how-birds-fly"
   }
 ];
