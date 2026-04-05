@@ -119,7 +119,12 @@ Play a classic game of Rock Paper Scissors against the computer.
 - **Features**: Interactive choices, score tracking, randomized computer choices.
 - **Theme**: Simple and fun retro 8-bit style interface.
 
-### 20. Coin Flipper
+### 20. Guess the Number
+A fun number guessing game.
+- **Features**: Generate a pseudo-random number, provide high/low feedback, count attempts.
+- **Theme**: Interactive game interface.
+
+### 21. Coin Flipper
 Flip a virtual coin for heads or tails.
 - **Features**: 8-bit coin toss animation, heads/tails statistical tracking, resetting capabilities.
 - **Theme**: Retro 8-bit style with visual coin animation.
