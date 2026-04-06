@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "why-do-we-have-leap-years",
+    date: "2026-04-06",
+    title: "Why Do We Have Leap Years?",
+    category: "Earth & Science",
+    content: [
+      "A normal year has 365 days, which is about the time it takes for Earth to orbit the Sun once. However, it actually takes Earth about 365.24 days—roughly 365 and a quarter days—to complete its journey around the Sun.",
+      "If we didn't add an extra day every four years, our calendar would slowly fall out of sync with the seasons. After a hundred years, summer would start almost a month later than it should!",
+      "To keep our calendar matched with the seasons, we add an extra day to February every four years, creating a 366-day year called a leap year. This makes sure our seasons always happen at the right time of the year."
+    ],
+    reference: "https://spaceplace.nasa.gov/leap-year/en/"
   }
 ];
