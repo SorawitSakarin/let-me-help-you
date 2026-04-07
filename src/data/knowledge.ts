@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "what-is-an-aurora",
+    date: "2026-03-26",
+    title: "What Is an Aurora?",
+    category: "Space",
+    content: [
+      "If you're near the North or South Pole, you might see beautiful light shows in the sky called auroras. Near the North Pole, they are called the aurora borealis or northern lights, and near the South Pole, they are the aurora australis or southern lights.",
+      "Even though auroras happen at night, they are actually caused by the Sun! The Sun constantly sends out solar wind and sometimes burps out huge bubbles of electrified gas called solar storms.",
+      "When these solar storms travel towards Earth, some of the energy and small particles go down the magnetic field lines at the north and south poles into our atmosphere. They interact with gases like oxygen and nitrogen, which makes the sky glow in amazing colors like green, red, blue, and purple."
+    ],
+    reference: "https://spaceplace.nasa.gov/aurora/en/"
   }
 ];
