@@ -124,6 +124,11 @@ Flip a virtual coin for heads or tails.
 - **Features**: 8-bit coin toss animation, heads/tails statistical tracking, resetting capabilities.
 - **Theme**: Retro 8-bit style with visual coin animation.
 
+### 21. Joke Generator
+Generate random jokes to brighten your day.
+- **Features**: A curated list of jokes with a simple, fun interface.
+- **Theme**: Retro 8-bit style with quick copy functionality.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
