@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "octopuses-have-three-hearts",
+    date: "2026-04-08",
+    title: "Octopuses Have Three Hearts!",
+    category: "Biology",
+    content: [
+      "Octopuses are amazing creatures! They have squishy bodies, eight arms, and they can even change color to hide from danger. But one of the most surprising facts about them is that they have not just one, but three hearts!",
+      "Why do they need three hearts? Two of the hearts are special ones just for the gills. They pump the blood through the gills to pick up oxygen from the water. The third heart takes that oxygen-rich blood and pumps it to the rest of the octopus's body.",
+      "Here is another crazy fact: when an octopus swims, the third heart stops beating! Swimming is very tiring for them, which is why they usually prefer to crawl along the ocean floor."
+    ],
+    reference: "https://www.smithsonianmag.com/science-nature/ten-wild-facts-about-octopuses-they-have-three-hearts-big-brains-and-blue-blood-7625828/"
   }
 ];
