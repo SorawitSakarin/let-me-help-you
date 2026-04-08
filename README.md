@@ -124,6 +124,11 @@ Flip a virtual coin for heads or tails.
 - **Features**: 8-bit coin toss animation, heads/tails statistical tracking, resetting capabilities.
 - **Theme**: Retro 8-bit style with visual coin animation.
 
+### 21. Memory Match
+Play a classic game of Memory Match.
+- **Features**: 4x4 card grid, emoji matching, moves tracker, restart functionality.
+- **Theme**: Fun retro 8-bit style with satisfying click feedback.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -182,6 +187,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-uuid/page.tsx`: UUID Generator tool.
 - `src/app/encode-url/page.tsx`: URL Encoder tool.
 - `src/app/flip-a-coin/page.tsx`: Coin Flipper tool.
+- `src/app/play-memory-match/page.tsx`: Memory Match tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 
