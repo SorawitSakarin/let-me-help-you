@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "how-do-fireflies-glow",
+    date: "2026-04-09",
+    title: "How Do Fireflies Glow?",
+    category: "Biology",
+    content: [
+      "Those glowing insects we call fireflies or lightning bugs use a chemical process to light up, known as bioluminescence.",
+      "Inside a firefly's light organ, a molecule called luciferin and a protein called luciferase mix with oxygen to create a chemical reaction that makes their abdomen glow.",
+      "Fireflies mainly light up to find mates by flickering in specific patterns, but their glow also serves as a warning to predators that they are poisonous and not a good snack!"
+    ],
+    reference: "https://askdruniverse.wsu.edu/2023/08/31/makes-fireflies-light-night/"
   }
 ];
