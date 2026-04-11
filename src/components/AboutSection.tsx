@@ -119,6 +119,14 @@ export default function AboutSection() {
                   </ul>
               </div>
               <div className="p-2">
+                  <h4 className="mb-2 text-base underline">Memory Match</h4>
+                  <ul className="nes-list is-disc ml-4 text-xs">
+                      <li>Find emoji pairs.</li>
+                      <li>Test your memory.</li>
+                      <li>Fun 8-bit style.</li>
+                  </ul>
+              </div>
+              <div className="p-2">
                   <h4 className="mb-2 text-base underline">JSON Formatter</h4>
                   <ul className="nes-list is-disc ml-4 text-xs">
                       <li>Format & Minify.</li>
