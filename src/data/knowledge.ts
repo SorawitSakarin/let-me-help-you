@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "how-do-fireflies-glow",
+    date: "2026-04-11",
+    title: "How Do Fireflies Glow?",
+    category: "Biology",
+    content: [
+      "Fireflies are famous for lighting up summer nights, but how do they actually glow? This natural light show is a result of a chemical reaction inside their bodies, a process called bioluminescence.",
+      "Inside the firefly's lower abdomen, a chemical called firefly luciferin mixes with an enzyme called firefly luciferase. In the presence of magnesium ions, ATP, and oxygen (which is supplied via a breathing tube), this reaction produces light.",
+      "Unlike a normal lightbulb, which creates a lot of heat, a firefly's light is 'cold light', meaning it produces no infrared or ultraviolet frequencies. They primarily use this light for mate selection, flashing unique patterns to communicate with each other!"
+    ],
+    reference: "https://en.wikipedia.org/wiki/Firefly"
   }
 ];
