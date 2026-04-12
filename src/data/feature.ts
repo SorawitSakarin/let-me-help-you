@@ -183,4 +183,12 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
     },
+    {
+      href: '/play-memory-match',
+      title: 'Memory Match',
+      description: 'Play a classic 4x4 emoji memory match game.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Fun',
+    },
   ];
