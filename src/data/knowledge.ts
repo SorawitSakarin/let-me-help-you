@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "why-flamingos-stand-on-one-leg",
+    date: "2026-04-12",
+    title: "Why Do Flamingos Stand on One Leg?",
+    category: "Biology",
+    content: [
+      "Flamingos usually stand on one leg with the other tucked beneath their body. While the exact reason isn't completely known, scientists have a few good theories!",
+      "One main theory is that standing on one leg helps them keep warm. Since they spend a lot of time wading in cold water, tucking one leg up helps them save body heat.",
+      "Another interesting theory is that it actually takes less energy for them to stand on one leg! Studies have shown that their special joints lock into place, allowing them to balance perfectly on one leg without using their muscles much at all."
+    ],
+    reference: "https://en.wikipedia.org/wiki/Flamingo"
   }
 ];
