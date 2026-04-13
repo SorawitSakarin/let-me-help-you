@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "why-do-leaves-change-color-in-fall",
+    date: "2026-03-26",
+    title: "Why Do Leaves Change Color in the Fall?",
+    category: "Earth & Science",
+    content: [
+      "The main reason for the eye-popping color change is not autumn's chilly weather but sunlight—or rather, the lack of daylight. As the autumn days shrink, the reduced daylight tells deciduous plants that it's time to stop gathering energy and get ready for the dormant season—winter.",
+      "All leaves contain different types of chemicals; one of these chemicals, chlorophyll, is responsible for absorbing sunlight and giving leaves their green color. The combination of reduced light, lack of nutrients, and less water triggers the trees to start the process of breaking down the chlorophyll, and the green color fades.",
+      "Once the waning hours of daylight trigger these changes and the green chlorophyll is gone, other pigments reveal their bright faces! Carotenoids give leaves their brilliant yellow and orange colors. Anthocyanins are found in deep red and purplish leaves."
+    ],
+    reference: "https://www.almanac.com/why-do-leaves-change-color-fall"
   }
 ];
