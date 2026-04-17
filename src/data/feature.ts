@@ -183,4 +183,12 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
     },
+    {
+      href: '/play-memory-match',
+      title: 'Memory Match',
+      description: 'Find all matching pairs in this classic card game.',
+      icon: 'nes-icon trophy',
+      type: 'is-success',
+      category: 'Fun',
+    },
   ];
