@@ -137,5 +137,16 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "autumn-leaf-color",
+    date: "2026-04-18",
+    title: "Autumn leaf color",
+    category: "Biology",
+    content: [
+      "Autumn leaf color is a phenomenon that affects the normally green leaves of many deciduous trees and shrubs by which they take on, during a few weeks in the autumn season, various shades of yellow, orange, red, purple, and brown.",
+      "The phenomenon is commonly called autumn colours or autumn foliage in British English and fall colors, fall foliage, or simply foliage in American English."
+    ],
+    reference: "https://en.wikipedia.org/wiki/Autumn_leaf_color"
   }
 ];
