@@ -124,6 +124,11 @@ Flip a virtual coin for heads or tails.
 - **Features**: 8-bit coin toss animation, heads/tails statistical tracking, resetting capabilities.
 - **Theme**: Retro 8-bit style with visual coin animation.
 
+### 21. Memory Match
+Play a classic game of Memory Match with emojis.
+- **Features**: 4x4 card grid, move tracking, win detection, reset game.
+- **Theme**: Simple and fun retro 8-bit style interface.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
