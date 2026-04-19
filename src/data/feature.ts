@@ -183,4 +183,12 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
     },
+    {
+      href: '/play-memory-match',
+      title: 'Memory Match',
+      description: 'Test your memory in this classic emoji matching game.',
+      icon: 'nes-icon trophy',
+      type: 'is-warning',
+      category: 'Fun',
+    },
   ];
