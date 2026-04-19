@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "the-wood-wide-web",
+    date: "2026-04-19",
+    title: "The Wood Wide Web: How Trees Talk to Each Other",
+    category: "Biology",
+    content: [
+      "For centuries, forests were viewed as collections of individual trees competing for resources. However, groundbreaking research over the past few decades has revealed a complex network of communication and resource sharing among trees, dubbed the “Wood Wide Web.”",
+      "At the heart of the Wood Wide Web are so-called mycorrhizal fungi, which form symbiotic relationships with tree roots. These fungi extend their thread-like hyphae, feathery filaments making up fungi, far into the soil, connecting different trees and creating a vast underground network.",
+      "These fungal networks serve as conduits for the exchange of water, carbon, nitrogen, and other nutrients between trees. The symbiosis is mutually beneficial: trees provide carbohydrates to the fungi, while the fungi enhance the trees' ability to absorb water and nutrients from the soil."
+    ],
+    reference: "https://www.ecomatcher.com/understanding-the-wood-wide-web/"
   }
 ];
