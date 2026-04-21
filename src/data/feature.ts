@@ -183,4 +183,12 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
     },
+    {
+      href: '/tell-a-joke',
+      title: 'Random Joke',
+      description: 'Generate a random joke to brighten your day.',
+      icon: 'nes-icon like',
+      type: 'is-success',
+      category: 'Fun',
+    },
   ];
