@@ -137,5 +137,15 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "jupiter-largest-planet",
+    date: "2026-03-26",
+    title: "Jupiter",
+    category: "Space",
+    content: [
+      "Jupiter is the largest planet in the Solar System. It is the fifth planet from the Sun. Jupiter is a gas giant because it is large and made mostly of gas."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Jupiter"
   }
 ];
