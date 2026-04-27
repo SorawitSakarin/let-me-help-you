@@ -89,5 +89,16 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When the astronauts repressurize the airlock and take off their helmets, these particles mix with the air and create the unique 'smell of space'. The odors are also related to dying stars called polycyclic aromatic hydrocarbons!"
     ],
     reference: "https://www.smithsonianmag.com/smart-news/what-does-space-smell-like-3457620/"
+  },
+  {
+    id: "memory-how-it-works",
+    date: "2026-03-06",
+    title: "How Does Memory Work?",
+    category: "Science",
+    content: [
+      "Memory is the personal record of past experiences. It is the brain's ability to store information to use later.",
+      "There are two main types of memory: short-term and long-term memory. Short-term memory keeps information in mind for a short time, while long-term memory stores it for much longer."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Memory"
   }
 ];
