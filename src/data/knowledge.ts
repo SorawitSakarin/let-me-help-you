@@ -137,5 +137,16 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "fireflies",
+    date: "2026-03-26",
+    title: "Fireflies",
+    category: "Biology",
+    content: [
+      "Fireflies are a family of beetles called the Lampyridae. These beetles are special in that most of them have bioluminescence, the ability to produce light.",
+      "Adults use flashes of light to attract mates. Also, firefly larvae flash their lights to warn predators that they are not a tasty meal. Many predators do not like the taste of firefly larvae."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Firefly"
   }
 ];
