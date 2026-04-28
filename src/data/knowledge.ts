@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "solar-eclipse",
+    date: "2026-03-26",
+    title: "What is a Solar Eclipse?",
+    category: "Space",
+    content: [
+      "As seen from earth, a solar eclipse /ee-klips/ happens when the moon is directly between the earth and the sun. This makes the moon fully or partially (partly) cover the sun. Solar eclipses can only happen during a new moon. Every year there are about two solar eclipses. Sometimes there are even five solar eclipses in a year. However, only two of these can be total solar eclipses, and often a year will pass without a total eclipse.",
+      "The area in which an eclipse is total is only a narrow track along the earth. Totality lasts only a few minutes. Outside this path, all eclipses are partial, and places far from the track get no eclipse at all. The track can be predicted many years before it happens.",
+      "A total solar eclipse is a natural phenomenon (event). Long ago, solar eclipses were thought to happen because of something supernatural or as a sign that something bad was going to happen. This is still believed in some cultures today. A total solar eclipse can frighten people who do not know what it means, because the sun seems to disappear during the day and the sky turns dark in just a few minutes. Other people like to go to the eclipse path for a good view while wearing special glasses."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Solar_eclipse"
   }
 ];
