@@ -183,4 +183,12 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
     },
+    {
+      href: '/play-memory-match',
+      title: 'Memory Match',
+      description: 'Play a fun 8-bit memory match card game.',
+      icon: 'nes-icon trophy',
+      type: 'is-warning',
+      category: 'Fun',
+    },
   ];
