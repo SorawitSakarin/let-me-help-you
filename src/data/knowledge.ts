@@ -137,5 +137,18 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "bioluminescence",
+    date: "2026-03-26",
+    title: "Bioluminescence: How Living Things Produce Light",
+    category: "Biology",
+    content: [
+      "Bioluminescence is how living things produce light. Often this is done by symbiosis. The larger organism contains, often in a special organ, microorganisms which make the light. Eukaryote protists have special organelles, and some bacteria also produce light.",
+      "Bioluminescence is the result of chemical processes, where the energy produced is released as visible light.",
+      "Bioluminescence has appeared many times during evolution. The capacity to produce light is an extension of normal metabolism: all chemical reactions produce a few photons. Visible light is produced when the photon production increases. In the case of bacteria, the original function of the reaction was probably to detoxify excessive oxygen.",
+      "ATP (adenosine tri-phosphate), the biological energy source, reacts with luciferin with the aid of the enzyme luciferase to yield an intermediate complex. This complex combines with oxygen to produce a highly chemiluminescent (brightly shining) compound."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Bioluminescence"
   }
 ];
