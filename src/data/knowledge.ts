@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "the-platypus-mammal",
+    date: "2026-03-26",
+    title: "The Platypus: An Unusual Egg-Laying Mammal",
+    category: "Biology",
+    content: [
+      "The platypus (Ornithorhynchus anatinus), sometimes referred to as the duck-billed platypus, is a small egg laying mammal.",
+      "The platypus is one of the few mammals that does not have a stomach. In most animals, the stomach uses strong acids and enzymes to break down food. However, in the platypus, the esophagus connects directly to the intestines.",
+      "These mammals are called monotremes because they have a common rear opening, the cloaca. Through this opening faeces and urine are voided (put out), and sexual activity takes place."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Platypus"
   }
 ];
