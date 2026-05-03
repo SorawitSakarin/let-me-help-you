@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "the-largest-planet-jupiter",
+    date: "2026-03-26",
+    title: "The Largest Planet: Jupiter",
+    category: "Space",
+    content: [
+      "Jupiter is the largest planet in the Solar System. It is the fifth planet from the Sun. Jupiter is a gas giant because it is large and made mostly of gas.",
+      "Jupiter was discovered by Galileo Galilei in 1610 with a small telescope.",
+      "The planet has a Great Red Spot which is located at 22 degrees south of Jupiter's equator. The great red spot produces wind-speeds up to 432 km/h (268 mph)."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Jupiter"
   }
 ];
