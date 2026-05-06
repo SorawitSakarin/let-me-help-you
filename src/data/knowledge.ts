@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "what-are-dinosaurs",
+    date: "2026-03-26",
+    title: "What are Dinosaurs?",
+    category: "History",
+    content: [
+      "Dinosaurs are a group of Archosaur reptiles of the clade Dinosauria. Dinosaurs eventually gave rise to birds. Dinosaurs were the most powerful land animals of the Mesozoic era. Over 500 different genera of dinosaurs are known. Fossils of dinosaurs have been found on every continent.",
+      "Dinosaurs evolved in the Upper Triassic, about 230 million years ago (mya). The earliest date of a fossil is that of Eoraptor and Herrerasaurus from Argentina, and Saturnalia from Brazil, 237 to 228 mya. By the early Jurassic they were the top land vertebrates, and dominated most environments on land.",
+      "From the fossil record, it is known that birds are living feathered dinosaurs. They evolved from earlier theropods during the later Jurassic. They were the only line of dinosaurs to survive to the present day."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Dinosaur"
   }
 ];
