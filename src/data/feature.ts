@@ -1,5 +1,13 @@
 export const TOOLS = [
     {
+      href: '/play-memory-match',
+      title: 'Memory Match',
+      description: 'Test your memory with a fun emoji matching game.',
+      icon: 'nes-icon star',
+      type: 'is-success',
+      category: 'Fun',
+    },
+    {
       href: '/create-qr-code',
       title: 'QR Generator',
       description: 'Create custom QR codes with icons inside.',

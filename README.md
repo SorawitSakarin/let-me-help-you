@@ -119,7 +119,12 @@ Play a classic game of Rock Paper Scissors against the computer.
 - **Features**: Interactive choices, score tracking, randomized computer choices.
 - **Theme**: Simple and fun retro 8-bit style interface.
 
-### 20. Coin Flipper
+### 20. Memory Match
+Test your memory with a fun emoji matching game.
+- **Features**: 4x4 card grid, move tracking, win state detection.
+- **Theme**: Colorful emoji cards with 8-bit NES.css styles.
+
+### 21. Coin Flipper
 Flip a virtual coin for heads or tails.
 - **Features**: 8-bit coin toss animation, heads/tails statistical tracking, resetting capabilities.
 - **Theme**: Retro 8-bit style with visual coin animation.
