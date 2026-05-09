@@ -137,5 +137,16 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "the-great-pyramid-of-giza",
+    date: "2026-03-26",
+    title: "The Great Pyramid of Giza",
+    category: "History",
+    content: [
+      "The Great Pyramid of Giza is a huge pyramid built by the Ancient Egyptians over 4,500 years ago. It stands 18.4 km from Cairo, Egypt. It is the oldest of the Seven Wonders of the Ancient World, and the only one to remain mostly intact.",
+      "When it was built, the Great Pyramid was 146.5 metres (481 feet) tall. It was the tallest building in the world for over 3,800 years.  Erosion and other causes have shrunk it to 138.8 metres (455.4 feet)."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Great_Pyramid_of_Giza"
   }
 ];
