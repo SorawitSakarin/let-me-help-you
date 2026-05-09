@@ -183,4 +183,12 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
     },
+    {
+      href: '/play-memory-match',
+      title: 'Memory Match',
+      description: 'Test your memory by matching pairs of cards.',
+      icon: 'nes-icon star',
+      type: 'is-warning',
+      category: 'Fun',
+    },
   ];
