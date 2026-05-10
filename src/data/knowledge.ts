@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "voyager-golden-record",
+    date: "2026-03-26",
+    title: "The Voyager Golden Record",
+    category: "Space",
+    content: [
+      "The Voyager Golden Records are records that contain sounds and images chosen to show the life and culture on Earth. They show photographs of life on earth, including nature, cities, people and animals.",
+      "They also have greetings recorded in 55 languages, songs from around the world, and non-musical sounds. The record gives specific instructions and distance measurements that can be used to pinpoint Earth's location as well.",
+      "These records which were sent in Voyager 1 and Voyager 2 (both launched in 1977), are for alien life forms to see. The outside of the record is designed so that aliens could understand, with instructions and images about how to play the record."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Voyager_Golden_Record"
   }
 ];
