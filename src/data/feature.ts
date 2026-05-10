@@ -183,4 +183,12 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
     },
+    {
+      href: '/generate-joke',
+      title: 'Joke Generator',
+      description: 'Generate a random joke to lighten up your day.',
+      icon: 'nes-icon like',
+      type: 'is-primary',
+      category: 'Fun',
+    },
   ];
