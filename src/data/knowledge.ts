@@ -137,5 +137,19 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "octopus-facts",
+    date: "2026-03-26",
+    title: "Octopus: The Eight-Armed Wonder",
+    category: "Biology",
+    content: [
+      "Octopus  is a genus of cephalopod mollusc in the order Octopoda. The genus is quite typical of most octopods. They have two, large eyes and eight limbs with suckers. They have a hard beak, with the mouth at the center point of the arms.",
+      "Octopods have no internal or external skeleton, allowing them to squeeze through tight places and hide. Many stays in cracks between rocks or corals when they are not hunting. They are intelligent predators with a taste for crabs.  Octopuses have three hearts. Two pump blood to the gills, while the third pumps it to the rest of the body.",
+      "Octopods inhabit many regions of the ocean, especially coral reefs. For defense against predators, they hide, flee quickly, expel ink, or use colour-changing camouflage. They live rather short lives.",
+      "An octopus trails its eight arms behind it as it swims. All octopods are venomous, but only the small blue-ringed octopus is known to be deadly to humans.",
+      "There are about 300 octopod species, of which more than 100 are in the genus Octopus. Octopods make up over one-third of the total number of living cephalopods. The term 'octopus' may be used to refer to those in the genus Octopus. The term 'octopod' is correct for members of the order Octopoda in general."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Octopus"
   }
 ];
