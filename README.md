@@ -124,6 +124,11 @@ Flip a virtual coin for heads or tails.
 - **Features**: 8-bit coin toss animation, heads/tails statistical tracking, resetting capabilities.
 - **Theme**: Retro 8-bit style with visual coin animation.
 
+### 21. Guess the Number
+Can you guess the secret number between 1 and 100?
+- **Features**: Attempt tracking, hints for high or low guesses, and success message.
+- **Theme**: Fun and simple retro 8-bit style interface.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -182,6 +187,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-uuid/page.tsx`: UUID Generator tool.
 - `src/app/encode-url/page.tsx`: URL Encoder tool.
 - `src/app/flip-a-coin/page.tsx`: Coin Flipper tool.
+- `src/app/play-guess-the-number/page.tsx`: Guess the Number tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 
