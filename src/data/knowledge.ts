@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "what-is-a-rainbow",
+    date: "2026-03-26",
+    title: "What is a Rainbow?",
+    category: "Earth & Science",
+    content: [
+      "A rainbow is an arc of colour in the sky that can be seen when the sun shines through falling rain. The pattern of colours, called a spectrum, starts with red on the outside and changes through orange, yellow, green, blue, indigo, and violet on the inside. Sometimes a second, larger, dimmer rainbow is seen.",
+      "A rainbow is created when white light is bent (refracted) while entering a droplet of water, split into separate colours, and reflected back. A rainbow is actually round like a circle.",
+      "On the ground, the bottom part is hidden, but in the sky, like from a flying airplane, it can be seen as a circle around the point opposite the Sun. Rainbows often appear after storms, and are popular symbols for peace in many cultures."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Rainbow"
   }
 ];
