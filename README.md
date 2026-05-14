@@ -124,6 +124,11 @@ Flip a virtual coin for heads or tails.
 - **Features**: 8-bit coin toss animation, heads/tails statistical tracking, resetting capabilities.
 - **Theme**: Retro 8-bit style with visual coin animation.
 
+### 21. Guess the Number
+Play a classic number guessing game.
+- **Features**: Feedback on guesses, attempt tracking, play again option.
+- **Theme**: Retro 8-bit style interface.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
