@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "black-holes",
+    date: "2026-03-26",
+    title: "Black Holes",
+    category: "Space",
+    content: [
+      "A black hole is a place in space where gravity is so strong that nothing can escape from it, even light.",
+      "The outer edge of a black hole is called the event horizon. When something enters the black hole, it cannot get out.",
+      "Black holes act like perfect black bodies, which means they do not reflect any light."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Black_hole"
   }
 ];
