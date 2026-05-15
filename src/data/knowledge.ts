@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "saturn-the-ringed-planet",
+    date: "2026-03-26",
+    title: "Saturn: The Ringed Planet",
+    category: "Space",
+    content: [
+      "Saturn is the sixth planet from the Sun in our solar system. Saturn is the second largest planet in the Solar System, after Jupiter.",
+      "A day on Saturn is much shorter than a day on Earth, lasting only about 10.7 hours. This means that Saturn spins much faster than Earth, spinning more than twice in the same time it takes Earth to spin once.",
+      "There many rings around Saturn, made of ice with some rocks and dust. While a final number of Saturnian moons cannot be given, Saturn has the most of any planet in our solar system, 274 having stable and confirmed orbits."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Saturn"
   }
 ];
