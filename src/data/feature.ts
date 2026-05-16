@@ -183,4 +183,12 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
     },
+    {
+      href: '/get-a-joke',
+      title: 'Random Joke',
+      description: 'Get a random joke to brighten your day.',
+      icon: 'nes-icon trophy',
+      type: 'is-primary',
+      category: 'Fun',
+    },
   ];
