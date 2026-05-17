@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "aurora",
+    date: "2026-03-26",
+    title: "Aurora: The Natural Light Display",
+    category: "Earth & Science",
+    content: [
+      "An aurora, also called polar light, northern light or southern light, is a natural light display in the sky. They are usually seen in the high latitudes (Arctic and Antarctic) regions. Auroras are produced when the Earth's magnetosphere is disturbed by the solar wind.",
+      "An aurora around the North Pole is called the Aurora borealis or 'northern lights'. Around the South Pole is the Aurora australis or 'dawn of the south' or 'southern lights'. It can be seen from long distances, stretching in the sky many hundreds of miles.",
+      "Auroras can happen at any time, however, they can only be seen at night because their light is not as intense as the light of day. Faint stars can even be seen through the aurora. Many legends are associated with the aurora in all countries where this phenomenon regularly occurs."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Aurora"
   }
 ];
