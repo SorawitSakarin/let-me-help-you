@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "voyager-1-farthest-human-made-object",
+    date: "2026-03-26",
+    title: "Voyager 1: The Farthest Human-Made Object",
+    category: "Space",
+    content: [
+      "Voyager 1 is a space probe launched by NASA in 1977 to explore the outer Solar System. It was launched shortly after its twin, Voyager 2.",
+      "During its journey, Voyager 1 flew past Jupiter and Saturn, providing detailed information and capturing the first close-up images of their moons.",
+      "In 2012, Voyager 1 crossed the edge of our Solar System, becoming the first human-made object to enter interstellar space. As of 2024, it is the farthest human-made object from Earth, located about 15 billion miles away!"
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Voyager_1"
   }
 ];
