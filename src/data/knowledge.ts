@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "what-is-an-aurora",
+    date: "2026-03-26",
+    title: "What is an Aurora?",
+    category: "Earth & Science",
+    content: [
+      "An aurora is a beautiful natural light show in the sky, mostly seen in high-latitude areas near the Arctic and Antarctic. In the north, it is called the Aurora Borealis or Northern Lights, and in the south, it is called the Aurora Australis or Southern Lights.",
+      "These amazing lights are actually caused by the Sun! The Sun constantly sends out a stream of tiny particles called the solar wind. When these particles reach Earth, our planet's magnetic field acts like a shield, guiding them towards the North and South Poles.",
+      "As the solar particles crash into gases in Earth's atmosphere, they give off extra energy in the form of light. The different colors happen because they hit different gases; for example, hitting oxygen makes green or red light, while hitting nitrogen makes blue or purple light."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Aurora"
   }
 ];
