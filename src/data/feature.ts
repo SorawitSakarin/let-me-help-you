@@ -183,4 +183,12 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
     },
+    {
+      href: '/play-memory-game',
+      title: 'Memory Game',
+      description: 'Match pairs of cards in this classic memory game.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Fun',
+    },
   ];
