@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "bioluminescence",
+    date: "2026-03-26",
+    title: "Bioluminescence: Nature's Light Show",
+    category: "Biology",
+    content: [
+      "Bioluminescence is the amazing ability of living things to produce and give off their own light. This natural glow is caused by a chemical reaction inside the organism's body.",
+      "While it is most common in the ocean, where creatures like deep-sea fish, jellyfish, and squid use it to hunt, hide, or communicate, it also happens on land! Glowworms and fireflies are famous examples of bioluminescence that we can see in our own backyards.",
+      "Animals use this glowing trick for many reasons. Some use it as camouflage, others to attract a mate, and some even use it like a flashlight to lure in prey or scare away predators."
+    ],
+    reference: "https://en.wikipedia.org/wiki/Bioluminescence"
   }
 ];
