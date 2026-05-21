@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "voyager-golden-records",
+    date: "2026-03-26",
+    title: "The Voyager Golden Records: Earth's Message to the Universe",
+    category: "Space",
+    content: [
+      "In 1977, NASA launched two spacecraft, Voyager 1 and Voyager 2, to explore the outer solar system. Aboard each of them is a special time capsule: a gold-plated phonograph record known as the Voyager Golden Record.",
+      "These records were designed to be a message from humanity to any intelligent alien life that might find them in the future. They contain a mix of sounds and images that show the incredible diversity of life and culture on Earth.",
+      "The records include greetings in 55 different languages, sounds from nature like thunder and birds, and 90 minutes of music from around the world. Although the spacecraft are incredibly far away, the Golden Records serve as a hopeful symbol of our planet drifting in the cosmic ocean."
+    ],
+    reference: "https://en.wikipedia.org/wiki/Voyager_Golden_Record"
   }
 ];
