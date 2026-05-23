@@ -149,5 +149,14 @@ export const knowledgeData: KnowledgeTopic[] = [
       "According to science, faster-moving air has lower pressure than slower-moving air. So, the higher pressure under the wing pushes up against the lower pressure above it. This upward push is called 'lift', and it's what keeps the airplane in the air!"
     ],
     reference: "https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-aerodynamics-k4.html"
-  }
+    id: "how-do-birds-fly",
+    date: "2026-04-05",
+    title: "How Do Birds Fly?",
+    category: "Biology",
+    content: [
+      "Birds have several special adaptations that help them fly. First, they have very light, hollow bones which make their bodies much lighter than they appear.",
+      "Their wings are shaped like an airplane's wings - curved on top and flat on the bottom. As a bird flies, air moves faster over the top of the wing, which creates an upward push called 'lift'.",
+      "They also have incredibly strong chest muscles to flap their wings, and an extra-large breathing system to give them the energy they need to stay in the air!"
+    ],
+    reference: "https://www.sciencelearn.org.nz/resources/303-how-birds-fly"  }
 ];
