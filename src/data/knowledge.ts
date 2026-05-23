@@ -379,7 +379,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "There many rings around Saturn, made of ice with some rocks and dust. While a final number of Saturnian moons cannot be given, Saturn has the most of any planet in our solar system, 274 having stable and confirmed orbits."
     ],
     reference: "https://simple.wikipedia.org/wiki/Saturn"  }
-];
+    id: "bioluminescence",
+    date: "2026-03-26",
+    title: "Bioluminescence: Nature's Light Show",
+    category: "Biology",
+    content: [
+      "Bioluminescence is the amazing ability of living things to produce and give off their own light. This natural glow is caused by a chemical reaction inside the organism's body.",
+      "While it is most common in the ocean, where creatures like deep-sea fish, jellyfish, and squid use it to hunt, hide, or communicate, it also happens on land! Glowworms and fireflies are famous examples of bioluminescence that we can see in our own backyards.",
+      "Animals use this glowing trick for many reasons. Some use it as camouflage, others to attract a mate, and some even use it like a flashlight to lure in prey or scare away predators."
+    ],
+    reference: "https://en.wikipedia.org/wiki/Bioluminescence"
+  }];
     id: "black-holes",
     date: "2026-03-26",
     title: "Black Holes",
