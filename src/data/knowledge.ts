@@ -221,7 +221,16 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When a positive or negative electric charge is applied to the screen, the charged particles move to the top or bottom of the capsule. This makes the surface look black or white in that spot. E-ink is also bistable, meaning once the particles move, they stay there without needing power, making the screen highly energy-efficient!"
     ],
     reference: "https://www.visionect.com/blog/electronic-paper-explained-what-is-it-and-how-does-it-work/"  }
-];
+    id: "autumn-leaf-color",
+    date: "2026-04-18",
+    title: "Autumn leaf color",
+    category: "Biology",
+    content: [
+      "Autumn leaf color is a phenomenon that affects the normally green leaves of many deciduous trees and shrubs by which they take on, during a few weeks in the autumn season, various shades of yellow, orange, red, purple, and brown.",
+      "The phenomenon is commonly called autumn colours or autumn foliage in British English and fall colors, fall foliage, or simply foliage in American English."
+    ],
+    reference: "https://en.wikipedia.org/wiki/Autumn_leaf_color"
+  }];
     id: "how-active-noise-cancellation-works",
     date: "2026-04-17",
     title: "How Active Noise Cancellation Works",
