@@ -190,7 +190,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Another interesting theory is that it actually takes less energy for them to stand on one leg! Studies have shown that their special joints lock into place, allowing them to balance perfectly on one leg without using their muscles much at all."
     ],
     reference: "https://en.wikipedia.org/wiki/Flamingo"  }
-];
+    id: "venus-day-longer-than-year",
+    date: "2026-03-26",
+    title: "A Day on Venus is Longer Than a Year",
+    category: "Space",
+    content: [
+      "Did you know that a day on Venus lasts longer than a whole year on Venus? It sounds impossible, but it's true! This happens because Venus spins incredibly slowly.",
+      "It takes Venus about 243 Earth days to spin around just one time. That is one Venusian day. However, it only takes 225 Earth days for Venus to go all the way around the Sun. That is one Venusian year.",
+      "This means that Venus completes its trip around the Sun faster than it spins around on its own axis. On top of that, Venus spins backwards compared to most other planets, so the Sun rises in the west and sets in the east!"
+    ],
+    reference: "https://spaceplace.nasa.gov/all-about-venus/"
+  }];
     id: "why-do-leaves-change-color-in-fall",
     date: "2026-03-26",
     title: "Why Do Leaves Change Color in the Fall?",
