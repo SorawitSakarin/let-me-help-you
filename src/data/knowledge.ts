@@ -369,5 +369,14 @@ export const knowledgeData: KnowledgeTopic[] = [
       "There are about 300 octopod species, of which more than 100 are in the genus Octopus. Octopods make up over one-third of the total number of living cephalopods. The term 'octopus' may be used to refer to those in the genus Octopus. The term 'octopod' is correct for members of the order Octopoda in general."
     ],
     reference: "https://simple.wikipedia.org/wiki/Octopus"
-  }
+    id: "saturn-the-ringed-planet",
+    date: "2026-03-26",
+    title: "Saturn: The Ringed Planet",
+    category: "Space",
+    content: [
+      "Saturn is the sixth planet from the Sun in our solar system. Saturn is the second largest planet in the Solar System, after Jupiter.",
+      "A day on Saturn is much shorter than a day on Earth, lasting only about 10.7 hours. This means that Saturn spins much faster than Earth, spinning more than twice in the same time it takes Earth to spin once.",
+      "There many rings around Saturn, made of ice with some rocks and dust. While a final number of Saturnian moons cannot be given, Saturn has the most of any planet in our solar system, 274 having stable and confirmed orbits."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Saturn"  }
 ];
