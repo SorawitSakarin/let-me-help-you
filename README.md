@@ -98,6 +98,37 @@ Convert text to UPPERCASE, lowercase, Title Case, camelCase, snake_case, and mor
 - **Controls**: UPPERCASE, lowercase, Title Case, camelCase, snake_case, kebab-case, PascalCase, Copy, Clear.
 - **Theme**: Simple interface with multi-line text area and action buttons.
 
+### 16. Tic Tac Toe
+Play a classic game of Tic Tac Toe.
+- **Features**: 3x3 grid, turn-based play, win detection, reset button.
+- **Theme**: Simple, fun, and fast retro 8-bit style.
+
+### 17. Magic 8-Ball
+Ask the Magic 8-Ball a question and receive a mystical, randomized answer.
+- **Input**: Enter a yes/no question.
+- **Features**: Animated shaking ball, randomized classic responses.
+- **Theme**: Retro 8-bit style with interactive visual ball.
+
+### 18. Roll a Dice
+Roll a standard 6-sided die to make quick decisions.
+- **Features**: Visual die faces with rolling animation.
+- **Theme**: Clean 8-bit dice with retro button.
+
+### 19. Rock Paper Scissors
+Play a classic game of Rock Paper Scissors against the computer.
+- **Features**: Interactive choices, score tracking, randomized computer choices.
+- **Theme**: Simple and fun retro 8-bit style interface.
+
+### 20. Coin Flipper
+Flip a virtual coin for heads or tails.
+- **Features**: 8-bit coin toss animation, heads/tails statistical tracking, resetting capabilities.
+- **Theme**: Retro 8-bit style with visual coin animation.
+
+### 21. Random Joke
+Get a random joke to brighten your day.
+- **Features**: Fetches random jokes with setup and punchline.
+- **Theme**: Retro 8-bit style.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -155,6 +186,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/json-formatter/page.tsx`: JSON Formatter tool.
 - `src/app/generate-uuid/page.tsx`: UUID Generator tool.
 - `src/app/encode-url/page.tsx`: URL Encoder tool.
+- `src/app/flip-a-coin/page.tsx`: Coin Flipper tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 
