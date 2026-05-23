@@ -137,5 +137,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Even though it is pitch black, extremely cold, and the water pressure is incredibly high, life still finds a way. Scientists have discovered amazing and strange creatures living down there, like tiny crustaceans and glowing fish, that have adapted to survive in one of the most extreme environments on our planet."
     ],
     reference: "https://kids.britannica.com/students/article/Mariana-Trench/632233"
+  },
+  {
+    id: "how-do-airplanes-fly",
+    date: "2026-04-04",
+    title: "How Do Airplanes Fly?",
+    category: "Technology",
+    content: [
+      "Have you ever wondered how a huge, heavy metal airplane can stay up in the sky? It's all thanks to the special shape of its wings and a push from its engines.",
+      "Airplane wings are curved on the top and flatter on the bottom. This shape is called an airfoil. When the plane moves forward, the air rushing over the top of the wing has to travel faster than the air moving under it.",
+      "According to science, faster-moving air has lower pressure than slower-moving air. So, the higher pressure under the wing pushes up against the lower pressure above it. This upward push is called 'lift', and it's what keeps the airplane in the air!"
+    ],
+    reference: "https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-aerodynamics-k4.html"
   }
 ];
