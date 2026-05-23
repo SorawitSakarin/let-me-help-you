@@ -54,7 +54,7 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Chameleons have special cells in their skin called chromatophores. These cells contain different pigments. For example, xanthophores have yellow and red pigments, and melanophores contain black melanin pigment.",
       "Underneath these are iridophores, which contain transparent crystals that reflect and scatter light to create blue and white colors. By stretching or shrinking their skin, chameleons change how these crystals are spaced. This alters how light reflects off them, mixing with the other pigments to produce the vibrant colors we see in the blink of an eye!"
     ],
-    reference: "https://findanexpert.unimelb.edu.au/news/2868-how-do-chameleons-and-other-creatures-change-colour%3F" 
+    reference: "https://findanexpert.unimelb.edu.au/news/2868-how-do-chameleons-and-other-creatures-change-colour%3F"
   },
   {
     id: "ai-nobel-prize-chemistry-2024",
@@ -101,7 +101,7 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Black holes can be big or small. The smallest ones might be as tiny as a single atom, but they weigh as much as a large mountain! The biggest ones are called 'supermassive' black holes, and they are found at the center of almost every large galaxy, including our own Milky Way."
     ],
     reference: "https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html"
-    },
+  },
   {
     id: "the-mariana-trench",
     date: "2026-03-20",
@@ -113,7 +113,7 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Despite the freezing temperatures, complete darkness, and crushing pressure, life still finds a way to survive. Scientists have discovered unique creatures, including single-celled organisms, specialized fish, and even microbes that thrive near hydrothermal vents that release hot, mineral-rich water. Because of its unique environment, it was established as a US National Monument in 2009."
     ],
     reference: "https://www.fisheries.noaa.gov/pacific-islands/habitat-conservation/mariana-trench-marine-national-monument"
-    },
+  },
   {
     id: "tardigrades-toughest-animals",
     date: "2026-03-21",
@@ -125,7 +125,7 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Their secret weapon is a state called 'cryptobiosis'. When their environment gets too tough, they curl up into a dry ball called a 'tun' and their metabolism slows down to almost nothing. They can stay in this suspended state for decades until conditions improve and they rehydrate and wake up."
     ],
     reference: "https://www.nationalgeographic.com/animals/invertebrates/facts/tardigrades-water-bears"
-    },
+  },
   {
     id: "the-mariana-trench",
     date: "2026-03-25",
@@ -149,6 +149,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "According to science, faster-moving air has lower pressure than slower-moving air. So, the higher pressure under the wing pushes up against the lower pressure above it. This upward push is called 'lift', and it's what keeps the airplane in the air!"
     ],
     reference: "https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-aerodynamics-k4.html"
+  },
+  {
     id: "how-do-birds-fly",
     date: "2026-04-05",
     title: "How Do Birds Fly?",
@@ -158,7 +160,9 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Their wings are shaped like an airplane's wings - curved on top and flat on the bottom. As a bird flies, air moves faster over the top of the wing, which creates an upward push called 'lift'.",
       "They also have incredibly strong chest muscles to flap their wings, and an extra-large breathing system to give them the energy they need to stay in the air!"
     ],
-    reference: "https://www.sciencelearn.org.nz/resources/303-how-birds-fly"  }
+    reference: "https://www.sciencelearn.org.nz/resources/303-how-birds-fly"
+  },
+  {
     id: "why-do-we-have-leap-years",
     date: "2026-04-06",
     title: "Why Do We Have Leap Years?",
@@ -169,7 +173,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "To keep our calendar matched with the seasons, we add an extra day to February every four years, creating a 366-day year called a leap year. This makes sure our seasons always happen at the right time of the year."
     ],
     reference: "https://spaceplace.nasa.gov/leap-year/en/"
-  }];
+  },
+  {
     id: "why-do-cats-purr",
     date: "2026-04-10",
     title: "Why Do Cats Purr?",
@@ -180,6 +185,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "It has also been shown that cats purr to manage pain and soothe themselves. It varies in loudness and tone among species and in the same animal."
     ],
     reference: "https://en.wikipedia.org/wiki/Purr"
+  },
+  {
     id: "why-flamingos-stand-on-one-leg",
     date: "2026-04-12",
     title: "Why Do Flamingos Stand on One Leg?",
@@ -189,7 +196,9 @@ export const knowledgeData: KnowledgeTopic[] = [
       "One main theory is that standing on one leg helps them keep warm. Since they spend a lot of time wading in cold water, tucking one leg up helps them save body heat.",
       "Another interesting theory is that it actually takes less energy for them to stand on one leg! Studies have shown that their special joints lock into place, allowing them to balance perfectly on one leg without using their muscles much at all."
     ],
-    reference: "https://en.wikipedia.org/wiki/Flamingo"  }
+    reference: "https://en.wikipedia.org/wiki/Flamingo"
+  },
+  {
     id: "venus-day-longer-than-year",
     date: "2026-03-26",
     title: "A Day on Venus is Longer Than a Year",
@@ -200,7 +209,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "This means that Venus completes its trip around the Sun faster than it spins around on its own axis. On top of that, Venus spins backwards compared to most other planets, so the Sun rises in the west and sets in the east!"
     ],
     reference: "https://spaceplace.nasa.gov/all-about-venus/"
-  }];
+  },
+  {
     id: "why-do-leaves-change-color-in-fall",
     date: "2026-03-26",
     title: "Why Do Leaves Change Color in the Fall?",
@@ -211,6 +221,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Once the waning hours of daylight trigger these changes and the green chlorophyll is gone, other pigments reveal their bright faces! Carotenoids give leaves their brilliant yellow and orange colors. Anthocyanins are found in deep red and purplish leaves."
     ],
     reference: "https://www.almanac.com/why-do-leaves-change-color-fall"
+  },
+  {
     id: "how-does-e-ink-work",
     date: "2026-03-26",
     title: "How Does E-Ink Work?",
@@ -220,7 +232,9 @@ export const knowledgeData: KnowledgeTopic[] = [
       "An e-ink screen is made up of millions of tiny capsules, each about as wide as a human hair. Inside these capsules are clear fluid and tiny colored particles, usually black and white. The white particles have a positive charge, and the black particles have a negative charge.",
       "When a positive or negative electric charge is applied to the screen, the charged particles move to the top or bottom of the capsule. This makes the surface look black or white in that spot. E-ink is also bistable, meaning once the particles move, they stay there without needing power, making the screen highly energy-efficient!"
     ],
-    reference: "https://www.visionect.com/blog/electronic-paper-explained-what-is-it-and-how-does-it-work/"  }
+    reference: "https://www.visionect.com/blog/electronic-paper-explained-what-is-it-and-how-does-it-work/"
+  },
+  {
     id: "autumn-leaf-color",
     date: "2026-04-18",
     title: "Autumn leaf color",
@@ -230,7 +244,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "The phenomenon is commonly called autumn colours or autumn foliage in British English and fall colors, fall foliage, or simply foliage in American English."
     ],
     reference: "https://en.wikipedia.org/wiki/Autumn_leaf_color"
-  }];
+  },
+  {
     id: "how-active-noise-cancellation-works",
     date: "2026-04-17",
     title: "How Active Noise Cancellation Works",
@@ -241,6 +256,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "The microphones identify the frequency and amplitude of the external sounds, then ANC uses this information to create a soundwave that’s the exact opposite. This contrasting soundwave gets played through the internal drivers on your headphones and, voilà, the unwanted noise is eliminated."
     ],
     reference: "https://www.sonos.com/blog/how-does-noise-canceling-work"
+  },
+  {
     id: "the-wood-wide-web",
     date: "2026-04-19",
     title: "The Wood Wide Web: How Trees Talk to Each Other",
@@ -250,7 +267,9 @@ export const knowledgeData: KnowledgeTopic[] = [
       "At the heart of the Wood Wide Web are so-called mycorrhizal fungi, which form symbiotic relationships with tree roots. These fungi extend their thread-like hyphae, feathery filaments making up fungi, far into the soil, connecting different trees and creating a vast underground network.",
       "These fungal networks serve as conduits for the exchange of water, carbon, nitrogen, and other nutrients between trees. The symbiosis is mutually beneficial: trees provide carbohydrates to the fungi, while the fungi enhance the trees' ability to absorb water and nutrients from the soil."
     ],
-    reference: "https://www.ecomatcher.com/understanding-the-wood-wide-web/"  }
+    reference: "https://www.ecomatcher.com/understanding-the-wood-wide-web/"
+  },
+  {
     id: "fireflies",
     date: "2026-03-26",
     title: "Fireflies",
@@ -260,7 +279,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Adults use flashes of light to attract mates. Also, firefly larvae flash their lights to warn predators that they are not a tasty meal. Many predators do not like the taste of firefly larvae."
     ],
     reference: "https://simple.wikipedia.org/wiki/Firefly"
-  }];
+  },
+  {
     id: "the-moon",
     date: "2026-04-22",
     title: "Moon",
@@ -273,6 +293,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Some other planets also have moons or natural satellites. The giant impact hypothesis is a common explanation for how the Moon formed."
     ],
     reference: "https://simple.wikipedia.org/wiki/Moon"
+  },
+  {
     id: "solar-eclipse",
     date: "2026-03-26",
     title: "What is a Solar Eclipse?",
@@ -282,7 +304,9 @@ export const knowledgeData: KnowledgeTopic[] = [
       "The area in which an eclipse is total is only a narrow track along the earth. Totality lasts only a few minutes. Outside this path, all eclipses are partial, and places far from the track get no eclipse at all. The track can be predicted many years before it happens.",
       "A total solar eclipse is a natural phenomenon (event). Long ago, solar eclipses were thought to happen because of something supernatural or as a sign that something bad was going to happen. This is still believed in some cultures today. A total solar eclipse can frighten people who do not know what it means, because the sun seems to disappear during the day and the sky turns dark in just a few minutes. Other people like to go to the eclipse path for a good view while wearing special glasses."
     ],
-    reference: "https://simple.wikipedia.org/wiki/Solar_eclipse"  }
+    reference: "https://simple.wikipedia.org/wiki/Solar_eclipse"
+  },
+  {
     id: "the-platypus-mammal",
     date: "2026-03-26",
     title: "The Platypus: An Unusual Egg-Laying Mammal",
@@ -293,7 +317,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "These mammals are called monotremes because they have a common rear opening, the cloaca. Through this opening faeces and urine are voided (put out), and sexual activity takes place."
     ],
     reference: "https://simple.wikipedia.org/wiki/Platypus"
-  }];
+  },
+  {
     id: "the-great-barrier-reef",
     date: "2026-03-26",
     title: "The Great Barrier Reef",
@@ -306,6 +331,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "During 2016, the worst die-off ever recorded occurred, due to seas warming around the Great Barrier Reef. Two-thirds of a 700-km (435 miles) stretch of coral in nine months were killed."
     ],
     reference: "https://simple.wikipedia.org/wiki/Great_Barrier_Reef"
+  },
+  {
     id: "what-are-dinosaurs",
     date: "2026-03-26",
     title: "What are Dinosaurs?",
@@ -315,7 +342,9 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Dinosaurs evolved in the Upper Triassic, about 230 million years ago (mya). The earliest date of a fossil is that of Eoraptor and Herrerasaurus from Argentina, and Saturnalia from Brazil, 237 to 228 mya. By the early Jurassic they were the top land vertebrates, and dominated most environments on land.",
       "From the fossil record, it is known that birds are living feathered dinosaurs. They evolved from earlier theropods during the later Jurassic. They were the only line of dinosaurs to survive to the present day."
     ],
-    reference: "https://simple.wikipedia.org/wiki/Dinosaur"  }
+    reference: "https://simple.wikipedia.org/wiki/Dinosaur"
+  },
+  {
     id: "jupiter",
     date: "2026-03-26",
     title: "Jupiter",
@@ -326,7 +355,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "By mass, Jupiter's atmosphere is around 76% hydrogen and 24% helium. However, since helium atoms are larger than hydrogen molecules, Jupiter's upper atmosphere is about 90% hydrogen and 10% helium by volume."
     ],
     reference: "https://simple.wikipedia.org/wiki/Jupiter"
-  }];
+  },
+  {
     id: "what-are-dinosaurs",
     date: "2026-03-26",
     title: "What are Dinosaurs?",
@@ -337,6 +367,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "From the fossil record, it is known that birds are living feathered dinosaurs. They evolved from earlier theropods during the later Jurassic. They were the only line of dinosaurs to survive to the present day."
     ],
     reference: "https://simple.wikipedia.org/wiki/Dinosaur"
+  },
+  {
     id: "the-great-pyramid-of-giza",
     date: "2026-03-26",
     title: "The Great Pyramid of Giza",
@@ -345,7 +377,9 @@ export const knowledgeData: KnowledgeTopic[] = [
       "The Great Pyramid of Giza is a huge pyramid built by the Ancient Egyptians over 4,500 years ago. It stands 18.4 km from Cairo, Egypt. It is the oldest of the Seven Wonders of the Ancient World, and the only one to remain mostly intact.",
       "When it was built, the Great Pyramid was 146.5 metres (481 feet) tall. It was the tallest building in the world for over 3,800 years.  Erosion and other causes have shrunk it to 138.8 metres (455.4 feet)."
     ],
-    reference: "https://simple.wikipedia.org/wiki/Great_Pyramid_of_Giza"  }
+    reference: "https://simple.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+  },
+  {
     id: "what-is-a-rainbow",
     date: "2026-03-26",
     title: "What is a Rainbow?",
@@ -356,7 +390,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "On the ground, the bottom part is hidden, but in the sky, like from a flying airplane, it can be seen as a circle around the point opposite the Sun. Rainbows often appear after storms, and are popular symbols for peace in many cultures."
     ],
     reference: "https://simple.wikipedia.org/wiki/Rainbow"
-  }];
+  },
+  {
     id: "octopus-facts",
     date: "2026-03-26",
     title: "Octopus: The Eight-Armed Wonder",
@@ -369,6 +404,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "There are about 300 octopod species, of which more than 100 are in the genus Octopus. Octopods make up over one-third of the total number of living cephalopods. The term 'octopus' may be used to refer to those in the genus Octopus. The term 'octopod' is correct for members of the order Octopoda in general."
     ],
     reference: "https://simple.wikipedia.org/wiki/Octopus"
+  },
+  {
     id: "saturn-the-ringed-planet",
     date: "2026-03-26",
     title: "Saturn: The Ringed Planet",
@@ -378,7 +415,9 @@ export const knowledgeData: KnowledgeTopic[] = [
       "A day on Saturn is much shorter than a day on Earth, lasting only about 10.7 hours. This means that Saturn spins much faster than Earth, spinning more than twice in the same time it takes Earth to spin once.",
       "There many rings around Saturn, made of ice with some rocks and dust. While a final number of Saturnian moons cannot be given, Saturn has the most of any planet in our solar system, 274 having stable and confirmed orbits."
     ],
-    reference: "https://simple.wikipedia.org/wiki/Saturn"  }
+    reference: "https://simple.wikipedia.org/wiki/Saturn"
+  },
+  {
     id: "bioluminescence",
     date: "2026-03-26",
     title: "Bioluminescence: Nature's Light Show",
@@ -389,7 +428,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Animals use this glowing trick for many reasons. Some use it as camouflage, others to attract a mate, and some even use it like a flashlight to lure in prey or scare away predators."
     ],
     reference: "https://en.wikipedia.org/wiki/Bioluminescence"
-  }];
+  },
+  {
     id: "black-holes",
     date: "2026-03-26",
     title: "Black Holes",
@@ -400,6 +440,8 @@ export const knowledgeData: KnowledgeTopic[] = [
       "The idea of objects with gravity so strong that light cannot escape was first talked about in the 1700s by John Michell and Pierre-Simon Laplace."
     ],
     reference: "https://simple.wikipedia.org/wiki/Black_hole"
+  },
+  {
     id: "voyager-golden-records",
     date: "2026-03-26",
     title: "The Voyager Golden Records: Earth's Message to the Universe",
@@ -409,8 +451,9 @@ export const knowledgeData: KnowledgeTopic[] = [
       "These records were designed to be a message from humanity to any intelligent alien life that might find them in the future. They contain a mix of sounds and images that show the incredible diversity of life and culture on Earth.",
       "The records include greetings in 55 different languages, sounds from nature like thunder and birds, and 90 minutes of music from around the world. Although the spacecraft are incredibly far away, the Golden Records serve as a hopeful symbol of our planet drifting in the cosmic ocean."
     ],
-    reference: "https://en.wikipedia.org/wiki/Voyager_Golden_Record"  }
-];
+    reference: "https://en.wikipedia.org/wiki/Voyager_Golden_Record"
+  },
+  {
     id: "auroras",
     date: "2026-03-26",
     title: "The Magic of Auroras: Northern and Southern Lights",
