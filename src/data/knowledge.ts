@@ -306,5 +306,14 @@ export const knowledgeData: KnowledgeTopic[] = [
       "During 2016, the worst die-off ever recorded occurred, due to seas warming around the Great Barrier Reef. Two-thirds of a 700-km (435 miles) stretch of coral in nine months were killed."
     ],
     reference: "https://simple.wikipedia.org/wiki/Great_Barrier_Reef"
-  }
+    id: "what-are-dinosaurs",
+    date: "2026-03-26",
+    title: "What are Dinosaurs?",
+    category: "History",
+    content: [
+      "Dinosaurs are a group of Archosaur reptiles of the clade Dinosauria. Dinosaurs eventually gave rise to birds. Dinosaurs were the most powerful land animals of the Mesozoic era. Over 500 different genera of dinosaurs are known. Fossils of dinosaurs have been found on every continent.",
+      "Dinosaurs evolved in the Upper Triassic, about 230 million years ago (mya). The earliest date of a fossil is that of Eoraptor and Herrerasaurus from Argentina, and Saturnalia from Brazil, 237 to 228 mya. By the early Jurassic they were the top land vertebrates, and dominated most environments on land.",
+      "From the fossil record, it is known that birds are living feathered dinosaurs. They evolved from earlier theropods during the later Jurassic. They were the only line of dinosaurs to survive to the present day."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Dinosaur"  }
 ];
