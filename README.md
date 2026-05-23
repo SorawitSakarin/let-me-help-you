@@ -128,7 +128,10 @@ Flip a virtual coin for heads or tails.
 Get a random joke to brighten your day.
 - **Features**: Fetches random jokes with setup and punchline.
 - **Theme**: Retro 8-bit style.
-
+### 21. Memory Game
+Match pairs of cards in this classic memory game.
+- **Features**: 4x4 grid of cards with emoji pairs, handling flipping, matching, and game reset.
+- **Theme**: Simple and fun retro 8-bit style interface.
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -187,6 +190,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-uuid/page.tsx`: UUID Generator tool.
 - `src/app/encode-url/page.tsx`: URL Encoder tool.
 - `src/app/flip-a-coin/page.tsx`: Coin Flipper tool.
+- `src/app/play-memory-game/page.tsx`: Memory Game tool.
 - `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 

@@ -188,7 +188,10 @@ export const TOOLS = [
       title: 'Random Joke',
       description: 'Get a random joke to brighten your day.',
       icon: 'nes-icon trophy',
-      type: 'is-primary',
+      href: '/play-memory-game',
+      title: 'Memory Game',
+      description: 'Match pairs of cards in this classic memory game.',
+      icon: 'nes-icon star',      type: 'is-primary',
       category: 'Fun',
     },
   ];
