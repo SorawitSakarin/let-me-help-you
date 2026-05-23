@@ -284,3 +284,17 @@ export const knowledgeData: KnowledgeTopic[] = [
     ],
     reference: "https://simple.wikipedia.org/wiki/Solar_eclipse"  }
 ];
+    id: "the-great-barrier-reef",
+    date: "2026-03-26",
+    title: "The Great Barrier Reef",
+    category: "Earth & Science",
+    content: [
+      "The Great Barrier Reef is the world's largest coral reef stretching over 1,400 miles. It is near the coast of Queensland, Australia. It is made up of nearly 2900 coral reefs and over 600 islands.",
+      "The reef is about 327,800km2 big and 2,600km long, and has been listed an important World Heritage Site by UNESCO.",
+      "The Great Barrier Reef is the biggest structure made by living things. It can be seen from outer space. The Reefs are threatened.",
+      "The biggest threat to the Great Barrier Reef today is coral bleaching caused by high sea water temperatures as a result of global warming.",
+      "During 2016, the worst die-off ever recorded occurred, due to seas warming around the Great Barrier Reef. Two-thirds of a 700-km (435 miles) stretch of coral in nine months were killed."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Great_Barrier_Reef"
+  }
+];
