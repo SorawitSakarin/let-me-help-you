@@ -222,3 +222,15 @@ export const knowledgeData: KnowledgeTopic[] = [
     ],
     reference: "https://www.visionect.com/blog/electronic-paper-explained-what-is-it-and-how-does-it-work/"  }
 ];
+    id: "how-active-noise-cancellation-works",
+    date: "2026-04-17",
+    title: "How Active Noise Cancellation Works",
+    category: "Technology",
+    content: [
+      "Active Noise Cancellation (ANC) works similarly to a game of tug of war. If two teams tug with the same force, the rope won’t move in either direction because each team’s strength is canceled out. Soundwaves work in a similar way: If one sound wave meets another soundwave that’s the same in frequency and opposite in amplitude, the two sounds will cancel each other out.",
+      "Headphones with ANC use tiny microphones inside the ear cups to continuously analyze the sound of your surrounding environment.",
+      "The microphones identify the frequency and amplitude of the external sounds, then ANC uses this information to create a soundwave that’s the exact opposite. This contrasting soundwave gets played through the internal drivers on your headphones and, voilà, the unwanted noise is eliminated."
+    ],
+    reference: "https://www.sonos.com/blog/how-does-noise-canceling-work"
+  }
+];
