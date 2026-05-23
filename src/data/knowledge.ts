@@ -346,7 +346,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "When it was built, the Great Pyramid was 146.5 metres (481 feet) tall. It was the tallest building in the world for over 3,800 years.  Erosion and other causes have shrunk it to 138.8 metres (455.4 feet)."
     ],
     reference: "https://simple.wikipedia.org/wiki/Great_Pyramid_of_Giza"  }
-];
+    id: "what-is-a-rainbow",
+    date: "2026-03-26",
+    title: "What is a Rainbow?",
+    category: "Earth & Science",
+    content: [
+      "A rainbow is an arc of colour in the sky that can be seen when the sun shines through falling rain. The pattern of colours, called a spectrum, starts with red on the outside and changes through orange, yellow, green, blue, indigo, and violet on the inside. Sometimes a second, larger, dimmer rainbow is seen.",
+      "A rainbow is created when white light is bent (refracted) while entering a droplet of water, split into separate colours, and reflected back. A rainbow is actually round like a circle.",
+      "On the ground, the bottom part is hidden, but in the sky, like from a flying airplane, it can be seen as a circle around the point opposite the Sun. Rainbows often appear after storms, and are popular symbols for peace in many cultures."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Rainbow"
+  }];
     id: "octopus-facts",
     date: "2026-03-26",
     title: "Octopus: The Eight-Armed Wonder",
