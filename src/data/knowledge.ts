@@ -283,7 +283,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "A total solar eclipse is a natural phenomenon (event). Long ago, solar eclipses were thought to happen because of something supernatural or as a sign that something bad was going to happen. This is still believed in some cultures today. A total solar eclipse can frighten people who do not know what it means, because the sun seems to disappear during the day and the sky turns dark in just a few minutes. Other people like to go to the eclipse path for a good view while wearing special glasses."
     ],
     reference: "https://simple.wikipedia.org/wiki/Solar_eclipse"  }
-];
+    id: "the-platypus-mammal",
+    date: "2026-03-26",
+    title: "The Platypus: An Unusual Egg-Laying Mammal",
+    category: "Biology",
+    content: [
+      "The platypus (Ornithorhynchus anatinus), sometimes referred to as the duck-billed platypus, is a small egg laying mammal.",
+      "The platypus is one of the few mammals that does not have a stomach. In most animals, the stomach uses strong acids and enzymes to break down food. However, in the platypus, the esophagus connects directly to the intestines.",
+      "These mammals are called monotremes because they have a common rear opening, the cloaca. Through this opening faeces and urine are voided (put out), and sexual activity takes place."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Platypus"
+  }];
     id: "the-great-barrier-reef",
     date: "2026-03-26",
     title: "The Great Barrier Reef",
