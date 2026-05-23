@@ -464,5 +464,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "The magnetic field guides the energy toward the North and South Poles. There, the energy mixes with gases in our atmosphere, like oxygen and nitrogen, causing them to light up in bright colors like green, pink, and purple!"
     ],
     reference: "https://en.wikipedia.org/wiki/Aurora"
+  },
+  {
+    id: "tardigrades-water-bears",
+    date: "2026-05-23",
+    title: "Tardigrades: The Indestructible Water Bears",
+    category: "Biology",
+    content: [
+      "Tardigrades, often called water bears or moss piglets, are tiny, eight-legged animals that live in water. They are usually only about half a millimeter long, meaning you need a microscope to see them properly. Despite their small size, they are some of the toughest creatures on Earth.",
+      "What makes tardigrades so amazing is their ability to survive extreme conditions that would kill almost any other living thing. They can survive being frozen in ice, boiled in water, exposed to high levels of radiation, and even the harsh vacuum of outer space!",
+      "When faced with dangerous environments, they curl up into a dry ball called a 'tun'. In this state, they basically pause all their biological functions and can survive for years without food or water until conditions become safe again."
+    ],
+    reference: "https://en.wikipedia.org/wiki/Tardigrade"
   }
 ];
