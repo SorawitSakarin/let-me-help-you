@@ -136,6 +136,12 @@ Match pairs of cards in this classic memory game.
 Play a classic number guessing game.
 - **Features**: Guess a number between 1 and 100 with higher/lower hints.
 - **Theme**: Retro 8-bit style interactive game.
+
+### 22. Reaction Time Test
+Test your visual reaction speed by clicking a box when it turns green.
+- **Features**: Tracks time in milliseconds with visual wait and react states.
+- **Theme**: Simple and fun retro 8-bit style interface.
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -195,7 +201,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/encode-url/page.tsx`: URL Encoder tool.
 - `src/app/flip-a-coin/page.tsx`: Coin Flipper tool.
 - `src/app/play-memory-game/page.tsx`: Memory Game tool.
-- `src/app/guess-the-number/page.tsx`: Guess the Number game.- `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
+- `src/app/guess-the-number/page.tsx`: Guess the Number game.
+- `src/app/test-reaction-time/page.tsx`: Reaction Time Test tool.
+- `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 
 ## Theme
