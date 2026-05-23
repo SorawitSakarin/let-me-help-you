@@ -411,3 +411,15 @@ export const knowledgeData: KnowledgeTopic[] = [
     ],
     reference: "https://en.wikipedia.org/wiki/Voyager_Golden_Record"  }
 ];
+    id: "auroras",
+    date: "2026-03-26",
+    title: "The Magic of Auroras: Northern and Southern Lights",
+    category: "Earth & Science",
+    content: [
+      "Auroras, sometimes called the northern or southern lights, are beautiful natural light displays in the Earth's sky. They appear as stunning curtains, rays, spirals, or flickering lights that can cover the entire sky.",
+      "These amazing lights are created when the Sun sends out strong bursts of energy called solar winds. When these solar winds reach Earth, they interact with our planet's magnetic field, which acts like an invisible shield.",
+      "The magnetic field guides the energy toward the North and South Poles. There, the energy mixes with gases in our atmosphere, like oxygen and nitrogen, causing them to light up in bright colors like green, pink, and purple!"
+    ],
+    reference: "https://en.wikipedia.org/wiki/Aurora"
+  }
+];
