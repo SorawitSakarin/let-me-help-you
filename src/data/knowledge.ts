@@ -170,3 +170,15 @@ export const knowledgeData: KnowledgeTopic[] = [
     ],
     reference: "https://spaceplace.nasa.gov/leap-year/en/"
   }];
+    id: "why-do-cats-purr",
+    date: "2026-04-10",
+    title: "Why Do Cats Purr?",
+    category: "Biology",
+    content: [
+      "A purr or whirr is a tonal fluttering sound made by some species of felids, including both larger, wild cats and the domestic cat.",
+      "Animals purr for a variety of reasons, including to express happiness or fear, and as a defense mechanism.",
+      "It has also been shown that cats purr to manage pain and soothe themselves. It varies in loudness and tone among species and in the same animal."
+    ],
+    reference: "https://en.wikipedia.org/wiki/Purr"
+  }
+];
