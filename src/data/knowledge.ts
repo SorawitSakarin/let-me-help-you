@@ -317,3 +317,15 @@ export const knowledgeData: KnowledgeTopic[] = [
     ],
     reference: "https://simple.wikipedia.org/wiki/Dinosaur"  }
 ];
+    id: "what-are-dinosaurs",
+    date: "2026-03-26",
+    title: "What are Dinosaurs?",
+    category: "Biology",
+    content: [
+      "Dinosaurs are a group of Archosaur reptiles of the clade Dinosauria. Dinosaurs eventually gave rise to birds.",
+      "Dinosaurs were the most powerful land animals of the Mesozoic era. Over 500 different genera of dinosaurs are known. Fossils of dinosaurs have been found on every continent.",
+      "From the fossil record, it is known that birds are living feathered dinosaurs. They evolved from earlier theropods during the later Jurassic. They were the only line of dinosaurs to survive to the present day."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Dinosaur"
+  }
+];
