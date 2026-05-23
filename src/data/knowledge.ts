@@ -211,5 +211,14 @@ export const knowledgeData: KnowledgeTopic[] = [
       "Once the waning hours of daylight trigger these changes and the green chlorophyll is gone, other pigments reveal their bright faces! Carotenoids give leaves their brilliant yellow and orange colors. Anthocyanins are found in deep red and purplish leaves."
     ],
     reference: "https://www.almanac.com/why-do-leaves-change-color-fall"
-  }
+    id: "how-does-e-ink-work",
+    date: "2026-03-26",
+    title: "How Does E-Ink Work?",
+    category: "Technology",
+    content: [
+      "Electronic paper, also known as e-ink, is the technology behind glare-free e-reader screens and digital signs. It mimics the appearance of ordinary ink on paper, making it very easy on the eyes and visible even in direct sunlight.",
+      "An e-ink screen is made up of millions of tiny capsules, each about as wide as a human hair. Inside these capsules are clear fluid and tiny colored particles, usually black and white. The white particles have a positive charge, and the black particles have a negative charge.",
+      "When a positive or negative electric charge is applied to the screen, the charged particles move to the top or bottom of the capsule. This makes the surface look black or white in that spot. E-ink is also bistable, meaning once the particles move, they stay there without needing power, making the screen highly energy-efficient!"
+    ],
+    reference: "https://www.visionect.com/blog/electronic-paper-explained-what-is-it-and-how-does-it-work/"  }
 ];
