@@ -192,6 +192,10 @@ export const TOOLS = [
       title: 'Memory Game',
       description: 'Match pairs of cards in this classic memory game.',
       icon: 'nes-icon star',      type: 'is-primary',
-      category: 'Fun',
+      href: '/guess-the-number',
+      title: 'Guess the Number',
+      description: 'Guess a number between 1 and 100.',
+      icon: 'nes-icon star',
+      type: 'is-primary',      category: 'Fun',
     },
   ];

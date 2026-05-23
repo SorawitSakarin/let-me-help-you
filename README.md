@@ -132,6 +132,10 @@ Get a random joke to brighten your day.
 Match pairs of cards in this classic memory game.
 - **Features**: 4x4 grid of cards with emoji pairs, handling flipping, matching, and game reset.
 - **Theme**: Simple and fun retro 8-bit style interface.
+### 21. Guess the Number
+Play a classic number guessing game.
+- **Features**: Guess a number between 1 and 100 with higher/lower hints.
+- **Theme**: Retro 8-bit style interactive game.
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
@@ -191,7 +195,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/encode-url/page.tsx`: URL Encoder tool.
 - `src/app/flip-a-coin/page.tsx`: Coin Flipper tool.
 - `src/app/play-memory-game/page.tsx`: Memory Game tool.
-- `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
+- `src/app/guess-the-number/page.tsx`: Guess the Number game.- `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
 - `src/app/layout.tsx`: Root layout including the font and header/footer.
 
 ## Theme
