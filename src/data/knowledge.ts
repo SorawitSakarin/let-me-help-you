@@ -380,3 +380,15 @@ export const knowledgeData: KnowledgeTopic[] = [
     ],
     reference: "https://simple.wikipedia.org/wiki/Saturn"  }
 ];
+    id: "black-holes",
+    date: "2026-03-26",
+    title: "Black Holes",
+    category: "Space",
+    content: [
+      "A black hole is a place in space where gravity is so strong that nothing can escape from it, even light.",
+      "The outer edge of a black hole is called the event horizon. When something enters the black hole, it cannot get out.",
+      "The idea of objects with gravity so strong that light cannot escape was first talked about in the 1700s by John Michell and Pierre-Simon Laplace."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Black_hole"
+  }
+];
