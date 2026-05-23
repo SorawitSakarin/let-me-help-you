@@ -251,7 +251,16 @@ export const knowledgeData: KnowledgeTopic[] = [
       "These fungal networks serve as conduits for the exchange of water, carbon, nitrogen, and other nutrients between trees. The symbiosis is mutually beneficial: trees provide carbohydrates to the fungi, while the fungi enhance the trees' ability to absorb water and nutrients from the soil."
     ],
     reference: "https://www.ecomatcher.com/understanding-the-wood-wide-web/"  }
-];
+    id: "fireflies",
+    date: "2026-03-26",
+    title: "Fireflies",
+    category: "Biology",
+    content: [
+      "Fireflies are a family of beetles called the Lampyridae. These beetles are special in that most of them have bioluminescence, the ability to produce light.",
+      "Adults use flashes of light to attract mates. Also, firefly larvae flash their lights to warn predators that they are not a tasty meal. Many predators do not like the taste of firefly larvae."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Firefly"
+  }];
     id: "the-moon",
     date: "2026-04-22",
     title: "Moon",
