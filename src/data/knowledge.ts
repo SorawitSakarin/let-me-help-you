@@ -252,3 +252,17 @@ export const knowledgeData: KnowledgeTopic[] = [
     ],
     reference: "https://www.ecomatcher.com/understanding-the-wood-wide-web/"  }
 ];
+    id: "the-moon",
+    date: "2026-04-22",
+    title: "Moon",
+    category: "Space",
+    content: [
+      "The Moon, also known as Luna, is Earth's only natural satellite (the only object which orbits the Earth and is not man-made). It is usually visible in the night sky, but is sometimes seen during the day.",
+      "The Moon is about one-fourth of the width of Earth. Because it is so far away it looks small in the sky, about half a degree wide.",
+      "The gravity on the Moon is one-sixth of the Earth's gravity. It means that an object will be one-sixth as heavy on the Moon compared to Earth. ",
+      "The Moon is a rocky and dusty place. It moves slowly away from the Earth at a rate of 3.8 centimeters per year due to the effect of tidal dissipation.",
+      "Some other planets also have moons or natural satellites. The giant impact hypothesis is a common explanation for how the Moon formed."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Moon"
+  }
+];
