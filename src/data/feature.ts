@@ -207,4 +207,12 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Fun',
     },
+    {
+      href: '/test-reaction-time',
+      title: 'Reaction Time Test',
+      description: 'Test your reflexes and reaction speed.',
+      icon: 'nes-icon trophy',
+      type: 'is-success',
+      category: 'Fun',
+    },
   ];
