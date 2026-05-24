@@ -464,5 +464,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "The magnetic field guides the energy toward the North and South Poles. There, the energy mixes with gases in our atmosphere, like oxygen and nitrogen, causing them to light up in bright colors like green, pink, and purple!"
     ],
     reference: "https://en.wikipedia.org/wiki/Aurora"
+  },
+  {
+    id: "tardigrades",
+    date: "2024-05-24",
+    title: "Tardigrades: The Invincible Water Bears",
+    category: "Biology",
+    content: [
+      "Tardigrades, also known as 'water bears', are microscopic, segmented animals that live in water. They are incredibly small, with the biggest adults reaching only about 1.2 mm in length.",
+      "They have a cylindrical shape with four segments, each with two legs ending in little claws. They feed mostly on plant cells by penetrating the cell wall and eating what is inside, though some are carnivores.",
+      "Tardigrades can be found in many habitats around the world, from moss and freshwater to the highest mountains and the deepest seas. They are known for being extremely resilient and able to survive extreme conditions."
+    ],
+    reference: "https://simple.wikipedia.org/wiki/Tardigrade"
   }
 ];
