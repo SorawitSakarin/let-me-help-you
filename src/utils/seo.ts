@@ -58,6 +58,8 @@ const SEO_KEYWORDS = [
   "Productivity",
   "Next.js Tools",
   "Daily tasks",
+  "Todo List",
+  "Task Manager",
 ];
 
 

@@ -233,4 +233,13 @@ export const TOOLS = [
       category: 'Fun',
       updatedAt: '2026-04-15',
     },
+    {
+      href: '/manage-todos',
+      title: 'Todo List',
+      description: 'Manage your daily tasks with a retro-style todo list.',
+      icon: 'nes-icon star',
+      type: 'is-success',
+      category: 'Productivity',
+      updatedAt: '2026-05-25',
+    },
   ];

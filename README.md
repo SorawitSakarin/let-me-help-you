@@ -161,6 +161,11 @@ Learn something new and interesting every day.
 - **Features**: Curated daily facts, browse historical events, copy and share knowledge.
 - **Theme**: Pixel-perfect reading book container.
 
+### 28. Todo List
+Manage your daily tasks with a retro-style todo list.
+- **Features**: Add, complete, and delete tasks. Persistent storage.
+- **Theme**: Retro checklist interface.
+
 ---
 
 ## Tech Stack
@@ -237,6 +242,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/play-memory-game/page.tsx`: Memory Game tool.
 - `src/app/guess-the-number/page.tsx`: Guess the Number game.
 - `src/app/share-daily-knowledge/page.tsx`: Daily Knowledge hub.
+- `src/app/manage-todos/page.tsx`: Todo List tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
