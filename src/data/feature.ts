@@ -6,6 +6,7 @@ export const TOOLS = [
       icon: 'nes-icon coin',
       type: 'is-primary',
       category: 'Utilities',
+      updatedAt: '2026-05-24',
     },
     {
       href: '/pick-a-random-option',
@@ -14,6 +15,7 @@ export const TOOLS = [
       icon: 'nes-icon trophy',
       type: 'is-warning',
       category: 'Fun',
+      updatedAt: '2026-05-20',
     },
     {
       href: '/convert-text-to-speech',
@@ -22,6 +24,7 @@ export const TOOLS = [
       icon: 'nes-icon twitch',
       type: 'is-success',
       category: 'Utilities',
+      updatedAt: '2026-05-01',
     },
     {
       href: '/generate-password',
@@ -30,6 +33,7 @@ export const TOOLS = [
       icon: 'nes-icon like',
       type: 'is-error',
       category: 'Utilities',
+      updatedAt: '2026-05-15',
     },
     {
       href: '/convert-units',
@@ -38,6 +42,7 @@ export const TOOLS = [
       icon: 'nes-icon star',
       type: 'is-warning',
       category: 'Utilities',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/convert-currency',
@@ -46,6 +51,7 @@ export const TOOLS = [
       icon: 'nes-icon coin',
       type: 'is-warning',
       category: 'Utilities',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/start-pomodoro-timer',
@@ -54,6 +60,7 @@ export const TOOLS = [
       icon: 'nes-icon star',
       type: 'is-primary',
       category: 'Productivity',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/count-words',
@@ -62,6 +69,7 @@ export const TOOLS = [
       icon: 'nes-icon star',
       type: 'is-success',
       category: 'Utilities',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/translate-binary',
@@ -70,6 +78,7 @@ export const TOOLS = [
       icon: 'nes-icon coin',
       type: 'is-primary',
       category: 'Developer Tools',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/generate-lorem-ipsum',
@@ -78,6 +87,7 @@ export const TOOLS = [
       icon: 'nes-icon like',
       type: 'is-primary',
       category: 'Developer Tools',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/encode-base64',
@@ -86,6 +96,7 @@ export const TOOLS = [
       icon: 'nes-icon coin',
       type: 'is-warning',
       category: 'Developer Tools',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/simulate-hacking',
@@ -94,6 +105,7 @@ export const TOOLS = [
       icon: 'nes-icon github',
       type: 'is-error',
       category: 'Fun',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/convert-unix-timestamp',
@@ -102,6 +114,7 @@ export const TOOLS = [
       icon: 'nes-icon coin',
       type: 'is-primary',
       category: 'Developer Tools',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/check-keycodes',
@@ -110,6 +123,7 @@ export const TOOLS = [
       icon: 'nes-icon twitch',
       type: 'is-primary',
       category: 'Developer Tools',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/format-json',
@@ -118,6 +132,7 @@ export const TOOLS = [
       icon: 'nes-icon coin',
       type: 'is-success',
       category: 'Developer Tools',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/generate-uuid',
@@ -126,6 +141,7 @@ export const TOOLS = [
       icon: 'nes-icon star',
       type: 'is-primary',
       category: 'Developer Tools',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/encode-url',
@@ -134,6 +150,7 @@ export const TOOLS = [
       icon: 'nes-icon coin',
       type: 'is-success',
       category: 'Developer Tools',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/convert-text-case',
@@ -142,6 +159,7 @@ export const TOOLS = [
       icon: 'nes-icon star',
       type: 'is-primary',
       category: 'Developer Tools',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/play-tic-tac-toe',
@@ -150,6 +168,7 @@ export const TOOLS = [
       icon: 'nes-icon trophy',
       type: 'is-success',
       category: 'Fun',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/ask-magic-8-ball',
@@ -158,6 +177,7 @@ export const TOOLS = [
       icon: 'nes-icon star',
       type: 'is-error',
       category: 'Fun',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/flip-a-coin',
@@ -166,6 +186,7 @@ export const TOOLS = [
       icon: 'nes-icon coin',
       type: 'is-warning',
       category: 'Fun',
+      updatedAt: '2026-04-15',
       },
     {
       href: '/roll-a-dice',
@@ -174,6 +195,7 @@ export const TOOLS = [
       icon: 'nes-icon trophy',
       type: 'is-warning',
       category: 'Fun',
+      updatedAt: '2026-04-15',
       },
     {
       href: '/play-rock-paper-scissors',
@@ -182,6 +204,7 @@ export const TOOLS = [
       icon: 'nes-icon trophy',
       type: 'is-success',
       category: 'Fun',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/get-a-joke',
@@ -190,6 +213,7 @@ export const TOOLS = [
       icon: 'nes-icon trophy',
       type: 'is-primary',
       category: 'Fun',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/play-memory-game',
@@ -198,6 +222,7 @@ export const TOOLS = [
       icon: 'nes-icon star',
       type: 'is-primary',
       category: 'Fun',
+      updatedAt: '2026-04-15',
     },
     {
       href: '/guess-the-number',
@@ -206,5 +231,6 @@ export const TOOLS = [
       icon: 'nes-icon star',
       type: 'is-primary',
       category: 'Fun',
+      updatedAt: '2026-04-15',
     },
   ];

@@ -2,6 +2,12 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import ToolsGrid from './ToolsGrid';
 
+const todayDate = new Date();
+const getOffsetDate = (daysOffset: number) => {
+  const d = new Date(todayDate.getTime() + daysOffset * 24 * 60 * 60 * 1000);
+  return d.toISOString().split('T')[0];
+};
+
 // Mock Tools Data
 const mockTools = [
   {
@@ -10,6 +16,7 @@ const mockTools = [
     description: 'Create custom QR codes.',
     icon: 'nes-icon coin',
     type: 'is-primary',
+    updatedAt: getOffsetDate(-1), // 1 day ago - within 14 days
   },
   {
     href: '/count-words',
@@ -17,6 +24,7 @@ const mockTools = [
     description: 'Count words and chars.',
     icon: 'nes-icon star',
     type: 'is-success',
+    updatedAt: getOffsetDate(-20), // 20 days ago - not within 14 days
   },
   {
     href: '/pick-a-random-option',
@@ -88,5 +96,36 @@ describe('ToolsGrid', () => {
     // Search with uppercase "QR"
     fireEvent.change(searchInput, { target: { value: 'QR' } });
     expect(screen.getAllByText('QR Generator').length).toBe(2);
+  });
+
+  it('renders "NEW" badge only for tools updated within 14 days', () => {
+    render(<ToolsGrid initialTools={mockTools} />);
+    
+    // QR Generator has updatedAt: 1 day ago -> should have "NEW" badge
+    const newBadges = screen.getAllByText('NEW');
+    expect(newBadges.length).toBeGreaterThan(0);
+    
+    // Make sure the title 'QR Generator' card contains "NEW" badge
+    const qrCard = screen.getByText('QR Generator').closest('div');
+    expect(qrCard).toHaveTextContent('NEW');
+
+    // Make sure 'Word Counter' card does NOT contain "NEW"
+    const wordCounterCard = screen.getByText('Word Counter').closest('div');
+    expect(wordCounterCard).not.toHaveTextContent('NEW');
+  });
+
+  it('sorts tools based on selection options', () => {
+    render(<ToolsGrid initialTools={mockTools} />);
+    const sortSelect = screen.getByRole('combobox');
+
+    expect(sortSelect).toBeInTheDocument();
+
+    // Change to 'Newest' (updatedAt-desc)
+    fireEvent.change(sortSelect, { target: { value: 'updatedAt-desc' } });
+    expect(sortSelect).toHaveValue('updatedAt-desc');
+
+    // Change to 'Oldest' (updatedAt-asc)
+    fireEvent.change(sortSelect, { target: { value: 'updatedAt-asc' } });
+    expect(sortSelect).toHaveValue('updatedAt-asc');
   });
 });

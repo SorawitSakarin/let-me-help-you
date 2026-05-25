@@ -23,4 +23,8 @@ This file serves as the primary source of truth for persistent context and decis
   - **README.md Cleanup:** Re-indexed all 27 features correctly (resolved duplicate indices), added descriptions/details for missing utilities (Unit Converter, Currency Exchange, Hacker Screen, Daily Knowledge), and fixed all structural file paths to match actual project layouts.
   - **SEO optimization (`src/utils/seo.ts`):** Removed syntax errors/ignored duplicate floating string declarations for `SITE_DESCRIPTION` and synthesized a cohesive 152-character description. Deduplicated and clean-formatted the `SEO_KEYWORDS` array.
   - **Sitemap Refactoring (`src/app/sitemap.ts`):** Transitioned sitemap generation from hardcoded routes to a fully dynamic mapping over the main `TOOLS` array in `src/data/feature.ts`, ensuring automated search engine indexing for all 27 current and future utilities.
+- **`updatedAt` Schema & NEW Badge Implementation (2026-05-25):**
+  - **Tools Schema Extension (`src/data/feature.ts`):** Introduced an optional `updatedAt` date property to tool objects.
+  - **Dynamic "NEW" Badges (`src/components/ToolsGrid.tsx`):** Designed and integrated a custom pixel-art **NEW** badge matching the retro theme. Elements are calculated relative to the client's current time with safety logic to avoid SSR hydration mismatches.
+  - **Sitemap Dynamic Dates (`src/app/sitemap.ts`):** Directly linked sitemap generation's `lastModified` metadata to each tool's `updatedAt` for enhanced SEO crawling.
 

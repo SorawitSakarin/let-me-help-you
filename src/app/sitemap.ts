@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const toolEntries: MetadataRoute.Sitemap = TOOLS.map((tool) => ({
     url: `${baseUrl}${tool.href}`,
-    lastModified: new Date(),
+    lastModified: tool.updatedAt ? new Date(tool.updatedAt) : new Date(),
     changeFrequency: 'weekly',
     priority: 0.8,
   }));
