@@ -468,13 +468,13 @@ export const knowledgeData: KnowledgeTopic[] = [
   {
     id: "tardigrades-water-bears",
     date: "2026-05-23",
-    title: "Tardigrades: The Indestructible Water Bears",
+    title: "Tardigrades in Outer Space: The Ultimate Survivors",
     category: "Biology",
     content: [
-      "Tardigrades, often called water bears or moss piglets, are tiny, eight-legged animals that live in water. They are usually only about half a millimeter long, meaning you need a microscope to see them properly. Despite their small size, they are some of the toughest creatures on Earth.",
-      "What makes tardigrades so amazing is their ability to survive extreme conditions that would kill almost any other living thing. They can survive being frozen in ice, boiled in water, exposed to high levels of radiation, and even the harsh vacuum of outer space!",
-      "When faced with dangerous environments, they curl up into a dry ball called a 'tun'. In this state, they basically pause all their biological functions and can survive for years without food or water until conditions become safe again."
+      "In 2007, a group of tiny Earthlings did something incredible: they survived in the harsh vacuum of outer space. These creatures were tardigrades, or 'water bears,' sent into low Earth orbit aboard the European Space Agency's FOTON-M3 mission. For ten days, they were exposed directly to the freezing vacuum and intense solar radiation, yet many survived and even successfully reproduced upon returning.",
+      "Their space-faring survival is made possible by a remarkable molecular defense mechanism. When drying out to enter their protective 'tun' state, tardigrades produce unique proteins called Intrinsically Disordered Proteins (TDPs). These proteins form a bioglass-like structure inside their cells, wrapping vital molecules and DNA in a protective shield to prevent them from breaking or denaturing.",
+      "This groundbreaking experiment proved that multicellular life can endure the most hostile environments known to science. Today, researchers are studying tardigrade genetics and their unique glass-like cellular preservation to develop stabilization techniques for human vaccines, crops, and future deep-space exploration!"
     ],
-    reference: "https://en.wikipedia.org/wiki/Tardigrade"
+    reference: "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/Water_bears_are_first_animal_to_survive_vacuum_of_space"
   }
 ];
