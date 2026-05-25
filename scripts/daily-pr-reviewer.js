@@ -68,7 +68,9 @@ async function main() {
     let response;
     
     try {
-      const curlCmd = `curl -s -H "Accept: application/vnd.github.v3+json" "${pullsUrl}"`;
+      const token = process.env.GITHUB_TOKEN;
+      const authHeader = token ? `-H "Authorization: token ${token}"` : '';
+      const curlCmd = `curl -s -H "Accept: application/vnd.github.v3+json" ${authHeader} "${pullsUrl}"`;
       const output = runCommand(curlCmd);
       response = JSON.parse(output);
     } catch (e) {
