@@ -476,5 +476,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "This groundbreaking experiment proved that multicellular life can endure the most hostile environments known to science. Today, researchers are studying tardigrade genetics and their unique glass-like cellular preservation to develop stabilization techniques for human vaccines, crops, and future deep-space exploration!"
     ],
     reference: "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/Water_bears_are_first_animal_to_survive_vacuum_of_space"
+  },
+  {
+    id: "immortal-jellyfish",
+    date: "2024-05-24",
+    title: "Turritopsis dohrnii: The Immortal Jellyfish",
+    category: "Biology",
+    content: [
+      "Imagine a creature that can hit the reset button on its own life cycle. Turritopsis dohrnii, widely known as the immortal jellyfish, is a tiny species capable of reverting its cells back to their earliest childhood state when faced with physical damage, sickness, or environmental stress.",
+      "This process is called transdifferentiation, where one specialized type of cell transforms directly into another type. Through this, the mature jellyfish absorbs its own tentacles and bell, settles onto the ocean floor as a blob-like polyp, and starts its entire life cycle all over again, essentially escaping death from old age.",
+      "While they can still be eaten by predators or succumb to diseases, their biological ability to age in reverse has made them a prime subject of genetic research, as scientists attempt to unlock the molecular secrets of cellular rejuvenation for human medicine."
+    ],
+    reference: "https://en.wikipedia.org/wiki/Turritopsis_dohrnii"
   }
 ];
