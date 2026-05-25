@@ -12,8 +12,8 @@ This file serves as the primary source of truth for persistent context and decis
 - **Main Branch Status:** Fully merged and synchronized with `dev` (last merged on 2026-05-25)
 
 ## Automated Pipelines
-- **Daily PR Reviewer:** Scheduled a recurring daily cron task at **9:00 AM (09:00) local time** (`0 9 * * *`) that executes `node scripts/daily-pr-reviewer.js`.
-  - Conducts senior frontend code reviews.
+- **Daily PR Reviewer (GitHub Actions):** Hosted via a scheduled GitHub workflow (`.github/workflows/daily-pr-reviewer.yml`) running daily at **9:00 AM Bangkok Time** (`0 2 * * *` UTC).
+  - Conducts automated senior frontend code reviews.
   - Resolves redundancies and enhances code quality/content.
-  - Automatically runs quality checks (`npm run test`, `npm run build`, `npm run lint`).
-  - Automatically pushes improvements to PR branches, merges to `dev`, and merges `dev` to `main`.
+  - Automatically runs verification checks (`npm run test`, `npm run build`, `npm run lint`).
+  - Merges verified pull requests into the `dev` branch and fast-forward synchronizes them into `main`.
