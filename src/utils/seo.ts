@@ -4,9 +4,8 @@ const DEFAULT_TITLE =
   "Daily Task Tool | Utilities for Everyday Tasks";
 
 const SITE_DESCRIPTION =
-  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, Text-to-Speech converter, Password Generator, Unit Converter, Focus Timer, Word Counter, Binary Translator, Base64 Encoder, UUID Generator, URL Encoder, Text Case Converter, Tic Tac Toe, Magic 8-Ball, Coin Flipper, Rock Paper Scissors, and Random Joke.";
-  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, Text-to-Speech converter, Password Generator, Unit Converter, Focus Timer, Word Counter, Binary Translator, Base64 Encoder, UUID Generator, URL Encoder, Text Case Converter, Tic Tac Toe, Magic 8-Ball, Coin Flipper, Rock Paper Scissors, and a Memory Game.";
-  "A collection of simple and useful utility tools including a QR Code Generator, Random Slot Machine, Text-to-Speech converter, Password Generator, Unit Converter, Focus Timer, Word Counter, Binary Translator, Base64 Encoder, UUID Generator, URL Encoder, Text Case Converter, Tic Tac Toe, Magic 8-Ball, Coin Flipper, Rock Paper Scissors, and Guess the Number.";
+  "A collection of simple and useful retro-themed utility tools, developer utilities, games, and productivity companions, built with Next.js and NES.css.";
+
 const SEO_KEYWORDS = [
   "Daily Task Tool",
   "QR Code Generator",
@@ -52,13 +51,15 @@ const SEO_KEYWORDS = [
   "Get a Joke",
   "Funny Jokes",
   "Memory Game",
-  "Card Matching",  "Utilities",
+  "Card Matching",
   "Guess the Number",
   "Number Guessing Game",
-  "Utilities",  "Productivity",
+  "Utilities",
+  "Productivity",
   "Next.js Tools",
   "Daily tasks",
 ];
+
 
 const OG_IMAGE = {
   url: "/opengraph-image.png",

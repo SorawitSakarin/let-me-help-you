@@ -1,6 +1,6 @@
 # Daily Task Tool
 
-A utility collection built with Next.js 16, TypeScript, and Nes.css. This project provides simple and useful tools for your daily tasks.
+A pixel-perfect retro utility collection built with Next.js 16, TypeScript, and NES.css. This project provides simple, beautiful, and interactive tools for your daily tasks.
 
 ## Features
 
@@ -9,142 +9,171 @@ Create custom QR codes instantly.
 - **Input**: Any text or URL.
 - **Customization**: Upload a custom icon or logo to embed in the center of the QR code.
 - **Download**: Save your QR code as a PNG file.
-- **Theme**: Clean black-on-white design for maximum compatibility.
+- **Theme**: Clean retro 8-bit design.
 
 ### 2. Random Slot Machine
 Make decisions or pick winners with a spinning wheel.
 - **Input**: Enter a list of options (one per line).
 - **Visuals**: Watch the wheel spin and land on a random winner.
-- **Theme**: Monochrome style.
+- **Theme**: Classic monochrome retro style.
 
 ### 3. Text to Speech
 Convert text to spoken audio.
 - **Input**: Enter English text.
 - **Controls**: Adjust Speed, Pitch, and Volume.
-- **Theme**: Simple interface with range sliders.
+- **Theme**: Retro interface with range sliders.
 
 ### 4. Password Generator
 Generate strong, random passwords.
 - **Input**: Select length (8-32) and character types (Uppercase, Lowercase, Numbers, Symbols).
-- **Controls**: Checkboxes and length slider.
-- **Theme**: Secure and simple.
+- **Controls**: Interactive checkboxes and length slider.
+- **Theme**: Secure, clean 8-bit style.
 
-### 5. Focus Timer
+### 5. Unit Converter
+Convert Weight, Length, and Temperature units instantly.
+- **Features**: Real-time bidirectional conversion.
+- **Controls**: Select unit types and input values.
+- **Theme**: Retro card interface.
+
+### 6. Currency Exchange
+View real-time exchange rates for 150+ global currencies.
+- **Features**: Real-time rate fetching.
+- **Controls**: Select base and target currencies.
+- **Theme**: 8-bit currency converter dashboard.
+
+### 7. Focus Timer
 Boost productivity with the Pomodoro technique.
 - **Controls**: Start, Pause, Reset.
 - **Settings**: Customizable Work and Break durations.
-- **Theme**: Classic 8-bit timer with progress bar.
+- **Theme**: Classic retro timer with interactive progress bar.
 
-### 6. Word Counter
-Analyze text instantly.
+### 8. Word Counter
+Analyze text statistics instantly.
 - **Stats**: Word count, Character count, Sentence count, Paragraph count, Reading time.
-- **Controls**: Copy, Clear.
-- **Theme**: Simple text area with statistics grid.
+- **Controls**: Copy text, Clear input.
+- **Theme**: Clean text area with a retro statistics grid.
 
-### 7. Binary Translator
+### 9. Binary Translator
 Convert text to binary and binary to text.
 - **Input**: Bi-directional text and binary fields.
 - **Controls**: Copy Text, Copy Binary, Clear.
-- **Theme**: Split view with 8-bit aesthetic.
+- **Theme**: Split view with a pixelated retro layout.
 
-### 8. Lorem Ipsum Generator
+### 10. Lorem Ipsum Generator
 Generate custom placeholder text.
 - **Input**: Select count (number) and unit (Words, Sentences, Paragraphs).
-- **Controls**: Generate, Copy, Clear.
-- **Theme**: Simple interface with large text area.
+- **Controls**: Generate, Copy to clipboard, Clear.
+- **Theme**: Retro interface with a clean text display.
 
-### 9. Base64 Encoder
+### 11. Base64 Encoder
 Convert text to Base64 format and vice versa.
 - **Input**: Bi-directional text conversion.
-- **Features**: Robust UTF-8 support (emojis, special characters).
+- **Features**: Robust UTF-8 support (handles emojis and special characters).
 - **Controls**: Encode, Decode, Copy, Clear.
-- **Theme**: Simple and clean 8-bit interface.
+- **Theme**: Retro split-pane interface.
 
-### 10. Unix Timestamp Converter
+### 12. Hacker Screen Simulator
+Simulate a dramatic Hollywood-style hacking terminal.
+- **Features**: Green-on-black scrolling terminal console, interactive commands, hacking animations.
+- **Theme**: Ultra-retro green terminal theme.
+
+### 13. Unix Timestamp Converter
 Convert Unix timestamps to dates and vice versa.
 - **Input**: Timestamp to Date, Date to Timestamp.
-- **Features**: Copy to clipboard, Set to Now.
+- **Features**: Copy to clipboard, Set to current time ("Now").
 - **Controls**: Convert, Copy, Clear.
-- **Theme**: 8-bit layout with clear inputs.
+- **Theme**: Retro layout with easy inputs.
 
-### 11. Keycode Info
+### 14. Keycode Info
 Visualize keyboard events and codes.
-- **Input**: Press any key.
-- **Output**: Key, Code, KeyCode, Which, Modifiers.
-- **Theme**: Large visual display with detail grid.
+- **Input**: Press any key on your keyboard.
+- **Output**: Key, Code, KeyCode, Which, and Modifier keys.
+- **Theme**: Large visual display with a retro details grid.
 
-### 12. JSON Formatter
+### 15. JSON Formatter
 Validate, format, and minify JSON data.
-- **Input**: JSON text.
-- **Features**: Format (Pretty Print), Minify, Validation.
+- **Input**: Raw JSON text.
+- **Features**: Format (Pretty Print), Minify, validation alerts.
 - **Controls**: Format, Minify, Clear, Copy.
-- **Theme**: Dual-pane editor.
+- **Theme**: Dual-pane retro layout.
 
-### 13. UUID Generator
+### 16. UUID Generator
 Generate random version 4 UUIDs.
 - **Input**: Quantity selection (1-50).
 - **Controls**: Generate, Copy All, Clear.
-- **Theme**: Simple list with individual copy buttons.
+- **Theme**: Retro list with individual copy buttons.
 
-### 14. URL Encoder
+### 17. URL Encoder
 Safely encode and decode URLs and query parameters.
 - **Input**: URL or text string.
 - **Controls**: Encode, Decode, Copy Result, Clear.
-- **Theme**: Simple bi-directional text interface.
+- **Theme**: Two-way responsive text fields.
 
-### 15. Text Case Converter
-Convert text to UPPERCASE, lowercase, Title Case, camelCase, snake_case, and more.
+### 18. Text Case Converter
+Convert text casing instantly.
 - **Input**: Text string.
 - **Controls**: UPPERCASE, lowercase, Title Case, camelCase, snake_case, kebab-case, PascalCase, Copy, Clear.
-- **Theme**: Simple interface with multi-line text area and action buttons.
+- **Theme**: Multi-line retro text area and action buttons.
 
-### 16. Tic Tac Toe
+### 19. Tic Tac Toe
 Play a classic game of Tic Tac Toe.
-- **Features**: 3x3 grid, turn-based play, win detection, reset button.
-- **Theme**: Simple, fun, and fast retro 8-bit style.
+- **Features**: 3x3 interactive grid, turn-based play, automatic win/draw detection, score tracker.
+- **Theme**: Playful 8-bit aesthetic.
 
-### 17. Magic 8-Ball
-Ask the Magic 8-Ball a question and receive a mystical, randomized answer.
+### 20. Magic 8-Ball
+Ask the Magic 8-Ball a question and receive mystical, randomized answers.
 - **Input**: Enter a yes/no question.
 - **Features**: Animated shaking ball, randomized classic responses.
-- **Theme**: Retro 8-bit style with interactive visual ball.
+- **Theme**: Interactive retro magic ball.
 
-### 18. Roll a Dice
-Roll a standard 6-sided die to make quick decisions.
-- **Features**: Visual die faces with rolling animation.
-- **Theme**: Clean 8-bit dice with retro button.
-
-### 19. Rock Paper Scissors
-Play a classic game of Rock Paper Scissors against the computer.
-- **Features**: Interactive choices, score tracking, randomized computer choices.
-- **Theme**: Simple and fun retro 8-bit style interface.
-
-### 20. Coin Flipper
+### 21. Coin Flipper
 Flip a virtual coin for heads or tails.
-- **Features**: 8-bit coin toss animation, heads/tails statistical tracking, resetting capabilities.
-- **Theme**: Retro 8-bit style with visual coin animation.
+- **Features**: 8-bit coin toss animation, statistical tracking (Heads vs. Tails), resetting capabilities.
+- **Theme**: Beautiful 8-bit coin flip visualization.
 
-### 21. Random Joke
+### 22. Roll a Dice
+Roll a standard 6-sided die to make quick decisions.
+- **Features**: Interactive roll buttons, dice rolling animation, history tracking.
+- **Theme**: Retro 8-bit dice visualization.
+
+### 23. Rock Paper Scissors
+Play a classic game of Rock Paper Scissors against the computer.
+- **Features**: Interactive choices (Rock, Paper, Scissors), real-time score tracking, win/loss stats.
+- **Theme**: Classic 8-bit retro arcade look.
+
+### 24. Random Joke
 Get a random joke to brighten your day.
-- **Features**: Fetches random jokes with setup and punchline.
-- **Theme**: Retro 8-bit style.
-### 21. Memory Game
+- **Features**: Fetches random, family-friendly jokes with setup and punchline.
+- **Theme**: Retro pop-up dialog box.
+
+### 25. Memory Game
 Match pairs of cards in this classic memory game.
-- **Features**: 4x4 grid of cards with emoji pairs, handling flipping, matching, and game reset.
-- **Theme**: Simple and fun retro 8-bit style interface.
-### 21. Guess the Number
+- **Features**: 4x4 card grid, emoji card matching, turn and match counter, restart option.
+- **Theme**: Delightful 8-bit card-flip game.
+
+### 26. Guess the Number
 Play a classic number guessing game.
-- **Features**: Guess a number between 1 and 100 with higher/lower hints.
-- **Theme**: Retro 8-bit style interactive game.
+- **Features**: Interactive guess input, higher/lower feedback hints, attempt counters.
+- **Theme**: Retro interactive arcade terminal.
+
+### 27. Daily Knowledge
+Learn something new and interesting every day.
+- **Features**: Curated daily facts, browse historical events, copy and share knowledge.
+- **Theme**: Pixel-perfect reading book container.
+
+---
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) & [Nes.css](https://nostalgic-css.github.io/NES.css/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/) & [NES.css](https://nostalgic-css.github.io/NES.css/)
 - **Font**: "Press Start 2P" (Google Fonts)
 - **Libraries**:
-    - `qrcode.react` (QR Generation)
-    - `react-custom-roulette` (Spinning Wheel)
+  - `qrcode.react` (QR Generation)
+  - `react-custom-roulette` (Spinning Wheel)
+
+---
 
 ## Getting Started
 
@@ -176,31 +205,46 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+---
+
 ## Project Structure
 
-- `src/app/page.tsx`: Landing page with tool navigation.
-- `src/app/qr-code/page.tsx`: QR Code Generator tool.
-- `src/app/random-slot/page.tsx`: Random Slot Machine tool.
-- `src/app/text-to-speech/page.tsx`: Text to Speech tool.
-- `src/app/password-generator/page.tsx`: Password Generator tool.
-- `src/app/pomodoro-timer/page.tsx`: Focus Timer tool.
-- `src/app/word-counter/page.tsx`: Word Counter tool.
-- `src/app/binary-translator/page.tsx`: Binary Translator tool.
-- `src/app/lorem-ipsum/page.tsx`: Lorem Ipsum Generator tool.
-- `src/app/base64-encoder/page.tsx`: Base64 Encoder tool.
-- `src/app/unix-timestamp/page.tsx`: Unix Timestamp Converter tool.
-- `src/app/keycode-info/page.tsx`: Keycode Info tool.
-- `src/app/json-formatter/page.tsx`: JSON Formatter tool.
+- `src/app/page.tsx`: Landing page with tool navigation grid.
+- `src/app/create-qr-code/page.tsx`: QR Code Generator tool.
+- `src/app/pick-a-random-option/page.tsx`: Random Slot Machine tool.
+- `src/app/convert-text-to-speech/page.tsx`: Text to Speech tool.
+- `src/app/generate-password/page.tsx`: Password Generator tool.
+- `src/app/convert-units/page.tsx`: Unit Converter tool.
+- `src/app/convert-currency/page.tsx`: Currency Exchange tool.
+- `src/app/start-pomodoro-timer/page.tsx`: Focus Timer tool.
+- `src/app/count-words/page.tsx`: Word Counter tool.
+- `src/app/translate-binary/page.tsx`: Binary Translator tool.
+- `src/app/generate-lorem-ipsum/page.tsx`: Lorem Ipsum Generator tool.
+- `src/app/encode-base64/page.tsx`: Base64 Encoder tool.
+- `src/app/simulate-hacking/page.tsx`: Hacker Screen Simulator.
+- `src/app/convert-unix-timestamp/page.tsx`: Unix Timestamp Converter tool.
+- `src/app/check-keycodes/page.tsx`: Keycode Info tool.
+- `src/app/format-json/page.tsx`: JSON Formatter tool.
 - `src/app/generate-uuid/page.tsx`: UUID Generator tool.
 - `src/app/encode-url/page.tsx`: URL Encoder tool.
+- `src/app/convert-text-case/page.tsx`: Text Case Converter tool.
+- `src/app/play-tic-tac-toe/page.tsx`: Tic Tac Toe tool.
+- `src/app/ask-magic-8-ball/page.tsx`: Magic 8-Ball tool.
 - `src/app/flip-a-coin/page.tsx`: Coin Flipper tool.
+- `src/app/roll-a-dice/page.tsx`: Roll a Dice tool.
+- `src/app/play-rock-paper-scissors/page.tsx`: Rock Paper Scissors tool.
+- `src/app/get-a-joke/page.tsx`: Random Joke tool.
 - `src/app/play-memory-game/page.tsx`: Memory Game tool.
-- `src/app/guess-the-number/page.tsx`: Guess the Number game.- `src/app/globals.css`: Global styles and Nes.css theme overrides (Monochrome theme).
-- `src/app/layout.tsx`: Root layout including the font and header/footer.
+- `src/app/guess-the-number/page.tsx`: Guess the Number game.
+- `src/app/share-daily-knowledge/page.tsx`: Daily Knowledge hub.
+- `src/app/globals.css`: Global styles and NES.css theme overrides.
+- `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
+
+---
 
 ## Theme
 
 The application features a "Classic Monochrome" 8-bit theme:
-- **Background**: White / Off-white
-- **Foreground**: Black / Gray
+- **Background**: White / Off-white (`#ffffff` / `#f4f4f4`)
+- **Foreground**: Black / Gray (`#000000` / `#212529`)
 - **Font**: Pixelated "Press Start 2P"
