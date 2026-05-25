@@ -466,15 +466,15 @@ export const knowledgeData: KnowledgeTopic[] = [
     reference: "https://en.wikipedia.org/wiki/Aurora"
   },
   {
-    id: "tardigrades",
+    id: "immortal-jellyfish",
     date: "2024-05-24",
-    title: "Tardigrades: The Invincible Water Bears",
+    title: "Turritopsis dohrnii: The Immortal Jellyfish",
     category: "Biology",
     content: [
-      "Tardigrades, also known as 'water bears', are microscopic, segmented animals that live in water. They are incredibly small, with the biggest adults reaching only about 1.2 mm in length.",
-      "They have a cylindrical shape with four segments, each with two legs ending in little claws. They feed mostly on plant cells by penetrating the cell wall and eating what is inside, though some are carnivores.",
-      "Tardigrades can be found in many habitats around the world, from moss and freshwater to the highest mountains and the deepest seas. They are known for being extremely resilient and able to survive extreme conditions."
+      "Imagine a creature that can hit the reset button on its own life cycle. Turritopsis dohrnii, widely known as the immortal jellyfish, is a tiny species capable of reverting its cells back to their earliest childhood state when faced with physical damage, sickness, or environmental stress.",
+      "This process is called transdifferentiation, where one specialized type of cell transforms directly into another type. Through this, the mature jellyfish absorbs its own tentacles and bell, settles onto the ocean floor as a blob-like polyp, and starts its entire life cycle all over again, essentially escaping death from old age.",
+      "While they can still be eaten by predators or succumb to diseases, their biological ability to age in reverse has made them a prime subject of genetic research, as scientists attempt to unlock the molecular secrets of cellular rejuvenation for human medicine."
     ],
-    reference: "https://simple.wikipedia.org/wiki/Tardigrade"
+    reference: "https://en.wikipedia.org/wiki/Turritopsis_dohrnii"
   }
 ];
