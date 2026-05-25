@@ -43,6 +43,7 @@ function commandExists(cmd) {
 async function main() {
   const isDryRun = process.argv.includes('--dry-run');
   const targetPrNumber = process.argv.find(arg => arg.startsWith('--pr='))?.split('=')[1];
+  let didStash = false;
 
   log('==================================================');
   log(`Starting Automated PR Review & Git Pipeline (DryRun: ${isDryRun})`);
@@ -53,6 +54,7 @@ async function main() {
   if (status) {
     log('WARNING: Git working directory is not clean. Stashing changes.');
     runCommand('git stash');
+    didStash = true;
   }
 
   try {
@@ -178,8 +180,7 @@ async function main() {
     // Return to dev branch and clean up stash if needed
     try {
       runCommand('git checkout dev');
-      const stashList = runCommand('git stash list');
-      if (stashList) {
+      if (didStash) {
         log('Restoring stashed changes...');
         runCommand('git stash pop');
       }
