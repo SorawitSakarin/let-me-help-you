@@ -5,7 +5,6 @@ const DEFAULT_TITLE =
 
 const SITE_DESCRIPTION =
   "A collection of simple and useful retro-themed utility tools, developer utilities, games, and productivity companions, built with Next.js and NES.css.";
-
 const SEO_KEYWORDS = [
   "Daily Task Tool",
   "QR Code Generator",
@@ -54,6 +53,9 @@ const SEO_KEYWORDS = [
   "Card Matching",
   "Guess the Number",
   "Number Guessing Game",
+  "Reaction Time Test",
+  "Reflex Test",
+  "Visual Speed Test",
   "Utilities",
   "Productivity",
   "Next.js Tools",

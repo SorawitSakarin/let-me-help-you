@@ -166,6 +166,11 @@ Manage your daily tasks with a retro-style todo list.
 - **Features**: Add, complete, and delete tasks. Persistent storage.
 - **Theme**: Retro checklist interface.
 
+### 29. Reaction Time Test
+Test your visual reaction speed by clicking a box when it turns green.
+- **Features**: Tracks time in milliseconds with visual wait and react states.
+- **Theme**: Simple and fun retro 8-bit style interface.
+
 ---
 
 ## Tech Stack
@@ -243,6 +248,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/guess-the-number/page.tsx`: Guess the Number game.
 - `src/app/share-daily-knowledge/page.tsx`: Daily Knowledge hub.
 - `src/app/manage-todos/page.tsx`: Todo List tool.
+- `src/app/test-reaction-time/page.tsx`: Reaction Time Test tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

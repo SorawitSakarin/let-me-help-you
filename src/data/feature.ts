@@ -242,4 +242,12 @@ export const TOOLS = [
       category: 'Productivity',
       updatedAt: '2026-05-25',
     },
+    {
+      href: '/test-reaction-time',
+      title: 'Reaction Time Test',
+      description: 'Test your visual reflexes. Click when green!',
+      icon: 'nes-icon trophy',
+      type: 'is-error',
+      category: 'Fun',
+    },
   ];
