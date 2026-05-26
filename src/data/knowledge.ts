@@ -488,5 +488,17 @@ export const knowledgeData: KnowledgeTopic[] = [
       "While they can still be eaten by predators or succumb to diseases, their biological ability to age in reverse has made them a prime subject of genetic research, as scientists attempt to unlock the molecular secrets of cellular rejuvenation for human medicine."
     ],
     reference: "https://en.wikipedia.org/wiki/Turritopsis_dohrnii"
+  },
+  {
+    id: "axolotl-regeneration",
+    date: "2026-05-25",
+    title: "The Axolotl: Nature's Master of Regeneration",
+    category: "Biology",
+    content: [
+      "The axolotl is a unique amphibian from Mexico that has an incredible superpower: it can regrow almost any part of its body. If an axolotl loses a limb, a piece of its heart, or even parts of its brain, it can completely regenerate them without any scarring.",
+      "This remarkable ability works because the axolotl's cells can reverse their development. When injured, nearby cells turn back into stem cells—blank slate cells that can become any type of tissue needed to rebuild the missing part exactly as it was before.",
+      "Because of their amazing healing abilities, axolotls are heavily studied by scientists who hope to understand the secrets of regeneration, which could one day lead to breakthroughs in human medicine and healing."
+    ],
+    reference: "https://en.wikipedia.org/wiki/Axolotl"
   }
 ];
