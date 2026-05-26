@@ -249,5 +249,6 @@ export const TOOLS = [
       icon: 'nes-icon trophy',
       type: 'is-error',
       category: 'Fun',
+      updatedAt: '2026-05-26',
     },
   ];
