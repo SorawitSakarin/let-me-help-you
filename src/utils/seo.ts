@@ -62,6 +62,9 @@ const SEO_KEYWORDS = [
   "Daily tasks",
   "Todo List",
   "Task Manager",
+  "Morse Code Translator",
+  "Morse Code",
+  "Translate Morse Code",
 ];
 
 

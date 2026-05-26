@@ -251,4 +251,13 @@ export const TOOLS = [
       category: 'Fun',
       updatedAt: '2026-05-26',
     },
+    {
+      href: '/translate-morse-code',
+      title: 'Morse Code',
+      description: 'Translate text to Morse code and back.',
+      icon: 'nes-icon coin',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-05-27',
+    },
   ];
