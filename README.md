@@ -177,6 +177,11 @@ Translate text to Morse code and back.
 - **Features**: Copy text, Copy Morse code, Clear.
 - **Theme**: Split view with a pixelated retro layout.
 
+### 31. Stopwatch
+Track time with laps and retro style.
+- **Features**: Start, Stop, Lap, Reset functionality.
+- **Theme**: Classic retro stopwatch interface.
+
 ---
 
 ## Tech Stack
@@ -256,6 +261,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/manage-todos/page.tsx`: Todo List tool.
 - `src/app/test-reaction-time/page.tsx`: Reaction Time Test tool.
 - `src/app/translate-morse-code/page.tsx`: Morse Code Translator tool.
+- `src/app/use-stopwatch/page.tsx`: Stopwatch tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

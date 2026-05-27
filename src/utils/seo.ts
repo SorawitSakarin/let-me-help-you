@@ -65,6 +65,9 @@ const SEO_KEYWORDS = [
   "Morse Code Translator",
   "Morse Code",
   "Translate Morse Code",
+  "Stopwatch",
+  "Lap Timer",
+  "Time Tracker",
 ];
 
 

@@ -260,4 +260,13 @@ export const TOOLS = [
       category: 'Developer Tools',
       updatedAt: '2026-05-27',
     },
+    {
+      href: '/use-stopwatch',
+      title: 'Stopwatch',
+      description: 'Track time with laps and retro style.',
+      icon: 'nes-icon star',
+      type: 'is-warning',
+      category: 'Productivity',
+      updatedAt: '2026-05-28',
+    },
   ];
