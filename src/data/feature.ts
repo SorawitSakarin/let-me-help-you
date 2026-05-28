@@ -269,4 +269,13 @@ export const TOOLS = [
       category: 'Productivity',
       updatedAt: '2026-05-28',
     },
+    {
+      href: '/convert-string-to-ascii-art',
+      title: 'ASCII Art',
+      description: 'Generate ASCII art text from your strings.',
+      icon: 'nes-icon star',
+      type: 'is-success',
+      category: 'Developer Tools',
+      updatedAt: '2026-05-28',
+    },
   ];

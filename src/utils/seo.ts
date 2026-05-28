@@ -68,6 +68,9 @@ const SEO_KEYWORDS = [
   "Stopwatch",
   "Lap Timer",
   "Time Tracker",
+  "ASCII Art Generator",
+  "ASCII Generator",
+  "Text to ASCII",
 ];
 
 
