@@ -269,4 +269,13 @@ export const TOOLS = [
       category: 'Productivity',
       updatedAt: '2026-05-28',
     },
+    {
+      href: '/convert-color',
+      title: 'Color Converter',
+      description: 'Convert between HEX and RGB color formats.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-01',
+    },
   ];

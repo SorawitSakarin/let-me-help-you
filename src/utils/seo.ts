@@ -68,6 +68,10 @@ const SEO_KEYWORDS = [
   "Stopwatch",
   "Lap Timer",
   "Time Tracker",
+  "Color Converter",
+  "HEX to RGB",
+  "RGB to HEX",
+  "Color Picker",
 ];
 
 

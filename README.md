@@ -182,6 +182,12 @@ Track time with laps and retro style.
 - **Features**: Start, Stop, Lap, Reset functionality.
 - **Theme**: Classic retro stopwatch interface.
 
+### 32. Color Converter
+Convert between HEX and RGB color formats.
+- **Input**: HEX string or RGB string.
+- **Features**: Instant two-way conversion and visual color preview.
+- **Theme**: Retro interface with responsive inputs.
+
 ---
 
 ## Tech Stack
@@ -262,6 +268,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/test-reaction-time/page.tsx`: Reaction Time Test tool.
 - `src/app/translate-morse-code/page.tsx`: Morse Code Translator tool.
 - `src/app/use-stopwatch/page.tsx`: Stopwatch tool.
+- `src/app/convert-color/page.tsx`: Color Converter tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
