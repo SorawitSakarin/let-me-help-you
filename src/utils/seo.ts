@@ -72,6 +72,9 @@ const SEO_KEYWORDS = [
   "HEX to RGB",
   "RGB to HEX",
   "Color Picker",
+  "Basic Calculator",
+  "Calculator",
+  "Retro Calculator",
 ];
 
 

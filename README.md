@@ -188,6 +188,11 @@ Convert between HEX and RGB color formats.
 - **Features**: Instant two-way conversion and visual color preview.
 - **Theme**: Retro interface with responsive inputs.
 
+### 33. Basic Calculator
+Perform simple arithmetic calculations.
+- **Features**: Numbers, basic operators (+, -, *, /), and a clear button.
+- **Theme**: Retro 8-bit calculator interface.
+
 ---
 
 ## Tech Stack
@@ -269,6 +274,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/translate-morse-code/page.tsx`: Morse Code Translator tool.
 - `src/app/use-stopwatch/page.tsx`: Stopwatch tool.
 - `src/app/convert-color/page.tsx`: Color Converter tool.
+- `src/app/use-calculator/page.tsx`: Basic Calculator tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

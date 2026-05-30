@@ -278,4 +278,13 @@ export const TOOLS = [
       category: 'Developer Tools',
       updatedAt: '2026-06-01',
     },
+    {
+      href: '/use-calculator',
+      title: 'Basic Calculator',
+      description: 'Perform simple arithmetic calculations.',
+      icon: 'nes-icon coin',
+      type: 'is-success',
+      category: 'Utilities',
+      updatedAt: '2026-06-05',
+    },
   ];
