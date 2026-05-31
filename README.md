@@ -193,6 +193,11 @@ Perform simple arithmetic calculations.
 - **Features**: Numbers, basic operators (+, -, *, /), and a clear button.
 - **Theme**: Retro 8-bit calculator interface.
 
+### 34. BMI Calculator
+Calculate your Body Mass Index (BMI).
+- **Features**: Input height and weight to get BMI and category.
+- **Theme**: Clean retro layout with input validation.
+
 ---
 
 ## Tech Stack
@@ -275,6 +280,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/use-stopwatch/page.tsx`: Stopwatch tool.
 - `src/app/convert-color/page.tsx`: Color Converter tool.
 - `src/app/use-calculator/page.tsx`: Basic Calculator tool.
+- `src/app/calculate-bmi/page.tsx`: BMI Calculator tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

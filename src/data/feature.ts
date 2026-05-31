@@ -287,4 +287,13 @@ export const TOOLS = [
       category: 'Utilities',
       updatedAt: '2026-06-05',
     },
+    {
+      href: '/calculate-bmi',
+      title: 'BMI Calculator',
+      description: 'Calculate your Body Mass Index (BMI).',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2026-06-10',
+    },
   ];

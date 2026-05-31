@@ -75,6 +75,9 @@ const SEO_KEYWORDS = [
   "Basic Calculator",
   "Calculator",
   "Retro Calculator",
+  "BMI Calculator",
+  "Body Mass Index",
+  "Health",
 ];
 
 
