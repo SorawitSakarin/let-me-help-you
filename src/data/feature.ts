@@ -296,4 +296,13 @@ export const TOOLS = [
       category: 'Utilities',
       updatedAt: '2026-06-10',
     },
+    {
+      href: '/generate-hash',
+      title: 'Hash Generator',
+      description: 'Generate cryptographic hashes from text data.',
+      icon: 'nes-icon coin',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-15',
+    },
   ];

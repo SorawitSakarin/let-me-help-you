@@ -198,6 +198,12 @@ Calculate your Body Mass Index (BMI).
 - **Features**: Input height and weight to get BMI and category.
 - **Theme**: Clean retro layout with input validation.
 
+### 35. Hash Generator
+Generate cryptographic hashes from text data.
+- **Input**: Text and algorithm selection (SHA-1, SHA-256, SHA-384, SHA-512).
+- **Features**: Instant hash generation, copy to clipboard.
+- **Theme**: Retro container with input and result sections.
+
 ---
 
 ## Tech Stack
@@ -281,6 +287,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/convert-color/page.tsx`: Color Converter tool.
 - `src/app/use-calculator/page.tsx`: Basic Calculator tool.
 - `src/app/calculate-bmi/page.tsx`: BMI Calculator tool.
+- `src/app/generate-hash/page.tsx`: Hash Generator tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

@@ -78,6 +78,10 @@ const SEO_KEYWORDS = [
   "BMI Calculator",
   "Body Mass Index",
   "Health",
+  "Hash Generator",
+  "SHA-256 Hash",
+  "Cryptographic Hash",
+  "SHA-512 Hash",
 ];
 
 
