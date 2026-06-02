@@ -305,4 +305,13 @@ export const TOOLS = [
       category: 'Developer Tools',
       updatedAt: '2026-06-15',
     },
+    {
+      href: '/decode-jwt',
+      title: 'JWT Decoder',
+      description: 'Decode and inspect JSON Web Tokens (JWT).',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-15',
+    },
   ];

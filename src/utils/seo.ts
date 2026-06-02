@@ -82,6 +82,9 @@ const SEO_KEYWORDS = [
   "SHA-256 Hash",
   "Cryptographic Hash",
   "SHA-512 Hash",
+  "JWT Decoder",
+  "JSON Web Token",
+  "Decode JWT",
 ];
 
 

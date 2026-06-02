@@ -204,6 +204,12 @@ Generate cryptographic hashes from text data.
 - **Features**: Instant hash generation, copy to clipboard.
 - **Theme**: Retro container with input and result sections.
 
+### 36. JWT Decoder
+Decode and inspect JSON Web Tokens (JWT).
+- **Input**: Base64 encoded JWT string.
+- **Features**: Decode header and payload, pretty-print JSON format.
+- **Theme**: Retro container with split panels for header and payload.
+
 ---
 
 ## Tech Stack
@@ -288,6 +294,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/use-calculator/page.tsx`: Basic Calculator tool.
 - `src/app/calculate-bmi/page.tsx`: BMI Calculator tool.
 - `src/app/generate-hash/page.tsx`: Hash Generator tool.
+- `src/app/decode-jwt/page.tsx`: JWT Decoder tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
