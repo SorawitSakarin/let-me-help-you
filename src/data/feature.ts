@@ -314,4 +314,13 @@ export const TOOLS = [
       category: 'Developer Tools',
       updatedAt: '2026-06-15',
     },
+    {
+      href: '/calculate-percentage',
+      title: 'Percentage Calculator',
+      description: 'Calculate percentages and percentage changes easily.',
+      icon: 'nes-icon coin',
+      type: 'is-success',
+      category: 'Utilities',
+      updatedAt: '2026-06-20',
+    },
   ];

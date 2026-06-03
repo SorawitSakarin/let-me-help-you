@@ -210,6 +210,12 @@ Decode and inspect JSON Web Tokens (JWT).
 - **Features**: Decode header and payload, pretty-print JSON format.
 - **Theme**: Retro container with split panels for header and payload.
 
+### 37. Percentage Calculator
+Calculate percentages and percentage changes easily.
+- **Input**: Numbers to calculate.
+- **Features**: Calculate X% of Y, X is what % of Y, and percentage change.
+- **Theme**: Clean retro layout with responsive inputs.
+
 ---
 
 ## Tech Stack
@@ -295,6 +301,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/calculate-bmi/page.tsx`: BMI Calculator tool.
 - `src/app/generate-hash/page.tsx`: Hash Generator tool.
 - `src/app/decode-jwt/page.tsx`: JWT Decoder tool.
+- `src/app/calculate-percentage/page.tsx`: Percentage Calculator tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

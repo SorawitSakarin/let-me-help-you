@@ -85,6 +85,9 @@ const SEO_KEYWORDS = [
   "JWT Decoder",
   "JSON Web Token",
   "Decode JWT",
+  "Percentage Calculator",
+  "Calculate Percentage",
+  "Percent Change",
 ];
 
 
