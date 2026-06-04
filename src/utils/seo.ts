@@ -88,6 +88,10 @@ const SEO_KEYWORDS = [
   "Percentage Calculator",
   "Calculate Percentage",
   "Percent Change",
+  "Text Reverser",
+  "Reverse Text",
+  "Reverse Characters",
+  "Reverse Words",
 ];
 
 

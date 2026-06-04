@@ -323,4 +323,13 @@ export const TOOLS = [
       category: 'Utilities',
       updatedAt: '2026-06-20',
     },
+    {
+      href: '/reverse-text',
+      title: 'Text Reverser',
+      description: 'Reverse characters and words in a text easily.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-25',
+    },
   ];

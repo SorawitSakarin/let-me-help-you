@@ -216,6 +216,12 @@ Calculate percentages and percentage changes easily.
 - **Features**: Calculate X% of Y, X is what % of Y, and percentage change.
 - **Theme**: Clean retro layout with responsive inputs.
 
+### 38. Text Reverser
+Reverse characters and words in a text easily.
+- **Input**: Text string.
+- **Features**: Reverse characters, reverse words, copy result.
+- **Theme**: Clean retro layout with responsive textareas.
+
 ---
 
 ## Tech Stack
@@ -302,6 +308,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-hash/page.tsx`: Hash Generator tool.
 - `src/app/decode-jwt/page.tsx`: JWT Decoder tool.
 - `src/app/calculate-percentage/page.tsx`: Percentage Calculator tool.
+- `src/app/reverse-text/page.tsx`: Text Reverser tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
