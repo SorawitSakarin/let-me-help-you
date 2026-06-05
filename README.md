@@ -222,6 +222,12 @@ Reverse characters and words in a text easily.
 - **Features**: Reverse characters, reverse words, copy result.
 - **Theme**: Clean retro layout with responsive textareas.
 
+### 39. URL Parser
+Parse URLs into protocol, host, path, and query parameters.
+- **Input**: URL string.
+- **Features**: Table breakdown of URL components and search query parameters.
+- **Theme**: Clean retro tables for easy viewing.
+
 ---
 
 ## Tech Stack
@@ -309,6 +315,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/decode-jwt/page.tsx`: JWT Decoder tool.
 - `src/app/calculate-percentage/page.tsx`: Percentage Calculator tool.
 - `src/app/reverse-text/page.tsx`: Text Reverser tool.
+- `src/app/parse-url/page.tsx`: URL Parser tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

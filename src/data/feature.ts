@@ -332,4 +332,13 @@ export const TOOLS = [
       category: 'Developer Tools',
       updatedAt: '2026-06-25',
     },
+    {
+      href: '/parse-url',
+      title: 'URL Parser',
+      description: 'Parse URLs into protocol, host, path, and query parameters.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-07-01',
+    },
   ];

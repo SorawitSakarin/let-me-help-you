@@ -92,6 +92,9 @@ const SEO_KEYWORDS = [
   "Reverse Text",
   "Reverse Characters",
   "Reverse Words",
+  "URL Parser",
+  "Parse URL",
+  "Query Parameters",
 ];
 
 
