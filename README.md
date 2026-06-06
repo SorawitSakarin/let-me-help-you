@@ -228,6 +228,11 @@ Parse URLs into protocol, host, path, and query parameters.
 - **Features**: Table breakdown of URL components and search query parameters.
 - **Theme**: Clean retro tables for easy viewing.
 
+### 40. Retro Speed Typer
+Test your typing speed with classic retro game quotes or syntax code snippets.
+- **Features**: WPM & accuracy calculations, Web Audio synthetic keyboard sound effects, local leaderboard system.
+- **Theme**: Green-on-black retro CRT monitor screen style with blinking cursor block.
+
 ---
 
 ## Tech Stack
@@ -316,6 +321,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/calculate-percentage/page.tsx`: Percentage Calculator tool.
 - `src/app/reverse-text/page.tsx`: Text Reverser tool.
 - `src/app/parse-url/page.tsx`: URL Parser tool.
+- `src/app/test-typing-speed/page.tsx`: Retro Speed Typer tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

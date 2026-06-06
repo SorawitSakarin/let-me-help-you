@@ -341,4 +341,13 @@ export const TOOLS = [
       category: 'Developer Tools',
       updatedAt: '2026-07-01',
     },
+    {
+      href: '/test-typing-speed',
+      title: 'Retro Speed Typer',
+      description: 'Test your typing speed (WPM) with retro game quotes or code.',
+      icon: 'nes-icon trophy',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-06',
+    },
   ];
