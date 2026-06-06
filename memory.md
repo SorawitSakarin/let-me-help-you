@@ -33,4 +33,8 @@ This file serves as the primary source of truth for persistent context and decis
   - **SEO Keywords Addition (`src/utils/seo.ts`):** Integrated 6 new typing-related keywords to boost index rankings.
   - **README Update (`README.md`):** Updated features list with the 30th feature description and added structural route details.
   - **Page Unit Tests (`src/app/test-typing-speed/page.test.tsx`):** Implemented clean RTL/Jest tests mocking browser Web Audio context and localstorage API.
-
+- **Text Diff Viewer Feature (2026-06-07):**
+  - **Feature Page (`src/app/compare-text/page.tsx`):** Created the Text Diff Viewer client-side tool implementing an LCS dynamic programming line diff algorithm, side-by-side split view, inline unified view, file upload, preset templates, case/whitespace ignoring options, and standard patch-diff copying.
+  - **Card Registration (`src/data/feature.ts`):** Registered the tool card under "Developer Tools" with date `2026-06-07` to trigger the pixelated "NEW" badge.
+  - **SEO Keywords Addition (`src/utils/seo.ts`):** Integrated 6 new diff/compare related keywords.
+  - **README Update (`README.md`):** Documented the 41st feature and added its path to the project structure section.

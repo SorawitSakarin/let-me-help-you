@@ -233,6 +233,12 @@ Test your typing speed with classic retro game quotes or syntax code snippets.
 - **Features**: WPM & accuracy calculations, Web Audio synthetic keyboard sound effects, local leaderboard system.
 - **Theme**: Green-on-black retro CRT monitor screen style with blinking cursor block.
 
+### 41. Text Diff Viewer
+Compare two blocks of text side-by-side or inline to highlight additions, deletions, and differences.
+- **Input**: Version A and Version B texts with file upload options.
+- **Features**: Side-by-side split view, unified inline view, case/whitespace ignoring options, and copy patch utility.
+- **Theme**: Clean retro styled comparison tables with line numbering.
+
 ---
 
 ## Tech Stack
@@ -322,6 +328,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/reverse-text/page.tsx`: Text Reverser tool.
 - `src/app/parse-url/page.tsx`: URL Parser tool.
 - `src/app/test-typing-speed/page.tsx`: Retro Speed Typer tool.
+- `src/app/compare-text/page.tsx`: Text Diff Viewer tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

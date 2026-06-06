@@ -350,4 +350,13 @@ export const TOOLS = [
       category: 'Developer Tools',
       updatedAt: '2026-06-06',
     },
+    {
+      href: '/compare-text',
+      title: 'Text Diff Viewer',
+      description: 'Compare two blocks of text side-by-side or inline.',
+      icon: 'nes-icon star',
+      type: 'is-warning',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-07',
+    },
   ];

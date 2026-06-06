@@ -101,6 +101,12 @@ const SEO_KEYWORDS = [
   "URL Parser",
   "Parse URL",
   "Query Parameters",
+  "Text Diff Viewer",
+  "Compare Text Online",
+  "Diff Checker",
+  "Code Compare",
+  "Compare Two Texts",
+  "File Diff Tool",
 ];
 
 
