@@ -294,7 +294,7 @@ export const TOOLS = [
       icon: 'nes-icon star',
       type: 'is-primary',
       category: 'Utilities',
-      updatedAt: '2026-06-10',
+      updatedAt: '2026-06-07',
     },
     {
       href: '/generate-hash',
@@ -303,7 +303,7 @@ export const TOOLS = [
       icon: 'nes-icon coin',
       type: 'is-primary',
       category: 'Developer Tools',
-      updatedAt: '2026-06-15',
+      updatedAt: '2026-06-07',
     },
     {
       href: '/decode-jwt',
@@ -312,7 +312,7 @@ export const TOOLS = [
       icon: 'nes-icon star',
       type: 'is-primary',
       category: 'Developer Tools',
-      updatedAt: '2026-06-15',
+      updatedAt: '2026-06-07',
     },
     {
       href: '/calculate-percentage',
@@ -321,7 +321,7 @@ export const TOOLS = [
       icon: 'nes-icon coin',
       type: 'is-success',
       category: 'Utilities',
-      updatedAt: '2026-06-20',
+      updatedAt: '2026-06-07',
     },
     {
       href: '/reverse-text',
@@ -330,7 +330,7 @@ export const TOOLS = [
       icon: 'nes-icon star',
       type: 'is-primary',
       category: 'Developer Tools',
-      updatedAt: '2026-06-25',
+      updatedAt: '2026-06-07',
     },
     {
       href: '/parse-url',
@@ -339,7 +339,7 @@ export const TOOLS = [
       icon: 'nes-icon star',
       type: 'is-primary',
       category: 'Developer Tools',
-      updatedAt: '2026-07-01',
+      updatedAt: '2026-06-07',
     },
     {
       href: '/test-typing-speed',
