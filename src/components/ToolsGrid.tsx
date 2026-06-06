@@ -12,6 +12,7 @@ interface Tool {
   type: string;
   category: string;
   updatedAt?: string;
+  isPopular?: boolean;
 }
 
 interface ToolsGridProps {
@@ -39,7 +40,10 @@ const isNew = (updatedAt?: string) => {
 type SortOption = 'title-asc' | 'title-desc' | 'updatedAt-desc' | 'updatedAt-asc';
 
 const sortTools = (toolsList: Tool[], sortBy: SortOption) => {
-  return [...toolsList].sort((a, b) => {
+  const popular = toolsList.filter((t) => t.isPopular);
+  const nonPopular = toolsList.filter((t) => !t.isPopular);
+
+  const sortedNonPopular = [...nonPopular].sort((a, b) => {
     if (sortBy === 'title-asc') {
       return a.title.localeCompare(b.title);
     }
@@ -66,6 +70,8 @@ const sortTools = (toolsList: Tool[], sortBy: SortOption) => {
     }
     return 0;
   });
+
+  return [...popular, ...sortedNonPopular];
 };
 
 export default function ToolsGrid({ initialTools }: ToolsGridProps) {
@@ -154,6 +160,11 @@ export default function ToolsGrid({ initialTools }: ToolsGridProps) {
                             NEW
                           </span>
                         )}
+                        {tool.isPopular && (
+                          <span className="ml-2 bg-[#f7d51d] text-black px-1.5 py-0.5 text-[8px] font-bold border-2 border-black uppercase tracking-wider shadow-[2px_2px_0_0_rgba(0,0,0,1)] select-none">
+                            POPULAR
+                          </span>
+                        )}
                       </span>
                     </div>
                   </Link>
@@ -186,6 +197,11 @@ export default function ToolsGrid({ initialTools }: ToolsGridProps) {
                         {isMounted && isNew(tool.updatedAt) && (
                           <span className="ml-2 bg-[#92cd41] text-black px-1.5 py-0.5 text-[8px] font-bold border-2 border-black uppercase tracking-wider shadow-[2px_2px_0_0_rgba(0,0,0,1)] select-none">
                             NEW
+                          </span>
+                        )}
+                        {tool.isPopular && (
+                          <span className="ml-2 bg-[#f7d51d] text-black px-1.5 py-0.5 text-[8px] font-bold border-2 border-black uppercase tracking-wider shadow-[2px_2px_0_0_rgba(0,0,0,1)] select-none">
+                            POPULAR
                           </span>
                         )}
                       </h3>

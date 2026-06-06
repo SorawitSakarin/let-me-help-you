@@ -7,6 +7,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Utilities',
       updatedAt: '2026-05-24',
+      isPopular: true,
     },
     {
       href: '/pick-a-random-option',
@@ -16,6 +17,7 @@ export const TOOLS = [
       type: 'is-warning',
       category: 'Fun',
       updatedAt: '2026-05-20',
+      isPopular: false,
     },
     {
       href: '/convert-text-to-speech',
@@ -25,6 +27,7 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Utilities',
       updatedAt: '2026-05-01',
+      isPopular: true,
     },
     {
       href: '/generate-password',
@@ -34,6 +37,7 @@ export const TOOLS = [
       type: 'is-error',
       category: 'Utilities',
       updatedAt: '2026-05-15',
+      isPopular: true,
     },
     {
       href: '/convert-units',
@@ -43,6 +47,7 @@ export const TOOLS = [
       type: 'is-warning',
       category: 'Utilities',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/convert-currency',
@@ -52,6 +57,7 @@ export const TOOLS = [
       type: 'is-warning',
       category: 'Utilities',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/start-pomodoro-timer',
@@ -61,6 +67,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Productivity',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/count-words',
@@ -70,6 +77,7 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Utilities',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/translate-binary',
@@ -79,6 +87,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Developer Tools',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/generate-lorem-ipsum',
@@ -88,6 +97,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Developer Tools',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/encode-base64',
@@ -97,6 +107,7 @@ export const TOOLS = [
       type: 'is-warning',
       category: 'Developer Tools',
       updatedAt: '2026-04-15',
+      isPopular: true,
     },
     {
       href: '/simulate-hacking',
@@ -106,6 +117,7 @@ export const TOOLS = [
       type: 'is-error',
       category: 'Fun',
       updatedAt: '2026-04-15',
+      isPopular: true,
     },
     {
       href: '/convert-unix-timestamp',
@@ -115,6 +127,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Developer Tools',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/check-keycodes',
@@ -124,6 +137,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Developer Tools',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/format-json',
@@ -133,6 +147,7 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Developer Tools',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/generate-uuid',
@@ -142,6 +157,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Developer Tools',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/encode-url',
@@ -151,6 +167,7 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Developer Tools',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/convert-text-case',
@@ -160,6 +177,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Developer Tools',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/play-tic-tac-toe',
@@ -169,6 +187,7 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/ask-magic-8-ball',
@@ -178,6 +197,7 @@ export const TOOLS = [
       type: 'is-error',
       category: 'Fun',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/flip-a-coin',
@@ -187,7 +207,8 @@ export const TOOLS = [
       type: 'is-warning',
       category: 'Fun',
       updatedAt: '2026-04-15',
-      },
+      isPopular: false,
+    },
     {
       href: '/roll-a-dice',
       title: 'Roll a Dice',
@@ -196,7 +217,8 @@ export const TOOLS = [
       type: 'is-warning',
       category: 'Fun',
       updatedAt: '2026-04-15',
-      },
+      isPopular: false,
+    },
     {
       href: '/play-rock-paper-scissors',
       title: 'Rock Paper Scissors',
@@ -205,6 +227,7 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Fun',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/get-a-joke',
@@ -214,6 +237,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Fun',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/play-memory-game',
@@ -223,6 +247,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Fun',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/guess-the-number',
@@ -232,6 +257,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Fun',
       updatedAt: '2026-04-15',
+      isPopular: false,
     },
     {
       href: '/manage-todos',
@@ -241,6 +267,7 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Productivity',
       updatedAt: '2026-05-25',
+      isPopular: false,
     },
     {
       href: '/test-reaction-time',
@@ -250,6 +277,7 @@ export const TOOLS = [
       type: 'is-error',
       category: 'Fun',
       updatedAt: '2026-05-26',
+      isPopular: true,
     },
     {
       href: '/translate-morse-code',
@@ -259,6 +287,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Developer Tools',
       updatedAt: '2026-05-27',
+      isPopular: true,
     },
     {
       href: '/use-stopwatch',
@@ -268,6 +297,7 @@ export const TOOLS = [
       type: 'is-warning',
       category: 'Productivity',
       updatedAt: '2026-05-28',
+      isPopular: true,
     },
     {
       href: '/convert-color',
@@ -277,6 +307,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Developer Tools',
       updatedAt: '2026-06-01',
+      isPopular: false,
     },
     {
       href: '/use-calculator',
@@ -286,6 +317,7 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Utilities',
       updatedAt: '2026-06-05',
+      isPopular: false,
     },
     {
       href: '/calculate-bmi',
@@ -295,6 +327,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Utilities',
       updatedAt: '2026-06-07',
+      isPopular: false,
     },
     {
       href: '/generate-hash',
@@ -304,6 +337,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Developer Tools',
       updatedAt: '2026-06-07',
+      isPopular: false,
     },
     {
       href: '/decode-jwt',
@@ -313,6 +347,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Developer Tools',
       updatedAt: '2026-06-07',
+      isPopular: false,
     },
     {
       href: '/calculate-percentage',
@@ -322,6 +357,7 @@ export const TOOLS = [
       type: 'is-success',
       category: 'Utilities',
       updatedAt: '2026-06-07',
+      isPopular: false,
     },
     {
       href: '/reverse-text',
@@ -331,6 +367,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Developer Tools',
       updatedAt: '2026-06-07',
+      isPopular: false,
     },
     {
       href: '/parse-url',
@@ -340,6 +377,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Developer Tools',
       updatedAt: '2026-06-07',
+      isPopular: false,
     },
     {
       href: '/test-typing-speed',
@@ -349,6 +387,7 @@ export const TOOLS = [
       type: 'is-primary',
       category: 'Developer Tools',
       updatedAt: '2026-06-06',
+      isPopular: false,
     },
     {
       href: '/compare-text',
@@ -358,5 +397,6 @@ export const TOOLS = [
       type: 'is-warning',
       category: 'Developer Tools',
       updatedAt: '2026-06-07',
+      isPopular: false,
     },
   ];

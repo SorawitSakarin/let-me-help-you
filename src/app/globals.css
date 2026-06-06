@@ -175,3 +175,10 @@ a, button, .nes-btn, label, input[type="radio"], input[type="checkbox"], select,
 .nes-btn.is-disabled, button:disabled {
   cursor: not-allowed !important;
 }
+
+/* Compact Table styling to prevent horizontal scrolling on mobile/smaller screens */
+.nes-table.is-compact th,
+.nes-table.is-compact td {
+  padding: 4px 6px !important;
+}
+

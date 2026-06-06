@@ -17,6 +17,7 @@ const mockTools = [
     icon: 'nes-icon coin',
     type: 'is-primary',
     updatedAt: getOffsetDate(-1), // 1 day ago - within 14 days
+    isPopular: true,
   },
   {
     href: '/count-words',
@@ -25,6 +26,7 @@ const mockTools = [
     icon: 'nes-icon star',
     type: 'is-success',
     updatedAt: getOffsetDate(-20), // 20 days ago - not within 14 days
+    isPopular: false,
   },
   {
     href: '/pick-a-random-option',
@@ -32,6 +34,7 @@ const mockTools = [
     description: 'Spin the wheel.',
     icon: 'nes-icon trophy',
     type: 'is-warning',
+    isPopular: false,
   },
 ];
 
@@ -127,5 +130,20 @@ describe('ToolsGrid', () => {
     // Change to 'Oldest' (updatedAt-asc)
     fireEvent.change(sortSelect, { target: { value: 'updatedAt-asc' } });
     expect(sortSelect).toHaveValue('updatedAt-asc');
+  });
+
+  it('renders "POPULAR" badge only for popular tools', () => {
+    render(<ToolsGrid initialTools={mockTools} />);
+
+    // QR Generator is popular -> should have "POPULAR" badge
+    const popularBadges = screen.getAllByText('POPULAR');
+    expect(popularBadges.length).toBeGreaterThan(0);
+
+    const qrCard = screen.getByText('QR Generator').closest('div');
+    expect(qrCard).toHaveTextContent('POPULAR');
+
+    // Word Counter is NOT popular -> should not have "POPULAR" badge
+    const wordCounterCard = screen.getByText('Word Counter').closest('div');
+    expect(wordCounterCard).not.toHaveTextContent('POPULAR');
   });
 });

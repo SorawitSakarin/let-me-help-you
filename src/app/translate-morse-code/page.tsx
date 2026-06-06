@@ -25,6 +25,7 @@ export default function MorseCodeTranslator() {
   const [text, setText] = useState('');
   const [morse, setMorse] = useState('');
   const [copyStatus, setCopyStatus] = useState<'text' | 'morse' | null>(null);
+  const [activeTab, setActiveTab] = useState<'letters' | 'numbers' | 'special'>('letters');
 
   const handleTextChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     const newText = e.target.value;
@@ -125,6 +126,173 @@ export default function MorseCodeTranslator() {
               Clear All
             </button>
           </div>
+        </div>
+      </div>
+
+      {/* Morse Code Reference */}
+      <div className="nes-container with-title is-rounded w-full bg-white mt-4">
+        <h3 className="title text-sm bg-white" style={{ marginBottom: 0 }}>Morse Code Reference</h3>
+        <div className="p-2 md:p-4">
+          <div className="flex gap-2 justify-center mb-6 flex-wrap">
+            <button
+              type="button"
+              className={`nes-btn is-small ${activeTab === 'letters' ? 'is-primary' : ''}`}
+              onClick={() => setActiveTab('letters')}
+            >
+              Letters
+            </button>
+            <button
+              type="button"
+              className={`nes-btn is-small ${activeTab === 'numbers' ? 'is-primary' : ''}`}
+              onClick={() => setActiveTab('numbers')}
+            >
+              Numbers
+            </button>
+            <button
+              type="button"
+              className={`nes-btn is-small ${activeTab === 'special' ? 'is-primary' : ''}`}
+              onClick={() => setActiveTab('special')}
+            >
+              Punctuation
+            </button>
+          </div>
+
+          {activeTab === 'letters' && (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="nes-table-responsive">
+                <table className="nes-table is-compact is-bordered is-centered w-[90%] text-xs">
+                  <thead>
+                    <tr>
+                      <th>Char</th>
+                      <th>Morse</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {Object.entries(MORSE_CODE_MAP)
+                      .filter(([char]) => char >= 'A' && char <= 'M')
+                      .map(([char, code]) => (
+                        <tr key={char}>
+                          <td>{char}</td>
+                          <td className="font-mono">{code}</td>
+                        </tr>
+                      ))}
+                  </tbody>
+                </table>
+              </div>
+              <div className="nes-table-responsive">
+                <table className="nes-table is-compact is-bordered is-centered w-[90%] text-xs">
+                  <thead>
+                    <tr>
+                      <th>Char</th>
+                      <th>Morse</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {Object.entries(MORSE_CODE_MAP)
+                      .filter(([char]) => char >= 'N' && char <= 'Z')
+                      .map(([char, code]) => (
+                        <tr key={char}>
+                          <td>{char}</td>
+                          <td className="font-mono">{code}</td>
+                        </tr>
+                      ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+
+          {activeTab === 'numbers' && (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="nes-table-responsive">
+                <table className="nes-table is-compact is-bordered is-centered w-[90%] text-xs">
+                  <thead>
+                    <tr>
+                      <th>Char</th>
+                      <th>Morse</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {Object.entries(MORSE_CODE_MAP)
+                      .filter(([char]) => char >= '0' && char <= '4')
+                      .map(([char, code]) => (
+                        <tr key={char}>
+                          <td>{char}</td>
+                          <td className="font-mono">{code}</td>
+                        </tr>
+                      ))}
+                  </tbody>
+                </table>
+              </div>
+              <div className="nes-table-responsive">
+                <table className="nes-table is-compact is-bordered is-centered w-[90%] text-xs">
+                  <thead>
+                    <tr>
+                      <th>Char</th>
+                      <th>Morse</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {Object.entries(MORSE_CODE_MAP)
+                      .filter(([char]) => char >= '5' && char <= '9')
+                      .map(([char, code]) => (
+                        <tr key={char}>
+                          <td>{char}</td>
+                          <td className="font-mono">{code}</td>
+                        </tr>
+                      ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+
+          {activeTab === 'special' && (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="nes-table-responsive">
+                <table className="nes-table is-compact is-bordered is-centered w-[90%] text-xs">
+                  <thead>
+                    <tr>
+                      <th>Char</th>
+                      <th>Morse</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {Object.entries(MORSE_CODE_MAP)
+                      .filter(([char]) => !(char >= 'A' && char <= 'Z') && !(char >= '0' && char <= '9') && char !== ' ')
+                      .slice(0, 9)
+                      .map(([char, code]) => (
+                        <tr key={char}>
+                          <td>{char}</td>
+                          <td className="font-mono">{code}</td>
+                        </tr>
+                      ))}
+                  </tbody>
+                </table>
+              </div>
+              <div className="nes-table-responsive">
+                <table className="nes-table is-compact is-bordered is-centered w-[90%] text-xs">
+                  <thead>
+                    <tr>
+                      <th>Char</th>
+                      <th>Morse</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {Object.entries(MORSE_CODE_MAP)
+                      .filter(([char]) => !(char >= 'A' && char <= 'Z') && !(char >= '0' && char <= '9') && char !== ' ')
+                      .slice(9)
+                      .map(([char, code]) => (
+                        <tr key={char}>
+                          <td>{char}</td>
+                          <td className="font-mono">{code}</td>
+                        </tr>
+                      ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
