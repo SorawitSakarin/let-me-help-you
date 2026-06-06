@@ -38,3 +38,7 @@ This file serves as the primary source of truth for persistent context and decis
   - **Card Registration (`src/data/feature.ts`):** Registered the tool card under "Developer Tools" with date `2026-06-07` to trigger the pixelated "NEW" badge.
   - **SEO Keywords Addition (`src/utils/seo.ts`):** Integrated 6 new diff/compare related keywords.
   - **README Update (`README.md`):** Documented the 41st feature and added its path to the project structure section.
+- **Timezone & Sitemap Timestamp Fix (2026-06-07):**
+  - **Tools Grid Badge Logic Fix (`src/components/ToolsGrid.tsx`):** Refactored `isNew` helper to compare date values using midnight of the local calendar day instead of UTC, solving timezone-offset negative diff bugs that blocked new same-day release badges.
+  - **Sitemap Date Fix (`src/app/sitemap.ts`):** Assigned a static timestamp of last month (May 7, 2026) for the `share-daily-knowledge` feature which lacks a db registry entry.
+

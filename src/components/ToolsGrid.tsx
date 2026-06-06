@@ -20,9 +20,18 @@ interface ToolsGridProps {
 
 const isNew = (updatedAt?: string) => {
   if (!updatedAt) return false;
-  const updatedDate = new Date(updatedAt);
+  const parts = updatedAt.split('-');
+  if (parts.length !== 3) return false;
+  const updatedDate = new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
+  
   const currentDate = new Date();
-  const diffTime = currentDate.getTime() - updatedDate.getTime();
+  const currentMidnight = new Date(
+    currentDate.getFullYear(),
+    currentDate.getMonth(),
+    currentDate.getDate()
+  );
+  
+  const diffTime = currentMidnight.getTime() - updatedDate.getTime();
   const diffDays = diffTime / (1000 * 60 * 60 * 24);
   return diffDays >= 0 && diffDays <= 14;
 };
