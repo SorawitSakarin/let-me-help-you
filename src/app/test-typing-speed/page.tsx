@@ -290,23 +290,23 @@ export default function TypingSpeedTestPage() {
   // Render text helper to highlight correct/incorrect letters
   const renderTextCharacters = () => {
     return text.split('').map((char, index) => {
-      let charClass = 'text-[#a3ffa3]/40 font-semibold'; // Untyped (highly readable dimmed retro green-gray)
+      let charClass = 'text-white/60 font-semibold'; // Untyped - dimmed white for clear distinction
       let charStyle: React.CSSProperties = {};
       let isCurrent = index === typedText.length;
 
       if (index < typedText.length) {
         if (typedText[index] === char) {
-          charClass = 'text-[#39ff14] font-bold'; // Correct - neon green
-          charStyle = { textShadow: '0 0 5px rgba(57,255,20,0.8)' };
+          charClass = 'text-[#39ff14] font-bold'; // Correct - bright green
+          charStyle = { textShadow: '0 0 4px rgba(57,255,20,0.6)' };
         } else {
-          charClass = 'text-[#ff6b6b] line-through bg-red-950/60 font-bold'; // Incorrect - bright neon red
+          charClass = 'text-[#ff4d4d] line-through bg-red-950/40 font-bold'; // Incorrect - red
         }
       }
 
       return (
         <span key={index} className={`relative text-sm md:text-base tracking-wide ${charClass}`} style={charStyle}>
           {isCurrent && (
-            <span className="absolute left-0 right-0 h-[1.2em] bg-[#39ff14]/90 animate-pulse z-10" style={{ bottom: '-1px' }}></span>
+            <span className="absolute left-0 right-0 h-[1.2em] bg-white/90 animate-pulse z-10" style={{ bottom: '-1px' }}></span>
           )}
           {char}
         </span>
@@ -465,32 +465,19 @@ export default function TypingSpeedTestPage() {
                 }}
                 className="relative w-full min-h-[160px] p-6 rounded border-4 border-black select-none overflow-hidden cursor-text flex flex-wrap gap-y-1 align-content-start"
                 style={{
-                  backgroundColor: '#050a04',
-                  backgroundImage: 'radial-gradient(rgba(10, 20, 10, 0.9), rgba(0, 0, 0, 0.98))',
-                  boxShadow: 'inset 0 0 30px rgba(0, 0, 0, 0.95), 0 0 10px rgba(0, 0, 0, 0.3)',
+                  backgroundColor: '#000000',
+                  boxShadow: 'inset 0 0 30px rgba(255, 255, 255, 0.03), 0 0 10px rgba(0, 0, 0, 0.2)',
                   fontFamily: 'Courier New, Courier, monospace',
                 }}
               >
-                {/* Scanlines overlay effect */}
-                <div 
-                  className="absolute inset-0 pointer-events-none z-20"
-                  style={{
-                    background: 'linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%)',
-                    backgroundSize: '100% 4px',
-                  }}
-                ></div>
-
-                {/* Blinking screen hum/flicker overlay */}
-                <div className="absolute inset-0 pointer-events-none z-10 bg-opacity-[0.02] bg-[#39ff14] animate-pulse"></div>
-
                 <div className="w-full flex flex-wrap gap-y-2 leading-relaxed z-10">
                   {renderTextCharacters()}
                 </div>
 
                 {/* Floating click prompt in idle mode */}
                 {testState === 'idle' && (
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/60 z-30 pointer-events-none">
-                    <span className="text-[10px] md:text-xs text-[#39ff14] font-bold tracking-wider uppercase animate-pulse">
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/75 z-30 pointer-events-none">
+                    <span className="text-[10px] md:text-xs text-white font-bold tracking-wider uppercase animate-pulse">
                       &gt; Click here to begin typing &lt;
                     </span>
                   </div>
