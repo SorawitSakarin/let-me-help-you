@@ -107,6 +107,12 @@ const SEO_KEYWORDS = [
   "Code Compare",
   "Compare Two Texts",
   "File Diff Tool",
+  "Number Base Converter",
+  "Decimal to Binary",
+  "Hex to Decimal",
+  "Base Converter",
+  "Octal Converter",
+  "Developer Utilities",
 ];
 
 

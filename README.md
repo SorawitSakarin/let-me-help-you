@@ -239,6 +239,12 @@ Compare two blocks of text side-by-side or inline to highlight additions, deleti
 - **Features**: Side-by-side split view, unified inline view, case/whitespace ignoring options, and copy patch utility.
 - **Theme**: Clean retro styled comparison tables with line numbering.
 
+### 42. Number Base Converter
+Convert numbers seamlessly between decimal, binary, octal, and hexadecimal bases.
+- **Input**: Decimal, Binary, Octal, or Hexadecimal string.
+- **Features**: Instant bidirectional conversion, invalid input detection.
+- **Theme**: Classic retro form interface.
+
 ---
 
 ## Tech Stack
@@ -329,6 +335,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/parse-url/page.tsx`: URL Parser tool.
 - `src/app/test-typing-speed/page.tsx`: Retro Speed Typer tool.
 - `src/app/compare-text/page.tsx`: Text Diff Viewer tool.
+- `src/app/convert-number-base/page.tsx`: Number Base Converter tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

@@ -399,4 +399,14 @@ export const TOOLS = [
       updatedAt: '2026-06-07',
       isPopular: false,
     },
+    {
+      href: '/convert-number-base',
+      title: 'Number Base Converter',
+      description: 'Convert numbers between decimal, binary, octal, and hex bases.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-07',
+      isPopular: false,
+    },
   ];
