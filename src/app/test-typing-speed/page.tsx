@@ -290,21 +290,23 @@ export default function TypingSpeedTestPage() {
   // Render text helper to highlight correct/incorrect letters
   const renderTextCharacters = () => {
     return text.split('').map((char, index) => {
-      let charClass = 'text-gray-400'; // Untyped
+      let charClass = 'text-[#a3ffa3]/40 font-semibold'; // Untyped (highly readable dimmed retro green-gray)
+      let charStyle: React.CSSProperties = {};
       let isCurrent = index === typedText.length;
 
       if (index < typedText.length) {
         if (typedText[index] === char) {
-          charClass = 'text-[#39ff14] font-bold'; // Correct
+          charClass = 'text-[#39ff14] font-bold'; // Correct - neon green
+          charStyle = { textShadow: '0 0 5px rgba(57,255,20,0.8)' };
         } else {
-          charClass = 'text-red-500 line-through bg-red-950/30 font-bold'; // Incorrect
+          charClass = 'text-[#ff6b6b] line-through bg-red-950/60 font-bold'; // Incorrect - bright neon red
         }
       }
 
       return (
-        <span key={index} className={`relative text-xs md:text-sm tracking-wide ${charClass}`}>
+        <span key={index} className={`relative text-sm md:text-base tracking-wide ${charClass}`} style={charStyle}>
           {isCurrent && (
-            <span className="absolute left-0 right-0 h-[1.2em] bg-[#39ff14]/80 animate-pulse z-10" style={{ bottom: '-1px' }}></span>
+            <span className="absolute left-0 right-0 h-[1.2em] bg-[#39ff14]/90 animate-pulse z-10" style={{ bottom: '-1px' }}></span>
           )}
           {char}
         </span>
@@ -463,9 +465,9 @@ export default function TypingSpeedTestPage() {
                 }}
                 className="relative w-full min-h-[160px] p-6 rounded border-4 border-black select-none overflow-hidden cursor-text flex flex-wrap gap-y-1 align-content-start"
                 style={{
-                  backgroundColor: '#0b1509',
-                  backgroundImage: 'radial-gradient(rgba(18, 32, 18, 0.8), rgba(0, 0, 0, 0.95))',
-                  boxShadow: 'inset 0 0 20px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.2)',
+                  backgroundColor: '#050a04',
+                  backgroundImage: 'radial-gradient(rgba(10, 20, 10, 0.9), rgba(0, 0, 0, 0.98))',
+                  boxShadow: 'inset 0 0 30px rgba(0, 0, 0, 0.95), 0 0 10px rgba(0, 0, 0, 0.3)',
                   fontFamily: 'Courier New, Courier, monospace',
                 }}
               >
