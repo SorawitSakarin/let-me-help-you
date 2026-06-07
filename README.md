@@ -245,6 +245,12 @@ Convert numbers seamlessly between decimal, binary, octal, and hexadecimal bases
 - **Features**: Instant bidirectional conversion, invalid input detection.
 - **Theme**: Classic retro form interface.
 
+### 43. RegEx Tester
+Test and debug regular expressions in real-time.
+- **Input**: Regular expression pattern, flag options (global, case-insensitive, multiline, singleline), and a test string.
+- **Features**: Real-time syntax validation, match highlights, match indexes range, capture groups, presets, and a built-in cheat sheet.
+- **Theme**: Pixel-perfect retro container tables and inputs.
+
 ---
 
 ## Tech Stack
@@ -336,6 +342,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/test-typing-speed/page.tsx`: Retro Speed Typer tool.
 - `src/app/compare-text/page.tsx`: Text Diff Viewer tool.
 - `src/app/convert-number-base/page.tsx`: Number Base Converter tool.
+- `src/app/test-regex/page.tsx`: RegEx Tester page.
+- `src/app/test-regex/layout.tsx`: RegEx Tester layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

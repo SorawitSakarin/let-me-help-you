@@ -134,6 +134,14 @@ export default function AboutSection() {
                       <li>Copy instantly.</li>
                   </ul>
               </div>
+              <div className="p-2">
+                  <h4 className="mb-2 text-base underline">RegEx Tester</h4>
+                  <ul className="nes-list is-disc ml-4 text-xs">
+                      <li>Interactive playground.</li>
+                      <li>Live highlights & groups.</li>
+                      <li>Built-in cheat sheet.</li>
+                  </ul>
+              </div>
           </div>
 
           <div className="mt-8 text-center border-t-2 border-dashed border-gray-400 pt-4 flex flex-col items-center gap-4">

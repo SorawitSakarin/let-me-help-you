@@ -409,4 +409,14 @@ export const TOOLS = [
       updatedAt: '2026-06-07',
       isPopular: false,
     },
+    {
+      href: '/test-regex',
+      title: 'RegEx Tester',
+      description: 'Test, validate, and debug regular expressions with live highlights.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-08',
+      isPopular: false,
+    },
   ];

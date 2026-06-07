@@ -113,6 +113,12 @@ const SEO_KEYWORDS = [
   "Base Converter",
   "Octal Converter",
   "Developer Utilities",
+  "RegEx Tester",
+  "Regular Expression Tester",
+  "RegEx Playground",
+  "Match Regular Expressions",
+  "RegEx Cheat Sheet",
+  "Regex Debugger",
 ];
 
 

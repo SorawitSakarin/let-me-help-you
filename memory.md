@@ -41,4 +41,12 @@ This file serves as the primary source of truth for persistent context and decis
 - **Timezone & Sitemap Timestamp Fix (2026-06-07):**
   - **Tools Grid Badge Logic Fix (`src/components/ToolsGrid.tsx`):** Refactored `isNew` helper to compare date values using midnight of the local calendar day instead of UTC, solving timezone-offset negative diff bugs that blocked new same-day release badges.
   - **Sitemap Date Fix (`src/app/sitemap.ts`):** Assigned a static timestamp of last month (May 7, 2026) for the `share-daily-knowledge` feature which lacks a db registry entry.
+- **RegEx Tester Feature (2026-06-08):**
+  - **Feature Page (`src/app/test-regex/page.tsx`):** Created the client-side interactive RegEx Tester and Playground page. Implemented live regex matching, flag choices, preset examples loading, visual highlights, match data tables (indices and groups), and a syntax cheat sheet.
+  - **Layout Wrapper (`src/app/test-regex/layout.tsx`):** Added layout file to define the metadata for page title and SEO description.
+  - **Card Registration (`src/data/feature.ts`):** Registered the tool card under "Developer Tools" with date `2026-06-08` to trigger the pixelated "NEW" badge on the landing page.
+  - **SEO Keywords Addition (`src/utils/seo.ts`):** Integrated 6 new regex and matching related keywords.
+  - **AboutSection Update (`src/components/AboutSection.tsx`):** Added a quick usage guide block for the RegEx Tester.
+  - **README Update (`README.md`):** Registered the new utility as feature 43, including description and route file path under project structure.
+
 
