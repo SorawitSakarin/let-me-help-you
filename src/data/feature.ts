@@ -419,4 +419,14 @@ export const TOOLS = [
       updatedAt: '2026-06-08',
       isPopular: false,
     },
+    {
+      href: '/convert-roman-numerals',
+      title: 'Roman Numeral Converter',
+      description: 'Convert decimal numbers to Roman numerals and back.',
+      icon: 'nes-icon coin',
+      type: 'is-success',
+      category: 'Utilities',
+      updatedAt: '2026-06-09',
+      isPopular: false,
+    },
   ];

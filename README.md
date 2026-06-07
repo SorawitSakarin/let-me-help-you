@@ -251,6 +251,12 @@ Test and debug regular expressions in real-time.
 - **Features**: Real-time syntax validation, match highlights, match indexes range, capture groups, presets, and a built-in cheat sheet.
 - **Theme**: Pixel-perfect retro container tables and inputs.
 
+### 44. Roman Numeral Converter
+Convert between decimal numbers and Roman numerals instantly.
+- **Input**: Decimal number (1-3999) or Roman numeral string.
+- **Features**: Instant bidirectional conversion, invalid input detection.
+- **Theme**: Retro input fields with real-time validation.
+
 ---
 
 ## Tech Stack
@@ -344,6 +350,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/convert-number-base/page.tsx`: Number Base Converter tool.
 - `src/app/test-regex/page.tsx`: RegEx Tester page.
 - `src/app/test-regex/layout.tsx`: RegEx Tester layout for SEO.
+- `src/app/convert-roman-numerals/page.tsx`: Roman Numeral Converter tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
