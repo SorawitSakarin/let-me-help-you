@@ -429,4 +429,14 @@ export const TOOLS = [
       updatedAt: '2026-06-09',
       isPopular: false,
     },
+    {
+      href: '/generate-url-slug',
+      title: 'URL Slug Generator',
+      description: 'Convert any text into an SEO-friendly URL slug.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-10',
+      isPopular: false,
+    },
   ];

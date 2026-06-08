@@ -123,6 +123,9 @@ const SEO_KEYWORDS = [
   "Convert Roman Numerals",
   "Decimal to Roman",
   "Roman to Decimal",
+  "URL Slug Generator",
+  "Generate Slug",
+  "SEO Slug",
 ];
 
 

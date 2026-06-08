@@ -257,6 +257,12 @@ Convert between decimal numbers and Roman numerals instantly.
 - **Features**: Instant bidirectional conversion, invalid input detection.
 - **Theme**: Retro input fields with real-time validation.
 
+### 45. URL Slug Generator
+Convert any text into an SEO-friendly URL slug.
+- **Input**: Text to slugify and separator option (hyphen or underscore).
+- **Features**: Real-time generation, copy to clipboard, and clear options.
+- **Theme**: Retro container with input and output sections.
+
 ---
 
 ## Tech Stack
@@ -351,6 +357,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/test-regex/page.tsx`: RegEx Tester page.
 - `src/app/test-regex/layout.tsx`: RegEx Tester layout for SEO.
 - `src/app/convert-roman-numerals/page.tsx`: Roman Numeral Converter tool.
+- `src/app/generate-url-slug/page.tsx`: URL Slug Generator tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
