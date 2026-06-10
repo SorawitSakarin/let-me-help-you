@@ -439,4 +439,14 @@ export const TOOLS = [
       updatedAt: '2026-06-10',
       isPopular: false,
     },
+    {
+      href: '/calculate-aspect-ratio',
+      title: 'Aspect Ratio Calc',
+      description: 'Calculate image and video aspect ratios.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-11',
+      isPopular: false,
+    },
   ];

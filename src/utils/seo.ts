@@ -126,6 +126,9 @@ const SEO_KEYWORDS = [
   "URL Slug Generator",
   "Generate Slug",
   "SEO Slug",
+  "Aspect Ratio",
+  "Calculate Aspect Ratio",
+  "Image Dimensions",
 ];
 
 

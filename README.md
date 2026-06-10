@@ -263,6 +263,12 @@ Convert any text into an SEO-friendly URL slug.
 - **Features**: Real-time generation, copy to clipboard, and clear options.
 - **Theme**: Retro container with input and output sections.
 
+### 46. Aspect Ratio Calculator
+Calculate image and video aspect ratios.
+- **Input**: Original Width, Original Height, New Width, New Height.
+- **Features**: Instant proportional calculations.
+- **Theme**: Clean retro container with responsive inputs.
+
 ---
 
 ## Tech Stack
@@ -358,6 +364,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/test-regex/layout.tsx`: RegEx Tester layout for SEO.
 - `src/app/convert-roman-numerals/page.tsx`: Roman Numeral Converter tool.
 - `src/app/generate-url-slug/page.tsx`: URL Slug Generator tool.
+- `src/app/calculate-aspect-ratio/page.tsx`: Aspect Ratio Calculator tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
