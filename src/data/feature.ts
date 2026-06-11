@@ -449,4 +449,14 @@ export const TOOLS = [
       updatedAt: '2026-06-11',
       isPopular: false,
     },
+    {
+      href: '/calculate-tip',
+      title: 'Tip Calculator',
+      description: 'Calculate tips and split bills easily.',
+      icon: 'nes-icon coin',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2026-06-12',
+      isPopular: false,
+    },
   ];

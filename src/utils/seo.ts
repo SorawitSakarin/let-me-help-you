@@ -129,6 +129,10 @@ const SEO_KEYWORDS = [
   "Aspect Ratio",
   "Calculate Aspect Ratio",
   "Image Dimensions",
+  "Tip Calculator",
+  "Split Bill",
+  "Calculate Tip",
+  "Restaurant Tip",
 ];
 
 

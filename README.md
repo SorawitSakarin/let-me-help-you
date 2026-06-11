@@ -269,6 +269,12 @@ Calculate image and video aspect ratios.
 - **Features**: Instant proportional calculations.
 - **Theme**: Clean retro container with responsive inputs.
 
+### 47. Tip Calculator
+Calculate tips and split bills easily.
+- **Input**: Bill Amount, Tip Percentage, Number of People.
+- **Features**: Calculate tip amount per person and total amount per person.
+- **Theme**: Clean retro container with responsive inputs.
+
 ---
 
 ## Tech Stack
@@ -365,6 +371,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/convert-roman-numerals/page.tsx`: Roman Numeral Converter tool.
 - `src/app/generate-url-slug/page.tsx`: URL Slug Generator tool.
 - `src/app/calculate-aspect-ratio/page.tsx`: Aspect Ratio Calculator tool.
+- `src/app/calculate-tip/page.tsx`: Tip Calculator tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
