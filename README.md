@@ -275,6 +275,12 @@ Calculate tips and split bills easily.
 - **Features**: Calculate tip amount per person and total amount per person.
 - **Theme**: Clean retro container with responsive inputs.
 
+### 48. BPM Tapper
+Calculate Beats Per Minute (BPM) by tapping a button.
+- **Input**: User taps.
+- **Features**: Real-time average BPM calculation, tap counter, and reset functionality.
+- **Theme**: Clean retro container with an interactive tap button.
+
 ---
 
 ## Tech Stack
@@ -372,6 +378,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-url-slug/page.tsx`: URL Slug Generator tool.
 - `src/app/calculate-aspect-ratio/page.tsx`: Aspect Ratio Calculator tool.
 - `src/app/calculate-tip/page.tsx`: Tip Calculator tool.
+- `src/app/calculate-bpm/page.tsx`: BPM Tapper tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

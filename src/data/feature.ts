@@ -459,4 +459,14 @@ export const TOOLS = [
       updatedAt: '2026-06-12',
       isPopular: false,
     },
+    {
+      href: '/calculate-bpm',
+      title: 'BPM Tapper',
+      description: 'Calculate Beats Per Minute (BPM) by tapping.',
+      icon: 'nes-icon twitch',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2026-06-12',
+      isPopular: false,
+    },
   ];

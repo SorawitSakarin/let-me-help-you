@@ -133,6 +133,10 @@ const SEO_KEYWORDS = [
   "Split Bill",
   "Calculate Tip",
   "Restaurant Tip",
+  "BPM Tapper",
+  "Calculate BPM",
+  "Beats Per Minute",
+  "Tap Tempo",
 ];
 
 
