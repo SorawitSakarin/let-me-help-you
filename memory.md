@@ -48,5 +48,19 @@ This file serves as the primary source of truth for persistent context and decis
   - **SEO Keywords Addition (`src/utils/seo.ts`):** Integrated 6 new regex and matching related keywords.
   - **AboutSection Update (`src/components/AboutSection.tsx`):** Added a quick usage guide block for the RegEx Tester.
   - **README Update (`README.md`):** Registered the new utility as feature 43, including description and route file path under project structure.
+- **Retro Sprite Maker Feature (2026-06-10):**
+  - **Feature Page (`src/app/create-pixel-art/page.tsx`):** Designed and implemented the Retro Sprite Maker. Features custom resolutions (8x8, 16x16, 32x32) with drawing-grid preservation, multiple drawing tools (pencil, bucket flood fill, eraser, eyedropper color picker), curated retro color palettes (NES, PICO-8, GameBoy, Cyberpunk), local storage slots for saving designs, and synthesised retro audio feedback.
+  - **Layout Wrapper (`src/app/create-pixel-art/layout.tsx`):** Created the layout file for SEO title and meta description.
+  - **Card Registration (`src/data/feature.ts`):** Registered the tool card under "Developer Tools" with date `2026-06-10` to trigger the pixelated "NEW" badge.
+  - **SEO Keywords Addition (`src/utils/seo.ts`):** Integrated 7 new pixel art and sprite making keywords.
+  - **AboutSection Update (`src/components/AboutSection.tsx`):** Added a quick usage guide block for the Retro Sprite Maker.
+  - **README Update (`README.md`):** Documented the new utility as feature 44, including description and route file path under project structure.
+- **Retro SFX Generator Feature (2026-06-13):**
+  - **Feature Page (`src/app/generate-retro-sfx/page.tsx`):** Created the Retro SFX Generator page. Synthesized classic retro game sound effects using Web Audio API nodes with sliders for frequency sweeps, ADSR envelopes, filter sweeps, LFO vibrato, and sample-and-hold noise. Included random/mutate options.
+  - **Layout Wrapper (`src/app/generate-retro-sfx/layout.tsx`):** Added layout file for SEO title and meta description.
+  - **Card Registration (`src/data/feature.ts`):** Registered the tool card under "Developer Tools" with date `2026-06-13` to trigger the pixelated "NEW" badge.
+  - **SEO Keywords Addition (`src/utils/seo.ts`):** Integrated 7 new audio and sound effect keywords.
+  - **AboutSection Update (`src/components/AboutSection.tsx`):** Added a quick usage guide block for the Retro SFX Generator.
+  - **README Update (`README.md`):** Documented the new utility as feature 45, including description and route file path under project structure.
 
 

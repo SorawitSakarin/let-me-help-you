@@ -117,8 +117,21 @@ const SEO_KEYWORDS = [
   "Regular Expression Tester",
   "RegEx Playground",
   "Match Regular Expressions",
-  "RegEx Cheat Sheet",
   "Regex Debugger",
+  "Retro Sprite Maker",
+  "Pixel Art Creator",
+  "Draw pixel art online",
+  "CSS Box Shadow Pixel Art",
+  "Export Sprite to PNG",
+  "SVG Pixel Art Generator",
+  "8-bit Game Sprite Maker",
+  "Retro SFX Generator",
+  "8-bit Sound Maker",
+  "Chiptune Sound Effects",
+  "Web Audio Synthesizer",
+  "Generate Retro Sound Effects",
+  "8-bit Audio WAV Exporter",
+  "Download WAV Sound Effects",
 ];
 
 

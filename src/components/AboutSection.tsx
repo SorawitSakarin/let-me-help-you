@@ -142,6 +142,22 @@ export default function AboutSection() {
                       <li>Built-in cheat sheet.</li>
                   </ul>
               </div>
+              <div className="p-2">
+                  <h4 className="mb-2 text-base underline">Retro Sprite Maker</h4>
+                  <ul className="nes-list is-disc ml-4 text-xs">
+                      <li>Create pixel art on grids.</li>
+                      <li>Export to PNG, SVG, or CSS.</li>
+                      <li>Sound effects & local slots.</li>
+                  </ul>
+              </div>
+              <div className="p-2">
+                  <h4 className="mb-2 text-base underline">Retro SFX Generator</h4>
+                  <ul className="nes-list is-disc ml-4 text-xs">
+                      <li>Synthesize 8-bit sound effects.</li>
+                      <li>Export to WAV or copy Web Audio JS.</li>
+                      <li>Interactive live oscilloscope.</li>
+                  </ul>
+              </div>
           </div>
 
           <div className="mt-8 text-center border-t-2 border-dashed border-gray-400 pt-4 flex flex-col items-center gap-4">
