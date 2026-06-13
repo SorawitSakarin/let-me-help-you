@@ -281,6 +281,12 @@ Calculate Beats Per Minute (BPM) by tapping a button.
 - **Features**: Real-time average BPM calculation, tap counter, and reset functionality.
 - **Theme**: Clean retro container with an interactive tap button.
 
+### 49. Image to Base64
+Convert image files directly to Base64 data URIs.
+- **Input**: Any image file.
+- **Features**: Fast local conversion, image preview, and one-click copy.
+- **Theme**: Retro file upload with responsive preview box.
+
 ---
 
 ## Tech Stack
@@ -379,6 +385,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/calculate-aspect-ratio/page.tsx`: Aspect Ratio Calculator tool.
 - `src/app/calculate-tip/page.tsx`: Tip Calculator tool.
 - `src/app/calculate-bpm/page.tsx`: BPM Tapper tool.
+- `src/app/encode-image-base64/page.tsx`: Image to Base64 tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

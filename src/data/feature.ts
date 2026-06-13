@@ -469,4 +469,14 @@ export const TOOLS = [
       updatedAt: '2026-06-12',
       isPopular: false,
     },
+    {
+      href: '/encode-image-base64',
+      title: 'Image to Base64',
+      description: 'Convert image files to Base64 data URIs.',
+      icon: 'nes-icon coin',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-13',
+      isPopular: false,
+    },
   ];

@@ -137,6 +137,10 @@ const SEO_KEYWORDS = [
   "Calculate BPM",
   "Beats Per Minute",
   "Tap Tempo",
+  "Image to Base64",
+  "Base64 Image Encoder",
+  "Data URI Converter",
+  "Image Encoder",
 ];
 
 
