@@ -141,6 +141,10 @@ const SEO_KEYWORDS = [
   "Base64 Image Encoder",
   "Data URI Converter",
   "Image Encoder",
+  "Loan Calculator",
+  "Mortgage Calculator",
+  "Calculate Loan",
+  "Interest Calculator",
 ];
 
 

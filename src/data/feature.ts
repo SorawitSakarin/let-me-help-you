@@ -479,4 +479,14 @@ export const TOOLS = [
       updatedAt: '2026-06-13',
       isPopular: false,
     },
+    {
+      href: '/calculate-loan',
+      title: 'Loan Calculator',
+      description: 'Calculate monthly payments and total interest for a loan.',
+      icon: 'nes-icon coin',
+      type: 'is-success',
+      category: 'Utilities',
+      updatedAt: '2026-06-14',
+      isPopular: false,
+    },
   ];

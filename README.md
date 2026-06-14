@@ -287,6 +287,12 @@ Convert image files directly to Base64 data URIs.
 - **Features**: Fast local conversion, image preview, and one-click copy.
 - **Theme**: Retro file upload with responsive preview box.
 
+### 50. Loan Calculator
+Calculate monthly payments, total interest, and total payment for a loan.
+- **Input**: Loan Amount, Annual Interest Rate, Loan Term in Years.
+- **Features**: Instant calculation of monthly and total payments.
+- **Theme**: Retro container with responsive inputs and styled results.
+
 ---
 
 ## Tech Stack
@@ -386,6 +392,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/calculate-tip/page.tsx`: Tip Calculator tool.
 - `src/app/calculate-bpm/page.tsx`: BPM Tapper tool.
 - `src/app/encode-image-base64/page.tsx`: Image to Base64 tool.
+- `src/app/calculate-loan/page.tsx`: Loan Calculator tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
