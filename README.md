@@ -251,13 +251,37 @@ Test and debug regular expressions in real-time.
 - **Features**: Real-time syntax validation, match highlights, match indexes range, capture groups, presets, and a built-in cheat sheet.
 - **Theme**: Pixel-perfect retro container tables and inputs.
 
-### 44. Retro Sprite Maker
+### 44. Roman Numeral Converter
+Convert between decimal numbers and Roman numerals instantly.
+- **Input**: Decimal number (1-3999) or Roman numeral string.
+- **Features**: Instant bidirectional conversion, invalid input detection.
+- **Theme**: Retro input fields with real-time validation.
+
+### 45. URL Slug Generator
+Convert any text into an SEO-friendly URL slug.
+- **Input**: Text to slugify and separator option (hyphen or underscore).
+- **Features**: Real-time generation, copy to clipboard, and clear options.
+- **Theme**: Retro container with input and output sections.
+
+### 46. Retro Sprite Maker
 Design 8-bit game sprites and retro pixel art in an interactive canvas workspace.
 - **Features**: Adjustable resolution grids (8x8, 16x16, 32x32) with preservation resizing, multiple drawing tools (pencil, bucket flood fill, eraser, eyedropper color picker), curated retro color palettes (NES, PICO-8, GameBoy, Custom Picker), local storage slots for saving designs, and synthesised retro audio feedback.
 - **Export Options**: Download crisp pixelated PNG images, copy XML vector SVG code, generate single-div CSS box shadow declarations, or retrieve full React tailwind components.
 - **Theme**: Pixel-perfect layout with retro sound effects and visual previews.
 
-### 45. Retro SFX Generator
+### 47. Aspect Ratio Calculator
+Calculate image and video aspect ratios.
+- **Input**: Original Width, Original Height, New Width, New Height.
+- **Features**: Instant proportional calculations.
+- **Theme**: Clean retro container with responsive inputs.
+
+### 48. Tip Calculator
+Calculate tips and split bills easily.
+- **Input**: Bill Amount, Tip Percentage, Number of People.
+- **Features**: Calculate tip amount per person and total amount per person.
+- **Theme**: Clean retro container with responsive inputs.
+
+### 49. Retro SFX Generator
 Generate, customize, and download 8-bit retro game sound effects using Web Audio API synthesis.
 - **Features**: Synthesize classic retro gaming sound effects (Laser, Explosion, Jump, Coin, Powerup, Hit, Blip) with real-time slider controls for frequency, ADSR amplitude envelopes, filter sweeps, LFO vibrato depth/speed, and retro-noise sample rates. Includes mutate and randomize settings.
 - **Export Options**: Download standard PCM WAV audio files, preview live soundwaves in a green-phosphor CRT oscilloscope visualizer, or copy self-contained, zero-dependency JavaScript snippets.
@@ -356,8 +380,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/convert-number-base/page.tsx`: Number Base Converter tool.
 - `src/app/test-regex/page.tsx`: RegEx Tester page.
 - `src/app/test-regex/layout.tsx`: RegEx Tester layout for SEO.
+- `src/app/convert-roman-numerals/page.tsx`: Roman Numeral Converter tool.
+- `src/app/generate-url-slug/page.tsx`: URL Slug Generator tool.
 - `src/app/create-pixel-art/page.tsx`: Retro Sprite Maker page.
 - `src/app/create-pixel-art/layout.tsx`: Retro Sprite Maker layout for SEO.
+- `src/app/calculate-aspect-ratio/page.tsx`: Aspect Ratio Calculator tool.
+- `src/app/calculate-tip/page.tsx`: Tip Calculator tool.
 - `src/app/generate-retro-sfx/page.tsx`: Retro SFX Generator page.
 - `src/app/generate-retro-sfx/layout.tsx`: Retro SFX Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.

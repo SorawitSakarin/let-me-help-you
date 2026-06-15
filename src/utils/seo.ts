@@ -132,6 +132,20 @@ const SEO_KEYWORDS = [
   "Generate Retro Sound Effects",
   "8-bit Audio WAV Exporter",
   "Download WAV Sound Effects",
+  "Roman Numeral Converter",
+  "Convert Roman Numerals",
+  "Decimal to Roman",
+  "Roman to Decimal",
+  "URL Slug Generator",
+  "Generate Slug",
+  "SEO Slug",
+  "Aspect Ratio",
+  "Calculate Aspect Ratio",
+  "Image Dimensions",
+  "Tip Calculator",
+  "Split Bill",
+  "Calculate Tip",
+  "Restaurant Tip",
 ];
 
 
