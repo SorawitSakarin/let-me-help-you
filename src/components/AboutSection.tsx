@@ -158,6 +158,14 @@ export default function AboutSection() {
                       <li>Interactive live oscilloscope.</li>
                   </ul>
               </div>
+              <div className="p-2">
+                  <h4 className="mb-2 text-base underline">Flexbox Playground</h4>
+                  <ul className="nes-list is-disc ml-4 text-xs">
+                      <li>Visualize CSS Flexbox in real-time.</li>
+                      <li>Interactive containers & customizable child properties.</li>
+                      <li>Auto-generate and copy clean CSS layouts.</li>
+                  </ul>
+              </div>
           </div>
 
           <div className="mt-8 text-center border-t-2 border-dashed border-gray-400 pt-4 flex flex-col items-center gap-4">

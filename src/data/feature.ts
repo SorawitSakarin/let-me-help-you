@@ -479,4 +479,14 @@ export const TOOLS = [
       updatedAt: '2026-06-13',
       isPopular: false,
     },
+    {
+      href: '/flexbox-playground',
+      title: 'Flexbox Playground',
+      description: 'Visualize and practice CSS Flexbox alignments in real-time with retro game character sprites.',
+      icon: 'nes-icon star',
+      type: 'is-success',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-16',
+      isPopular: false,
+    },
   ];

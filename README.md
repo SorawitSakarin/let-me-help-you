@@ -287,6 +287,11 @@ Generate, customize, and download 8-bit retro game sound effects using Web Audio
 - **Export Options**: Download standard PCM WAV audio files, preview live soundwaves in a green-phosphor CRT oscilloscope visualizer, or copy self-contained, zero-dependency JavaScript snippets.
 - **Theme**: Pixel-perfect layout with live-rendered glowing canvas oscilloscope visualizer.
 
+### 50. Flexbox Playground
+An interactive 8-bit CSS Flexbox editor with retro game character sprites.
+- **Features**: Toggle container options (flex-direction, justify-content, align-items, flex-wrap, gap, container height) and click individual sprites to edit their child-specific flex attributes (flex-grow, flex-shrink, order, align-self). Auto-compiles CSS code with instant copy to clipboard and features quick learning presets (Navbar, Perfect Center, Wrapping Cards, Sidebar). Includes Web Audio chiptune feedback.
+- **Theme**: Premium retro screen canvas with interactive characters and live parameter visualization.
+
 ---
 
 ## Tech Stack

@@ -146,6 +146,13 @@ const SEO_KEYWORDS = [
   "Split Bill",
   "Calculate Tip",
   "Restaurant Tip",
+  "CSS Flexbox Playground",
+  "Flexbox Visualizer",
+  "Learn CSS Flexbox",
+  "Interactive Flexbox",
+  "Flexbox Cheat Sheet",
+  "CSS Layout Generator",
+  "CSS Flexbox Generator",
 ];
 
 
