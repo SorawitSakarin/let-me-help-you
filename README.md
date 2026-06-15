@@ -281,13 +281,31 @@ Calculate tips and split bills easily.
 - **Features**: Calculate tip amount per person and total amount per person.
 - **Theme**: Clean retro container with responsive inputs.
 
-### 49. Retro SFX Generator
+### 49. BPM Tapper
+Calculate Beats Per Minute (BPM) by tapping a button.
+- **Input**: User taps.
+- **Features**: Real-time average BPM calculation, tap counter, and reset functionality.
+- **Theme**: Clean retro container with an interactive tap button.
+
+### 50. Image to Base64
+Convert image files directly to Base64 data URIs.
+- **Input**: Any image file.
+- **Features**: Fast local conversion, image preview, and one-click copy.
+- **Theme**: Retro file upload with responsive preview box.
+
+### 51. Retro SFX Generator
 Generate, customize, and download 8-bit retro game sound effects using Web Audio API synthesis.
 - **Features**: Synthesize classic retro gaming sound effects (Laser, Explosion, Jump, Coin, Powerup, Hit, Blip) with real-time slider controls for frequency, ADSR amplitude envelopes, filter sweeps, LFO vibrato depth/speed, and retro-noise sample rates. Includes mutate and randomize settings.
 - **Export Options**: Download standard PCM WAV audio files, preview live soundwaves in a green-phosphor CRT oscilloscope visualizer, or copy self-contained, zero-dependency JavaScript snippets.
 - **Theme**: Pixel-perfect layout with live-rendered glowing canvas oscilloscope visualizer.
 
-### 50. Flexbox Playground
+### 52. Loan Calculator
+Calculate monthly payments, total interest, and total payment for a loan.
+- **Input**: Loan Amount, Annual Interest Rate, Loan Term in Years.
+- **Features**: Instant calculation of monthly and total payments.
+- **Theme**: Retro container with responsive inputs and styled results.
+
+### 53. Flexbox Playground
 An interactive 8-bit CSS Flexbox editor with retro game character sprites.
 - **Features**: Toggle container options (flex-direction, justify-content, align-items, flex-wrap, gap, container height) and click individual sprites to edit their child-specific flex attributes (flex-grow, flex-shrink, order, align-self). Auto-compiles CSS code with instant copy to clipboard and features quick learning presets (Navbar, Perfect Center, Wrapping Cards, Sidebar). Includes Web Audio chiptune feedback.
 - **Theme**: Premium retro screen canvas with interactive characters and live parameter visualization.
@@ -391,8 +409,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/create-pixel-art/layout.tsx`: Retro Sprite Maker layout for SEO.
 - `src/app/calculate-aspect-ratio/page.tsx`: Aspect Ratio Calculator tool.
 - `src/app/calculate-tip/page.tsx`: Tip Calculator tool.
+- `src/app/calculate-bpm/page.tsx`: BPM Tapper tool.
+- `src/app/encode-image-base64/page.tsx`: Image to Base64 tool.
 - `src/app/generate-retro-sfx/page.tsx`: Retro SFX Generator page.
 - `src/app/generate-retro-sfx/layout.tsx`: Retro SFX Generator layout for SEO.
+- `src/app/calculate-loan/page.tsx`: Loan Calculator tool.
+- `src/app/flexbox-playground/page.tsx`: Flexbox Playground page.
+- `src/app/flexbox-playground/layout.tsx`: Flexbox Playground layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

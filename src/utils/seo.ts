@@ -153,6 +153,18 @@ const SEO_KEYWORDS = [
   "Flexbox Cheat Sheet",
   "CSS Layout Generator",
   "CSS Flexbox Generator",
+  "BPM Tapper",
+  "Calculate BPM",
+  "Beats Per Minute",
+  "Tap Tempo",
+  "Image to Base64",
+  "Base64 Image Encoder",
+  "Data URI Converter",
+  "Image Encoder",
+  "Loan Calculator",
+  "Mortgage Calculator",
+  "Calculate Loan",
+  "Interest Calculator",
 ];
 
 
