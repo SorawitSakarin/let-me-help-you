@@ -310,6 +310,12 @@ An interactive 8-bit CSS Flexbox editor with retro game character sprites.
 - **Features**: Toggle container options (flex-direction, justify-content, align-items, flex-wrap, gap, container height) and click individual sprites to edit their child-specific flex attributes (flex-grow, flex-shrink, order, align-self). Auto-compiles CSS code with instant copy to clipboard and features quick learning presets (Navbar, Perfect Center, Wrapping Cards, Sidebar). Includes Web Audio chiptune feedback.
 - **Theme**: Premium retro screen canvas with interactive characters and live parameter visualization.
 
+### 54. Age Calculator
+Calculate your exact age based on your date of birth.
+- **Input**: Date of Birth.
+- **Features**: Instant calculation of your exact age in years, months, and days.
+- **Theme**: Clean retro container with an interactive date input.
+
 ---
 
 ## Tech Stack
@@ -416,6 +422,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/calculate-loan/page.tsx`: Loan Calculator tool.
 - `src/app/flexbox-playground/page.tsx`: Flexbox Playground page.
 - `src/app/flexbox-playground/layout.tsx`: Flexbox Playground layout for SEO.
+- `src/app/calculate-age/page.tsx`: Age Calculator tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

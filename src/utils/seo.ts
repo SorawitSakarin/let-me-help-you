@@ -165,6 +165,10 @@ const SEO_KEYWORDS = [
   "Mortgage Calculator",
   "Calculate Loan",
   "Interest Calculator",
+  "Age Calculator",
+  "Calculate Age",
+  "Exact Age",
+  "Date of Birth Calculator",
 ];
 
 

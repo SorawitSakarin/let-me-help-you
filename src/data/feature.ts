@@ -519,4 +519,14 @@ export const TOOLS = [
       updatedAt: '2026-06-16',
       isPopular: false,
     },
+    {
+      href: '/calculate-age',
+      title: 'Age Calculator',
+      description: 'Calculate your exact age in years, months, and days.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2026-06-17',
+      isPopular: false,
+    },
   ];
