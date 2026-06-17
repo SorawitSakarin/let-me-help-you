@@ -316,6 +316,12 @@ Calculate your exact age based on your date of birth.
 - **Features**: Instant calculation of your exact age in years, months, and days.
 - **Theme**: Clean retro container with an interactive date input.
 
+### 55. List Shuffler
+Randomize and shuffle lines of text or lists of items.
+- **Input**: A list of items (one per line).
+- **Features**: Randomly shuffles the items and allows instant copying of the result.
+- **Theme**: Clean retro container with text areas for input and output.
+
 ---
 
 ## Tech Stack
@@ -423,6 +429,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/flexbox-playground/page.tsx`: Flexbox Playground page.
 - `src/app/flexbox-playground/layout.tsx`: Flexbox Playground layout for SEO.
 - `src/app/calculate-age/page.tsx`: Age Calculator tool.
+- `src/app/shuffle-list/page.tsx`: List Shuffler tool.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

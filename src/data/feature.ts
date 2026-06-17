@@ -529,4 +529,14 @@ export const TOOLS = [
       updatedAt: '2026-06-17',
       isPopular: false,
     },
+    {
+      href: '/shuffle-list',
+      title: 'List Shuffler',
+      description: 'Randomize and shuffle lines of text or lists of items.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2026-06-18',
+      isPopular: false,
+    },
   ];

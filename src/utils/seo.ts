@@ -169,6 +169,10 @@ const SEO_KEYWORDS = [
   "Calculate Age",
   "Exact Age",
   "Date of Birth Calculator",
+  "List Shuffler",
+  "Randomize List",
+  "Shuffle Text Lines",
+  "Random List Generator",
 ];
 
 
