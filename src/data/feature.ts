@@ -539,4 +539,14 @@ export const TOOLS = [
       updatedAt: '2026-06-18',
       isPopular: false,
     },
+    {
+      href: '/encode-html-entities',
+      title: 'HTML Entity Encoder',
+      description: 'Encode and decode HTML entities safely.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-19',
+      isPopular: false,
+    },
   ];

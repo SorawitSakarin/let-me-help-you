@@ -322,6 +322,12 @@ Randomize and shuffle lines of text or lists of items.
 - **Features**: Randomly shuffles the items and allows instant copying of the result.
 - **Theme**: Clean retro container with text areas for input and output.
 
+### 56. HTML Entity Encoder
+Encode and decode HTML entities safely.
+- **Input**: Raw text or HTML strings.
+- **Features**: Converts characters like `<`, `>`, `&`, `"`, `'` to their HTML entities and vice versa.
+- **Theme**: Clean retro container with responsive text areas.
+
 ---
 
 ## Tech Stack
@@ -430,6 +436,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/flexbox-playground/layout.tsx`: Flexbox Playground layout for SEO.
 - `src/app/calculate-age/page.tsx`: Age Calculator tool.
 - `src/app/shuffle-list/page.tsx`: List Shuffler tool.
+- `src/app/encode-html-entities/page.tsx`: HTML Entity Encoder tool.
+- `src/app/encode-html-entities/layout.tsx`: HTML Entity Encoder layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

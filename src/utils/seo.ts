@@ -173,6 +173,10 @@ const SEO_KEYWORDS = [
   "Randomize List",
   "Shuffle Text Lines",
   "Random List Generator",
+  "HTML Entity Encoder",
+  "HTML Decoder",
+  "Encode HTML",
+  "Escape HTML",
 ];
 
 
