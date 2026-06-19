@@ -177,6 +177,9 @@ const SEO_KEYWORDS = [
   "HTML Decoder",
   "Encode HTML",
   "Escape HTML",
+  "CSS Gradient Generator",
+  "Background Gradient",
+  "CSS Generator",
 ];
 
 

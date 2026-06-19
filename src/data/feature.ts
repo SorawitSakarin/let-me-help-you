@@ -1,5 +1,15 @@
 export const TOOLS = [
     {
+      href: '/generate-css-gradient',
+      title: 'Gradient Generator',
+      description: 'Create and preview beautiful CSS gradients.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-20',
+      isPopular: false,
+    },
+    {
       href: '/create-qr-code',
       title: 'QR Generator',
       description: 'Create custom QR codes with icons inside.',

@@ -328,6 +328,12 @@ Encode and decode HTML entities safely.
 - **Features**: Converts characters like `<`, `>`, `&`, `"`, `'` to their HTML entities and vice versa.
 - **Theme**: Clean retro container with responsive text areas.
 
+### 57. CSS Gradient Generator
+Create, preview, and generate code for beautiful CSS gradients.
+- **Input**: Two colors and a gradient direction.
+- **Features**: Real-time gradient preview and one-click CSS code copying.
+- **Theme**: Clean retro container with color inputs and a preview box.
+
 ---
 
 ## Tech Stack
@@ -438,6 +444,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/shuffle-list/page.tsx`: List Shuffler tool.
 - `src/app/encode-html-entities/page.tsx`: HTML Entity Encoder tool.
 - `src/app/encode-html-entities/layout.tsx`: HTML Entity Encoder layout for SEO.
+- `src/app/generate-css-gradient/page.tsx`: CSS Gradient Generator page.
+- `src/app/generate-css-gradient/layout.tsx`: CSS Gradient Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
