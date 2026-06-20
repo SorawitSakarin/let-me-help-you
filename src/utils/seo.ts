@@ -180,6 +180,9 @@ const SEO_KEYWORDS = [
   "CSS Gradient Generator",
   "Background Gradient",
   "CSS Generator",
+  "CSV to JSON Converter",
+  "Convert CSV to JSON",
+  "JSON Converter",
 ];
 
 

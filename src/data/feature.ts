@@ -559,4 +559,14 @@ export const TOOLS = [
       updatedAt: '2026-06-19',
       isPopular: false,
     },
+    {
+      href: '/convert-csv-to-json',
+      title: 'CSV to JSON Converter',
+      description: 'Convert CSV data into JSON format easily.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-20',
+      isPopular: false,
+    },
   ];

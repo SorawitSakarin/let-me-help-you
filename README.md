@@ -334,6 +334,12 @@ Create, preview, and generate code for beautiful CSS gradients.
 - **Features**: Real-time gradient preview and one-click CSS code copying.
 - **Theme**: Clean retro container with color inputs and a preview box.
 
+### 58. CSV to JSON Converter
+Convert CSV data into JSON format easily.
+- **Input**: Raw CSV text.
+- **Features**: Handles basic CSV conversion to JSON arrays of objects.
+- **Theme**: Clean retro container with responsive text areas.
+
 ---
 
 ## Tech Stack
@@ -446,6 +452,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/encode-html-entities/layout.tsx`: HTML Entity Encoder layout for SEO.
 - `src/app/generate-css-gradient/page.tsx`: CSS Gradient Generator page.
 - `src/app/generate-css-gradient/layout.tsx`: CSS Gradient Generator layout for SEO.
+- `src/app/convert-csv-to-json/page.tsx`: CSV to JSON Converter page.
+- `src/app/convert-csv-to-json/layout.tsx`: CSV to JSON Converter layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
