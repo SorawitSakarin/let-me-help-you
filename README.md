@@ -340,6 +340,12 @@ Convert CSV data into JSON format easily.
 - **Features**: Handles basic CSV conversion to JSON arrays of objects.
 - **Theme**: Clean retro container with responsive text areas.
 
+### 59. JSON to CSV Converter
+Convert JSON data into CSV format easily.
+- **Input**: Raw JSON text.
+- **Features**: Handles JSON conversion to CSV with proper quoting and escaping.
+- **Theme**: Clean retro container with responsive text areas.
+
 ---
 
 ## Tech Stack
@@ -454,6 +460,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-css-gradient/layout.tsx`: CSS Gradient Generator layout for SEO.
 - `src/app/convert-csv-to-json/page.tsx`: CSV to JSON Converter page.
 - `src/app/convert-csv-to-json/layout.tsx`: CSV to JSON Converter layout for SEO.
+- `src/app/convert-json-to-csv/page.tsx`: JSON to CSV Converter page.
+- `src/app/convert-json-to-csv/layout.tsx`: JSON to CSV Converter layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
