@@ -1,5 +1,15 @@
 export const TOOLS = [
     {
+      href: '/calculate-date-difference',
+      title: 'Date Diff Calc',
+      description: 'Calculate the exact difference between two dates.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2026-06-22',
+      isPopular: false,
+    },
+    {
       href: '/generate-css-gradient',
       title: 'Gradient Generator',
       description: 'Create and preview beautiful CSS gradients.',

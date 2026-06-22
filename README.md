@@ -346,6 +346,12 @@ Convert JSON data into CSV format easily.
 - **Features**: Handles JSON conversion to CSV with proper quoting and escaping.
 - **Theme**: Clean retro container with responsive text areas.
 
+### 60. Date Difference Calculator
+Calculate the exact difference between two dates.
+- **Input**: Start Date and End Date.
+- **Features**: Instantly calculates difference in years, months, and days.
+- **Theme**: Clean retro container with intuitive inputs.
+
 ---
 
 ## Tech Stack
@@ -462,6 +468,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/convert-csv-to-json/layout.tsx`: CSV to JSON Converter layout for SEO.
 - `src/app/convert-json-to-csv/page.tsx`: JSON to CSV Converter page.
 - `src/app/convert-json-to-csv/layout.tsx`: JSON to CSV Converter layout for SEO.
+- `src/app/calculate-date-difference/page.tsx`: Date Difference Calculator page.
+- `src/app/calculate-date-difference/layout.tsx`: Date Difference Calculator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
