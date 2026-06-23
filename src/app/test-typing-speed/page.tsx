@@ -292,7 +292,7 @@ export default function TypingSpeedTestPage() {
     return text.split('').map((char, index) => {
       let charClass = 'text-white/60 font-semibold'; // Untyped - dimmed white for clear distinction
       let charStyle: React.CSSProperties = {};
-      let isCurrent = index === typedText.length;
+      const isCurrent = index === typedText.length;
 
       if (index < typedText.length) {
         if (typedText[index] === char) {

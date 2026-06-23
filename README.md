@@ -352,6 +352,12 @@ Calculate the exact difference between two dates.
 - **Features**: Instantly calculates difference in years, months, and days.
 - **Theme**: Clean retro container with intuitive inputs.
 
+### 61. Box Shadow Generator
+Create and preview CSS box shadows.
+- **Input**: X/Y Offsets, Blur, Spread, Color, Inset.
+- **Features**: Real-time shadow preview and one-click CSS code copying.
+- **Theme**: Clean retro container with range inputs and a preview box.
+
 ---
 
 ## Tech Stack
@@ -470,6 +476,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/convert-json-to-csv/layout.tsx`: JSON to CSV Converter layout for SEO.
 - `src/app/calculate-date-difference/page.tsx`: Date Difference Calculator page.
 - `src/app/calculate-date-difference/layout.tsx`: Date Difference Calculator layout for SEO.
+- `src/app/generate-box-shadow/page.tsx`: Box Shadow Generator page.
+- `src/app/generate-box-shadow/layout.tsx`: Box Shadow Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

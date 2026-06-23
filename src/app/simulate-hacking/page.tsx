@@ -26,7 +26,7 @@ export default function HackingScreen() {
     const headerEndIndex = KERNEL_CODE.indexOf("STARTING KERNEL DUMP...") + "STARTING KERNEL DUMP...".length + 60; // Approximate buffer
     const safeHeaderEnd = headerEndIndex > 0 ? headerEndIndex : 600;
 
-    let initialInterval = setInterval(() => {
+    const initialInterval = setInterval(() => {
       setDisplayedIndex((prev) => {
         if (prev >= safeHeaderEnd) {
           clearInterval(initialInterval);

@@ -189,6 +189,9 @@ const SEO_KEYWORDS = [
   "Date Difference Calculator",
   "Calculate Date Difference",
   "Time Between Dates",
+  "CSS Box Shadow Generator",
+  "Box Shadow",
+  "CSS Generator",
 ];
 
 
