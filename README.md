@@ -358,6 +358,12 @@ Create and preview CSS box shadows.
 - **Features**: Real-time shadow preview and one-click CSS code copying.
 - **Theme**: Clean retro container with range inputs and a preview box.
 
+### 62. Caesar Cipher
+Encode and decode text using the classic Caesar cipher algorithm.
+- **Input**: Text, Shift amount, Mode (Encode/Decode).
+- **Features**: Instantly shifts alphabetical characters while preserving spaces and punctuation.
+- **Theme**: Retro container with textarea inputs and radio buttons for mode selection.
+
 ---
 
 ## Tech Stack
@@ -478,6 +484,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/calculate-date-difference/layout.tsx`: Date Difference Calculator layout for SEO.
 - `src/app/generate-box-shadow/page.tsx`: Box Shadow Generator page.
 - `src/app/generate-box-shadow/layout.tsx`: Box Shadow Generator layout for SEO.
+- `src/app/caesar-cipher/page.tsx`: Caesar Cipher tool page.
+- `src/app/caesar-cipher/layout.tsx`: Caesar Cipher layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

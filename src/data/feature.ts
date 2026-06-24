@@ -599,4 +599,14 @@ export const TOOLS = [
       updatedAt: '2026-06-22',
       isPopular: false,
     },
+    {
+      href: '/caesar-cipher',
+      title: 'Caesar Cipher',
+      description: 'Encode and decode text using the classic Caesar cipher algorithm.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-25',
+      isPopular: false,
+    },
   ];

@@ -192,6 +192,10 @@ const SEO_KEYWORDS = [
   "CSS Box Shadow Generator",
   "Box Shadow",
   "CSS Generator",
+  "Caesar Cipher",
+  "Encode Caesar Cipher",
+  "Decode Caesar Cipher",
+  "Shift Cipher",
 ];
 
 
