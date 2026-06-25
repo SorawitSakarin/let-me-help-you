@@ -364,6 +364,12 @@ Encode and decode text using the classic Caesar cipher algorithm.
 - **Features**: Instantly shifts alphabetical characters while preserving spaces and punctuation.
 - **Theme**: Retro container with textarea inputs and radio buttons for mode selection.
 
+### 63. List Sorter
+Sort lists alphabetically, by length, or remove duplicates.
+- **Input**: A list of items (one per line).
+- **Features**: Instantly sort the list alphabetically (A-Z, Z-A), by length, or filter out duplicates.
+- **Theme**: Clean retro container with text areas for input and output.
+
 ---
 
 ## Tech Stack
@@ -486,6 +492,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-box-shadow/layout.tsx`: Box Shadow Generator layout for SEO.
 - `src/app/caesar-cipher/page.tsx`: Caesar Cipher tool page.
 - `src/app/caesar-cipher/layout.tsx`: Caesar Cipher layout for SEO.
+- `src/app/sort-list/page.tsx`: List Sorter tool page.
+- `src/app/sort-list/layout.tsx`: List Sorter layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

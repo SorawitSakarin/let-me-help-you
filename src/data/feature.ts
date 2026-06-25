@@ -609,4 +609,14 @@ export const TOOLS = [
       updatedAt: '2026-06-25',
       isPopular: false,
     },
+    {
+      href: '/sort-list',
+      title: 'List Sorter',
+      description: 'Sort lists alphabetically, by length, or remove duplicates.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2026-06-26',
+      isPopular: false,
+    },
   ];
