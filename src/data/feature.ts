@@ -619,4 +619,14 @@ export const TOOLS = [
       updatedAt: '2026-06-26',
       isPopular: false,
     },
+    {
+      href: '/generate-border-radius',
+      title: 'Border Radius Generator',
+      description: 'Create and preview CSS border radii.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-06-27',
+      isPopular: false,
+    },
   ];

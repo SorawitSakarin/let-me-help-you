@@ -494,6 +494,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/caesar-cipher/layout.tsx`: Caesar Cipher layout for SEO.
 - `src/app/sort-list/page.tsx`: List Sorter tool page.
 - `src/app/sort-list/layout.tsx`: List Sorter layout for SEO.
+- `src/app/generate-border-radius/page.tsx`: Border Radius Generator page.
+- `src/app/generate-border-radius/layout.tsx`: Border Radius Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

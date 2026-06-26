@@ -200,6 +200,10 @@ const SEO_KEYWORDS = [
   "Sort List",
   "Alphabetical Sort",
   "Sort by Length",
+  "Border Radius",
+  "CSS Border Radius Generator",
+  "Border Radius Visualizer",
+  "CSS Corners Generator",
 ];
 
 
