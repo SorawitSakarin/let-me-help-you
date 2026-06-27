@@ -629,4 +629,14 @@ export const TOOLS = [
       updatedAt: '2026-06-27',
       isPopular: false,
     },
+    {
+      href: '/validate-credit-card',
+      title: 'CC Validator',
+      description: 'Validate credit card numbers using the Luhn algorithm.',
+      icon: 'nes-icon coin',
+      type: 'is-success',
+      category: 'Developer Tools',
+      updatedAt: '2026-07-01',
+      isPopular: false,
+    },
   ];

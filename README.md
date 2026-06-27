@@ -370,6 +370,12 @@ Sort lists alphabetically, by length, or remove duplicates.
 - **Features**: Instantly sort the list alphabetically (A-Z, Z-A), by length, or filter out duplicates.
 - **Theme**: Clean retro container with text areas for input and output.
 
+### 64. Credit Card Validator
+Validate credit card numbers using the Luhn algorithm.
+- **Input**: Credit card number string.
+- **Features**: Instantly validates the number and checks if it passes the Luhn algorithm.
+- **Theme**: Clean retro container with intuitive inputs.
+
 ---
 
 ## Tech Stack
@@ -496,6 +502,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/sort-list/layout.tsx`: List Sorter layout for SEO.
 - `src/app/generate-border-radius/page.tsx`: Border Radius Generator page.
 - `src/app/generate-border-radius/layout.tsx`: Border Radius Generator layout for SEO.
+- `src/app/validate-credit-card/page.tsx`: Credit Card Validator page.
+- `src/app/validate-credit-card/layout.tsx`: Credit Card Validator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
