@@ -639,4 +639,14 @@ export const TOOLS = [
       updatedAt: '2026-07-01',
       isPopular: false,
     },
+    {
+      href: '/generate-color-palette',
+      title: 'Palette Generator',
+      description: 'Generate beautiful random color palettes instantly and copy HEX codes.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-07-02',
+      isPopular: false,
+    },
   ];

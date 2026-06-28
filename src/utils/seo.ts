@@ -208,6 +208,10 @@ const SEO_KEYWORDS = [
   "Luhn Algorithm",
   "Validate CC Number",
   "Card Validator",
+  "Color Palette Generator",
+  "Random Colors",
+  "Color Scheme",
+  "Palette Maker",
 ];
 
 

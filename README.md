@@ -376,6 +376,12 @@ Validate credit card numbers using the Luhn algorithm.
 - **Features**: Instantly validates the number and checks if it passes the Luhn algorithm.
 - **Theme**: Clean retro container with intuitive inputs.
 
+### 65. Color Palette Generator
+Generate beautiful random color palettes instantly.
+- **Input**: None (One-click generation).
+- **Features**: Generates a 5-color palette with one-click HEX code copying.
+- **Theme**: Clean retro container displaying a responsive color grid.
+
 ---
 
 ## Tech Stack
@@ -504,6 +510,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-border-radius/layout.tsx`: Border Radius Generator layout for SEO.
 - `src/app/validate-credit-card/page.tsx`: Credit Card Validator page.
 - `src/app/validate-credit-card/layout.tsx`: Credit Card Validator layout for SEO.
+- `src/app/generate-color-palette/page.tsx`: Color Palette Generator page.
+- `src/app/generate-color-palette/layout.tsx`: Color Palette Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
