@@ -212,6 +212,9 @@ const SEO_KEYWORDS = [
   "Random Colors",
   "Color Scheme",
   "Palette Maker",
+  "Text Shadow Generator",
+  "CSS Text Shadow",
+  "Text Shadow Generator CSS",
 ];
 
 

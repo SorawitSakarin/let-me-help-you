@@ -649,4 +649,14 @@ export const TOOLS = [
       updatedAt: '2026-07-02',
       isPopular: false,
     },
+    {
+      href: '/generate-text-shadow',
+      title: 'Text Shadow Gen',
+      description: 'Create and preview CSS text shadows easily.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-07-05',
+      isPopular: false,
+    },
   ];

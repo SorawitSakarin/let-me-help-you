@@ -382,6 +382,12 @@ Generate beautiful random color palettes instantly.
 - **Features**: Generates a 5-color palette with one-click HEX code copying.
 - **Theme**: Clean retro container displaying a responsive color grid.
 
+### 66. Text Shadow Generator
+Create and preview CSS text shadows easily.
+- **Input**: X/Y Offsets, Blur, Color.
+- **Features**: Real-time shadow preview and one-click CSS code copying.
+- **Theme**: Clean retro container with range inputs and a preview text box.
+
 ---
 
 ## Tech Stack
@@ -512,6 +518,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/validate-credit-card/layout.tsx`: Credit Card Validator layout for SEO.
 - `src/app/generate-color-palette/page.tsx`: Color Palette Generator page.
 - `src/app/generate-color-palette/layout.tsx`: Color Palette Generator layout for SEO.
+- `src/app/generate-text-shadow/page.tsx`: Text Shadow Generator page.
+- `src/app/generate-text-shadow/layout.tsx`: Text Shadow Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
