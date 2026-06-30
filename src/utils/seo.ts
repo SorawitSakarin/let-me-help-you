@@ -215,6 +215,9 @@ const SEO_KEYWORDS = [
   "Text Shadow Generator",
   "CSS Text Shadow",
   "Text Shadow Generator CSS",
+  "Chmod Calculator",
+  "Unix Permissions",
+  "Generate Chmod Command",
 ];
 
 

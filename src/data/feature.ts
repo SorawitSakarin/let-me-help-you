@@ -659,4 +659,14 @@ export const TOOLS = [
       updatedAt: '2026-07-05',
       isPopular: false,
     },
+    {
+      href: '/calculate-chmod',
+      title: 'Chmod Calc',
+      description: 'Calculate Unix permissions and generate chmod commands.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2026-07-06',
+      isPopular: false,
+    },
   ];

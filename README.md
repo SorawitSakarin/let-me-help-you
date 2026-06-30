@@ -388,6 +388,12 @@ Create and preview CSS text shadows easily.
 - **Features**: Real-time shadow preview and one-click CSS code copying.
 - **Theme**: Clean retro container with range inputs and a preview text box.
 
+### 67. Chmod Calculator
+Calculate Unix file permissions and generate commands.
+- **Input**: Interactive checkboxes for Read, Write, and Execute permissions.
+- **Features**: Instant calculation of numeric and symbolic values with copy button.
+- **Theme**: Clean retro container displaying an interactive table grid.
+
 ---
 
 ## Tech Stack
@@ -520,6 +526,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-color-palette/layout.tsx`: Color Palette Generator layout for SEO.
 - `src/app/generate-text-shadow/page.tsx`: Text Shadow Generator page.
 - `src/app/generate-text-shadow/layout.tsx`: Text Shadow Generator layout for SEO.
+- `src/app/calculate-chmod/page.tsx`: Chmod Calculator tool page.
+- `src/app/calculate-chmod/layout.tsx`: Chmod Calculator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
