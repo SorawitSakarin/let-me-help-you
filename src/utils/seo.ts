@@ -218,6 +218,9 @@ const SEO_KEYWORDS = [
   "Chmod Calculator",
   "Unix Permissions",
   "Generate Chmod Command",
+  "Generate Random Number",
+  "RNG",
+  "Random Integer",
 ];
 
 

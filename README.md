@@ -394,6 +394,12 @@ Calculate Unix file permissions and generate commands.
 - **Features**: Instant calculation of numeric and symbolic values with copy button.
 - **Theme**: Clean retro container displaying an interactive table grid.
 
+### 68. Random Number Generator
+Generate random numbers within a specific range easily.
+- **Input**: Min, Max, Count, and Allow Duplicates checkbox.
+- **Features**: Instant generation, copy results to clipboard.
+- **Theme**: Clean retro container with responsive inputs.
+
 ---
 
 ## Tech Stack
@@ -528,6 +534,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-text-shadow/layout.tsx`: Text Shadow Generator layout for SEO.
 - `src/app/calculate-chmod/page.tsx`: Chmod Calculator tool page.
 - `src/app/calculate-chmod/layout.tsx`: Chmod Calculator layout for SEO.
+- `src/app/generate-random-number/page.tsx`: Random Number Generator page.
+- `src/app/generate-random-number/layout.tsx`: Random Number Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

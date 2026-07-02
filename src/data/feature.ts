@@ -1,5 +1,15 @@
 export const TOOLS = [
     {
+      href: '/generate-random-number',
+      title: 'Random Number',
+      description: 'Generate random numbers within a specific range.',
+      icon: 'nes-icon coin',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2027-01-01',
+      isPopular: false,
+    },
+    {
       href: '/calculate-date-difference',
       title: 'Date Diff Calc',
       description: 'Calculate the exact difference between two dates.',
