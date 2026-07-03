@@ -221,6 +221,9 @@ const SEO_KEYWORDS = [
   "Generate Random Number",
   "RNG",
   "Random Integer",
+  "CSS Minifier",
+  "Minify CSS",
+  "CSS Compressor",
 ];
 
 

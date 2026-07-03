@@ -400,6 +400,12 @@ Generate random numbers within a specific range easily.
 - **Features**: Instant generation, copy results to clipboard.
 - **Theme**: Clean retro container with responsive inputs.
 
+### 69. CSS Minifier
+Minify CSS code easily and quickly.
+- **Input**: Raw CSS code.
+- **Features**: Minifies CSS to reduce file size, copy result to clipboard.
+- **Theme**: Clean retro container with intuitive textareas.
+
 ---
 
 ## Tech Stack
@@ -536,6 +542,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/calculate-chmod/layout.tsx`: Chmod Calculator layout for SEO.
 - `src/app/generate-random-number/page.tsx`: Random Number Generator page.
 - `src/app/generate-random-number/layout.tsx`: Random Number Generator layout for SEO.
+- `src/app/minify-css/page.tsx`: CSS Minifier tool page.
+- `src/app/minify-css/layout.tsx`: CSS Minifier layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

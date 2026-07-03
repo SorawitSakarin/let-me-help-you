@@ -679,4 +679,14 @@ export const TOOLS = [
       updatedAt: '2026-07-06',
       isPopular: false,
     },
+    {
+      href: '/minify-css',
+      title: 'CSS Minifier',
+      description: 'Minify CSS code easily and quickly.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2027-02-15',
+      isPopular: false,
+    },
   ];
