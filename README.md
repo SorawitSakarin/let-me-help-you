@@ -406,6 +406,12 @@ Minify CSS code easily and quickly.
 - **Features**: Minifies CSS to reduce file size, copy result to clipboard.
 - **Theme**: Clean retro container with intuitive textareas.
 
+### 70. Color Contrast Checker
+Calculate the contrast ratio between text and background colors to ensure WCAG accessibility compliance.
+- **Input**: Foreground (text) and background hex colors.
+- **Features**: Calculates exact contrast ratio, provides WCAG AA/AAA pass/fail results for normal and large text, visual preview.
+- **Theme**: Clean retro container with intuitive inputs and a real-time preview box.
+
 ---
 
 ## Tech Stack
@@ -544,6 +550,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-random-number/layout.tsx`: Random Number Generator layout for SEO.
 - `src/app/minify-css/page.tsx`: CSS Minifier tool page.
 - `src/app/minify-css/layout.tsx`: CSS Minifier layout for SEO.
+- `src/app/check-color-contrast/page.tsx`: Color Contrast Checker tool page.
+- `src/app/check-color-contrast/layout.tsx`: Color Contrast Checker layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

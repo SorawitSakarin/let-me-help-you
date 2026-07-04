@@ -689,4 +689,14 @@ export const TOOLS = [
       updatedAt: '2027-02-15',
       isPopular: false,
     },
+    {
+      href: '/check-color-contrast',
+      title: 'Color Contrast',
+      description: 'Check contrast ratio between colors for accessibility compliance.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2027-02-28',
+      isPopular: false,
+    },
   ];

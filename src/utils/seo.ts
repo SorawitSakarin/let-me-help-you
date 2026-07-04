@@ -224,6 +224,10 @@ const SEO_KEYWORDS = [
   "CSS Minifier",
   "Minify CSS",
   "CSS Compressor",
+  "Color Contrast Checker",
+  "Contrast Ratio",
+  "WCAG Accessibility",
+  "Accessibility Checker",
 ];
 
 
