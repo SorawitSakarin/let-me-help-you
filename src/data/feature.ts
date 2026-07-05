@@ -699,4 +699,14 @@ export const TOOLS = [
       updatedAt: '2027-02-28',
       isPopular: false,
     },
+    {
+      href: '/generate-meta-tags',
+      title: 'Meta Tag Gen',
+      description: 'Generate standard HTML, Open Graph, and Twitter standard meta tags easily.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2027-03-01',
+      isPopular: false,
+    },
   ];

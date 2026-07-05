@@ -228,6 +228,10 @@ const SEO_KEYWORDS = [
   "Contrast Ratio",
   "WCAG Accessibility",
   "Accessibility Checker",
+  "Meta Tag Generator",
+  "SEO Meta Tags",
+  "Open Graph Generator",
+  "Twitter Cards Generator",
 ];
 
 
