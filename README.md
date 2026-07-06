@@ -4,6 +4,12 @@ A pixel-perfect retro utility collection built with Next.js 16, TypeScript, and 
 
 ## Features
 
+### 0. Find and Replace
+Find and replace text with options for match case and regex.
+- **Input**: Any text.
+- **Controls**: Match case and regex options.
+- **Theme**: Clean retro 8-bit design.
+
 ### 1. QR Code Generator
 Create custom QR codes instantly.
 - **Input**: Any text or URL.

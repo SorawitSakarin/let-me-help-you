@@ -232,6 +232,9 @@ const SEO_KEYWORDS = [
   "SEO Meta Tags",
   "Open Graph Generator",
   "Twitter Cards Generator",
+  "Find and Replace",
+  "Replace Text",
+  "Text Replacer",
 ];
 
 

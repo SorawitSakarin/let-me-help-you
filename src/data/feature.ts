@@ -1,5 +1,15 @@
 export const TOOLS = [
     {
+      href: '/find-and-replace',
+      title: 'Find and Replace',
+      description: 'Find and replace text with match case and regex options.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2027-04-01',
+      isPopular: false,
+    },
+    {
       href: '/generate-random-number',
       title: 'Random Number',
       description: 'Generate random numbers within a specific range.',
