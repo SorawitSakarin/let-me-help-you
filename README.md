@@ -573,6 +573,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-meta-tags/layout.tsx`: Meta Tag Generator layout for SEO.
 - `src/app/generate-ascii-art/page.tsx`: Retro ASCII Art Generator page.
 - `src/app/generate-ascii-art/layout.tsx`: Retro ASCII Art Generator layout for SEO.
+- `src/app/generate-css-triangle/page.tsx`: CSS Triangle Generator tool page.
+- `src/app/generate-css-triangle/layout.tsx`: CSS Triangle Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

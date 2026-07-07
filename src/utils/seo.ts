@@ -242,6 +242,9 @@ const SEO_KEYWORDS = [
   "CRT Terminal Text Art",
   "Convert Image to Text Characters",
   "8-bit ASCII Art Maker",
+  "CSS Triangle Generator",
+  "CSS Shapes Maker",
+  "Triangle CSS",
 ];
 
 

@@ -1,4 +1,14 @@
 export const TOOLS = [
+  {
+    href: '/generate-css-triangle',
+    title: 'CSS Triangle Gen',
+    description: 'Generate CSS code to create triangle shapes using borders.',
+    icon: 'nes-icon star',
+    type: 'is-primary',
+    category: 'Developer Tools',
+    updatedAt: '2027-04-02',
+    isPopular: false,
+  },
     {
       href: '/find-and-replace',
       title: 'Find and Replace',
