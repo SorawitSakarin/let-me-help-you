@@ -719,4 +719,14 @@ export const TOOLS = [
       updatedAt: '2027-03-01',
       isPopular: false,
     },
+    {
+      href: '/generate-ascii-art',
+      title: 'ASCII Art Generator',
+      description: 'Convert text to retro ASCII banner art and images to stylized text blocks, matrices, or dots.',
+      icon: 'nes-icon trophy',
+      type: 'is-error',
+      category: 'Developer Tools',
+      updatedAt: '2026-07-08',
+      isPopular: true,
+    },
   ];

@@ -166,6 +166,14 @@ export default function AboutSection() {
                       <li>Auto-generate and copy clean CSS layouts.</li>
                   </ul>
               </div>
+              <div className="p-2">
+                  <h4 className="mb-2 text-base underline">ASCII Art Generator</h4>
+                  <ul className="nes-list is-disc ml-4 text-xs">
+                      <li>Render banner text in custom retro fonts.</li>
+                      <li>Convert local images to characters in real-time.</li>
+                      <li>Apply CRT filters and export custom PNG or text files.</li>
+                  </ul>
+              </div>
           </div>
 
           <div className="mt-8 text-center border-t-2 border-dashed border-gray-400 pt-4 flex flex-col items-center gap-4">

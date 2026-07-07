@@ -424,6 +424,11 @@ Generate standard HTML, Open Graph, and Twitter Card meta tags easily.
 - **Features**: Real-time generation of meta tags, one-click copy to clipboard.
 - **Theme**: Clean retro container with intuitive inputs and a live output box.
 
+### 72. ASCII Art Generator
+An interactive text banner and image to ASCII converter tool.
+- **Features**: Convert word inputs into stylized 8-bit text banners using 3 custom retro fonts. Upload any local image or select from gaming presets (Space Invader, Heart, Ghost, Skull) to convert pixels into character blocks, dots, matrices, or standard symbols. Adjust character scale, brightness, contrast, inversion, and output as colored HTML. Play chiptune feedback sounds, toggle CRT screen overlays, and download outputs as plain text (.txt) or custom canvas-rendered images (.png).
+- **Theme**: Vintage green-phosphor/cyber-amber CRT monitor screen container with interactive terminal adjustments.
+
 ---
 
 ## Tech Stack
@@ -566,6 +571,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/check-color-contrast/layout.tsx`: Color Contrast Checker layout for SEO.
 - `src/app/generate-meta-tags/page.tsx`: Meta Tag Generator tool page.
 - `src/app/generate-meta-tags/layout.tsx`: Meta Tag Generator layout for SEO.
+- `src/app/generate-ascii-art/page.tsx`: Retro ASCII Art Generator page.
+- `src/app/generate-ascii-art/layout.tsx`: Retro ASCII Art Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

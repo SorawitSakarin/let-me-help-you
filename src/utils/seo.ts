@@ -235,6 +235,13 @@ const SEO_KEYWORDS = [
   "Find and Replace",
   "Replace Text",
   "Text Replacer",
+  "ASCII Art Generator",
+  "Text to ASCII Banner",
+  "Image to ASCII Converter",
+  "Retro Text Art Generator",
+  "CRT Terminal Text Art",
+  "Convert Image to Text Characters",
+  "8-bit ASCII Art Maker",
 ];
 
 
