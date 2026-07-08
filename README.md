@@ -429,6 +429,12 @@ An interactive text banner and image to ASCII converter tool.
 - **Features**: Convert word inputs into stylized 8-bit text banners using 3 custom retro fonts. Upload any local image or select from gaming presets (Space Invader, Heart, Ghost, Skull) to convert pixels into character blocks, dots, matrices, or standard symbols. Adjust character scale, brightness, contrast, inversion, and output as colored HTML. Play chiptune feedback sounds, toggle CRT screen overlays, and download outputs as plain text (.txt) or custom canvas-rendered images (.png).
 - **Theme**: Vintage green-phosphor/cyber-amber CRT monitor screen container with interactive terminal adjustments.
 
+### 73. Email Extractor
+Extract and deduplicate email addresses from any text block quickly and easily.
+- **Input**: Any text block containing emails.
+- **Features**: Real-time extraction, deduplication, and one-click copy to clipboard.
+- **Theme**: Clean retro container with responsive textareas.
+
 ---
 
 ## Tech Stack

@@ -245,6 +245,10 @@ const SEO_KEYWORDS = [
   "CSS Triangle Generator",
   "CSS Shapes Maker",
   "Triangle CSS",
+  "Email Extractor",
+  "Extract Emails",
+  "Find Emails in Text",
+  "Email Parser",
 ];
 
 

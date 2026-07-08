@@ -739,4 +739,14 @@ export const TOOLS = [
       updatedAt: '2026-07-08',
       isPopular: true,
     },
+    {
+      href: '/extract-emails',
+      title: 'Email Extractor',
+      description: 'Extract and deduplicate email addresses from any text block quickly and easily.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2024-05-15',
+      isPopular: false,
+    },
   ];
