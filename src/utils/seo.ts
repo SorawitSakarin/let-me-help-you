@@ -249,6 +249,10 @@ const SEO_KEYWORDS = [
   "Extract Emails",
   "Find Emails in Text",
   "Email Parser",
+  "Text to Hex Converter",
+  "Text to Hex",
+  "Hex to Text",
+  "Hexadecimal Converter",
 ];
 
 

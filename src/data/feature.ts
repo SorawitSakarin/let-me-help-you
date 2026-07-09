@@ -749,4 +749,14 @@ export const TOOLS = [
       updatedAt: '2024-05-15',
       isPopular: false,
     },
+    {
+      href: '/convert-text-to-hex',
+      title: 'Text to Hex Converter',
+      description: 'Convert text to Hexadecimal format and vice versa.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2024-05-15',
+      isPopular: false,
+    },
   ];

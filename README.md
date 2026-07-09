@@ -435,6 +435,12 @@ Extract and deduplicate email addresses from any text block quickly and easily.
 - **Features**: Real-time extraction, deduplication, and one-click copy to clipboard.
 - **Theme**: Clean retro container with responsive textareas.
 
+### 74. Text to Hex Converter
+Convert text to Hexadecimal format and vice versa.
+- **Input**: Text or hex values separated by spaces.
+- **Features**: Real-time conversion, one-click copy to clipboard, and error handling.
+- **Theme**: Clean retro container with responsive textareas.
+
 ---
 
 ## Tech Stack
@@ -581,6 +587,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-ascii-art/layout.tsx`: Retro ASCII Art Generator layout for SEO.
 - `src/app/generate-css-triangle/page.tsx`: CSS Triangle Generator tool page.
 - `src/app/generate-css-triangle/layout.tsx`: CSS Triangle Generator layout for SEO.
+- `src/app/convert-text-to-hex/page.tsx`: Text to Hex Converter tool.
+- `src/app/convert-text-to-hex/layout.tsx`: Text to Hex Converter layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
