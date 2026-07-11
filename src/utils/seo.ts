@@ -253,6 +253,9 @@ const SEO_KEYWORDS = [
   "Text to Hex",
   "Hex to Text",
   "Hexadecimal Converter",
+  "Password Strength Checker",
+  "Check Password Strength",
+  "Password Security",
 ];
 
 

@@ -759,4 +759,14 @@ export const TOOLS = [
       updatedAt: '2024-05-15',
       isPopular: false,
     },
+    {
+      href: '/check-password-strength',
+      title: 'Password Strength',
+      description: 'Check the strength of your password in real-time.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2024-05-15',
+      isPopular: false,
+    },
   ];

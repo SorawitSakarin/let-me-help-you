@@ -441,6 +441,12 @@ Convert text to Hexadecimal format and vice versa.
 - **Features**: Real-time conversion, one-click copy to clipboard, and error handling.
 - **Theme**: Clean retro container with responsive textareas.
 
+### 75. Password Strength Checker
+Check the strength of your password in real-time based on length and character types.
+- **Input**: A text string representing the password.
+- **Features**: Real-time strength score calculation, visual progress bar feedback, actionable suggestions to improve the password.
+- **Theme**: Clean retro container with a reactive progress bar.
+
 ---
 
 ## Tech Stack
@@ -589,6 +595,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-css-triangle/layout.tsx`: CSS Triangle Generator layout for SEO.
 - `src/app/convert-text-to-hex/page.tsx`: Text to Hex Converter tool.
 - `src/app/convert-text-to-hex/layout.tsx`: Text to Hex Converter layout for SEO.
+- `src/app/check-password-strength/page.tsx`: Password Strength Checker page.
+- `src/app/check-password-strength/layout.tsx`: Password Strength Checker layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
