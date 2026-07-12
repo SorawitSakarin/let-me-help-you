@@ -256,6 +256,10 @@ const SEO_KEYWORDS = [
   "Password Strength Checker",
   "Check Password Strength",
   "Password Security",
+  "Add Prefix and Suffix",
+  "Add Prefix to Lines",
+  "Add Suffix to Lines",
+  "Line Prefix Generator",
 ];
 
 

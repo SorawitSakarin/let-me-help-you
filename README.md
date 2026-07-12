@@ -447,6 +447,12 @@ Check the strength of your password in real-time based on length and character t
 - **Features**: Real-time strength score calculation, visual progress bar feedback, actionable suggestions to improve the password.
 - **Theme**: Clean retro container with a reactive progress bar.
 
+### 76. Add Prefix & Suffix
+Add a prefix and/or suffix to each line of a given text block quickly and easily.
+- **Input**: Text block, prefix text, and suffix text.
+- **Features**: Real-time formatting, clear input, and one-click copy to clipboard.
+- **Theme**: Clean retro container with responsive text areas.
+
 ---
 
 ## Tech Stack
@@ -597,6 +603,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/convert-text-to-hex/layout.tsx`: Text to Hex Converter layout for SEO.
 - `src/app/check-password-strength/page.tsx`: Password Strength Checker page.
 - `src/app/check-password-strength/layout.tsx`: Password Strength Checker layout for SEO.
+- `src/app/add-prefix-suffix/page.tsx`: Add Prefix and Suffix tool page.
+- `src/app/add-prefix-suffix/layout.tsx`: Add Prefix and Suffix layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
