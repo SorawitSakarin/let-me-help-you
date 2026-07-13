@@ -453,6 +453,12 @@ Add a prefix and/or suffix to each line of a given text block quickly and easily
 - **Features**: Real-time formatting, clear input, and one-click copy to clipboard.
 - **Theme**: Clean retro container with responsive text areas.
 
+### 77. URL Extractor
+Extract and deduplicate URLs from any text block quickly and easily.
+- **Input**: Any text block containing URLs.
+- **Features**: Real-time extraction, deduplication, and one-click copy to clipboard.
+- **Theme**: Clean retro container with responsive textareas.
+
 ---
 
 ## Tech Stack

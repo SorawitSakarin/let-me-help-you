@@ -779,4 +779,14 @@ export const TOOLS = [
       updatedAt: '2024-06-15',
       isPopular: false,
     },
+    {
+      href: '/extract-urls',
+      title: 'URL Extractor',
+      description: 'Extract and deduplicate URLs from any text block quickly and easily.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2024-06-16',
+      isPopular: false,
+    },
   ];

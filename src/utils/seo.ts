@@ -260,6 +260,10 @@ const SEO_KEYWORDS = [
   "Add Prefix to Lines",
   "Add Suffix to Lines",
   "Line Prefix Generator",
+  "URL Extractor",
+  "Extract URLs",
+  "Find URLs in Text",
+  "Extract Links",
 ];
 
 
