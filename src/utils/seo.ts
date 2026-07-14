@@ -264,6 +264,9 @@ const SEO_KEYWORDS = [
   "Extract URLs",
   "Find URLs in Text",
   "Extract Links",
+  "Random Name Generator",
+  "Fake Name Generator",
+  "Name Maker",
 ];
 
 

@@ -459,6 +459,12 @@ Extract and deduplicate URLs from any text block quickly and easily.
 - **Features**: Real-time extraction, deduplication, and one-click copy to clipboard.
 - **Theme**: Clean retro container with responsive textareas.
 
+### 78. Random Name Generator
+Generate random fake names with options for male, female, or any gender.
+- **Input**: Gender selection (Any, Male, Female).
+- **Features**: Instantly generates a random first and last name combination.
+- **Theme**: Clean retro container with intuitive radio buttons.
+
 ---
 
 ## Tech Stack
@@ -611,6 +617,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/check-password-strength/layout.tsx`: Password Strength Checker layout for SEO.
 - `src/app/add-prefix-suffix/page.tsx`: Add Prefix and Suffix tool page.
 - `src/app/add-prefix-suffix/layout.tsx`: Add Prefix and Suffix layout for SEO.
+- `src/app/generate-random-name/page.tsx`: Random Name Generator tool.
+- `src/app/generate-random-name/layout.tsx`: Random Name Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

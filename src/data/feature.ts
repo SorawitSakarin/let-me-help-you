@@ -789,4 +789,14 @@ export const TOOLS = [
       updatedAt: '2024-06-16',
       isPopular: false,
     },
+    {
+      href: '/generate-random-name',
+      title: 'Random Name Gen',
+      description: 'Generate random fake names with options for male, female, or any gender.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Fun',
+      updatedAt: '2027-04-01',
+      isPopular: false,
+    },
   ];
