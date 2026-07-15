@@ -465,6 +465,12 @@ Generate random fake names with options for male, female, or any gender.
 - **Features**: Instantly generates a random first and last name combination.
 - **Theme**: Clean retro container with intuitive radio buttons.
 
+### 79. Whitespace Cleaner
+Quickly clean up and format your text by removing extra spaces, line breaks, or all whitespace.
+- **Input**: Text with extra spaces or line breaks.
+- **Features**: Remove extra spaces, remove line breaks, remove all whitespace, copy result.
+- **Theme**: Clean retro container with textareas.
+
 ---
 
 ## Tech Stack
@@ -619,6 +625,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/add-prefix-suffix/layout.tsx`: Add Prefix and Suffix layout for SEO.
 - `src/app/generate-random-name/page.tsx`: Random Name Generator tool.
 - `src/app/generate-random-name/layout.tsx`: Random Name Generator layout for SEO.
+- `src/app/remove-whitespace/page.tsx`: Whitespace Cleaner tool page.
+- `src/app/remove-whitespace/layout.tsx`: Whitespace Cleaner layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

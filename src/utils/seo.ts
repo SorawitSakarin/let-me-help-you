@@ -267,6 +267,11 @@ const SEO_KEYWORDS = [
   "Random Name Generator",
   "Fake Name Generator",
   "Name Maker",
+  "Whitespace Cleaner",
+  "Remove Line Breaks",
+  "Remove Extra Spaces",
+  "Clean Whitespace",
+  "Text Formatter",
 ];
 
 

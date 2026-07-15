@@ -799,4 +799,14 @@ export const TOOLS = [
       updatedAt: '2027-04-01',
       isPopular: false,
     },
+    {
+      href: '/remove-whitespace',
+      title: 'Whitespace Cleaner',
+      description: 'Quickly clean up and format your text by removing extra spaces, line breaks, or all whitespace.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2024-06-25',
+      isPopular: false,
+    },
   ];
