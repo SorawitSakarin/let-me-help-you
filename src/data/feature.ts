@@ -600,6 +600,16 @@ export const TOOLS = [
       isPopular: false,
     },
     {
+      href: '/convert-csv-to-markdown',
+      title: 'CSV to Markdown',
+      description: 'Convert CSV data into a Markdown table easily.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2027-07-20',
+      isPopular: false,
+    },
+    {
       href: '/convert-csv-to-json',
       title: 'CSV to JSON Converter',
       description: 'Convert CSV data into JSON format easily.',

@@ -471,6 +471,12 @@ Quickly clean up and format your text by removing extra spaces, line breaks, or 
 - **Features**: Remove extra spaces, remove line breaks, remove all whitespace, copy result.
 - **Theme**: Clean retro container with textareas.
 
+### 80. CSV to Markdown Converter
+Convert CSV data into a Markdown table easily.
+- **Input**: Raw CSV text.
+- **Features**: Instantly generates a Markdown formatted table from CSV input, copy result.
+- **Theme**: Clean retro container with responsive text areas.
+
 ---
 
 ## Tech Stack
@@ -583,6 +589,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/encode-html-entities/layout.tsx`: HTML Entity Encoder layout for SEO.
 - `src/app/generate-css-gradient/page.tsx`: CSS Gradient Generator page.
 - `src/app/generate-css-gradient/layout.tsx`: CSS Gradient Generator layout for SEO.
+- `src/app/convert-csv-to-markdown/page.tsx`: CSV to Markdown Converter page.
+- `src/app/convert-csv-to-markdown/layout.tsx`: CSV to Markdown Converter layout for SEO.
 - `src/app/convert-csv-to-json/page.tsx`: CSV to JSON Converter page.
 - `src/app/convert-csv-to-json/layout.tsx`: CSV to JSON Converter layout for SEO.
 - `src/app/convert-json-to-csv/page.tsx`: JSON to CSV Converter page.
