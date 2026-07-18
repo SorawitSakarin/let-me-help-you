@@ -477,6 +477,12 @@ Convert CSV data into a Markdown table easily.
 - **Features**: Instantly generates a Markdown formatted table from CSV input, copy result.
 - **Theme**: Clean retro container with responsive text areas.
 
+### 81. NATO Phonetic Alphabet Translator
+Translate text into the NATO phonetic alphabet and vice versa.
+- **Input**: Text or NATO phonetic alphabet words.
+- **Features**: Bidirectional translation, copy to clipboard.
+- **Theme**: Clean retro container with textareas.
+
 ---
 
 ## Tech Stack
@@ -635,6 +641,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-random-name/layout.tsx`: Random Name Generator layout for SEO.
 - `src/app/remove-whitespace/page.tsx`: Whitespace Cleaner tool page.
 - `src/app/remove-whitespace/layout.tsx`: Whitespace Cleaner layout for SEO.
+- `src/app/nato-phonetic-alphabet/page.tsx`: NATO Phonetic Alphabet tool page.
+- `src/app/nato-phonetic-alphabet/layout.tsx`: NATO Phonetic Alphabet layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

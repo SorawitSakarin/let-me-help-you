@@ -275,6 +275,10 @@ const SEO_KEYWORDS = [
   "Remove Extra Spaces",
   "Clean Whitespace",
   "Text Formatter",
+  "NATO Phonetic Alphabet",
+  "NATO Translator",
+  "Phonetic Alphabet",
+  "Aviation Alphabet",
 ];
 
 

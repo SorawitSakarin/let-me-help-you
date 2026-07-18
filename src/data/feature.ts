@@ -819,4 +819,14 @@ export const TOOLS = [
       updatedAt: '2024-06-25',
       isPopular: false,
     },
+    {
+      href: '/nato-phonetic-alphabet',
+      title: 'NATO Alphabet',
+      description: 'Translate text into the NATO phonetic alphabet and vice versa.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2024-06-26',
+      isPopular: false,
+    },
   ];
