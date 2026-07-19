@@ -279,6 +279,9 @@ const SEO_KEYWORDS = [
   "NATO Translator",
   "Phonetic Alphabet",
   "Aviation Alphabet",
+  "Text Repeater",
+  "Repeat Text",
+  "Multiply Text",
 ];
 
 

@@ -829,4 +829,14 @@ export const TOOLS = [
       updatedAt: '2024-06-26',
       isPopular: false,
     },
+    {
+      href: '/repeat-text',
+      title: 'Text Repeater',
+      description: 'Repeat text multiple times easily and quickly.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2024-06-27',
+      isPopular: false,
+    },
   ];

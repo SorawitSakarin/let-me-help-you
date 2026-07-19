@@ -483,6 +483,12 @@ Translate text into the NATO phonetic alphabet and vice versa.
 - **Features**: Bidirectional translation, copy to clipboard.
 - **Theme**: Clean retro container with textareas.
 
+### 82. Text Repeater
+Repeat text multiple times easily and quickly.
+- **Input**: Text, number of repetitions, and an optional separator.
+- **Features**: Repeat text, customize separator, copy to clipboard.
+- **Theme**: Clean retro container with textareas.
+
 ---
 
 ## Tech Stack
@@ -643,6 +649,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/remove-whitespace/layout.tsx`: Whitespace Cleaner layout for SEO.
 - `src/app/nato-phonetic-alphabet/page.tsx`: NATO Phonetic Alphabet tool page.
 - `src/app/nato-phonetic-alphabet/layout.tsx`: NATO Phonetic Alphabet layout for SEO.
+- `src/app/repeat-text/page.tsx`: Text Repeater tool page.
+- `src/app/repeat-text/layout.tsx`: Text Repeater layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
