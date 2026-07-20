@@ -489,6 +489,12 @@ Repeat text multiple times easily and quickly.
 - **Features**: Repeat text, customize separator, copy to clipboard.
 - **Theme**: Clean retro container with textareas.
 
+### 83. Leetspeak Generator
+Convert text into 1337 5p34k.
+- **Modes**: Basic and Advanced leetspeak conversion.
+- **Controls**: Copy, Clear.
+- **Theme**: Clean text area with retro 8-bit aesthetic.
+
 ---
 
 ## Tech Stack
@@ -651,6 +657,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/nato-phonetic-alphabet/layout.tsx`: NATO Phonetic Alphabet layout for SEO.
 - `src/app/repeat-text/page.tsx`: Text Repeater tool page.
 - `src/app/repeat-text/layout.tsx`: Text Repeater layout for SEO.
+- `src/app/generate-leetspeak/page.tsx`: Leetspeak Generator tool page.
+- `src/app/generate-leetspeak/layout.tsx`: Leetspeak Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

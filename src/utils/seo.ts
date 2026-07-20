@@ -282,6 +282,9 @@ const SEO_KEYWORDS = [
   "Text Repeater",
   "Repeat Text",
   "Multiply Text",
+  "Leetspeak Generator",
+  "1337 Speak",
+  "L33t Speak",
 ];
 
 
