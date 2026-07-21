@@ -849,4 +849,14 @@ export const TOOLS = [
       updatedAt: '2027-08-01',
       isPopular: false,
     },
+    {
+      href: '/generate-vaporwave-text',
+      title: 'Vaporwave Text Gen',
+      description: 'Convert normal text into fullwidth aesthetic vaporwave text.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Fun',
+      updatedAt: '2027-09-01',
+      isPopular: false,
+    },
   ];

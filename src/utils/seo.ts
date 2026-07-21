@@ -285,6 +285,9 @@ const SEO_KEYWORDS = [
   "Leetspeak Generator",
   "1337 Speak",
   "L33t Speak",
+  "Vaporwave Text Generator",
+  "Aesthetic Text",
+  "Fullwidth Text",
 ];
 
 
