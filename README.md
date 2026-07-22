@@ -500,6 +500,11 @@ Convert normal text into fullwidth aesthetic vaporwave text.
 - **Features**: Real-time conversion, copy to clipboard, clear input.
 - **Theme**: Clean retro container with textareas.
 
+### 85. HTML Table Generator
+Generate simple HTML table structures quickly.
+- **Features**: Customizable rows and columns, copy code to clipboard.
+- **Theme**: Clean retro container with textareas.
+
 ---
 
 ## Tech Stack

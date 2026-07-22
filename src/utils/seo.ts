@@ -288,6 +288,9 @@ const SEO_KEYWORDS = [
   "Vaporwave Text Generator",
   "Aesthetic Text",
   "Fullwidth Text",
+  "HTML Table Generator",
+  "Table Maker",
+  "HTML Generator",
 ];
 
 

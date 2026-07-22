@@ -9,6 +9,16 @@ export const TOOLS = [
     updatedAt: '2027-04-02',
     isPopular: false,
   },
+  {
+    href: '/generate-html-table',
+    title: 'HTML Table Gen',
+    description: 'Generate simple HTML table structures quickly.',
+    icon: 'nes-icon star',
+    type: 'is-primary',
+    category: 'Developer Tools',
+    updatedAt: '2027-10-15',
+    isPopular: false,
+  },
     {
       href: '/find-and-replace',
       title: 'Find and Replace',
