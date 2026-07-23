@@ -291,6 +291,10 @@ const SEO_KEYWORDS = [
   "HTML Table Generator",
   "Table Maker",
   "HTML Generator",
+  "Subnet Calculator",
+  "IP Subnet",
+  "CIDR Calculator",
+  "Network Calculator",
 ];
 
 

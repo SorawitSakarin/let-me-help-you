@@ -505,6 +505,11 @@ Generate simple HTML table structures quickly.
 - **Features**: Customizable rows and columns, copy code to clipboard.
 - **Theme**: Clean retro container with textareas.
 
+### 86. Subnet Calculator
+Calculate network details, broadcast address, and usable hosts from an IP address and CIDR prefix.
+- **Features**: Calculate network address, mask, and host ranges.
+- **Theme**: Clean retro container with responsive tables.
+
 ---
 
 ## Tech Stack
@@ -671,6 +676,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-leetspeak/layout.tsx`: Leetspeak Generator layout for SEO.
 - `src/app/generate-vaporwave-text/page.tsx`: Vaporwave Text Generator tool page.
 - `src/app/generate-vaporwave-text/layout.tsx`: Vaporwave Text Generator layout for SEO.
+- `src/app/calculate-subnet/page.tsx`: Subnet Calculator tool page.
+- `src/app/calculate-subnet/layout.tsx`: Subnet Calculator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

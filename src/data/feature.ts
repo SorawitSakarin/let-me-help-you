@@ -869,4 +869,14 @@ export const TOOLS = [
       updatedAt: '2027-09-01',
       isPopular: false,
     },
+    {
+      href: '/calculate-subnet',
+      title: 'Subnet Calculator',
+      description: 'Calculate network details, broadcast address, and usable hosts from an IP address and CIDR.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2027-10-01',
+      isPopular: false,
+    },
   ];
