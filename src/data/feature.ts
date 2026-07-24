@@ -879,4 +879,14 @@ export const TOOLS = [
       updatedAt: '2027-10-01',
       isPopular: false,
     },
+    {
+      href: '/convert-csv-to-sql',
+      title: 'CSV to SQL',
+      description: 'Convert CSV data into SQL INSERT statements easily.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2027-11-01',
+      isPopular: false,
+    },
   ];

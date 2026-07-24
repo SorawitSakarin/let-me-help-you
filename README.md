@@ -510,6 +510,11 @@ Calculate network details, broadcast address, and usable hosts from an IP addres
 - **Features**: Calculate network address, mask, and host ranges.
 - **Theme**: Clean retro container with responsive tables.
 
+### 87. CSV to SQL Converter
+Convert CSV data into SQL INSERT statements easily.
+- **Features**: Customizable table name, copy code to clipboard.
+- **Theme**: Clean retro container with textareas.
+
 ---
 
 ## Tech Stack
