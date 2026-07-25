@@ -1,5 +1,15 @@
 export const TOOLS = [
   {
+    href: '/remove-duplicate-lines',
+    title: 'Remove Duplicates',
+    description: 'Quickly remove duplicate lines from a list of text.',
+    icon: 'nes-icon star',
+    type: 'is-primary',
+    category: 'Utilities',
+    updatedAt: '2027-11-20',
+    isPopular: false,
+  },
+  {
     href: '/generate-css-triangle',
     title: 'CSS Triangle Gen',
     description: 'Generate CSS code to create triangle shapes using borders.',

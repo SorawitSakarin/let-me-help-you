@@ -515,6 +515,11 @@ Convert CSV data into SQL INSERT statements easily.
 - **Features**: Customizable table name, copy code to clipboard.
 - **Theme**: Clean retro container with textareas.
 
+### 88. Remove Duplicate Lines
+Quickly filter and remove duplicate lines from text or code.
+- **Features**: Real-time stats on removed lines, fast deduplication, copy to clipboard.
+- **Theme**: Clean retro container.
+
 ---
 
 ## Tech Stack
