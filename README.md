@@ -688,6 +688,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-vaporwave-text/layout.tsx`: Vaporwave Text Generator layout for SEO.
 - `src/app/calculate-subnet/page.tsx`: Subnet Calculator tool page.
 - `src/app/calculate-subnet/layout.tsx`: Subnet Calculator layout for SEO.
+- `src/app/encode-rot13/page.tsx`: ROT13 Encoder tool page.
+- `src/app/encode-rot13/layout.tsx`: ROT13 Encoder layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

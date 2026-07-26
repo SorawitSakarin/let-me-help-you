@@ -170,6 +170,16 @@ export const TOOLS = [
       isPopular: false,
     },
     {
+      href: '/encode-rot13',
+      title: 'ROT13 Encoder',
+      description: 'Encode and decode text using the ROT13 cipher.',
+      icon: 'nes-icon coin',
+      type: 'is-warning',
+      category: 'Developer Tools',
+      updatedAt: '2027-12-01',
+      isPopular: false,
+    },
+    {
       href: '/encode-base64',
       title: 'Base64 Encoder',
       description: 'Encode and decode Base64 text.',
