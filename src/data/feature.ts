@@ -909,4 +909,14 @@ export const TOOLS = [
       updatedAt: '2027-11-01',
       isPopular: false,
     },
+    {
+      href: '/generate-mac-address',
+      title: 'MAC Address Gen',
+      description: 'Generate random MAC addresses easily and quickly.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2027-12-01',
+      isPopular: false,
+    },
   ];

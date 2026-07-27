@@ -304,6 +304,9 @@ const SEO_KEYWORDS = [
   "Remove Duplicate Lines",
   "Delete Duplicates",
   "Unique List Generator",
+  "MAC Address Generator",
+  "Random MAC Address",
+  "Network Tools",
 ];
 
 

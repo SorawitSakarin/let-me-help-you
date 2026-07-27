@@ -520,6 +520,11 @@ Quickly filter and remove duplicate lines from text or code.
 - **Features**: Real-time stats on removed lines, fast deduplication, copy to clipboard.
 - **Theme**: Clean retro container.
 
+### 89. MAC Address Generator
+Generate random MAC addresses easily and quickly.
+- **Features**: Customizable format (colon, hyphen, none), uppercase/lowercase toggle, copy to clipboard.
+- **Theme**: Clean retro container with form controls.
+
 ---
 
 ## Tech Stack
@@ -690,6 +695,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/calculate-subnet/layout.tsx`: Subnet Calculator layout for SEO.
 - `src/app/encode-rot13/page.tsx`: ROT13 Encoder tool page.
 - `src/app/encode-rot13/layout.tsx`: ROT13 Encoder layout for SEO.
+- `src/app/generate-mac-address/page.tsx`: MAC Address Generator tool page.
+- `src/app/generate-mac-address/layout.tsx`: MAC Address Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
