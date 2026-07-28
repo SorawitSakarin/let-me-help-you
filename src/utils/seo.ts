@@ -307,6 +307,9 @@ const SEO_KEYWORDS = [
   "MAC Address Generator",
   "Random MAC Address",
   "Network Tools",
+  "JSON to TypeScript",
+  "JSON to TS",
+  "Generate TS Interfaces",
 ];
 
 

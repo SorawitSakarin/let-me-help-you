@@ -525,6 +525,11 @@ Generate random MAC addresses easily and quickly.
 - **Features**: Customizable format (colon, hyphen, none), uppercase/lowercase toggle, copy to clipboard.
 - **Theme**: Clean retro container with form controls.
 
+### 90. JSON to TypeScript Converter
+Convert JSON data into TypeScript interfaces easily.
+- **Features**: Instantly parse JSON, recursively generate nested TypeScript interfaces.
+- **Theme**: Clean retro container.
+
 ---
 
 ## Tech Stack

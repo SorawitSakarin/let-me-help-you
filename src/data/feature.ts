@@ -919,4 +919,14 @@ export const TOOLS = [
       updatedAt: '2027-12-01',
       isPopular: false,
     },
+    {
+      href: '/convert-json-to-typescript',
+      title: 'JSON to TS Converter',
+      description: 'Convert JSON data into TypeScript interfaces easily.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2028-01-01',
+      isPopular: false,
+    },
   ];
