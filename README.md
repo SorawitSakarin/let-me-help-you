@@ -530,6 +530,11 @@ Convert JSON data into TypeScript interfaces easily.
 - **Features**: Instantly parse JSON, recursively generate nested TypeScript interfaces.
 - **Theme**: Clean retro container.
 
+### 91. Cron Parser
+Convert cron expressions into human readable descriptions.
+- **Features**: Instantly parse cron expressions into readable text.
+- **Theme**: Clean retro container.
+
 ---
 
 ## Tech Stack
