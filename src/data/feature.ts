@@ -929,4 +929,14 @@ export const TOOLS = [
       updatedAt: '2028-01-01',
       isPopular: false,
     },
+    {
+      href: '/generate-css-filter',
+      title: 'CSS Filter Generator',
+      description: 'Create and preview CSS filters for images easily.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2028-02-01',
+      isPopular: false,
+    },
   ];

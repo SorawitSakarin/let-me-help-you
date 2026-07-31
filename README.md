@@ -702,6 +702,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/encode-rot13/layout.tsx`: ROT13 Encoder layout for SEO.
 - `src/app/generate-mac-address/page.tsx`: MAC Address Generator tool page.
 - `src/app/generate-mac-address/layout.tsx`: MAC Address Generator layout for SEO.
+- `src/app/generate-css-filter/page.tsx`: CSS Filter Generator page.
+- `src/app/generate-css-filter/layout.tsx`: CSS Filter Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

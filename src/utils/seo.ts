@@ -310,6 +310,9 @@ const SEO_KEYWORDS = [
   "JSON to TypeScript",
   "JSON to TS",
   "Generate TS Interfaces",
+  "CSS Filter Generator",
+  "Image Filters CSS",
+  "Visual CSS Filters",
 ];
 
 
