@@ -530,6 +530,11 @@ Convert JSON data into TypeScript interfaces easily.
 - **Features**: Instantly parse JSON, recursively generate nested TypeScript interfaces.
 - **Theme**: Clean retro container.
 
+### 91. CSS Cursor Viewer
+View and copy all available CSS cursor properties.
+- **Features**: Grid of all CSS cursors, hover to preview, click to copy.
+- **Theme**: Clean retro container.
+
 ---
 
 ## Tech Stack
@@ -704,6 +709,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-mac-address/layout.tsx`: MAC Address Generator layout for SEO.
 - `src/app/generate-css-filter/page.tsx`: CSS Filter Generator page.
 - `src/app/generate-css-filter/layout.tsx`: CSS Filter Generator layout for SEO.
+- `src/app/view-css-cursors/page.tsx`: CSS Cursor Viewer tool page.
+- `src/app/view-css-cursors/layout.tsx`: CSS Cursor Viewer layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

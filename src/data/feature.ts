@@ -939,4 +939,14 @@ export const TOOLS = [
       updatedAt: '2028-02-01',
       isPopular: false,
     },
+    {
+      href: '/view-css-cursors',
+      title: 'CSS Cursor Viewer',
+      description: 'View and copy all available CSS cursor properties.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2028-03-01',
+      isPopular: false,
+    },
   ];

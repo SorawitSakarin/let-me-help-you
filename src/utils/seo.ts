@@ -313,6 +313,9 @@ const SEO_KEYWORDS = [
   "CSS Filter Generator",
   "Image Filters CSS",
   "Visual CSS Filters",
+  "CSS Cursors",
+  "Cursor Viewer",
+  "CSS Cursor Properties",
 ];
 
 
