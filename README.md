@@ -535,6 +535,11 @@ View and copy all available CSS cursor properties.
 - **Features**: Grid of all CSS cursors, hover to preview, click to copy.
 - **Theme**: Clean retro container.
 
+### 92. Vigenère Cipher
+Encode and decode text using the Vigenère cipher algorithm.
+- **Features**: Encode and decode mode, keyword input, results preview.
+- **Theme**: Retro input fields and output text area.
+
 ---
 
 ## Tech Stack
@@ -711,6 +716,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/generate-css-filter/layout.tsx`: CSS Filter Generator layout for SEO.
 - `src/app/view-css-cursors/page.tsx`: CSS Cursor Viewer tool page.
 - `src/app/view-css-cursors/layout.tsx`: CSS Cursor Viewer layout for SEO.
+- `src/app/vigenere-cipher/page.tsx`: Vigenère Cipher tool page.
+- `src/app/vigenere-cipher/layout.tsx`: Vigenère Cipher layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

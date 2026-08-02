@@ -949,4 +949,14 @@ export const TOOLS = [
       updatedAt: '2028-03-01',
       isPopular: false,
     },
+    {
+      href: '/vigenere-cipher',
+      title: 'Vigenère Cipher',
+      description: 'Encode and decode text using the Vigenère cipher algorithm.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2028-04-01',
+      isPopular: false,
+    },
   ];

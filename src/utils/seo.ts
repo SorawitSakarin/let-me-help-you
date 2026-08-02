@@ -316,6 +316,9 @@ const SEO_KEYWORDS = [
   "CSS Cursors",
   "Cursor Viewer",
   "CSS Cursor Properties",
+  "Vigenere Cipher",
+  "Encode Vigenere Cipher",
+  "Decode Vigenere Cipher",
 ];
 
 
