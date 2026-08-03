@@ -540,6 +540,11 @@ Encode and decode text using the Vigenère cipher algorithm.
 - **Features**: Encode and decode mode, keyword input, results preview.
 - **Theme**: Retro input fields and output text area.
 
+### 93. IP Extractor
+Extract and deduplicate IP addresses from any text block quickly and easily.
+- **Features**: Extract IPv4 and IPv6 addresses, deduplicate, copy to clipboard.
+- **Theme**: Retro input fields and output text area.
+
 ---
 
 ## Tech Stack
@@ -718,6 +723,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/view-css-cursors/layout.tsx`: CSS Cursor Viewer layout for SEO.
 - `src/app/vigenere-cipher/page.tsx`: Vigenère Cipher tool page.
 - `src/app/vigenere-cipher/layout.tsx`: Vigenère Cipher layout for SEO.
+- `src/app/extract-ips/page.tsx`: IP Extractor tool page.
+- `src/app/extract-ips/layout.tsx`: IP Extractor layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

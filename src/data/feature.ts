@@ -959,4 +959,14 @@ export const TOOLS = [
       updatedAt: '2028-04-01',
       isPopular: false,
     },
+    {
+      href: '/extract-ips',
+      title: 'IP Extractor',
+      description: 'Extract and deduplicate IP addresses from any text block quickly and easily.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2028-05-01',
+      isPopular: false,
+    },
   ];
