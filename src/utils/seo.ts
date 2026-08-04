@@ -323,6 +323,9 @@ const SEO_KEYWORDS = [
   "IP Extractor",
   "Find IP Addresses in Text",
   "IP Parser",
+  "HTML Tag Stripper",
+  "Remove HTML Tags",
+  "Strip HTML",
 ];
 
 

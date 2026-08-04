@@ -545,6 +545,11 @@ Extract and deduplicate IP addresses from any text block quickly and easily.
 - **Features**: Extract IPv4 and IPv6 addresses, deduplicate, copy to clipboard.
 - **Theme**: Retro input fields and output text area.
 
+### 94. HTML Tag Stripper
+Remove all HTML tags from a text string easily.
+- **Features**: Instantly strips HTML tags, copy to clipboard.
+- **Theme**: Clean retro container with responsive text areas.
+
 ---
 
 ## Tech Stack
