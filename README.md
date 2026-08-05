@@ -545,6 +545,11 @@ Extract and deduplicate IP addresses from any text block quickly and easily.
 - **Features**: Extract IPv4 and IPv6 addresses, deduplicate, copy to clipboard.
 - **Theme**: Retro input fields and output text area.
 
+### 94. Pixel to REM Converter
+Convert between Pixels and REM units based on base font size.
+- **Features**: Real-time conversion, customizable base size.
+- **Theme**: Retro input fields for easy conversion.
+
 ---
 
 ## Tech Stack
@@ -725,6 +730,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/vigenere-cipher/layout.tsx`: Vigenère Cipher layout for SEO.
 - `src/app/extract-ips/page.tsx`: IP Extractor tool page.
 - `src/app/extract-ips/layout.tsx`: IP Extractor layout for SEO.
+- `src/app/convert-pixel-to-rem/page.tsx`: Pixel to REM Converter tool page.
+- `src/app/convert-pixel-to-rem/layout.tsx`: Pixel to REM Converter layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

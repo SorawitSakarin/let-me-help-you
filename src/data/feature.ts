@@ -969,4 +969,14 @@ export const TOOLS = [
       updatedAt: '2028-05-01',
       isPopular: false,
     },
+    {
+      href: '/convert-pixel-to-rem',
+      title: 'Pixel to REM',
+      description: 'Convert between Pixels and REM units based on base font size.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2028-06-01',
+      isPopular: false,
+    },
   ];
