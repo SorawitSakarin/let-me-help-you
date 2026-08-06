@@ -969,4 +969,14 @@ export const TOOLS = [
       updatedAt: '2028-05-01',
       isPopular: false,
     },
+  {
+    href: '/parse-cron-expression',
+    title: 'Cron Parser',
+    description: 'Parse and explain Cron expressions in plain English, with next execution dates.',
+    icon: 'nes-icon star',
+    type: 'is-primary',
+    category: 'Developer Tools',
+    updatedAt: '2028-02-18',
+    isPopular: false,
+  },
   ];
