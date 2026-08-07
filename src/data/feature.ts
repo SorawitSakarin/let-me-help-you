@@ -969,4 +969,14 @@ export const TOOLS = [
       updatedAt: '2028-05-01',
       isPopular: false,
     },
+    {
+      href: '/drum-machine',
+      title: 'Drum Machine',
+      description: 'A retro 8-bit drum machine/sequencer to create simple beats.',
+      icon: 'nes-icon star',
+      type: 'is-success',
+      category: 'Fun',
+      updatedAt: '2028-06-01',
+      isPopular: false,
+    },
   ];

@@ -323,6 +323,10 @@ const SEO_KEYWORDS = [
   "IP Extractor",
   "Find IP Addresses in Text",
   "IP Parser",
+  "Drum Machine",
+  "Retro Drum Sequencer",
+  "Beat Maker",
+  "8-bit Beat Maker",
 ];
 
 
