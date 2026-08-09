@@ -969,4 +969,14 @@ export const TOOLS = [
       updatedAt: '2028-05-01',
       isPopular: false,
     },
+    {
+      href: '/convert-csv-to-html',
+      title: 'CSV to HTML',
+      description: 'Convert CSV data into an HTML table easily.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2028-06-01',
+      isPopular: false,
+    },
   ];
