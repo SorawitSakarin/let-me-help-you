@@ -969,4 +969,14 @@ export const TOOLS = [
       updatedAt: '2028-05-01',
       isPopular: false,
     },
+    {
+      href: '/generate-random-animal',
+      title: 'Random Animal Gen',
+      description: 'Discover a random animal, its emoji, and an interesting fact!',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Fun',
+      updatedAt: '2028-06-01',
+      isPopular: false,
+    },
   ];
