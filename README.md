@@ -545,6 +545,11 @@ Extract and deduplicate IP addresses from any text block quickly and easily.
 - **Features**: Extract IPv4 and IPv6 addresses, deduplicate, copy to clipboard.
 - **Theme**: Retro input fields and output text area.
 
+### 94. Random Animal Generator
+Discover a random animal, its emoji, and an interesting fact!
+- **Features**: Generate a random animal with a single click.
+- **Theme**: Clean retro container with an interactive button and display card.
+
 ---
 
 ## Tech Stack
@@ -725,6 +730,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/vigenere-cipher/layout.tsx`: Vigenère Cipher layout for SEO.
 - `src/app/extract-ips/page.tsx`: IP Extractor tool page.
 - `src/app/extract-ips/layout.tsx`: IP Extractor layout for SEO.
+- `src/app/generate-random-animal/page.tsx`: Random Animal Generator tool page.
+- `src/app/generate-random-animal/layout.tsx`: Random Animal Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
