@@ -969,4 +969,14 @@ export const TOOLS = [
       updatedAt: '2028-05-01',
       isPopular: false,
     },
+    {
+      href: '/generate-jwt',
+      title: 'JWT Generator',
+      description: 'Generate and sign JSON Web Tokens (HS256) locally in your browser.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2028-06-01',
+      isPopular: false,
+    },
   ];
