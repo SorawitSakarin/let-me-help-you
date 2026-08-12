@@ -545,6 +545,11 @@ Extract and deduplicate IP addresses from any text block quickly and easily.
 - **Features**: Extract IPv4 and IPv6 addresses, deduplicate, copy to clipboard.
 - **Theme**: Retro input fields and output text area.
 
+### 94. Device Info
+Check your browser, screen, and device information instantly.
+- **Features**: Displays user agent, screen resolution, language, platform, timezone, and connection type. One-click copy to clipboard.
+- **Theme**: Clean retro container with responsive tables.
+
 ---
 
 ## Tech Stack
@@ -725,6 +730,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/vigenere-cipher/layout.tsx`: Vigenère Cipher layout for SEO.
 - `src/app/extract-ips/page.tsx`: IP Extractor tool page.
 - `src/app/extract-ips/layout.tsx`: IP Extractor layout for SEO.
+- `src/app/check-device-info/page.tsx`: Device Info tool page.
+- `src/app/check-device-info/layout.tsx`: Device Info layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 

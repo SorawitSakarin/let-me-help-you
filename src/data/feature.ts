@@ -1,5 +1,15 @@
 export const TOOLS = [
   {
+    href: '/check-device-info',
+    title: 'Device Info',
+    description: 'Check your browser, screen, and device information.',
+    icon: 'nes-icon star',
+    type: 'is-primary',
+    category: 'Utilities',
+    updatedAt: '2028-02-14',
+    isPopular: false,
+  },
+  {
     href: '/remove-duplicate-lines',
     title: 'Remove Duplicates',
     description: 'Quickly remove duplicate lines from a list of text.',
