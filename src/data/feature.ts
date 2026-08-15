@@ -969,4 +969,14 @@ export const TOOLS = [
       updatedAt: '2028-05-01',
       isPopular: false,
     },
+    {
+      href: '/convert-number-to-words',
+      title: 'Number to Words',
+      description: 'Convert numerical values into their English word representation easily.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Utilities',
+      updatedAt: '2028-06-01',
+      isPopular: false,
+    },
   ];
