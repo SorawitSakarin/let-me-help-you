@@ -545,6 +545,11 @@ Extract and deduplicate IP addresses from any text block quickly and easily.
 - **Features**: Extract IPv4 and IPv6 addresses, deduplicate, copy to clipboard.
 - **Theme**: Retro input fields and output text area.
 
+### 94. CSS Grid Generator
+Generate, customize, and preview CSS Grid layouts easily.
+- **Features**: Adjustable rows, columns, and gaps with visual preview, copy CSS output.
+- **Theme**: Clean retro container with responsive inputs and grid preview.
+
 ---
 
 ## Tech Stack
@@ -725,6 +730,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `src/app/vigenere-cipher/layout.tsx`: Vigenère Cipher layout for SEO.
 - `src/app/extract-ips/page.tsx`: IP Extractor tool page.
 - `src/app/extract-ips/layout.tsx`: IP Extractor layout for SEO.
+- `src/app/generate-css-grid/page.tsx`: CSS Grid Generator tool page.
+- `src/app/generate-css-grid/layout.tsx`: CSS Grid Generator layout for SEO.
 - `src/app/globals.css`: Global styles and NES.css theme overrides.
 - `src/app/layout.tsx`: Root layout with "Press Start 2P" font and page wrapper.
 
