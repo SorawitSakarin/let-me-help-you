@@ -16,6 +16,7 @@ const mockTools = [
     description: 'Create custom QR codes.',
     icon: 'nes-icon coin',
     type: 'is-primary',
+    category: 'Utilities',
     updatedAt: getOffsetDate(-1), // 1 day ago - within 14 days
     isPopular: true,
   },
@@ -25,6 +26,7 @@ const mockTools = [
     description: 'Count words and chars.',
     icon: 'nes-icon star',
     type: 'is-success',
+    category: 'Utilities',
     updatedAt: getOffsetDate(-20), // 20 days ago - not within 14 days
     isPopular: false,
   },
@@ -34,6 +36,7 @@ const mockTools = [
     description: 'Spin the wheel.',
     icon: 'nes-icon trophy',
     type: 'is-warning',
+    category: 'Fun',
     isPopular: false,
   },
 ];

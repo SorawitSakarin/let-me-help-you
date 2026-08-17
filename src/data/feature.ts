@@ -969,4 +969,14 @@ export const TOOLS = [
       updatedAt: '2028-05-01',
       isPopular: false,
     },
+    {
+      href: '/generate-css-grid',
+      title: 'CSS Grid Generator',
+      description: 'Generate, customize, and preview CSS Grid layouts easily.',
+      icon: 'nes-icon star',
+      type: 'is-primary',
+      category: 'Developer Tools',
+      updatedAt: '2028-06-01',
+      isPopular: false,
+    },
   ];
